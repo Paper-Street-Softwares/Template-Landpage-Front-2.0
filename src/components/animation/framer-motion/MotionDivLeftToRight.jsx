@@ -1,11 +1,16 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Children } from "react";
+import PropTypes from "prop-types";
 
 export default function MotionDivLeftToRight({ children }) {
   const { ref, inView } = useInView({ triggerOnce: true });
 
   const childrenArray = Children.toArray(children);
+
+  MotionDivLeftToRight.propTypes = {
+    children: PropTypes.object,
+  };
 
   return (
     <motion.div

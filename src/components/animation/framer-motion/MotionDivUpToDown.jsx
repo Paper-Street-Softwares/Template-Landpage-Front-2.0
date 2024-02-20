@@ -1,11 +1,16 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Children } from "react";
+import PropTypes from "prop-types";
 
 export default function MotionDivUpToDown({ children }) {
   const { ref, inView } = useInView({ triggerOnce: true });
 
   const childrenArray = Children.toArray(children);
+
+  MotionDivUpToDown.propTypes = {
+    children: PropTypes.object,
+  };
 
   return (
     <motion.div
