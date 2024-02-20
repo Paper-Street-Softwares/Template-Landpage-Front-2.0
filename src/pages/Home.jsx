@@ -1,5 +1,7 @@
 import SectionHeader from "../components/sectionElements/SectionHeader";
 import SectionContent from "../components/sectionElements/SectionContent";
+import ServiceCard from "../components/cards/ServiceCard";
+import icon from "../assets/icons/expertise.png";
 
 function Home() {
   return (
@@ -10,8 +12,11 @@ function Home() {
         sectionHeaderDescription="A Edan Contabilidade simplifica seu dia a dia com links diretos para as principais certidões."
       />
       <SectionContent>
-        <div>a</div>
-        <div>a</div>
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
     </div>
   );
