@@ -1,5 +1,5 @@
-import MotionDivLeftToRight from "../animation/framer-motion/MotionDivLeftToRight";
-import MotionDivRightToLeft from "../animation/framer-motion/MotionDivRightToLeft";
+import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
+import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import PropTypes from "prop-types";
 
 export default function SectionHeader(props) {
