@@ -1,10 +1,17 @@
 import MotionDivLeftToRight from "../animation/framer-motion/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/framer-motion/MotionDivRightToLeft";
+import PropTypes from "prop-types";
 
 export default function SectionHeader(props) {
   const sectionHeaderTitleFirst = props.sectionHeaderTitleFirst;
   const sectionHeaderTitleSecond = props.sectionHeaderTitleSecond;
   const sectionHeaderDescription = props.sectionHeaderDescription;
+
+  SectionHeader.propTypes = {
+    sectionHeaderTitleFirst: PropTypes.string,
+    sectionHeaderTitleSecond: PropTypes.string,
+    sectionHeaderDescription: PropTypes.string,
+  };
 
   return (
     <div className="flex flex-col pb-3 mb-3">
