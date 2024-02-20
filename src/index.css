@@ -7,7 +7,7 @@
 .content {
   --gap: clamp(1rem, 6vw, 3rem);
   --full: minmax(var(--gap), 1fr);
-  --content: min(100ch, 100% - var(--gap) * 2);
+  --content: min(128.3ch, 100% - var(--gap) * 2);
   --popout: minmax(0, 2rem);
   --feature: minmax(0, 5rem);
 
@@ -42,60 +42,4 @@
 :where(.content > *) {
   display: grid;
   place-items: center;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  opacity: 1;
-  animation: fadeIn 1s ease-in-out;
-}
-
-@keyframes slideInFromRight {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes slideOutToLeft {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.slideInFromRight {
-  animation: slideInFromRight 2s ease-in-out;
-}
-
-.slideOutToLeft {
-  animation: slideOutToLeft 2s ease-in-out;
-}
-
-.fadeIn {
-  opacity: 0;
-  animation: fadeInAnimation 0.5s forwards;
-}
-
-@keyframes fadeInAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
