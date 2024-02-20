@@ -1,6 +1,5 @@
 import SectionHeader from "../components/sectionElements/SectionHeader";
 import SectionContent from "../components/sectionElements/SectionContent";
-import ServiceCard from "../components/cards/ServiceCard";
 
 function Home() {
   return (
