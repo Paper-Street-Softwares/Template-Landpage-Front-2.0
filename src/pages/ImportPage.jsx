@@ -4,6 +4,7 @@ import ServiceCard from "../components/cards/ServiceCard";
 import icon from "../assets/importAssets/expertise.png";
 import bgImg from "../assets/importAssets/bg.jpg";
 import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
+import Acordion from "../components/interactives/Acordion";
 
 export default function ImportPage() {
   return (
@@ -20,7 +21,11 @@ export default function ImportPage() {
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
-      <BlankParallaxe bgImg={bgImg} />
+
+      <div className="w-[100%] tablet1:w-[50%]">
+        <Acordion />
+      </div>
+      {/* <BlankParallaxe bgImg={bgImg} /> */}
     </div>
   );
 }
