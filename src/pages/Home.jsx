@@ -1,4 +1,6 @@
 import SectionHeader from "../components/sectionElements/SectionHeader";
+import SectionContent from "../components/sectionElements/SectionContent";
+import ServiceCard from "../components/cards/ServiceCard";
 
 function Home() {
   return (
@@ -8,6 +10,10 @@ function Home() {
         sectionHeaderTitleSecond="sua empresa precisa"
         sectionHeaderDescription="A Edan Contabilidade simplifica seu dia a dia com links diretos para as principais certidões."
       />
+      <SectionContent>
+        <div>a</div>
+        <div>a</div>
+      </SectionContent>
     </div>
   );
 }
