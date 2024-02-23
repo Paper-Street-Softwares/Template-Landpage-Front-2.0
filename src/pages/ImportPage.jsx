@@ -21,7 +21,6 @@ export default function ImportPage() {
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
-        <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
       <MarginBetweenSection />
       <div className="w-[100%] tablet1:w-[40%]">
