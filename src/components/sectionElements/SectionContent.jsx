@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function SectionContent({ children }) {
   SectionContent.propTypes = {
-    children: PropTypes.object,
+    children: PropTypes.any,
   };
   const childrenArray = Children.toArray(children);
   return (
