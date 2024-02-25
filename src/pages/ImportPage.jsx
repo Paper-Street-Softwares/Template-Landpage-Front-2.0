@@ -6,6 +6,7 @@ import bgImg from "../assets/importAssets/bg.jpg";
 import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
 import Acordion from "../components/interactives/Acordion";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
+import ImageGallery from "../components/interactives/ImageGallery";
 
 export default function ImportPage() {
   return (
@@ -26,6 +27,8 @@ export default function ImportPage() {
       <div className="w-[100%] tablet1:w-[40%]">
         <Acordion />
       </div>
+      <MarginBetweenSection />
+      <ImageGallery />
       <MarginBetweenSection />
       <BlankParallaxe bgImg={bgImg} />
     </div>
