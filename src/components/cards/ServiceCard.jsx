@@ -18,7 +18,7 @@ export default function ServiceCard(props) {
           <img src={icon} alt={altIcon} className="w-auto h-12"></img>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-between w-full phone3:h-full font-poppins">
+      <div className="flex flex-col items-center justify-between w-full phone3:h-full font-mainFont">
         <div className="flex flex-col items-center justify-center p-1 h-1/3">
           <div className="px-2 font-medium text-center transition text-title1 tablet1:text-paragraph2 tablet2:text-paragraph3 desktop1:text-paragraph4 text-secondary hover:text-primary">
             {title}

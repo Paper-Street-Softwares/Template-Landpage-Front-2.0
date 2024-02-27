@@ -12,9 +12,14 @@ module.exports = {
         verylighter: "#21A202",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        mainFont: ["Poppins", "sans-serif"],
       },
       fontSize: {
+        paragraph1: "0.625rem", // 10px
+        paragraph2: "0.75rem", // 12px
+        paragraph3: "0.875rem", // 14px
+        paragraph4: "1rem", // 16px
+        paragraph5: "1.125rem", // 18px
         title1: "1.25rem", // 20px
         title2: "1.375rem", // 22px
         title3: "1.5rem", // 24px
@@ -22,11 +27,6 @@ module.exports = {
         title5: "2.25rem", // 36px
         title6: "3rem", // 48px
         title7: "3.4375rem", // 55px
-        paragraph1: "0.625rem", // 10px
-        paragraph2: "0.75rem", // 12px
-        paragraph3: "0.875rem", // 14px
-        paragraph4: "1rem", // 16px
-        paragraph5: "1.125rem", // 18px
       },
       spacing: {
         112: "28rem",
