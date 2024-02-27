@@ -7,6 +7,7 @@ import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
 import Acordion from "../components/interactives/Acordion";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
 import ImagesGallery from "../components/interactives/ImagesGallery";
+import AboutUs from "../components/sections/AboutUs";
 
 export default function ImportPage() {
   return (
@@ -31,6 +32,9 @@ export default function ImportPage() {
       <ImagesGallery />
       <MarginBetweenSection />
       <BlankParallaxe bgImg={bgImg} />
+      <MarginBetweenSection />
+      <AboutUs />
+      <MarginBetweenSection />
     </div>
   );
 }
