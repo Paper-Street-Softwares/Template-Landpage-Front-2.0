@@ -8,7 +8,7 @@ export default function MotionDivDownToUp({ children }) {
   const childrenArray = Children.toArray(children);
 
   MotionDivDownToUp.propTypes = {
-    children: PropTypes.object,
+    children: PropTypes.any,
   };
 
   return (

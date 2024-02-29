@@ -9,7 +9,7 @@ export default function MotionDivRightToLeft({ children }) {
   const childrenArray = Children.toArray(children);
 
   MotionDivRightToLeft.propTypes = {
-    children: PropTypes.object,
+    children: PropTypes.any,
   };
 
   return (

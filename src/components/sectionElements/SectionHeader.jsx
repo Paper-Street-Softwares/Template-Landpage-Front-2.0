@@ -8,9 +8,9 @@ export default function SectionHeader(props) {
   const sectionHeaderDescription = props.sectionHeaderDescription;
 
   SectionHeader.propTypes = {
-    sectionHeaderTitleFirst: PropTypes.string,
-    sectionHeaderTitleSecond: PropTypes.string,
-    sectionHeaderDescription: PropTypes.string,
+    sectionHeaderTitleFirst: PropTypes.any,
+    sectionHeaderTitleSecond: PropTypes.any,
+    sectionHeaderDescription: PropTypes.any,
   };
 
   return (
