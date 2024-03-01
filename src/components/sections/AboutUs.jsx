@@ -2,7 +2,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 
 export default function AboutUs() {
   return (
-    <div className="font-mainFont text-quaternary">
+    <div className="font-mainFont">
       <SectionHeader
         sectionHeaderTitleFirst="Sobre nós"
         sectionHeaderDescription="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
@@ -16,7 +16,6 @@ export default function AboutUs() {
         <div className="image-container flex justify-center phone1:w-[292px] phone1:h-[195px] phone2:w-[331px] phone2:h-[228px] phone3:w-[375px] phone3:h-[258px] tablet1:w-[564px] tablet1:h-[388px] tablet2:w-[676px] tablet2:h-[465px] desktop1:w-[507px] desktop1:h-[363px]">
           <img className="img phone1:size-[100%] tablet1:size-[100%]" src="./src/assets/importAssets/piscina.png" alt="" />
         </div>
-        
       </div>
     </div>
   );
