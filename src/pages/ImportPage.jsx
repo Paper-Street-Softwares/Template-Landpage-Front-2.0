@@ -8,6 +8,7 @@ import Acordion from "../components/interactives/Acordion";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
 import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
+import BackToTopButton from "../components/interactives/BackToTopButton";
 
 export default function ImportPage() {
   return (
@@ -35,6 +36,7 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <AboutUs />
       <MarginBetweenSection />
+      <BackToTopButton />
     </div>
   );
 }
