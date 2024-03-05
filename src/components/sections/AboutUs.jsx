@@ -1,4 +1,5 @@
 import SectionHeader from "../sectionElements/SectionHeader";
+import SectionText from "../sectionElements/SectionText";
 
 export default function AboutUs() {
   return (
