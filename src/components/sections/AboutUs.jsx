@@ -1,5 +1,6 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 
+
 export default function AboutUs() {
   return (
     <div className="font-mainFont">
