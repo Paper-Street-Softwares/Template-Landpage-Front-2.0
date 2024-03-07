@@ -4,13 +4,15 @@ function Article(props) {
 	const articleTitle = props.articleTitle;
 	const articleSubtitle = props.articleSubtitle;
 	const articleParagraph = props.articleParagraph;
-	const articleSpan = props.articleSpan
+	const articleSpan = props.articleSpan;
+	const articleImages = props.articleImages
 
 	Article.propTypes = {
 		articleTitle: PropTypes.any,
 		articleSubtitle: PropTypes.any,
 		articleParagraph: PropTypes.any,
 		articleSpan: PropTypes.any,
+		articleImages: PropTypes.any,
 	  };
 
 	
@@ -23,7 +25,7 @@ function Article(props) {
 				<p className="text-quaternary font-normal text-paragraph3 leading-[150%] phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3 desktop3:size-[79%] flex pt-[5%]">{articleSpan}</p>
 			</div>
 			<div className="flex justify-center pt-[8%] phone1:w-[100%] phone3:pt-[5%] tablet1:pt-[4%] tablet2:pt-[1%] desktop1:w-[55%] desktop2:w-[40%] desktop3:size-[60%]">
-				<img className="size-[100%] desktop1:size-[94%] desktop1:pb-[5%] desktop3:pb-[0] desktop3:size-[92%] desktop1:ml-[6%] desktop3:ml-[8%]" src="./src/assets/importAssets/piscina.png" alt="" />
+				 <img className="size-[100%] desktop1:size-[94%] desktop1:pb-[5%] desktop3:pb-[0] desktop3:size-[92%] desktop1:ml-[6%] desktop3:ml-[8%]" src= {articleImages} alt="" />
 			</div>
         </div>
 	)
