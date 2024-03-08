@@ -7,7 +7,7 @@ export default function AboutUs() {
         sectionHeaderTitleFirst="Sobre nós"
         sectionHeaderDescription="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
       />
-      <div className= "flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] tablet1:pt-[1%] tablet2:pt-[0%] desktop1:pt-[1%] desktop3:pt-[0%] ">
+      <div className= "flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[2%] tablet1:pt-[3%] tablet2:pt-[4%] desktop1:pt-[1%] desktop3:pt-[0%] ">
         <div className=" w-[100%] gap-[10%] desktop1:w-[32%] desktop3:w-[60%]">
           <h3 className='pb-[3%] text-quaternary font-medium text-paragraph3 leading-[24%] phone3:pb-[2%] phone3:text-paragraph4 phone3:leading-[27%] desktop1:pb-[3%] '>Nossa História</h3>
           <h1 className='font-medium text-title2 leading-[150%] text-primary phone3:text-title5 tablet1:font-medium tablet1:text-title4'>Experiência em Grandes Volumes</h1>
