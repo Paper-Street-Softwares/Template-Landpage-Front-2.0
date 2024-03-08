@@ -27,7 +27,7 @@ export default function ControlledAccordions() {
             className="bg-green-100"
             sx={{ width: "100%", flexShrink: 0 }}
           >
-            Pergunta pergunta pergunta pergunta?
+            Item 1
           </Typography>
           <Typography sx={{ color: "text.secondary" }}></Typography>
         </AccordionSummary>
@@ -47,9 +47,7 @@ export default function ControlledAccordions() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
-            Personal data
-          </Typography>
+          <Typography sx={{ width: "100%", flexShrink: 0 }}>Item 2</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -58,18 +56,13 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion
-        expanded={expanded === "panel3"}
-        onChange={handleChange("panel3")}
-      >
+      <Accordion defaultExpanded onChange={handleChange("panel3")}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
-            Personal data
-          </Typography>
+          <Typography sx={{ width: "100%", flexShrink: 0 }}>Item 3</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
