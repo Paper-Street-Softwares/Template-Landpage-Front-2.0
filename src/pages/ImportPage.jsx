@@ -10,6 +10,7 @@ import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import WhatsappForm from "../components/interactives/WhatsappForm";
+import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 
 export default function ImportPage() {
   return (
@@ -36,8 +37,9 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <AboutUs />
       <MarginBetweenSection />
-      <BackToTopButton />
       <WhatsappForm />
+      <BackToTopButton />
+      <FloatingWhatsappButton />
     </div>
   );
 }
