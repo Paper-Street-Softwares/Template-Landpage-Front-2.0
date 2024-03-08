@@ -1,5 +1,5 @@
 import React from "react";
-import WhatsappForm from "./WhatsappForm";
+import WhatsappForm from "../interactives/WhatsappForm";
 import { X } from "lucide-react";
 
 export default function Modal({ isOpen, setCloseModal }) {
