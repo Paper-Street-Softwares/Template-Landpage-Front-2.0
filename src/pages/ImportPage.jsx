@@ -8,6 +8,7 @@ import Acordion from "../components/interactives/Acordion";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
 import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
+import BackToTopButton from "../components/interactives/BackToTopButton";
 
 export default function ImportPage() {
   return (
@@ -19,7 +20,6 @@ export default function ImportPage() {
         sectionHeaderDescription="A Edan Contabilidade simplifica seu dia a dia com links diretos para as principais certidões."
       />
       <SectionContent>
-        <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
@@ -35,6 +35,7 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <AboutUs />
       <MarginBetweenSection />
+      <BackToTopButton />
     </div>
   );
 }
