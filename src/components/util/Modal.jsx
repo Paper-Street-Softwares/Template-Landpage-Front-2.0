@@ -1,6 +1,7 @@
 import React from "react";
 import WhatsappForm from "../interactives/WhatsappForm";
 import { X } from "lucide-react";
+import PropTypes from "prop-types";
 
 export default function Modal({ isOpen, setCloseModal }) {
   const closeModal = () => {
@@ -9,6 +10,11 @@ export default function Modal({ isOpen, setCloseModal }) {
 
   const stopPropagation = (event) => {
     event.stopPropagation();
+  };
+
+  Modal.propTypes = {
+    isOpen: PropTypes.any,
+    setCloseModal: PropTypes.any,
   };
 
   if (isOpen) {
