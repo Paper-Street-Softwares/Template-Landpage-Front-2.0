@@ -51,7 +51,6 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <AboutUs />
       <MarginBetweenSection />
-      <WhatsappForm />
       <BackToTopButton />
       <FloatingWhatsappButton />
     </div>
