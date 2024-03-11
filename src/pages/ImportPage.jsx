@@ -10,8 +10,8 @@ import MarginBetweenSection from "../components/sectionElements/MarginBetweenSec
 import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import WhatsappForm from "../components/interactives/WhatsappForm";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import MotionDivRightToLeft from "../components/animation/MotionDivRightToLeft";
 
 export default function ImportPage() {
   return (
@@ -38,7 +38,9 @@ export default function ImportPage() {
           <Acordion />
         </div>
         <div className="hidden desktop1:block">
-          <img src={faqImg} alt="Faq Img"></img>
+          <MotionDivRightToLeft>
+            <img src={faqImg} alt="Faq Img"></img>
+          </MotionDivRightToLeft>
         </div>
       </div>
       <MarginBetweenSection />
@@ -48,7 +50,6 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <AboutUs />
       <MarginBetweenSection />
-      <WhatsappForm />
       <BackToTopButton />
       <FloatingWhatsappButton />
     </div>

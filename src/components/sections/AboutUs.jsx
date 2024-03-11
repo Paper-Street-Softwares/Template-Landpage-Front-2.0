@@ -21,7 +21,7 @@ export default function AboutUs() {
             volumes de água. Sua criação remonta ao ano de 2003, embora seus
             idealizadores sejam pessoas ligadas a esse segmento e que contam com
             pelo menos 45 anos de experiência nesse tipo de atendimento.{" "}
-            <span class="flex pt-[5%]">
+            <span className="flex pt-[5%]">
               Nossa missão como empresa é nos aprimorar a cada dia que passa,
               subir degrau por degrau, avançar no sentido de cumprir sempre
               nossos objetivos e para que isso aconteça, temos a clara
