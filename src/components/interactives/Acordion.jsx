@@ -61,7 +61,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             Não, nosso horário de atendimento é de segunda a sexta-feira, das
             8:00 às 18:00 horas.
           </p>
@@ -77,7 +77,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             Não, nosso atendimento é somente pelo WhatsApp, por telefone ou
             e-mail.
           </p>
@@ -94,7 +94,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             Os cursos e treinamentos são oferecidos pelos nossos parceiros
             comerciais. Clique no link do fabricante que você deseja e agende
             seu curso.
@@ -111,7 +111,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             O valor mínimo por pedido é de R$ 1.200,00 e o prazo é de 21 dias
             para pagamento com boleto bancário.
           </p>
@@ -127,7 +127,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             Sim, segue o mesmo padrão do faturamento mínimo, ou seja, R$
             1.200,00 por pedido para entrega grátis no nosso território de
             atuação.
@@ -144,7 +144,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             Faça seu pré-cadastro com um dos nossos atendentes e aguarde a
             aprovação pelo nosso financeiro. Isso deve levar no máximo 2 dias.
             Para CNPJs novos, as primeiras compras deverão ser pagas à vista de
@@ -162,7 +162,7 @@ export default function CustomizedAccordions() {
           </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
             Aqueles cuja abertura oficial da empresa seja inferior a 3 anos.
           </p>
         </AccordionDetails>
