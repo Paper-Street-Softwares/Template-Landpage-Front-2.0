@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#027738", // Com primária (clara)
+        primary: "#000064", // Com primária (clara)
         secondary: "#09351C", // Cor primária (escura)
         tertiary: "", // Opcional
         quaternary: "#737373", // Cinza neutro -> Parágrafos

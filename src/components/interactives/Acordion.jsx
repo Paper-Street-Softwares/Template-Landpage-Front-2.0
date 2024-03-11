@@ -35,7 +35,6 @@ const AccordionSummary = styled((props) => (
   },
   "& .MuiAccordionSummary-content": {
     marginLeft: theme.spacing(2),
-    fontFamily: "Poppins, sans-serif", // Definindo a fonte como Poppins
   },
 }));
 
@@ -57,15 +56,15 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel1")}
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
             A empresa abre nos finais de semana e nos feriados?
-          </Typography>
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             Não, nosso horário de atendimento é de segunda a sexta-feira, das
             8:00 às 18:00 horas.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -73,13 +72,15 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel2")}
       >
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>A empresa conta com atendimento presencial?</Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
+            A empresa conta com atendimento presencial?
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             Não, nosso atendimento é somente pelo WhatsApp, por telefone ou
             e-mail.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -87,17 +88,17 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel3")}
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
             A empresa oferece cursos ou treinamentos para profissionais ou
             proprietários de piscinas?
-          </Typography>
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             Os cursos e treinamentos são oferecidos pelos nossos parceiros
             comerciais. Clique no link do fabricante que você deseja e agende
             seu curso.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -105,15 +106,15 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel4")}
       >
         <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
-          <Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
             Qual é o valor mínimo para faturamento e qual o prazo de pagamento?
-          </Typography>
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             O valor mínimo por pedido é de R$ 1.200,00 e o prazo é de 21 dias
             para pagamento com boleto bancário.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -121,16 +122,16 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel5")}
       >
         <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
-          <Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
             Existe um valor mínimo para entrega do pedido?
-          </Typography>
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             Sim, segue o mesmo padrão do faturamento mínimo, ou seja, R$
             1.200,00 por pedido para entrega grátis no nosso território de
             atuação.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -138,15 +139,17 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel6")}
       >
         <AccordionSummary aria-controls="panel6d-content" id="panel6d-header">
-          <Typography>Como faço para fazer o primeiro pedido?</Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
+            Como faço para fazer o primeiro pedido?
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             Faça seu pré-cadastro com um dos nossos atendentes e aguarde a
             aprovação pelo nosso financeiro. Isso deve levar no máximo 2 dias.
             Para CNPJs novos, as primeiras compras deverão ser pagas à vista de
             forma antecipada.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -154,12 +157,14 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel7")}
       >
         <AccordionSummary aria-controls="panel7d-content" id="panel7d-header">
-          <Typography>O que a empresa entende por CNPJs novos?</Typography>
+          <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
+            O que a empresa entende por CNPJs novos?
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2">
             Aqueles cuja abertura oficial da empresa seja inferior a 3 anos.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
     </div>
