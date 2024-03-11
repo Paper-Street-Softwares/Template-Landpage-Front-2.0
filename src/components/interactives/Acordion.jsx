@@ -1,29 +1,63 @@
 import * as React from "react";
-import Accordion from "@mui/material/Accordion";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import AccordionSummary from "@mui/material/AccordionSummary";
+import { styled } from "@mui/material/styles";
+import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
+import MuiAccordion from "@mui/material/Accordion";
+import MuiAccordionSummary from "@mui/material/AccordionSummary";
+import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function ControlledAccordions() {
+const Accordion = styled((props) => (
+  <MuiAccordion disableGutters elevation={0} square {...props} />
+))(({ theme }) => ({
+  border: `1px solid ${theme.palette.divider}`,
+  borderRadius: theme.shape.borderRadius, // Adicionando bordas arredondadas
+  "&:not(:last-child)": {
+    borderBottom: 0,
+  },
+  "&::before": {
+    display: "none",
+  },
+}));
+
+const AccordionSummary = styled((props) => (
+  <MuiAccordionSummary
+    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />}
+    {...props}
+  />
+))(({ theme }) => ({
+  backgroundColor:
+    theme.palette.mode === "main"
+      ? "rgba(255, 255, 255, .05)"
+      : "rgba(233, 233, 233, 0.5)", // Azul claro
+  flexDirection: "row-reverse",
+  "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
+    transform: "rotate(90deg)",
+  },
+  "& .MuiAccordionSummary-content": {
+    marginLeft: theme.spacing(2),
+    fontFamily: "Poppins, sans-serif", // Definindo a fonte como Poppins
+  },
+}));
+
+const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
+  padding: theme.spacing(2),
+  borderTop: "1px solid rgba(0, 0, 0, .125)",
+}));
+
+export default function CustomizedAccordions() {
   const [expanded, setExpanded] = React.useState("panel1");
 
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpanded(newExpanded ? panel : false);
   };
-
   return (
     <div>
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
+        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+          <Typography>
             A empresa abre nos finais de semana e nos feriados?
           </Typography>
         </AccordionSummary>
@@ -38,14 +72,8 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
-            A empresa conta com atendimento presencial?
-          </Typography>
+        <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
+          <Typography>A empresa conta com atendimento presencial?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -58,12 +86,8 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3bh-content"
-          id="panel3bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
+        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+          <Typography>
             A empresa oferece cursos ou treinamentos para profissionais ou
             proprietários de piscinas?
           </Typography>
@@ -80,12 +104,8 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel4bh-content"
-          id="panel4bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
+        <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
+          <Typography>
             Qual é o valor mínimo para faturamento e qual o prazo de pagamento?
           </Typography>
         </AccordionSummary>
@@ -100,12 +120,8 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel5"}
         onChange={handleChange("panel5")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel5bh-content"
-          id="panel5bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
+        <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
+          <Typography>
             Existe um valor mínimo para entrega do pedido?
           </Typography>
         </AccordionSummary>
@@ -121,14 +137,8 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel6"}
         onChange={handleChange("panel6")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel6bh-content"
-          id="panel6bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
-            Como faço para fazer o primeiro pedido?
-          </Typography>
+        <AccordionSummary aria-controls="panel6d-content" id="panel6d-header">
+          <Typography>Como faço para fazer o primeiro pedido?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -143,14 +153,8 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel7"}
         onChange={handleChange("panel7")}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel7bh-content"
-          id="panel7bh-header"
-        >
-          <Typography sx={{ width: "100%", flexShrink: 0 }}>
-            O que a empresa entende por CNPJs novos?
-          </Typography>
+        <AccordionSummary aria-controls="panel7d-content" id="panel7d-header">
+          <Typography>O que a empresa entende por CNPJs novos?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
