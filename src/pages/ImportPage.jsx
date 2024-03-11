@@ -10,7 +10,6 @@ import MarginBetweenSection from "../components/sectionElements/MarginBetweenSec
 import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import WhatsappForm from "../components/interactives/WhatsappForm";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import MotionDivRightToLeft from "../components/animation/MotionDivRightToLeft";
 
