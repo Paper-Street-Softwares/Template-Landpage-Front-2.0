@@ -3,6 +3,7 @@ import SectionContent from "../components/sectionElements/SectionContent";
 import ServiceCard from "../components/cards/ServiceCard";
 import icon from "../assets/importAssets/expertise.png";
 import bgImg from "../assets/importAssets/bg.jpg";
+import faqImg from "../assets/importAssets/faq.png";
 import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
 import Acordion from "../components/interactives/Acordion";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
@@ -27,8 +28,13 @@ export default function ImportPage() {
         <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
       <MarginBetweenSection />
-      <div className="w-[100%] tablet1:w-[40%]">
-        <Acordion />
+      <div className="flex">
+        <div className="w-full tablet1:w-[60%]">
+          <Acordion />
+        </div>
+        <div className="w-full tablet1:w-[40%] flex justify-center">
+          <img src={faqImg} alt="Faq Img"></img>
+        </div>
       </div>
       <MarginBetweenSection />
       <ImagesGallery />
