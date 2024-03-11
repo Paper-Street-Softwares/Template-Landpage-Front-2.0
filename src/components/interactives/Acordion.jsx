@@ -35,7 +35,6 @@ const AccordionSummary = styled((props) => (
   },
   "& .MuiAccordionSummary-content": {
     marginLeft: theme.spacing(2),
-    fontFamily: "Poppins, sans-serif", // Definindo a fonte como Poppins
   },
 }));
 
@@ -57,15 +56,15 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel1")}
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>
+          <h1 className="font-mainFont">
             A empresa abre nos finais de semana e nos feriados?
-          </Typography>
+          </h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <p className="font-mainFont desktop1:text-paragraph2">
             Não, nosso horário de atendimento é de segunda a sexta-feira, das
             8:00 às 18:00 horas.
-          </Typography>
+          </p>
         </AccordionDetails>
       </Accordion>
       <Accordion

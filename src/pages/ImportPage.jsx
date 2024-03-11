@@ -29,10 +29,10 @@ export default function ImportPage() {
       </SectionContent>
       <MarginBetweenSection />
       <div className="flex">
-        <div className="w-full tablet1:w-[60%]">
+        <div className="w-full desktop1:w-[60%]">
           <Acordion />
         </div>
-        <div className="w-full tablet1:w-[40%] flex justify-center">
+        <div className="w-full hidden desktop1:block desktop1:w-[40%] flex justify-center">
           <img src={faqImg} alt="Faq Img"></img>
         </div>
       </div>
