@@ -9,7 +9,7 @@ const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
   border: `1px solid ${theme.palette.divider}`,
-  borderRadius: theme.shape.borderRadius, // Adicionando bordas arredondadas
+  borderRadius: theme.shape.borderRadius,
   "&:not(:last-child)": {
     borderBottom: 0,
   },
@@ -27,7 +27,7 @@ const AccordionSummary = styled((props) => (
   backgroundColor:
     theme.palette.mode === "main"
       ? "rgba(255, 255, 255, .05)"
-      : "rgba(233, 233, 233, 0.5)", // Azul claro
+      : "rgba(233, 233, 233, 0.5)",
   flexDirection: "row-reverse",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
