@@ -18,22 +18,23 @@ export default function ImportPage() {
     <div className="content">
       <MarginBetweenSection />
       <SectionHeader
-        sectionHeaderTitleFirst="Todas as certidões que"
-        sectionHeaderTitleSecond="sua empresa precisa"
-        sectionHeaderDescription="A Edan Contabilidade simplifica seu dia a dia com links diretos para as principais certidões."
+        sectionHeaderTitleSecond="Linha de Produtos"
+        sectionHeaderDescription="Ao longo dos anos, fomos firmando parcerias hoje bastante consolidadas com marcas renomadas e de grande credibilidade no mercado. Encontre a marca que você deseja comprar e clique na categoria para ser levado para a página contendo os produtos desta marca."
       />
       <SectionContent>
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
+        <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
-
-      <MarginBetweenSection />
-      <ImagesGallery />
-      <MarginBetweenSection />
-      <BlankParallaxe bgImg={bgImg} />
       <MarginBetweenSection />
       <AboutUs />
+      <MarginBetweenSection />
+      <BlankParallaxe bgImg={bgImg} />
       <MarginBetweenSection />
       <SectionHeader
         sectionHeaderTitleSecond="Perguntas Frequentes"
