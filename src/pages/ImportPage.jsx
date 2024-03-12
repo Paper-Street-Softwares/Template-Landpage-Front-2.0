@@ -13,12 +13,9 @@ export default function ImportPage() {
     <div className="content">
       <MarginBetweenSection />
       <OurProducts />
-      <MarginBetweenSection />
       <AboutUs />
-      <MarginBetweenSection />
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
-      <MarginBetweenSection />
       <BackToTopButton />
       <FrequentlyAskedQuestions />
       <FloatingWhatsappButton />

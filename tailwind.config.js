@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0189BB", // Com primária (clara)
-        secondary: "#000064", // Cor primária (escura)
+        secondary: "#0F5A76", // Cor primária (escura)
         tertiary: "", // Opcional
         quaternary: "#737373", // Cinza neutro -> Parágrafos
         quinary: "#f6f6f6", // Com primária bem clara ou cinza -> Bg de seções
