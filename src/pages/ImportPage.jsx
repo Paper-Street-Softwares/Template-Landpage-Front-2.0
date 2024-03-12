@@ -1,4 +1,4 @@
-import bgImg from "../assets/importAssets/bg.jpg";
+import bgImg from "../assets/importAssets/bg2.jpg";
 import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
 import AboutUs from "../components/sections/AboutUs";
