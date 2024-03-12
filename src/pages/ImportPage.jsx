@@ -17,7 +17,6 @@ export default function ImportPage() {
       <AboutUs />
       <MarginBetweenSection />
       <BlankParallaxe bgImg={bgImg} />
-      <MarginBetweenSection />
       <BannersCarousel />
       <MarginBetweenSection />
       <FAQ />

@@ -4,7 +4,7 @@ import imgEntregasDesktop from "../../assets/banners/bannersCarousel/entregas-de
 
 export default function BannersCarousel() {
   return (
-    <div className="bg-quinary p-[3%]">
+    <div className="bg-quinary full py-[48px]">
       <ImagesGallery2Slides
         slide1={imgEntregasDesktop}
         slide2={imgAtendimentoDesktop}
