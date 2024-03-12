@@ -1,11 +1,14 @@
 import ImageGallery from "react-image-gallery";
-import slide1 from "../../assets/banners/aboutUs/slide1bigPool.jpg";
-import slide2 from "../../assets/banners/aboutUs/slide2smallPool.jpg";
-import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.jpg";
-
+import PropTypes from "prop-types";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-export default function ImagesGallery() {
+export default function ImagesGallery3Slides(props) {
+  const { slide1, slide2, slide3 } = props;
+
+  ImagesGallery3Slides.propTypes = {
+    props: PropTypes.any,
+  };
+
   const images = [
     {
       original: slide1,
@@ -23,7 +26,7 @@ export default function ImagesGallery() {
 
   return (
     <div>
-      <ImageGallery items={images} showBullets="true" autoPlay="true" />
+      <ImageGallery items={images} showBullets="true" autoPlay="false" />
     </div>
   );
 }

@@ -32,9 +32,9 @@ export default function ImportPage() {
         <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
       <MarginBetweenSection />
-      <AboutUs />
-      <MarginBetweenSection />
       <BlankParallaxe bgImg={bgImg} />
+      <MarginBetweenSection />
+      <AboutUs />
       <MarginBetweenSection />
       <BannersCarousel />
       <MarginBetweenSection />

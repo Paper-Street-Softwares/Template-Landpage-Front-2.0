@@ -1,5 +1,8 @@
 import SectionHeader from "../sectionElements/SectionHeader";
-import ImagesGallery from "../interactives/ImagesGallery";
+import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
+import slide1 from "../../assets/banners/aboutUs/slide1bigPool.jpg";
+import slide2 from "../../assets/banners/aboutUs/slide2smallPool.jpg";
+import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.jpg";
 
 export default function AboutUs() {
   return (
@@ -32,7 +35,11 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="flex justify-center pt-[8%] phone1:w-[100%] phone3:pt-[5%] tablet1:pt-[4%] tablet2:pt-[1%] desktop1:w-[55%] desktop2:w-[40%] desktop3:size-[60%]">
-          <ImagesGallery />
+          <ImagesGallery3Slides
+            slide1={slide1}
+            slide2={slide2}
+            slide3={slide3}
+          />
         </div>
       </div>
     </div>

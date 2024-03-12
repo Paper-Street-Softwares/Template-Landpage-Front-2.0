@@ -1,3 +1,14 @@
+import ImagesGallery2Slides from "../interactives/ImagesGallery2Slides";
+import imgAtendimentoDesktop from "../../assets/banners/bannersCarousel/atendimento-desktop.png";
+import imgEntregasDesktop from "../../assets/banners/bannersCarousel/entregas-desktop.png";
+
 export default function BannersCarousel() {
-  return <div>A</div>;
+  return (
+    <div className="bg-quinary p-[3%]">
+      <ImagesGallery2Slides
+        slide1={imgEntregasDesktop}
+        slide2={imgAtendimentoDesktop}
+      />
+    </div>
+  );
 }
