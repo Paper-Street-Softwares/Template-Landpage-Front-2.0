@@ -1,4 +1,5 @@
 import SectionHeader from "../sectionElements/SectionHeader";
+import ImagesGallery from "../interactives/ImagesGallery";
 
 export default function AboutUs() {
   return (
@@ -31,11 +32,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="flex justify-center pt-[8%] phone1:w-[100%] phone3:pt-[5%] tablet1:pt-[4%] tablet2:pt-[1%] desktop1:w-[55%] desktop2:w-[40%] desktop3:size-[60%]">
-          <img
-            className="size-[100%] desktop1:size-[94%] desktop1:pb-[5%] desktop3:pb-[0] desktop3:size-[92%] desktop1:ml-[6%] desktop3:ml-[8%]"
-            src="./src/assets/importAssets/piscina.png"
-            alt=""
-          />
+          <ImagesGallery />
         </div>
       </div>
     </div>

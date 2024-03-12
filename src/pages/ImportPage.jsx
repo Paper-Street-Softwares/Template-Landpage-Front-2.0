@@ -27,6 +27,13 @@ export default function ImportPage() {
         <ServiceCard icon={icon} title="Título" description="Description" />
         <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
+
+      <MarginBetweenSection />
+      <ImagesGallery />
+      <MarginBetweenSection />
+      <BlankParallaxe bgImg={bgImg} />
+      <MarginBetweenSection />
+      <AboutUs />
       <MarginBetweenSection />
       <SectionHeader
         sectionHeaderTitleSecond="Perguntas Frequentes"
@@ -43,15 +50,9 @@ export default function ImportPage() {
           </MotionDivRightToLeft>
         </div>
       </div>
-      <MarginBetweenSection />
-      <ImagesGallery />
-      <MarginBetweenSection />
-      <BlankParallaxe bgImg={bgImg} />
-      <MarginBetweenSection />
-      <AboutUs />
-      <MarginBetweenSection />
       <BackToTopButton />
       <FloatingWhatsappButton />
+      <MarginBetweenSection />
     </div>
   );
 }

@@ -1,19 +1,23 @@
 import ImageGallery from "react-image-gallery";
+import slide1 from "../../assets/banners/aboutUs/slide1bigPool.jpg";
+import slide2 from "../../assets/banners/aboutUs/slide2smallPool.jpg";
+import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.jpg";
+
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export default function ImagesGallery() {
   const images = [
     {
-      original: "https://picsum.photos/id/479/1110/500.jpg",
-      thumbnail: "https://picsum.photos/id/479/250/150.jpg",
+      original: slide1,
+      thumbnail: slide1,
     },
     {
-      original: "https://picsum.photos/id/480/1110/500.jpg",
-      thumbnail: "https://picsum.photos/id/480/250/150.jpg",
+      original: slide2,
+      thumbnail: slide2,
     },
     {
-      original: "https://picsum.photos/id/481/1110/500.jpg",
-      thumbnail: "https://picsum.photos/id/481/250/150.jpg",
+      original: slide3,
+      thumbnail: slide3,
     },
   ];
 
