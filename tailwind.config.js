@@ -5,10 +5,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0189BB", // Com primária (clara)
-        secondary: "#0F5A76", // Cor primária (escura)
+        secondary: "#00131B", // Cor primária (escura)
         tertiary: "", // Opcional
         quaternary: "#737373", // Cinza neutro -> Parágrafos
-        quinary: "#f6f6f6", // Com primária bem clara ou cinza -> Bg de seções
+        quinary: "#EAEAEA ", // Com primária bem clara ou cinza -> Bg de seções
         verylighter: "#21A202",
       },
       fontFamily: {

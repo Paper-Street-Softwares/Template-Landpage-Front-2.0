@@ -1,6 +1,5 @@
 import bgImg from "../assets/importAssets/bg2.jpg";
 import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
-import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
@@ -11,15 +10,13 @@ import FrequentlyAskedQuestions from "../components/sections/FrenquentlyAskedQue
 export default function ImportPage() {
   return (
     <div className="content">
-      <MarginBetweenSection />
-      <OurProducts />
       <AboutUs />
+      <OurProducts />
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
       <BackToTopButton />
       <FrequentlyAskedQuestions />
       <FloatingWhatsappButton />
-      <MarginBetweenSection />
     </div>
   );
 }
