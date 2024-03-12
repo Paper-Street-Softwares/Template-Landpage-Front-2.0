@@ -11,15 +11,13 @@ import FrequentlyAskedQuestions from "../components/sections/FrenquentlyAskedQue
 export default function ImportPage() {
   return (
     <div className="content">
-      <MarginBetweenSection />
-      <OurProducts />
       <AboutUs />
+      <OurProducts />
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
       <BackToTopButton />
       <FrequentlyAskedQuestions />
       <FloatingWhatsappButton />
-      <MarginBetweenSection />
     </div>
   );
 }
