@@ -7,7 +7,6 @@ import faqImg from "../assets/importAssets/faq.png";
 import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
 import Acordion from "../components/interactives/Acordion";
 import MarginBetweenSection from "../components/sectionElements/MarginBetweenSection";
-import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
