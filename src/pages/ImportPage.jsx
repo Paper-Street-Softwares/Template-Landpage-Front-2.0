@@ -5,8 +5,8 @@ import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BannersCarousel from "../components/sections/BannersCarousel";
-import Faq from "../components/sections/Faq";
 import OurProducts from "../components/sections/OurProducts";
+import FrequentlyAskedQuestions from "../components/sections/FrenquentlyAskedQuestions";
 
 export default function ImportPage() {
   return (
@@ -19,8 +19,8 @@ export default function ImportPage() {
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
       <MarginBetweenSection />
-      <Faq />
       <BackToTopButton />
+      <FrequentlyAskedQuestions />
       <FloatingWhatsappButton />
       <MarginBetweenSection />
     </div>
