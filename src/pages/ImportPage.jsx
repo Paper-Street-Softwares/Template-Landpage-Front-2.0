@@ -11,6 +11,7 @@ import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import MotionDivRightToLeft from "../components/animation/MotionDivRightToLeft";
+import BannersCarousel from "../components/sections/BannersCarousel";
 
 export default function ImportPage() {
   return (
@@ -34,6 +35,8 @@ export default function ImportPage() {
       <AboutUs />
       <MarginBetweenSection />
       <BlankParallaxe bgImg={bgImg} />
+      <MarginBetweenSection />
+      <BannersCarousel />
       <MarginBetweenSection />
       <SectionHeader
         sectionHeaderTitleSecond="Perguntas Frequentes"
