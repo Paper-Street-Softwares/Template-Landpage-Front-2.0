@@ -10,8 +10,8 @@ import MarginBetweenSection from "../components/sectionElements/MarginBetweenSec
 import ImagesGallery from "../components/interactives/ImagesGallery";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import WhatsappForm from "../components/interactives/WhatsappForm";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import MotionDivRightToLeft from "../components/animation/MotionDivRightToLeft";
 
 export default function ImportPage() {
   return (
@@ -28,12 +28,19 @@ export default function ImportPage() {
         <ServiceCard icon={icon} title="Título" description="Description" />
       </SectionContent>
       <MarginBetweenSection />
-      <div className="flex">
-        <div className="w-full tablet1:w-[60%]">
+      <SectionHeader
+        sectionHeaderTitleSecond="Perguntas Frequentes"
+        sectionHeaderDescription="Ficou com alguma dúvida? Clique na pergunta abaixo e obtenha a resposta. 
+        Caso não tenha encontrado a resposta que precisa, entre em contato conosco e iremos te esclarecer."
+      />
+      <div className="flex justify-between ">
+        <div className="w-full desktop1:w-[60%] desktop2:w-[63%]">
           <Acordion />
         </div>
-        <div className="w-full tablet1:w-[40%] flex justify-center">
-          <img src={faqImg} alt="Faq Img"></img>
+        <div className="hidden desktop1:block">
+          <MotionDivRightToLeft>
+            <img src={faqImg} alt="Faq Img"></img>
+          </MotionDivRightToLeft>
         </div>
       </div>
       <MarginBetweenSection />
@@ -43,7 +50,6 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <AboutUs />
       <MarginBetweenSection />
-      <WhatsappForm />
       <BackToTopButton />
       <FloatingWhatsappButton />
     </div>
