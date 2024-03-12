@@ -5,7 +5,7 @@ import faqImg from "../../assets/imgs/faq/faq.png";
 
 export default function FrequentlyAskedQuestions() {
   return (
-    <div>
+    <div className="py-[26px] phone3:py-[48px]">
       <SectionHeader
         sectionHeaderTitleSecond="Perguntas Frequentes"
         sectionHeaderDescription="Ficou com alguma dúvida? Clique na pergunta abaixo e obtenha a resposta. 
