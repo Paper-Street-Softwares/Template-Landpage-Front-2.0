@@ -1,7 +1,7 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionContent from "../sectionElements/SectionContent";
-import ServiceCard from "../cards/ServiceCard";
-import icon from "../../assets/importAssets/expertise.png";
+import hthLogo from "../../assets/imgs/brands/hthLogo.png";
+import ImgAndButtonsCard from "../cards/ImgAndButtonsCard";
 
 export default function OurProducts() {
   return (
@@ -12,14 +12,13 @@ export default function OurProducts() {
           sectionHeaderDescription="Ao longo dos anos, fomos firmando parcerias hoje bastante consolidadas com marcas renomadas e de grande credibilidade no mercado. Encontre a marca que você deseja comprar e clique na categoria para ser levado para a página contendo os produtos desta marca."
         />
         <SectionContent>
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
-          <ServiceCard icon={icon} title="Título" description="Descriptions" />
+          <ImgAndButtonsCard
+            img={hthLogo}
+            button1Label="Cloros"
+            button1Link="#"
+            button2Label="Auxiliares"
+            button2Link="#"
+          />
         </SectionContent>
       </div>
     </div>
