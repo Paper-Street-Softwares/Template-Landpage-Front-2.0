@@ -3,7 +3,7 @@ import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import faqImg from "../../assets/imgs/faq/faq.png";
 import SectionHeader from "../sectionElements/SectionHeader";
 
-export default function FAQ() {
+export default function Faq() {
   return (
     <div>
       <SectionHeader

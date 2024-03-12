@@ -6,7 +6,8 @@ export default function ImagesGallery2Slides(props) {
   const { slide1, slide2 } = props;
 
   ImagesGallery2Slides.propTypes = {
-    props: PropTypes.any,
+    slide1: PropTypes.any,
+    slide2: PropTypes.any,
   };
 
   const images = [
