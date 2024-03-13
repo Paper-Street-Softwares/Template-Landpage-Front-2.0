@@ -6,12 +6,17 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BannersCarousel from "../components/sections/BannersCarousel";
 import OurProducts from "../components/sections/OurProducts";
 import FrequentlyAskedQuestions from "../components/sections/FrenquentlyAskedQuestions";
+import Courses from "../components/sections/Courses";
+import AvoidAccidents from "../components/sections/AvoidAcidents";
 
 export default function ImportPage() {
   return (
     <div className="content">
       <AboutUs />
       <OurProducts />
+      <BlankParallaxe bgImg={bgImg} />
+      <AvoidAccidents />
+      <Courses />
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
       <BackToTopButton />
