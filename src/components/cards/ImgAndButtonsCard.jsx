@@ -2,8 +2,7 @@ import PropTypes from "prop-types";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function ImgAndButtonsCard(props) {
-  const { img, button1Label, button1Link, button2Label, button2Link, a } =
-    props;
+  const { img, button1Label, button1Link, button2Label, button2Link } = props;
 
   ImgAndButtonsCard.propTypes = {
     img: PropTypes.any,
@@ -11,7 +10,6 @@ export default function ImgAndButtonsCard(props) {
     button1Link: PropTypes.any,
     button2Label: PropTypes.any,
     button2Link: PropTypes.any,
-    a: PropTypes.any,
   };
 
   return (
