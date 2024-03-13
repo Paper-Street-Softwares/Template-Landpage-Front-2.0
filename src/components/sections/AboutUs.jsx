@@ -43,10 +43,12 @@ export default function AboutUs() {
             slide2={slide2}
             slide3={slide3}
           /> */}
-          <ImagesGallery2Slides
-            slide1={imgEntregasDesktop}
-            slide2={imgAtendimentoDesktop}
-          />
+          <div>
+            <ImagesGallery2Slides
+              slide1={imgEntregasDesktop}
+              slide2={imgAtendimentoDesktop}
+            />
+          </div>
         </div>
       </div>
     </div>
