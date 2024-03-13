@@ -1,6 +1,7 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionContent from "../sectionElements/SectionContent";
 import hthLogo from "../../assets/imgs/brands/hthLogo.png";
+import gencoLogo from "../../assets/imgs/brands/gencoLogo.png";
 import ImgAndButtonsCard from "../cards/ImgAndButtonsCard";
 
 export default function OurProducts() {
@@ -20,7 +21,7 @@ export default function OurProducts() {
             button2Link="#"
           />
           <ImgAndButtonsCard
-            img={hthLogo}
+            img={gencoLogo}
             button1Label="Cloros"
             button1Link="#"
             button2Label="Auxiliares"

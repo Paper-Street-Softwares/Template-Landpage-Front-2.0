@@ -13,7 +13,7 @@ export default function ImgAndButtonsCard(props) {
 
   return (
     <div className="w-full phone3:w-[45%] desktop1:w-[23%]  bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[15px]">
-      <div className="flex justify-center h-[125px] w-full">
+      <div className="flex justify-center h-[125px] w-[262]">
         <img src={img} alt="hthLogo" className="" />
       </div>
 
