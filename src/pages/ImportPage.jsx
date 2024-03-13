@@ -12,6 +12,7 @@ import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import MotionDivRightToLeft from "../components/animation/MotionDivRightToLeft";
+import Rodape from "../components/sections/Rodape";
 
 export default function ImportPage() {
   return (
@@ -52,6 +53,7 @@ export default function ImportPage() {
       <MarginBetweenSection />
       <BackToTopButton />
       <FloatingWhatsappButton />
+      <Rodape />
     </div>
   );
 }
