@@ -22,7 +22,6 @@ export default function ImportPage() {
       <AvoidAccidents />
       <CtaWhatsapp />
       <Courses />
-
       <BannersCarousel />
       <BackToTopButton />
       <FrequentlyAskedQuestions />
