@@ -18,10 +18,10 @@ export default function ImportPage() {
       <NavbarSection />
       <HeroSection />
       <AboutUs />
-      <OurProducts />
-      <BlankParallaxe bgImg={bgImg} />
-      <AvoidAccidents />
       <Numbers />
+      <OurProducts />
+      <AvoidAccidents />
+
       <Courses />
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
