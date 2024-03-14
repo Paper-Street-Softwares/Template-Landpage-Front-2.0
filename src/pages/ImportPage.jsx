@@ -8,6 +8,7 @@ import OurProducts from "../components/sections/OurProducts";
 import FrequentlyAskedQuestions from "../components/sections/FrenquentlyAskedQuestions";
 import Courses from "../components/sections/Courses";
 import AvoidAccidents from "../components/sections/AvoidAcidents";
+import Numbers from "../components/sections/Numbers";
 
 export default function ImportPage() {
   return (
@@ -16,6 +17,7 @@ export default function ImportPage() {
       <OurProducts />
       <BlankParallaxe bgImg={bgImg} />
       <AvoidAccidents />
+      <Numbers />
       <Courses />
       <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
