@@ -9,10 +9,14 @@ import FrequentlyAskedQuestions from "../components/sections/FrenquentlyAskedQue
 import Courses from "../components/sections/Courses";
 import AvoidAccidents from "../components/sections/AvoidAcidents";
 import Numbers from "../components/sections/Numbers";
+import NavbarSection from "../components/sections/NavbarSection";
+import HeroSection from "../components/sections/HeroSection";
 
 export default function ImportPage() {
   return (
     <div className="content">
+      <NavbarSection />
+      <HeroSection />
       <AboutUs />
       <OurProducts />
       <BlankParallaxe bgImg={bgImg} />
