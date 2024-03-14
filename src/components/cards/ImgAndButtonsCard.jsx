@@ -16,7 +16,7 @@ export default function ImgAndButtonsCard(props) {
     <div className="w-full phone3:w-[45%] desktop1:w-[23%]  bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[15px]">
       <div className="flex justify-center items-center h-[125px] phone3:h-[80px] tablet1:h-[125px]">
         <MotionDivLeftToRight>
-          <img src={img} alt="hthLogo" />
+          <img src={img} alt="hthLogo" className="max-h-[90px] max-w-[150px]" />
         </MotionDivLeftToRight>
       </div>
 
