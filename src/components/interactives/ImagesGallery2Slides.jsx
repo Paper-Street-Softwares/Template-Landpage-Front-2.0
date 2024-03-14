@@ -23,7 +23,15 @@ export default function ImagesGallery2Slides(props) {
 
   return (
     <div>
-      <ImageGallery items={images} showBullets="true" autoPlay="false" />
+      <ImageGallery
+        items={images}
+        showBullets="true"
+        autoPlay="false"
+        showFullscreenButton={true}
+        showThumbnails={false}
+        slideInterval={8000}
+        useBrowserFullscreen={false}
+      />
     </div>
   );
 }

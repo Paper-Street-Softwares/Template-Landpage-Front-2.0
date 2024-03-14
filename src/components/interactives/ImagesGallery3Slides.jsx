@@ -1,3 +1,4 @@
+import React from "react";
 import ImageGallery from "react-image-gallery";
 import PropTypes from "prop-types";
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -28,7 +29,13 @@ export default function ImagesGallery3Slides(props) {
 
   return (
     <div>
-      <ImageGallery items={images} showBullets="true" autoPlay="false" />
+      <ImageGallery
+        items={images}
+        showBullets={true}
+        autoPlay={true}
+        showFullscreenButton={true}
+        useBrowserFullscreen={false}
+      />
     </div>
   );
 }
