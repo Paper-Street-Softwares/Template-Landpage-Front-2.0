@@ -1,10 +1,15 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
+import PropTypes from "prop-types";
 
 const AnimatedCounter = ({ endValue }) => {
   const [counter, setCounter] = useState(0);
   const { ref, inView } = useInView({ triggerOnce: true });
+
+  AnimatedCounter.propTypes = {
+    endValue: PropTypes.any,
+  };
 
   useEffect(() => {
     let intervalId;
