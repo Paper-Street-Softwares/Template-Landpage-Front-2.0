@@ -12,10 +12,14 @@ import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import MotionDivRightToLeft from "../components/animation/MotionDivRightToLeft";
+import NavbarSection from "../components/sections/NavbarSection";
+import HeroSection from "../components/sections/HeroSection";
 
 export default function ImportPage() {
   return (
     <div className="content">
+      <NavbarSection />
+      <HeroSection />
       <MarginBetweenSection />
       <SectionHeader
         sectionHeaderTitleFirst="Todas as certidões que"
