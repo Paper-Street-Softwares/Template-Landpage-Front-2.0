@@ -11,7 +11,7 @@ export default function ServiceCard(props) {
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
       transition={{ duration: 1 }}
-      className="flex flex-col items-center justify-between w-full h-auto mt-2 mb-2 border-t border-b-8 border-l border-r border-solid phone3:h-56 border-neutral-200 border-b-primary tablet1:w-[18%]"
+      className="flex bg-white flex-col items-center justify-between w-full h-auto mt-2 mb-2 border-t border-b-8 border-l border-r border-solid phone3:h-56 border-neutral-200 border-b-primary tablet1:w-[22%]"
     >
       <div className="flex flex-row items-center justify-center w-full h-20 phone3:h-3/5">
         <div>
