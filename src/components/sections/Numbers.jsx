@@ -13,9 +13,9 @@ export default function Numbers() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="bg-blue-900 content">
-        <div className="py-[26px] phone3:py-[48px] bg-green-900">
-          <h1 className="flex flex-col items-center bg-red-900 tablet1:w-full tablet1:flex-row tablet1:justify-evenly tablet1:flex-wrap desktop1:flex-nowrap">
+      <div className=" content">
+        <div className="py-[26px] phone3:py-[48px]">
+          <h1 className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between tablet1:flex-wrap desktop1:flex-nowrap">
             <ResultsCard
               img={imgIcon}
               number={<AnimatedCounter endValue={40} />}
