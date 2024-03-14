@@ -48,9 +48,9 @@ export default function CtaWhatsapp() {
             </div>
 
             <div className="w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
-              <MotionDivRightToLeft>
-                <img className="" alt="Foto Edilson" src={imgCta} />
-              </MotionDivRightToLeft>
+              {/* <MotionDivRightToLeft> */}
+              <img className="" alt="Foto Edilson" src={imgCta} />
+              {/* </MotionDivRightToLeft> */}
             </div>
           </div>
         </div>
