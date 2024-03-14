@@ -25,12 +25,11 @@ export default function ImagesGallery2Slides(props) {
     <div>
       <ImageGallery
         items={images}
-        showBullets="true"
-        autoPlay="false"
-        showFullscreenButton={true}
+        showBullets={true}
+        autoPlay={true}
+        showFullscreenButton={false}
         showThumbnails={false}
-        slideInterval={8000}
-        useBrowserFullscreen={false}
+        slideInterval={9000}
       />
     </div>
   );
