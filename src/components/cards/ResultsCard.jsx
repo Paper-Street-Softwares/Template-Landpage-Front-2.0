@@ -1,7 +1,15 @@
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
+import PropTypes from "prop-types";
 
 export default function ResultsCard(props) {
   const { img, imgAlt, number, text } = props;
+
+  ResultsCard.propTypes = {
+    img: PropTypes.any,
+    imgAlt: PropTypes.any,
+    number: PropTypes.any,
+    text: PropTypes.any,
+  };
 
   return (
     <div className="flex flex-row items-center my-[10%] phone1:my-[5%] w-full tablet1:my-[3%] tablet1:w-[45%] desktop1:my-0 font-poppins">
