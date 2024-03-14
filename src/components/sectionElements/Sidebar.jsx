@@ -1,10 +1,7 @@
-import { useState } from "react";
 import { Link } from "react-scroll";
 import { PropTypes } from 'prop-types';
 
 export default function Sidebar({ showSidebar }) {
-
-
   return (
     <div
       className={`sidebar transition-transform transform ${
