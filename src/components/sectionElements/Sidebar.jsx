@@ -3,18 +3,10 @@ import { Link } from "react-scroll";
 import { PropTypes } from 'prop-types';
 
 export default function Sidebar({ showSidebar }) {
-  const [showSublistServices, setShowSublistServices] = useState(false);
-  const [showSublistLinks, setShowSublistLinks] = useState(false);
+  const [showSublistServices, ] = useState(false);
+  const [showSublistLinks, ] = useState(false);
 
-  const toggleSublistServices = () => {
-    setShowSublistServices(!showSublistServices);
-    setShowSublistLinks(false);
-  };
-
-  const toggleSublistLinks = () => {
-    setShowSublistLinks(!showSublistLinks);
-    setShowSublistServices(false);
-  };
+  
 
   return (
     <div
