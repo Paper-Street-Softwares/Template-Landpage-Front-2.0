@@ -10,6 +10,7 @@ import Numbers from "../components/sections/Numbers";
 import NavbarSection from "../components/sections/NavbarSection";
 import HeroSection from "../components/sections/HeroSection";
 import CtaWhatsapp from "../components/sections/CtaWhatsapp";
+import Footer from "../components/sections/Footer";
 
 export default function ImportPage() {
   return (
@@ -26,6 +27,7 @@ export default function ImportPage() {
       <BackToTopButton />
       <FrequentlyAskedQuestions />
       <FloatingWhatsappButton />
+      <Footer />
     </div>
   );
 }
