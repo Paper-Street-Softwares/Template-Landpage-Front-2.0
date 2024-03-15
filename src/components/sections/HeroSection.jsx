@@ -10,20 +10,20 @@ export default function HeroSection() {
         className="w-full bg-center bg-cover content min-h-[518px]"
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
-        <div className="w-full h-full mt-10 text-white">
-          <div className="flex flex-col items-center justify-center mt-24 phone1:mt-40 phone1:h-20 phone3:mt-52">
+        <div className="w-full h-auto text-white">
+          <div className="flex flex-col items-center justify-center content phone1:mt-40 phone1:h-20 phone3:mt-40">
             <MotionDivLeftToRight>
               <h1 className="font-black leading-none w-[60%] phone1:text-title4 phone1:w-full text-center phone3:text-title5 tablet1:text-title6">
                 BEM VINDO AO MUNDO DAS PISCINAS!
               </h1>
-              <p className="mt-4 text-center w-[75%] phone1:w-full phone1:font-medium phone1:text-paragraph3 phone3:text-paragraph4 tablet1:text-title1">
+              <p className="w-full mt-4 text-center phone1:w-full phone1:font-medium phone1:text-paragraph3 phone3:text-paragraph4 tablet1:text-title1">
                 Aqui você será atendido por profissionais qualificados que
                 prestarão toda orientação que você precisa. Continue navegando e
                 encontre o que você precisa!
               </p>
             </MotionDivLeftToRight>
           </div>
-          <div className="w-full mb-20 -mt-10 tablet2:w-auto">
+          <div className="w-full mb-10 -mt-24 tablet2:w-auto">
             <MotionDivRightToLeft>
               <div className="flex justify-center w-full phone1:mt-32 phone3:mt-40 phone1:w-full">
                 <a
