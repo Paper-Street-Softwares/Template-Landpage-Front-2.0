@@ -1,5 +1,3 @@
-import bgImg from "../assets/importAssets/bg2.jpg";
-import BlankParallaxe from "../components/sectionElements/BlankParallaxe";
 import AboutUs from "../components/sections/AboutUs";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
@@ -11,6 +9,7 @@ import AvoidAccidents from "../components/sections/AvoidAcidents";
 import Numbers from "../components/sections/Numbers";
 import NavbarSection from "../components/sections/NavbarSection";
 import HeroSection from "../components/sections/HeroSection";
+import CtaWhatsapp from "../components/sections/CtaWhatsapp";
 
 export default function ImportPage() {
   return (
@@ -18,12 +17,11 @@ export default function ImportPage() {
       <NavbarSection />
       <HeroSection />
       <AboutUs />
-      <OurProducts />
-      <BlankParallaxe bgImg={bgImg} />
-      <AvoidAccidents />
       <Numbers />
+      <OurProducts />
+      <AvoidAccidents />
+      <CtaWhatsapp />
       <Courses />
-      <BlankParallaxe bgImg={bgImg} />
       <BannersCarousel />
       <BackToTopButton />
       <FrequentlyAskedQuestions />
