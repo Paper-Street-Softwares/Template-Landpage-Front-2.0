@@ -80,7 +80,7 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo"
-              className="absolute h-16 -mt-8" />
+              className="absolute h-24 -mt-12" />
           </Link>
           <button
             onClick={toggleSidebar}
