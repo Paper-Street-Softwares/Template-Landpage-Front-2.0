@@ -9,7 +9,7 @@ export default function AboutUs() {
     <div className="font-mainFont py-[26px] phone3:py-[48px]">
       <SectionHeader
         sectionHeaderTitleSecond="Sobre nós"
-        sectionHeaderDescription="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+        sectionHeaderDescription="A Mpa destaca-se no mercado pela excelência no atendimento personalizado e vasta experiência em piscinas de grandes volumes."
       />
       <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] ">
         <div className=" w-[100%] gap-[10%] desktop1:w-[32%] desktop2:w-[47%] desktop3:w-[60%]">
