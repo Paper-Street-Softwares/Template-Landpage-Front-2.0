@@ -9,6 +9,7 @@ export default function ImgCodeDescButtonCard(props) {
     description: PropTypes.any,
     button1Label: PropTypes.any,
     button1Link: PropTypes.any,
+    code: PropTypes.any,
   };
 
   return (
