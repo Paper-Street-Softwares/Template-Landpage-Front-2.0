@@ -1,5 +1,7 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionContent from "../sectionElements/SectionContent";
+import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
+import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import ImgAndButtonsCard from "../cards/ImgAndButtonsCard";
 import hthLogo from "../../assets/imgs/brands/hthLogo.png";
 import gencoLogo from "../../assets/imgs/brands/gencoLogo.png";
@@ -74,6 +76,13 @@ export default function OurProducts() {
             button1Link="#"
             button2Label="Construção"
             button2Link="#"
+          />
+          <ImgCodeDescButtonCard
+            img={imgProductExample}
+            code="102030"
+            description="Descrição do produto descrição do produto descrição do produto descrição."
+            button1Label="Baixar Ficha FISPQ"
+            button1Link="#"
           />
         </SectionContent>
       </div>
