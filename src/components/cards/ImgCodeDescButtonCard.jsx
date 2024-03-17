@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function ImgCodeDescButtonCard(props) {
   const { img, button1Label, button1Link, description, code } = props;
