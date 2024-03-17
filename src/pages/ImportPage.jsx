@@ -21,8 +21,8 @@ export default function ImportPage() {
       <Numbers />
       <OurProducts />
       <AvoidAccidents />
-      <ProductsList />
       <CtaWhatsapp />
+      <ProductsList />
       <Courses />
       <BannersCarousel />
       <BackToTopButton />

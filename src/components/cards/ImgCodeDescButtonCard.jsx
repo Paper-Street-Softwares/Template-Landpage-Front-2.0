@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function ImgCodeDescButtonCard(props) {
-  const { img, button1Label, button1Link, description, code } = props;
+  const { img, button1Label, button1Link, description, code, category } = props;
 
   ImgCodeDescButtonCard.propTypes = {
     img: PropTypes.any,
@@ -10,6 +10,7 @@ export default function ImgCodeDescButtonCard(props) {
     button1Label: PropTypes.any,
     button1Link: PropTypes.any,
     code: PropTypes.any,
+    category: PropTypes.any,
   };
 
   return (

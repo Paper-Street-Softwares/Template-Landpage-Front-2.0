@@ -77,13 +77,6 @@ export default function OurProducts() {
             button2Label="Construção"
             button2Link="#"
           />
-          <ImgCodeDescButtonCard
-            img={imgProductExample}
-            code="102030"
-            description="Descrição do produto descrição do produto descrição do produto descrição."
-            button1Label="Baixar Ficha FISPQ"
-            button1Link="#"
-          />
         </SectionContent>
       </div>
     </div>

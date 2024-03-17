@@ -18,6 +18,7 @@ export default function ProductsList() {
             description="Descrição do produto descrição do produto descrição do produto descrição."
             button1Label="Baixar Ficha FISPQ"
             button1Link="#"
+            category="cloros"
           />
         </SectionContent>
       </div>
