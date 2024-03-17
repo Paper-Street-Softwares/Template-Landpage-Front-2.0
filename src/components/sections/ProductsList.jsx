@@ -31,14 +31,14 @@ export default function ProductsList() {
           className="bg-green-900 hover:bg-green-700"
           onClick={() => setSelectedCategory("all")}
         >
-          Todos
+          Mostrar todos
         </button>
-        <div className="flex flex-wrap items-center justify-start w-full gap-7">
+        <div className="flex flex-wrap items-start justify-start w-full gap-7">
           {selectedCategory === "cloros" || selectedCategory === "all" ? (
             <ImgCodeDescButtonCard
               img={imgProductExample}
               code="Esse é cloro"
-              description="Descrição do produto descrição do produto descrição do produto descrição."
+              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsu."
               button1Label="Baixar Ficha FISPQ"
               button1Link="#"
               category="cloros"
@@ -48,7 +48,7 @@ export default function ProductsList() {
             <ImgCodeDescButtonCard
               img={imgProductExample}
               code="Esse é cloro"
-              description="Descrição do produto descrição do produto descrição do produto descrição."
+              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
               button1Label="Baixar Ficha FISPQ"
               button1Link="#"
               category="cloros"
@@ -58,7 +58,7 @@ export default function ProductsList() {
             <ImgCodeDescButtonCard
               img={imgProductExample2}
               code="Auxiliar"
-              description="Descrição do produto descrição do produto descrição do produto descrição."
+              description="It is a long established fact that a reader will be distracted by the readable."
               button1Label="Baixar Ficha FISPQ"
               button1Link="#"
               category="auxiliares"
@@ -68,7 +68,47 @@ export default function ProductsList() {
             <ImgCodeDescButtonCard
               img={imgProductExample2}
               code="Auxiliar"
-              description="Descrição do produto descrição do produto descrição do produto descrição."
+              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use."
+              button1Label="Baixar Ficha FISPQ"
+              button1Link="#"
+              category="auxiliares"
+            />
+          ) : null}
+          {selectedCategory === "cloros" || selectedCategory === "all" ? (
+            <ImgCodeDescButtonCard
+              img={imgProductExample}
+              code="Esse é cloro"
+              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsu."
+              button1Label="Baixar Ficha FISPQ"
+              button1Link="#"
+              category="cloros"
+            />
+          ) : null}
+          {selectedCategory === "cloros" || selectedCategory === "all" ? (
+            <ImgCodeDescButtonCard
+              img={imgProductExample}
+              code="Esse é cloro"
+              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+              button1Label="Baixar Ficha FISPQ"
+              button1Link="#"
+              category="cloros"
+            />
+          ) : null}
+          {selectedCategory === "auxiliares" || selectedCategory === "all" ? (
+            <ImgCodeDescButtonCard
+              img={imgProductExample2}
+              code="Auxiliar"
+              description="It is a long established fact that a reader will be distracted by the readable."
+              button1Label="Baixar Ficha FISPQ"
+              button1Link="#"
+              category="auxiliares"
+            />
+          ) : null}
+          {selectedCategory === "auxiliares" || selectedCategory === "all" ? (
+            <ImgCodeDescButtonCard
+              img={imgProductExample2}
+              code="Auxiliar"
+              description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use."
               button1Label="Baixar Ficha FISPQ"
               button1Link="#"
               category="auxiliares"
