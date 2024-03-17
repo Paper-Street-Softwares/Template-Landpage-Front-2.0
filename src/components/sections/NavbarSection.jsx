@@ -80,9 +80,7 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo"
-              className={`absolute h-8 tablet1:h-10 -mt-4 ${
-                scrolling ? "filter invert duration-1000" : ""
-              }`}            />
+              className="absolute h-24 -mt-12" />
           </Link>
           <button
             onClick={toggleSidebar}
