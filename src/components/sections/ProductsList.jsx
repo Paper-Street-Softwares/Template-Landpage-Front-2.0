@@ -33,7 +33,7 @@ export default function ProductsList() {
         >
           Todos
         </button>
-        <SectionContent>
+        <div className="flex flex-wrap items-center justify-start w-full gap-7">
           {selectedCategory === "cloros" || selectedCategory === "all" ? (
             <ImgCodeDescButtonCard
               img={imgProductExample}
@@ -74,7 +74,7 @@ export default function ProductsList() {
               category="auxiliares"
             />
           ) : null}
-        </SectionContent>
+        </div>
       </div>
     </div>
   );
