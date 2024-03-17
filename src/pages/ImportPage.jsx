@@ -10,6 +10,7 @@ import Numbers from "../components/sections/Numbers";
 import NavbarSection from "../components/sections/NavbarSection";
 import HeroSection from "../components/sections/HeroSection";
 import CtaWhatsapp from "../components/sections/CtaWhatsapp";
+import ProductsList from "../components/sections/ProductsList";
 
 export default function ImportPage() {
   return (
@@ -20,6 +21,7 @@ export default function ImportPage() {
       <Numbers />
       <OurProducts />
       <AvoidAccidents />
+      <ProductsList />
       <CtaWhatsapp />
       <Courses />
       <BannersCarousel />
