@@ -14,7 +14,7 @@ export default function ImgCodeDescButtonCard(props) {
   };
 
   return (
-    <div className="w-full tablet1:w-[45%] desktop1:w-[23%] bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[10px]">
+    <div className="w-full tablet1:w-[45%] desktop1:w-[31%] bg-white p-[15px] mb-[14px] rounded-[10px] flex flex-col gap-[10px]">
       <MotionDivLeftToRight>
         <div className="flex justify-center items-center h-[200px] phone3:h-[200px] tablet1:h-[200px]">
           <img
