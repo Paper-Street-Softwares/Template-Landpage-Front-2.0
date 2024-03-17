@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionContent from "../sectionElements/SectionContent";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
 import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
@@ -10,30 +8,28 @@ export default function ProductsList() {
 
   return (
     <div className="full">
-      <div className="bg-quinary content py-[26px] phone3:py-[48px]">
-        <SectionHeader
-          sectionHeaderTitleSecond="Linha de Produtos"
-          sectionHeaderDescription="Ao longo dos anos, fomos firmando parcerias hoje bastante consolidadas com marcas renomadas e de grande credibilidade no mercado. Encontre a marca que você deseja comprar e clique na categoria para ser levado para a página contendo os produtos desta marca."
-        />
-        <button
-          className="bg-red-900 hover:bg-red-700"
-          onClick={() => setSelectedCategory("cloros")}
-        >
-          Cloros
-        </button>
-        <button
-          className="bg-blue-900 hover:bg-blue-700"
-          onClick={() => setSelectedCategory("auxiliares")}
-        >
-          Auxiliares
-        </button>
-        <button
-          className="bg-green-900 hover:bg-green-700"
-          onClick={() => setSelectedCategory("all")}
-        >
-          Mostrar todos
-        </button>
-        <div className="flex flex-wrap items-start justify-start w-full gap-7">
+      <div className="bg-quinary content py-[26px] phone3:py-[48px] flex">
+        <div className="bg-blue-100 desktop1:w-[30%]">
+          <button
+            className="bg-red-900 hover:bg-red-700"
+            onClick={() => setSelectedCategory("cloros")}
+          >
+            Cloros
+          </button>
+          <button
+            className="bg-blue-900 hover:bg-blue-700"
+            onClick={() => setSelectedCategory("auxiliares")}
+          >
+            Auxiliares
+          </button>
+          <button
+            className="bg-green-900 hover:bg-green-700"
+            onClick={() => setSelectedCategory("all")}
+          >
+            Mostrar todos
+          </button>
+        </div>
+        <div className="flex flex-wrap items-start justify-start w-full gap-7 desktop1:w-[65%]">
           {selectedCategory === "cloros" || selectedCategory === "all" ? (
             <ImgCodeDescButtonCard
               img={imgProductExample}
