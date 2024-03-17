@@ -1,7 +1,5 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionContent from "../sectionElements/SectionContent";
-import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
-import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import ImgAndButtonsCard from "../cards/ImgAndButtonsCard";
 import hthLogo from "../../assets/imgs/brands/hthLogo.png";
 import gencoLogo from "../../assets/imgs/brands/gencoLogo.png";
