@@ -28,7 +28,7 @@ export default function ImgCodeDescButtonCard(props) {
         {description}
       </p>
       <a href={button1Link} target="_blank" className="w-full">
-        <button className="text-white bg-red-700 rounded-[10px] py-[8px] px-[31px] text-paragraph3 font-mainFont font-medium w-full transition hover:bg-red-900">
+        <button className="text-white bg-red-700 rounded-[10px] phone3:px-[15px] py-[8px] px-[31px] text-paragraph3 font-mainFont font-medium w-full transition hover:bg-red-900">
           {button1Label}
         </button>
       </a>
