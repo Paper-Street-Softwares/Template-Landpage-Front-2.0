@@ -10,7 +10,7 @@ export default function ProductsList() {
     <div className="full">
       <div className="bg-quinary content py-[26px] phone3:py-[48px] flex flex-row">
         <div className="flex flex-col items-start justify-between desktop1:flex-row font-mainFont">
-          <div className="bg-white w-full desktop1:w-[18%] mb-[32px] flex justify-around desktop1:flex-col gap-4 p-4 rounded-[10px]">
+          <div className="bg-white w-full desktop1:w-[18%] mb-[32px] flex justify-around desktop1:flex-col p-4 rounded-[10px]">
             <h3 className="p-2 font-semibold desktop1:text-left desktop1:text-title1 text-secondary">
               Filtrar por categoria
             </h3>
