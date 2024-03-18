@@ -9,11 +9,17 @@ export default function ProductsList() {
   return (
     <div className="full">
       <div className="bg-quinary content py-[26px] phone3:py-[48px] flex flex-row">
-        <div className="flex items-start justify-between font-mainFont">
-          <div className="bg-white desktop1:w-[18%] mb-[14px] flex flex-col gap-4 p-4 rounded-[10px]">
-            <h3 className="font-semibold desktop1:text-title1 text-secondary">
+        <div className="flex flex-col items-start justify-between desktop1:flex-row font-mainFont">
+          <div className="bg-white w-full desktop1:w-[18%] mb-[32px] flex justify-around desktop1:flex-col gap-4 p-4 rounded-[10px]">
+            <h3 className="p-2 font-semibold desktop1:text-left desktop1:text-title1 text-secondary">
               Filtrar por categoria
             </h3>
+            <button
+              className="transition bg-white hover:bg-neutral-200 rounded-[5px] text-paragraph3 text-left p-2"
+              onClick={() => setSelectedCategory("all")}
+            >
+              Mostrar todos
+            </button>
             <button
               className="transition bg-white hover:bg-neutral-200 rounded-[5px] text-paragraph3 text-left p-2"
               onClick={() => setSelectedCategory("cloros")}
@@ -26,15 +32,8 @@ export default function ProductsList() {
             >
               Auxiliares
             </button>
-            <button
-              className="transition bg-white hover:bg-neutral-200 rounded-[5px] text-paragraph3 text-left p-2"
-              onClick={() => setSelectedCategory("all")}
-            >
-              Mostrar todos
-            </button>
           </div>
-
-          <div className="flex flex-wrap items-start justify-start w-full gap-7 desktop1:w-[76%]">
+          <div className="flex flex-wrap items-start justify-between w-full gap-7 desktop1:w-[76%]">
             {selectedCategory === "cloros" || selectedCategory === "all" ? (
               <ImgCodeDescButtonCard
                 img={imgProductExample}
