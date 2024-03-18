@@ -21,59 +21,43 @@ export default function OurProducts() {
         <SectionContent>
           <ImgAndButtonsCard
             img={hthLogo}
-            button1Label="Cloros"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Auxiliares"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={gencoLogo}
-            button1Label="Cloros"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Auxiliares"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={neoclorLogo}
-            button1Label="Cloros"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Auxiliares"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={hidroazulLogo}
-            button1Label="Cloros"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Auxiliares"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={domclorLogo}
-            button1Label="Cloros"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Auxiliares"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={suallLogo}
-            button1Label="Cloros"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Auxiliares"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={sodramarLogo}
-            button1Label="Limpeza"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Construção"
-            button2Link="#"
           />
           <ImgAndButtonsCard
             img={netunoLogo}
-            button1Label="Limpeza"
+            button1Label="Consultar produtos"
             button1Link="#"
-            button2Label="Construção"
-            button2Link="#"
           />
         </SectionContent>
       </div>
