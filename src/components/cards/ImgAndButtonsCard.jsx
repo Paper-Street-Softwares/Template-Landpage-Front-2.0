@@ -2,14 +2,12 @@ import PropTypes from "prop-types";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function ImgAndButtonsCard(props) {
-  const { img, button1Label, button1Link, button2Label, button2Link } = props;
+  const { img, button1Label, button1Link } = props;
 
   ImgAndButtonsCard.propTypes = {
     img: PropTypes.any,
     button1Label: PropTypes.any,
     button1Link: PropTypes.any,
-    button2Label: PropTypes.any,
-    button2Link: PropTypes.any,
   };
 
   return (
@@ -21,14 +19,8 @@ export default function ImgAndButtonsCard(props) {
       </div>
 
       <a href={button1Link} target="_blank" className="w-full">
-        <button className="text-white bg-red-700 rounded-[10px] py-[8px] px-[31px] font-mainFont font-bold w-full transition hover:bg-red-900">
+        <button className="text-white bg-red-700 rounded-[10px] text-paragraph3 py-[8px] px-[31px] font-mainFont font-medium w-full transition hover:bg-red-900">
           <MotionDivLeftToRight>{button1Label}</MotionDivLeftToRight>
-        </button>
-      </a>
-
-      <a href={button2Link} target="_blank" className="w-full">
-        <button className="text-white bg-red-700 rounded-[10px] py-[8px] px-[31px] font-mainFont font-bold w-full hover:bg-red-900 transition">
-          <MotionDivLeftToRight>{button2Label}</MotionDivLeftToRight>
         </button>
       </a>
     </div>

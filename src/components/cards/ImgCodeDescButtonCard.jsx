@@ -13,7 +13,7 @@ export default function ImgCodeDescButtonCard(props) {
   };
 
   return (
-    <div className="w-full tablet1:w-[45%] desktop1:w-[31%] bg-white p-[15px] mb-[14px] rounded-[10px] flex flex-col gap-[10px]">
+    <div className="w-full phone3:w-[46%] tablet1:w-[47%] desktop3:w-[31%] bg-white p-[15px] rounded-[10px] flex flex-col gap-[10px]">
       <div className="flex justify-center items-center h-[200px] phone3:h-[200px] tablet1:h-[200px]">
         <img src={img} alt="hthLogo" className="max-h-[190px] max-w-[150px]" />
       </div>
@@ -28,7 +28,7 @@ export default function ImgCodeDescButtonCard(props) {
         {description}
       </p>
       <a href={button1Link} target="_blank" className="w-full">
-        <button className="text-white bg-red-700 rounded-[10px] py-[8px] px-[31px] font-mainFont font-medium w-full transition hover:bg-red-900">
+        <button className="text-white bg-red-700 rounded-[10px] py-[8px] px-[31px] text-paragraph3 font-mainFont font-medium w-full transition hover:bg-red-900">
           {button1Label}
         </button>
       </a>
