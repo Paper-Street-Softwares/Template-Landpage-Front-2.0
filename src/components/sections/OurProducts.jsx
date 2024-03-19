@@ -12,8 +12,8 @@ import suallLogo from "../../assets/imgs/brands/suallLogo.png";
 
 export default function OurProducts() {
   return (
-    <div className="full">
-      <div className="bg-quinary content py-[26px] phone3:py-[48px]">
+    <div className="full bg-quinary">
+      <div className="content py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Linha de Produtos"
           sectionHeaderDescription="Ao longo dos anos, fomos firmando parcerias hoje bastante consolidadas com marcas renomadas e de grande credibilidade no mercado. Encontre a marca que você deseja comprar e clique na categoria para ser levado para a página contendo os produtos desta marca."
