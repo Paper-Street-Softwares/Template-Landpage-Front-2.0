@@ -21,24 +21,24 @@ export default function ProductsList() {
               Filtrar por categoria
             </h3>
             <button
-              className={`transition bg-red-700 hover:bg-red-900 desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
-                activeButton === "all" ? "bg-red-900" : ""
+              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
+                activeButton === "all" ? "bg-[#0189BB]" : ""
               }`}
               onClick={() => handleButtonClick("all")}
             >
               Mostrar todos
             </button>
             <button
-              className={`transition bg-red-700 hover:bg-red-900 desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
-                activeButton === "cloros" ? "bg-red-900" : ""
+              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
+                activeButton === "cloros" ? "bg-[#0189BB]" : ""
               }`}
               onClick={() => handleButtonClick("cloros")}
             >
               Cloros
             </button>
             <button
-              className={`transition bg-red-700 hover:bg-red-900 desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
-                activeButton === "auxiliares" ? "bg-red-900" : ""
+              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
+                activeButton === "auxiliares" ? "bg-[#0189BB]" : ""
               }`}
               onClick={() => handleButtonClick("auxiliares")}
             >
