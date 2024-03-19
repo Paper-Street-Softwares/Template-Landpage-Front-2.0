@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
 import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
+import HthProducts from "../util/productsData/HthProducts";
 
 export default function ProductsList() {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -17,11 +18,11 @@ export default function ProductsList() {
       <div className="content py-[26px] phone3:py-[48px] flex flex-row">
         <div className="flex flex-col items-start justify-between desktop1:flex-row font-mainFont">
           <div className="bg-white w-full desktop1:w-[18%] mb-[32px] flex justify-around desktop1:flex-col p-2 phone3:p-4 rounded-[10px]">
-            <h3 className="p-2 font-semibold text-paragraph2 desktop1:text-left desktop1:text-title1 text-secondary">
+            <h3 className="p-2 font-semibold phone2:w-[24%] text-paragraph2 desktop1:text-left desktop1:text-title1 text-secondary desktop1:w-auto">
               Filtrar por categoria
             </h3>
             <button
-              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
+              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
                 activeButton === "all" ? "bg-[#0189BB]" : ""
               }`}
               onClick={() => handleButtonClick("all")}
@@ -29,7 +30,7 @@ export default function ProductsList() {
               Mostrar todos
             </button>
             <button
-              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
+              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
                 activeButton === "cloros" ? "bg-[#0189BB]" : ""
               }`}
               onClick={() => handleButtonClick("cloros")}
@@ -37,7 +38,7 @@ export default function ProductsList() {
               Cloros
             </button>
             <button
-              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 ${
+              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
                 activeButton === "auxiliares" ? "bg-[#0189BB]" : ""
               }`}
               onClick={() => handleButtonClick("auxiliares")}
@@ -49,11 +50,11 @@ export default function ProductsList() {
             {(selectedCategory === "cloros" || selectedCategory === "all") && (
               <>
                 <ImgCodeDescButtonCard
-                  img={imgProductExample}
-                  code="Esse é cloro"
-                  description="It is a long established fact that a reader "
+                  img={HthProducts.hthProd1.img}
+                  code={HthProducts.hthProd1.code}
+                  description={HthProducts.hthProd1.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link="#"
+                  button1Link={HthProducts.hthProd1.fispqLink}
                   category="cloros"
                 />
                 <ImgCodeDescButtonCard
