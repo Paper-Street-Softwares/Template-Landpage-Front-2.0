@@ -5,8 +5,8 @@ import faqImg from "../../assets/imgs/faq/faq.png";
 
 export default function FrequentlyAskedQuestions() {
   return (
-    <div className="full">
-      <div className="bg-quinary content py-[26px] phone3:py-[48px]">
+    <div className="full bg-quinary">
+      <div className="content py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Perguntas Frequentes"
           sectionHeaderDescription="Ficou com alguma dúvida? Clique na pergunta abaixo e obtenha a resposta. 
