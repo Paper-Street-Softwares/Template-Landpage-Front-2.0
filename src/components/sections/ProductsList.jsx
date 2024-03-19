@@ -23,7 +23,7 @@ export default function ProductsList() {
             </h3>
             <button
               className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
-                activeButton === "all" ? "bg-[#0189BB]" : ""
+                activeButton === "all" ? "bg-[#0188BB]" : ""
               }`}
               onClick={() => handleButtonClick("all")}
             >
@@ -31,7 +31,7 @@ export default function ProductsList() {
             </button>
             <button
               className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
-                activeButton === "cloros" ? "bg-[#0189BB]" : ""
+                activeButton === "cloros" ? "bg-[#0188BB]" : ""
               }`}
               onClick={() => handleButtonClick("cloros")}
             >
@@ -39,7 +39,7 @@ export default function ProductsList() {
             </button>
             <button
               className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
-                activeButton === "auxiliares" ? "bg-[#0189BB]" : ""
+                activeButton === "auxiliares" ? "bg-[#0188BB]" : ""
               }`}
               onClick={() => handleButtonClick("auxiliares")}
             >
