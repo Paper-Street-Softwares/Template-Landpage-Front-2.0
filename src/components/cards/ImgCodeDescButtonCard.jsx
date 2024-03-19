@@ -13,7 +13,7 @@ export default function ImgCodeDescButtonCard(props) {
   };
 
   return (
-    <div className="w-full phone3:w-[46%] tablet1:w-[47%] desktop3:w-[31%] bg-white p-[15px] rounded-[10px] flex flex-col gap-[10px]">
+    <div className="w-full phone3:w-[46%] tablet1:w-[47%] tablet2:w-[30%] desktop1:w-[30%] desktop3:w-[31%] bg-white p-[15px] rounded-[10px] flex flex-col gap-[10px]">
       <div className="flex justify-center items-center h-[200px] phone3:h-[200px] tablet1:h-[200px]">
         <img src={img} alt="hthLogo" className="max-h-[190px] max-w-[150px]" />
       </div>
