@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
-import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
 import HthProducts from "../util/productsData/HthProducts";
 
