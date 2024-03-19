@@ -12,13 +12,17 @@ export default function FrequentlyAskedQuestions() {
           sectionHeaderDescription="Ficou com alguma dúvida? Clique na pergunta abaixo e obtenha a resposta. 
         Caso não tenha encontrado a resposta que precisa, entre em contato conosco e iremos te esclarecer."
         />
-        <div className="flex justify-between ">
-          <div className="w-full desktop1:w-[60%] desktop2:w-[63%]">
+        <div className="flex">
+          <div className=" w-full desktop1:w-[100%] desktop2:w-[100%]">
             <Acordion />
           </div>
-          <div className="hidden desktop1:block">
+          <div className="hidden desktop1:w-[70%] desktop1:block">
             <MotionDivRightToLeft>
-              <img src={faqImg} alt="Faq Img"></img>
+              <img
+                src={faqImg}
+                alt="Faq Img"
+                className="desktop1:w-[100%]"
+              ></img>
             </MotionDivRightToLeft>
           </div>
         </div>
