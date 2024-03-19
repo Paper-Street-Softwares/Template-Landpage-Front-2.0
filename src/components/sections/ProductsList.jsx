@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
 import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
-import HthProducts from "../util/productsData/HthProducts";
+import HthProducts from "../util/productsData/hth/HthProducts";
 
 export default function ProductsList() {
   const [selectedCategory, setSelectedCategory] = useState("all");

@@ -1,7 +1,8 @@
-import imgHth1 from "../../../assets/imgs/products/hth/cloros/hth1.jpg";
-import imgHth2 from "../../../assets/imgs/products/hth/cloros/hth2.jpg";
-import imgHth3 from "../../../assets/imgs/products/hth/cloros/hth3.jpg";
-import imgHth4 from "../../../assets/imgs/products/hth/cloros/hth4.jpg";
+import imgHth1 from "../../../../assets/imgs/products/hth/cloros/hth1.jpg";
+import imgHth2 from "../../../../assets/imgs/products/hth/cloros/hth2.jpg";
+import imgHth3 from "../../../../assets/imgs/products/hth/cloros/hth3.jpg";
+import imgHth4 from "../../../../assets/imgs/products/hth/cloros/hth4.jpg";
+import fichaHth1 from "../../../util/productsData/hth/hthFichas/hth1.pdf";
 
 const HthProducts = {
   hthProd1: {
@@ -9,7 +10,7 @@ const HthProducts = {
     img: imgHth1,
     code: 2031,
     description: "HTH CLORO GRANULADO ADITIVADO 10 EM 1 (BD10,0K)",
-    fispqLink: "https://www.google.com",
+    fispqLink: fichaHth1,
     category: "cloros",
   },
   hthProd2: {
