@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import imgOfficeGreenBackground from "../../assets/importAssets/bg2.jpg";
-import imgIcon from "../../assets/importAssets/expertise.png";
 import ResultsCard from "../cards/ResultsCard";
 import AnimatedCounter from "../util/AnimatedCounter";
+import { Handshake, Building, Box, Truck } from "lucide-react";
 
 export default function Numbers() {
   const [yearsOfService, setYearsOfService] = useState(0);
@@ -37,22 +37,26 @@ export default function Numbers() {
         <div className="py-[26px] phone3:py-[48px]">
           <h1 className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between tablet1:flex-wrap desktop1:flex-nowrap">
             <ResultsCard
-              img={imgIcon}
+              icon={
+                <Building size={32} strokeWidth={1} className="text-white" />
+              }
               number={<AnimatedCounter endValue={yearsOfService} />}
               text="Anos de serviços prestados"
             />
             <ResultsCard
-              img={imgIcon}
+              icon={<Box size={32} strokeWidth={1} className="text-white" />}
               number={<AnimatedCounter endValue={2000} />}
               text="Produtos no catálogo"
             />
             <ResultsCard
-              img={imgIcon}
+              icon={
+                <Handshake size={32} strokeWidth={1} className="text-white" />
+              }
               number={<AnimatedCounter endValue={2700} />}
               text="Clientes cadastrados na base"
             />
             <ResultsCard
-              img={imgIcon}
+              icon={<Truck size={32} strokeWidth={1} className="text-white" />}
               number={<AnimatedCounter endValue={8} />}
               text="Toneladas em capacidade diária de transporte da frota"
             />

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
-import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
 import HthProducts from "../util/productsData/HthProducts";
 
@@ -58,20 +57,28 @@ export default function ProductsList() {
                   category={HthProducts.hthProd1.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={imgProductExample}
-                  code="Esse é cloro"
-                  description="It is a long established fact that a reader will be distracted by the readable content."
+                  img={HthProducts.hthProd2.img}
+                  code={HthProducts.hthProd2.code}
+                  description={HthProducts.hthProd2.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link="#"
-                  category="cloros"
+                  button1Link={HthProducts.hthProd2.fispqLink}
+                  category={HthProducts.hthProd2.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={imgProductExample}
-                  code="Esse é cloro"
-                  description="It is a long established fact that a reader will be."
+                  img={HthProducts.hthProd3.img}
+                  code={HthProducts.hthProd3.code}
+                  description={HthProducts.hthProd3.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link="#"
-                  category="cloros"
+                  button1Link={HthProducts.hthProd3.fispqLink}
+                  category={HthProducts.hthProd3.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.hthProd4.img}
+                  code={HthProducts.hthProd4.code}
+                  description={HthProducts.hthProd4.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.hthProd4.fispqLink}
+                  category={HthProducts.hthProd4.category}
                 />
               </>
             )}
