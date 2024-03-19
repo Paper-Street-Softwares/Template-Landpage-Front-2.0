@@ -55,7 +55,7 @@ export default function ProductsList() {
                   description={HthProducts.hthProd1.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.hthProd1.fispqLink}
-                  category="cloros"
+                  category={HthProducts.hthProd1.category}
                 />
                 <ImgCodeDescButtonCard
                   img={imgProductExample}
