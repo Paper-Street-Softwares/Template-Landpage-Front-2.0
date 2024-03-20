@@ -16,7 +16,7 @@ export default function AboutUs() {
       />
       <ArticleComponent>
         <div className="desktop1:flex desktop1:items-center">
-          <div className="desktop1:w-[50%]">
+          <div className="desktop1:w-[50%] desktop3:w-[58%] desktop3:mt-[0%] desktop3:ml-[3%]">
             <SectionArticle
               articleSubtitle="Nossa História"
               articleTitle="Experiência em Grandes Volumes"
@@ -25,7 +25,7 @@ export default function AboutUs() {
               articleParagraphThree="A sua missão enquanto empresa é se aprimorar a cada dia que passa, subir degrau por degrau, avançar sempre no sentido de cumprir objetivos, entregar ao cliente exatamente o que com ele foi negociado na sua plenitude, e ao final de tudo ter a certeza de ter oferecido a ele uma boa experiência de compra. E para que tudo isso aconteça, a empresa tem a clara convicção de que precisa contar sempre com você, cliente! Junte-se à MPA Piscinas!"
             />
           </div>
-          <div className="flex justify-center mt-[0%] w-[103.7%] phone2:w-[100.5%] phone3:w-[100.2%] phone3:mt-[5%] tablet1:size-[100.1%] tablet1:mt-[2%] tablet2:mt-[3%] desktop1:w-[50%] desktop1:mt-[8%]  desktop3:size-[60%] desktop3:w-[50%] desktop3:mt-[6%]">
+          <div className="flex justify-center mt-[0%] w-[103.7%] phone2:w-[100.5%] phone3:w-[100.2%] phone3:mt-[5%] tablet1:size-[100.1%] tablet1:mt-[2%] tablet2:mt-[3%] desktop1:w-[50%] desktop1:mt-[8%]  desktop3:size-[60%] desktop3:w-[40%] desktop3:mt-[10%]">
             <ImagesGallery3Slides
               slide1={slide1}
               slide2={slide2}
