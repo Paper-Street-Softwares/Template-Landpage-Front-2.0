@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
 import imgProductExample from "../../assets/imgs/products/hth/cloros/baldeCloro.png";
 import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
@@ -13,8 +13,8 @@ export default function ProductsList() {
   };
 
   return (
-    <div className="full">
-      <div className="bg-quinary content py-[26px] phone3:py-[48px] flex flex-row">
+    <div className="full bg-quinary">
+      <div className="content py-[26px] phone3:py-[48px] flex flex-row">
         <div className="flex flex-col items-start justify-between desktop1:flex-row font-mainFont">
           <div className="bg-white w-full desktop1:w-[18%] mb-[32px] flex justify-around desktop1:flex-col p-2 phone3:p-4 rounded-[10px]">
             <h3 className="p-2 font-semibold text-paragraph2 desktop1:text-left desktop1:text-title1 text-secondary">

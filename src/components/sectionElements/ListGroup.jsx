@@ -48,16 +48,6 @@ export default function ListGroup() {
         SOBRE NÓS
       </Link>
       <Link
-        to="services"
-        className="cursor-pointer"
-        spy={true}
-        smooth={true}
-        duration={500}
-        offset={-100}
-      >
-        SERVIÇOS
-      </Link>
-      <Link
         to="links"
         className="cursor-pointer"
         spy={true}

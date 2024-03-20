@@ -2,15 +2,17 @@ import { Link } from "react-scroll";
 import { PropTypes } from 'prop-types';
 
 export default function Sidebar({ showSidebar }) {
+  
+
   return (
     <div
       className={`sidebar transition-transform transform ${
         showSidebar ? "animate-slide-down" : "animate-slide-up"
-      }`}
+      } -mt-4`}
     >
       <div className="mx-auto">
         <div
-          className="flex w-64 h-auto px-12 py-6 mx-auto bg-white phone2:w-80 phone3:w-80 font-poppins"
+          className="flex h-auto px-12 py-6 mx-auto bg-white w-80 phone2:w-80 phone3:w-80 font-mainFont"
         >
           <div className="overflow-y-auto">
             <ul className="text-black">
@@ -55,7 +57,7 @@ export default function Sidebar({ showSidebar }) {
                     Linha de Produtos
                   </a>
                 </li>
-              </Link>             
+              </Link>
               <Link
                 to="contact"
                 className="cursor-pointer"
@@ -91,6 +93,7 @@ export default function Sidebar({ showSidebar }) {
     </div>
   );
 }
+
 
 Sidebar.propTypes = {
   showSidebar: PropTypes.bool.isRequired,
