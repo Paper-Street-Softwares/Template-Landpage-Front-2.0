@@ -5,11 +5,9 @@ import HthProducts from "../util/productsData/hth/HthProducts";
 
 export default function ProductsList() {
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [activeButton, setActiveButton] = useState(null);
 
-  const handleButtonClick = (category) => {
+  const handleCheckboxChange = (category) => {
     setSelectedCategory(category);
-    setActiveButton(category);
   };
 
   return (
@@ -17,33 +15,39 @@ export default function ProductsList() {
       <div className="content py-[26px] phone3:py-[48px] flex flex-row">
         <div className="flex flex-col items-start justify-between desktop1:flex-row font-mainFont">
           <div className="bg-white w-full desktop1:w-[18%] mb-[32px] flex justify-around desktop1:flex-col p-2 phone3:p-4 rounded-[10px]">
-            <h3 className="p-2 font-semibold phone2:w-[24%] text-paragraph2 desktop1:text-left desktop1:text-title1 text-secondary desktop1:w-auto">
+            <h3 className="p-2 font-semibold w-[30%] phone3:w-[40%] text-paragraph2 phone3:text-paragraph3 tablet1:text-paragraph5 desktop1:text-left desktop1:text-title1 text-secondary desktop1:w-auto">
               Filtrar por categoria
             </h3>
-            <button
-              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
-                activeButton === "all" ? "bg-[#0188BB]" : ""
-              }`}
-              onClick={() => handleButtonClick("all")}
-            >
-              Mostrar todos
-            </button>
-            <button
-              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
-                activeButton === "cloros" ? "bg-[#0188BB]" : ""
-              }`}
-              onClick={() => handleButtonClick("cloros")}
-            >
-              Cloros
-            </button>
-            <button
-              className={`transition bg-red-700 hover:bg-[#0189BB] desktop1:my-[4px] text-white rounded-[10px] text-paragraph1 tablet1:text-paragraph3 text-center px-2 mx-1 phone3:p-2 phone2:w-[24%] desktop1:w-auto ${
-                activeButton === "auxiliares" ? "bg-[#0188BB]" : ""
-              }`}
-              onClick={() => handleButtonClick("auxiliares")}
-            >
-              Auxiliares
-            </button>
+            <label className="checkbox-label text-paragraph2 phone3:text-paragraph3 w-[22%] flex flex-col text-center justify-evenly tablet1:text-paragraph5 desktop1:text-paragraph4 tablet1:flex-row desktop1:p-2">
+              <input
+                type="checkbox"
+                checked={selectedCategory === "all"}
+                onChange={() => handleCheckboxChange("all")}
+              />
+              <p className="flex items-center justify-center h-auto leading-none">
+                Todos
+              </p>
+            </label>
+            <label className="checkbox-label text-paragraph2 phone3:text-paragraph3 w-[22%] flex flex-col text-center justify-evenly tablet1:text-paragraph5 desktop1:text-paragraph4 tablet1:flex-row desktop1:p-2">
+              <input
+                type="checkbox"
+                checked={selectedCategory === "cloros"}
+                onChange={() => handleCheckboxChange("cloros")}
+              />
+              <p className="flex items-center justify-center h-auto leading-none">
+                Cloros
+              </p>
+            </label>
+            <label className="checkbox-label text-paragraph2 phone3:text-paragraph3 w-[22%] flex flex-col text-center justify-evenly tablet1:text-paragraph5 desktop1:text-paragraph4 tablet1:flex-row desktop1:p-2">
+              <input
+                type="checkbox"
+                checked={selectedCategory === "auxiliares"}
+                onChange={() => handleCheckboxChange("auxiliares")}
+              />
+              <p className="flex items-center justify-center h-auto leading-none">
+                Auxiliares
+              </p>
+            </label>
           </div>
           <div className="flex flex-wrap items-start justify-between w-full gap-7 desktop1:w-[76%]">
             {(selectedCategory === "cloros" || selectedCategory === "all") && (
