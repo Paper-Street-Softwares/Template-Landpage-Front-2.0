@@ -23,8 +23,8 @@ export default function ListGroup() {
     <ul
       className={`flex -mt-2 items-end justify-end tablet1:items-end tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop1:gap-6 desktop2:gap-8 w-full h-auto font-semibold text-paragraph3 font-poppins ${
         scrolling
-          ? "text-secondary transition-color duration-1000"
-          : "text-white transition-color duration-1000"
+          ? "text-secondary transition-color duration-200"
+          : "text-white transition-color duration-200"
       }`}
     >
       <li className="transition group">
