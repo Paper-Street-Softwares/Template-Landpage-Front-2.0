@@ -24,7 +24,7 @@ export default function ProductsList() {
                 checked={selectedCategory === "all"}
                 onChange={() => handleCheckboxChange("all")}
               />
-              <p className="flex items-center justify-center h-auto leading-none">
+              <p className="flex items-center justify-center h-auto leading-none desktop1:ml-2">
                 Todos
               </p>
             </label>
@@ -34,7 +34,7 @@ export default function ProductsList() {
                 checked={selectedCategory === "cloros"}
                 onChange={() => handleCheckboxChange("cloros")}
               />
-              <p className="flex items-center justify-center h-auto leading-none">
+              <p className="flex items-center justify-center h-auto leading-none desktop1:ml-2">
                 Cloros
               </p>
             </label>
@@ -44,7 +44,7 @@ export default function ProductsList() {
                 checked={selectedCategory === "auxiliares"}
                 onChange={() => handleCheckboxChange("auxiliares")}
               />
-              <p className="flex items-center justify-center h-auto leading-none">
+              <p className="flex items-center justify-center h-auto leading-none desktop1:ml-2">
                 Auxiliares
               </p>
             </label>
