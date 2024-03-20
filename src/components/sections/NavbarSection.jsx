@@ -62,7 +62,7 @@ export default function NavbarSection() {
   return (
     <div className="content">
       <div
-        className={`fixed mt-32 z-10 w-full h-32 bg-white bg-opacity-0 ${
+        className={`fixed z-10 w-full mt-28 h-28 bg-white bg-opacity-0 ${
           scrolling
             ? "bg-opacity-100 shadow-lg bg-transition-opacity duration-1000"
             : ""
@@ -79,8 +79,9 @@ export default function NavbarSection() {
           >
             <img
               src={Logo}
-              alt="Logo"
-              className="absolute h-24 -mt-12" />
+              alt="Logo Edan"
+              className="h-20 -mt-4 tablet3:mb-0"
+            />
           </Link>
           <button
             onClick={toggleSidebar}
@@ -88,13 +89,13 @@ export default function NavbarSection() {
           >
             {showMenuIcon ? (
               <Menu
-                className={`w-8 h-8 ${
+                className={`mt-6 w-20 h-8 ${
                   scrolling ? "text-secondary" : "text-white"
                 }`}
               />
             ) : (
               <X
-                className={`w-8 h-8 ${
+                className={`mt-6 w-20 h-8 ${
                   scrolling ? "text-secondary" : "text-white"
                 }`}
               />
