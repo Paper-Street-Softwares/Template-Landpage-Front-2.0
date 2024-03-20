@@ -3,6 +3,8 @@ import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
 import slide1 from "../../assets/banners/aboutUs/slide1bigPool.jpg";
 import slide2 from "../../assets/banners/aboutUs/slide2smallPool.jpg";
 import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.jpg";
+import ArticleComponent from "../sectionElements/ArticleComponent";
+import Article from "../sectionElements/SectionArticle";
 
 export default function AboutUs() {
   return (
