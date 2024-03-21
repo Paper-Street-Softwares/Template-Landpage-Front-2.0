@@ -7,8 +7,8 @@ function ArticleComponent({ children }) {
   };
   const childrenArray = Children.toArray(children);
   return (
-    <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] desktop3:w-[100%] ">
-      <div className="  w-[100%] gap-[5%] desktop1:w-[100%] desktop2:w-[100%]">
+    <div className=" desktop1:flex desktop1:flex-row desktop1:items-center desktop1:justify-between desktop1:gap-[10%]">
+      <div className=" gap-[10px] phone1:w-[100%] ">
         {childrenArray}
       </div>
     </div>

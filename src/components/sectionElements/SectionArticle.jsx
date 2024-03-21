@@ -3,44 +3,45 @@ import PropTypes from "prop-types";
 function SectionArticle(props) {
   const articleTitle = props.articleTitle;
   const articleSubtitle = props.articleSubtitle;
-  const articleParagraphfirst = props.articleParagraphfirst;
+  const articleParagraphOne = props.articleParagraphOne;
   const articleParagraphTwo = props.articleParagraphTwo;
   const articleParagraphThree = props.articleParagraphThree;
-  const articleImage = props.articleImage;
+
 
   SectionArticle.propTypes = {
     articleTitle: PropTypes.any,
     articleSubtitle: PropTypes.any,
-    articleParagraphfirst: PropTypes.any,
+    articleParagraphOne: PropTypes.any,
     articleParagraphTwo: PropTypes.any,
     articleParagraphThree: PropTypes.any,
-    articleImage: PropTypes.any,
+    
   };
 
   return (
-    <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] desktop1:pt-[0%] ">
-      <div className="  w-[100%] gap-[5%] desktop1:w-[200%] desktop3:w-[200%]">
-        <h3 className=" text-quaternary font-medium text-paragraph3 leading-[24%] phone2:pb-[5%] phone3:text-paragraph4 phone3:leading-[27%] tablet1:pb-[3%] desktop1:text-paragraph4 desktop1:pt-[2%]">
-          {articleSubtitle}
-        </h3>
-        <h1 className=" pt-[3%] font-medium text-title2 leading-[150%] text-primary tablet2:mb-[-2%] desktop1:text-title4 desktop1:size-[120%] desktop3:pt-[3%] ">
-          {articleTitle}
-        </h1>
-        <p className=" phone1:pt-[5%] text-quaternary font-normal text-paragraph3 leading-[150%] desktop1:size-[104%] desktop3:size-[90%] desktop3:pt-[3%]">
-          {articleParagraphfirst}
-        </p>
-        <p className=" flex pt-[4%] text-quaternary font-normal text-paragraph3 leading-[150%] desktop1:size-[100%] desktop3:size-[90%] desktop3:pt-[3%] ">
-          {articleParagraphTwo}
-        </p>
-        <p className=" flex pt-[4%] text-quaternary font-normal text-paragraph3 leading-[150%] desktop1:size-[100%] desktop3:size-[90%] desktop3:pt-[3%]">
-          {articleParagraphThree}
-        </p>
-      </div>
-      <div className="flex justify-center mt-[0%] w-[103.7%] phone2:w-[100.5%] phone3:w-[100.2%] phone3:mt-[5%] tablet1:size-[100.1%] tablet1:mt-[2%] tablet2:mt-[3%] desktop1:w-[50%] desktop1:mt-[8%]  desktop3:size-[60%] desktop3:w-[50%]">
-        {articleImage}
-      </div>
-    </div>
-  );
+    <div className=" desktop1:flex desktop1:flex-row desktop1:items-center desktop1:justify-between desktop1:gap-[10%]">
+          <div className=" gap-[10px] phone1:w-[100%] ">
+            <h3 className="flex items-center phone1:w-[100%] phone2:h-[24px] desktop1:w-[131px] phone1:font-medium phone1:text-paragraph3 leading-[21px] phone3:text-paragraph4 phone3:leading-6  text-quaternary">{articleSubtitle}
+            </h3>
+            <h1 className=" flex items-center phone1:w-[100%] phone1:h-[66px] phone3:h-[108px] tablet1:h-[45px] desktop1:h-[90px] desktop3:h-[45px] phone1:font-medium phone1:text-title2 phone1:leading-[33px] phone3:text-title5 phone3:leading-[54px] tablet1:text-title4 tablet1:leading-[45px] text-primary">{articleTitle}
+            </h1>
+            <div className=" phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] text-quaternary desktop3:w-[84%]">
+              <p className="pt-[0%] desktop3:pt-[2%]">{articleParagraphOne}
+              </p>
+              <p className="pt-[2%]">{articleParagraphTwo}
+              </p>
+              <p className="pt-[2%]">{articleParagraphThree}
+              </p>
+            </div>
+          </div>
+
+          <div className=" mt-[10%] tablet1:mt-[5%]">
+            <div className="">
+              
+              
+            </div>
+          </div>
+        </div>
+  )
 }
 
 export default SectionArticle;
