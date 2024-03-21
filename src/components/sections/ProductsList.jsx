@@ -15,9 +15,9 @@ export default function ProductsList() {
   return (
     <div className="full bg-quinary">
       <div className="content py-[26px] phone3:py-[48px] flex flex-row">
-        <div className="flex flex-col items-start justify-between bg-red-200 tablet2:flex-col desktop1:flex-row font-mainFont">
-          <div className="w-full bg-green-200 desktop1:w-[21%]">
-            <h3 className="mb-[10px] w-full text-center bg-white rounded-[10px] p-[15px] tablet2:mb-[10px] font-semibold text-paragraph5 desktop1:text-left desktop1:text-paragraph4 text-secondary desktop1:w-auto">
+        <div className="flex flex-col items-start justify-between tablet2:flex-col desktop1:flex-row font-mainFont">
+          <div className="w-full  desktop1:w-[21%]">
+            <h3 className="mb-[10px] w-full text-center bg-white rounded-[10px] p-[15px] tablet2:mb-[10px] font-semibold text-paragraph5 desktop1:text-paragraph4 text-secondary desktop1:w-auto">
               Filtrar por categoria
             </h3>
             <div className="bg-white w-full desktop1:flex-col mb-[32px] flex flex-col phone3:justify-evenly phone3:flex-row p-[20px] phone3:p-4 rounded-[10px]">
