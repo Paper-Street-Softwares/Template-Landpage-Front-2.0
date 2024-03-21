@@ -21,7 +21,7 @@ export default function ListGroup() {
 
   return (
     <ul
-      className={`flex -mt-2 items-end justify-end tablet1:items-end tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop1:gap-6 desktop2:gap-8 w-full h-auto font-semibold text-paragraph3 font-poppins ${
+      className={`flex items-end justify-end tablet1:items-end tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop1:gap-6 desktop2:gap-8 w-full h-auto font-semibold text-paragraph3 font-poppins ${
         scrolling
           ? "text-secondary transition-color duration-200"
           : "text-white transition-color duration-200"
@@ -37,9 +37,11 @@ export default function ListGroup() {
           offset={-100}
         >
           <span className={scrolling ? "hover:text-primary" : ""}>INÍCIO</span>
-          <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-            scrolling ? "bg-primary" : "bg-white"
-          }`}></div>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
         </Link>
       </li>
       <li className="transition group">
@@ -51,10 +53,14 @@ export default function ListGroup() {
           duration={500}
           offset={-100}
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>SOBRE NÓS</span>
-          <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-            scrolling ? "bg-primary" : "bg-white"
-          }`}></div>
+          <span className={scrolling ? "hover:text-primary" : ""}>
+            SOBRE NÓS
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
         </Link>
       </li>
       <li className="transition group">
@@ -66,10 +72,14 @@ export default function ListGroup() {
           duration={500}
           offset={-100}
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>PRODUTOS</span>
-          <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-            scrolling ? "bg-primary" : "bg-white"
-          }`}></div>
+          <span className={scrolling ? "hover:text-primary" : ""}>
+            PRODUTOS
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
         </Link>
       </li>
       <li className="transition group">
@@ -82,9 +92,11 @@ export default function ListGroup() {
           offset={-100}
         >
           <span className={scrolling ? "hover:text-primary" : ""}>CURSOS</span>
-          <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-            scrolling ? "bg-primary" : "bg-white"
-          }`}></div>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
         </Link>
       </li>
       <li className="transition group">
@@ -96,10 +108,14 @@ export default function ListGroup() {
           duration={500}
           offset={-170}
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>PERGUNTAS FREQUENTES</span>
-          <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-            scrolling ? "bg-primary" : "bg-white"
-          }`}></div>
+          <span className={scrolling ? "hover:text-primary" : ""}>
+            PERGUNTAS FREQUENTES
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
         </Link>
       </li>
       <li className="transition group">
@@ -112,9 +128,11 @@ export default function ListGroup() {
           offset={-170}
         >
           CONTATO
-          <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-            scrolling ? "bg-primary" : "bg-white"
-          }`}></div>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-white"
+            }`}
+          ></div>
         </Link>
       </li>
     </ul>
