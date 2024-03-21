@@ -8,7 +8,7 @@ export default function Sidebar({ showSidebar }) {
     <div
       className={`sidebar transition-transform transform ${
         showSidebar ? "animate-slide-down" : "animate-slide-up"
-      } -mt-6`}
+      }`}
     >
       <div className="content">
         <div
