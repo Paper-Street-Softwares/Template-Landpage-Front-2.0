@@ -3,12 +3,12 @@ import imgPastilhaCloro from "../../assets/imgs/avoidAccidents/pastilhaCloro.jpg
 
 export default function AvoidAccidents() {
   return (
-    <div className="font-mainFont py-[26px] phone3:py-[48px]">
+    <div className="font-mainFont py-[26px]">
       <SectionHeader
         sectionHeaderTitleSecond="Evite acidentes"
         sectionHeaderDescription="Nesta seção, abordaremos as práticas de segurança essenciais para o armazenamento e manuseio correto de produtos para sua piscina."
       />
-      <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] ">
+      <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] desktop1:pt-0">
         <div className=" w-[100%] gap-[10%] desktop1:w-[32%] desktop2:w-[47%] desktop3:w-[60%]">
           <h3 className="hidden pb-[3%] text-quaternary font-medium text-paragraph3 leading-[24%] phone3:pb-[2%] phone3:text-paragraph4 phone3:leading-[27%] desktop1:pb-[3%] ">
             Atenção
