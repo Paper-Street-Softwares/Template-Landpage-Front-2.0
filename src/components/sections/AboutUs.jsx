@@ -9,7 +9,7 @@ import SectionArticle from "../sectionElements/SectionArticle";
 export default function AboutUs() {
   return (
     <div>
-      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]">
+      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%] ">
         <SectionHeader
           sectionHeaderTitleSecond="Sobre nós"
           sectionHeaderDescription="A Mpa destaca-se no mercado pela excelência no atendimento personalizado e vasta experiência em piscinas de grandes volumes."
@@ -17,8 +17,8 @@ export default function AboutUs() {
 
         <div>
           <ArticleComponent>
-            <div className=" desktop1:flex desktop1:flex-row desktop1:items-center desktop1:justify-between desktop1:gap-[0%]">
-              <div className="desktop1:w-[45%] desktop3:w-[55%]">
+            <div className=" desktop1:flex desktop1:flex-row desktop1:items-start desktop1:justify-between desktop1:gap-[0%]">
+              <div className=" desktop1:w-[45%] desktop3:w-[55%]">
                 <SectionArticle
                   articleSubtitle="Nossa História"
                   articleTitle="Experiência em Grandes Volumes"
@@ -27,14 +27,12 @@ export default function AboutUs() {
                   articleParagraphThree="A sua missão enquanto empresa é se aprimorar a cada dia que passa, subir degrau por degrau, avançar sempre no sentido de cumprir objetivos, entregar ao cliente exatamente o que com ele foi negociado na sua plenitude, e ao final de tudo ter a certeza de ter oferecido a ele uma boa experiência de compra. E para que tudo isso aconteça, a empresa tem a clara convicção de que precisa contar sempre com você, cliente! Junte-se à MPA Piscinas!"
                 />
               </div>
-              <div className=" mt-[10%] tablet1:mt-[5%] desktop1:w-[50%]">
-                <div className="">
-                  <ImagesGallery3Slides
-                    slide1={slide1}
-                    slide2={slide2}
-                    slide3={slide3}
-                  />
-                </div>
+              <div className=" desktop1:w-[50%] desktop1:pt-[15px]">
+                <ImagesGallery3Slides
+                  slide1={slide1}
+                  slide2={slide2}
+                  slide3={slide3}
+                />
               </div>
             </div>
           </ArticleComponent>
