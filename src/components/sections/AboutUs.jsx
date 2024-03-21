@@ -17,8 +17,8 @@ export default function AboutUs() {
 
         <div>
           <ArticleComponent>
-            <div className=" desktop1:flex desktop1:flex-row desktop1:items-center desktop1:justify-between desktop1:gap-[10%]">
-              <div className="desktop1:w-[50%] desktop3:w-[70%]">
+            <div className=" desktop1:flex desktop1:flex-row desktop1:items-center desktop1:justify-between desktop1:gap-[0%]">
+              <div className="desktop1:w-[45%] desktop3:w-[55%]">
                 <SectionArticle
                   articleSubtitle="Nossa História"
                   articleTitle="Experiência em Grandes Volumes"
