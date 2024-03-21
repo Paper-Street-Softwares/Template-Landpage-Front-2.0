@@ -77,21 +77,23 @@ export default function NavbarSection() {
             duration={500}
             offset={-100}
           >
-            <img src={Logo} alt="Logo Edan" className="h-20 tablet3:mb-0" />
+            <img src={Logo} alt="Logo Edan" className={`${
+                scrolling ? "h-10 transition-all duration-500" : "h-20 transition-all duration-500"
+              } tablet3:mb-0`} />
           </Link>
           <button
             onClick={toggleSidebar}
-            className="absolute right-0 mr-4 -top-4 tablet2:hidden"
+            className="absolute right-5 tablet2:hidden"
           >
             {showMenuIcon ? (
-              <Menu
-                className={`mt-6 w-20 h-8 ${
+              <Menu size={32}
+                className={` ${
                   scrolling ? "text-secondary" : "text-white"
                 }`}
               />
             ) : (
-              <X
-                className={`mt-6 w-20 h-8 ${
+              <X size={32}
+                className={` ${
                   scrolling ? "text-secondary" : "text-white"
                 }`}
               />
