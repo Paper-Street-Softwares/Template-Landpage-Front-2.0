@@ -15,11 +15,11 @@ export default function ProductsList() {
   return (
     <div className="full bg-quinary">
       <div className="content py-[26px] phone3:py-[48px] flex flex-row">
-        <div className="flex flex-col items-start justify-between tablet2:flex-row font-mainFont">
-          <div className="bg-white w-full tablet2:w-[22%] mb-[32px] flex flex-col tablet1:justify-between tablet1:flex-row tablet2:flex-col p-[20px] phone3:p-4 rounded-[10px]">
-            <h3 className="mb-[10px] flex items-center tablet1:mb-0 tablet2:mb-[10px] font-semibold text-paragraph5 tablet1:text-paragraph5 desktop1:text-left desktop1:text-title1 text-secondary desktop1:w-auto">
-              Filtrar por categoria
-            </h3>
+        <div className="flex flex-col items-start justify-between tablet2:flex-col font-mainFont">
+          <h3 className="mb-[10px] w-full text-center bg-white rounded-[10px] p-[15px] tablet2:mb-[10px] font-semibold text-paragraph5 desktop1:text-left desktop1:text-title1 text-secondary desktop1:w-auto">
+            Filtrar por categoria
+          </h3>
+          <div className="bg-white w-full desktop1:w-[22%] mb-[32px] flex flex-col phone3:justify-evenly phone3:flex-row p-[20px] phone3:p-4 rounded-[10px]">
             <FormControlLabel
               control={
                 <Checkbox
@@ -48,7 +48,7 @@ export default function ProductsList() {
               label="Auxiliares"
             />
           </div>
-          <div className="flex flex-wrap items-start justify-between w-full gap-7 tablet2:w-[73%] desktop1:w-[76%]">
+          <div className="flex flex-wrap items-start justify-between w-full gap-7 desktop1:w-[76%]">
             {(selectedCategory === "cloros" || selectedCategory === "all") && (
               <>
                 <ImgCodeDescButtonCard
