@@ -3,20 +3,20 @@ import imgPastilhaCloro from "../../assets/imgs/avoidAccidents/pastilhaCloro.jpg
 
 export default function AvoidAccidents() {
   return (
-    <div className="font-mainFont py-[26px] phone3:py-[48px]">
+    <div className="font-mainFont py-[26px]">
       <SectionHeader
         sectionHeaderTitleSecond="Evite acidentes"
         sectionHeaderDescription="Nesta seção, abordaremos as práticas de segurança essenciais para o armazenamento e manuseio correto de produtos para sua piscina."
       />
-      <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] ">
-        <div className=" w-[100%] gap-[10%] desktop1:w-[32%] desktop2:w-[47%] desktop3:w-[60%]">
+      <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] desktop1:pt-0">
+        <div className=" w-[100%] gap-[10%] desktop1:w-[40%] desktop2:w-[47%] desktop3:w-[60%]">
           <h3 className="hidden pb-[3%] text-quaternary font-medium text-paragraph3 leading-[24%] phone3:pb-[2%] phone3:text-paragraph4 phone3:leading-[27%] desktop1:pb-[3%] ">
             Atenção
           </h3>
           <h1 className="font-medium text-title2 leading-[150%] text-primary phone3:text-title5 tablet1:font-medium tablet1:text-title4">
             Cuidado com o manuseio dos produtos
           </h1>
-          <p className="text-quaternary font-normal text-paragraph3 leading-[150%] phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3 desktop3:size-[79%]">
+          <p className="text-quaternary font-normal text-paragraph3 leading-[150%] phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3 desktop3:size-[94%]">
             A Mpa é uma empresa familiar criada especialmente para oferecer
             atendimento personalizado a proprietários de piscinas com grandes
             volumes de água. Sua criação remonta ao ano de 2003, embora seus
