@@ -6,7 +6,7 @@ import slide3 from "../../assets/banners/aboutUs/slide3cleanWater.jpg";
 
 export default function AboutUs() {
   return (
-    <div className="font-mainFont py-[26px] phone3:py-[48px]">
+    <div className="font-mainFont py-[26px] phone3:py-[48px]" id="about">
       <SectionHeader
         sectionHeaderTitleSecond="Sobre nós"
         sectionHeaderDescription="A Mpa destaca-se no mercado pela excelência no atendimento personalizado e vasta experiência em piscinas de grandes volumes."

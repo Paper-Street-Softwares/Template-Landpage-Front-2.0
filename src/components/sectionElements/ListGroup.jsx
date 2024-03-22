@@ -51,7 +51,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-100}
+          offset={-70}
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             SOBRE NÓS
@@ -65,7 +65,8 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="links"
+          to=""
+          href="HthPage.jsx"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
@@ -84,12 +85,12 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="certificates"
+          to="courses"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
-          offset={-100}
+          offset={-70}
         >
           <span className={scrolling ? "hover:text-primary" : ""}>CURSOS</span>
           <div
@@ -101,12 +102,12 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="contact"
+          to="faq"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
-          offset={-170}
+          offset={-70}
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             PERGUNTAS FREQUENTES

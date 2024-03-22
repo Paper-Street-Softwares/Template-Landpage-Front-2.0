@@ -7,7 +7,7 @@ import ImgTextAndButtonsCard from "../cards/ImgTextAndButtonsCard";
 
 export default function Courses() {
   return (
-    <div className="full bg-quinary">
+    <div className="full bg-quinary" id="courses">
       <div className="content py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Aprimore seu conhecimento"
