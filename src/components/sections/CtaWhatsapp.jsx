@@ -28,7 +28,7 @@ export default function CtaWhatsapp() {
               <MotionDivLeftToRight>
                 <div className="w-full">
                   <a
-                    href="https://wa.me/5573999612263"
+                    href="https://wa.me/5561992781077"
                     className="flex flex-row items-center justify-around w-[90%] h-8 phone1:h-12 px-1 transition rounded-lg max-w-32 tablet1:h-20 phone3:max-w-48 tablet1:max-w-60 phone3:w-[90%] bg-primary hover:bg-tertiary"
                     target="_blank"
                     rel="noreferrer"

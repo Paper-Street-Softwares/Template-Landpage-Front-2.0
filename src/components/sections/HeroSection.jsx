@@ -19,35 +19,36 @@ export default function HeroSection() {
                 </h1>
                 <p className="w-full mt-8 text-center phone1:w-full phone1:font-medium phone1:text-paragraph4">
                   Aqui você será atendido por profissionais qualificados que
-                  prestarão toda orientação que você precisa.<br /> Continue navegando e
-                  encontre o que você precisa!
+                  prestarão toda orientação que você precisa.
+                  <br /> Continue navegando e encontre o que você precisa!
                 </p>
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
-              <MotionDivRightToLeft>
-                <div className="flex justify-center w-full my-8 desktop2:mt-10">
-                  <a
-                    href="https://wa.me/55"
-                    className="flex flex-row items-center justify-around w-auto h-16 transition rounded-lg bg-primary hover:bg-tertiary"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="flex p-4 text-center">
-                      <img
-                        src={WhatsAppIcon}
-                        className="h-10 phone2:mr-2 phone3:mr-4"
-                        alt="WhatsApp Icon"
-                      />
-                        <p className="flex items-center leading-none text-white text-title1">
+
+                <MotionDivRightToLeft>
+                  <div className="flex justify-center w-full my-8 desktop2:mt-10">
+                    <a
+                      href="https://wa.me/5561992781077"
+                      className="flex flex-row items-center justify-around w-auto h-16 transition bg-primary rounded-lg hover:bg-tertiary"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="flex p-4 text-center">
+                        <img
+                          src={WhatsAppIcon}
+                          className="h-10 phone2:mr-2 phone3:mr-4"
+                          alt="WhatsApp Icon"
+                        />
+                        <p className="leading-none items-center flex text-white text-title1">
+
                           Falar com atendente
                         </p>
-                    </div>
-                  </a>
-                </div>
-              </MotionDivRightToLeft>
+                      </div>
+                    </a>
+                  </div>
+                </MotionDivRightToLeft>
+              </div>
             </div>
-            </div>
-            
           </div>
         </div>
       </div>
