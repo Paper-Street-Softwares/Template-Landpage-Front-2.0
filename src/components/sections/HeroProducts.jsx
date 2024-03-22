@@ -12,13 +12,13 @@ export default function HeroProducts() {
         <div className="flex items-center">
           <div className="flex justify-between text-white min-h-[253px] mx-auto translate-y-28">
             <MotionDivLeftToRight>
-            <div className="ml-10">
+            <div className="mt-10 ml-10">
               <div className="font-bold text-title1">Nossa linha de produtos</div>
               <div className="font-black text-title6">HTH</div>
             </div>
             </MotionDivLeftToRight>
             <MotionDivRightToLeft>
-            <div className="justify-end mt-6 mx-auto font-bold text-center text-title1 w-[65%]">
+            <div className="justify-end mt-12 mx-auto font-bold text-center text-title1 w-[65%]">
             Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina.
             </div>
             </MotionDivRightToLeft>

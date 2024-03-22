@@ -78,7 +78,7 @@ export default function NavbarSection() {
             offset={-100}
           >
             <img src={Logo} alt="Logo" className={`${
-                scrolling ? "h-auto max-h-10 transition-all duration-1000" : "h-auto max-h-20 transition-all duration-1000"
+                scrolling ? "h-auto max-h-14 transition-all duration-1000" : "h-auto max-h-28 transition-all duration-1000"
               } tablet3:mb-0`} />
           </Link>
           <button
