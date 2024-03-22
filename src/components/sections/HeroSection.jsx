@@ -5,49 +5,49 @@ import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
 
 export default function HeroSection() {
   return (
-    <div className="h-full full font-mainFont">
+    <div className="full font-mainFont">
       <div
-        className="w-full bg-center bg-cover content min-h-[518px]"
+        className="w-full bg-center bg-cover h-auto content"
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
-        <div className="w-full h-auto text-white">
-          <div className="flex flex-col items-center justify-center content phone1:mt-40 phone1:h-20 phone3:mt-40">
-            <MotionDivLeftToRight>
-              <h1 className="font-black leading-none w-[60%] phone1:text-title4 phone1:w-full text-center phone3:text-title5 tablet1:text-title6">
-                BEM VINDO AO MUNDO DAS PISCINAS!
-              </h1>
-              <p className="w-full mt-4 text-center phone1:w-full phone1:font-medium phone1:text-paragraph3 phone3:text-paragraph4 tablet1:text-title1">
-                Aqui você será atendido por profissionais qualificados que
-                prestarão toda orientação que você precisa. Continue navegando e
-                encontre o que você precisa!
-              </p>
-            </MotionDivLeftToRight>
-          </div>
-          <div className="w-full mb-10 -mt-24 tablet2:w-auto">
-            <MotionDivRightToLeft>
-              <div className="flex justify-center w-full phone1:mt-32 phone3:mt-40 phone1:w-full">
-                <a
-                  href="https://wa.me/55"
-                  className="flex flex-row items-center justify-around w-64 h-16 transition rounded-lg bg-primary hover:bg-secondary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="flex">
-                    <img
-                      src={WhatsAppIcon}
-                      className="h-20 ml-4"
-                      alt="WhatsApp Icon"
-                    />
-
-                    <div className="flex items-center ml-6">
-                      <p className="leading-none text-white text-title1">
-                        Falar com atendente
-                      </p>
+        <div className="flex items-center">
+          <div className="w-full text-white min-h-[518px]">
+            <div className="flex flex-col items-center justify-evenly content mt-40">
+              <MotionDivLeftToRight>
+                <h1 className="w-full font-black leading-none text-center text-title2 phone1:text-title4 phone3:text-title5 tablet1:text-title6 desktop2:text-title6">
+                  BEM VINDO AO MUNDO DAS PISCINAS!
+                </h1>
+                <p className="w-full mt-8 text-center phone1:w-full phone1:font-medium phone1:text-paragraph4">
+                  Aqui você será atendido por profissionais qualificados que
+                  prestarão toda orientação que você precisa.<br /> Continue navegando e
+                  encontre o que você precisa!
+                </p>
+              </MotionDivLeftToRight>
+              <div className="w-full phone2:w-full tablet2:w-auto">
+              <MotionDivRightToLeft>
+                <div className="flex justify-center w-full my-8 desktop2:mt-10">
+                  <a
+                    href="https://wa.me/55"
+                    className="flex flex-row items-center justify-around w-auto h-16 transition bg-primary rounded-lg hover:bg-tertiary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="flex p-4 text-center">
+                      <img
+                        src={WhatsAppIcon}
+                        className="h-10 phone2:mr-2 phone3:mr-4"
+                        alt="WhatsApp Icon"
+                      />
+                        <p className="leading-none items-center flex text-white text-title1">
+                          Falar com atendente
+                        </p>
                     </div>
-                  </div>
-                </a>
-              </div>
-            </MotionDivRightToLeft>
+                  </a>
+                </div>
+              </MotionDivRightToLeft>
+            </div>
+            </div>
+            
           </div>
         </div>
       </div>

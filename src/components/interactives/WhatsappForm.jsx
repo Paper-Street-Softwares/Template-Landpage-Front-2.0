@@ -205,11 +205,11 @@ const WhatsappForm = () => {
 
       <div className="flex justify-center">
         <button
-          className="flex items-center w-full px-4 py-2 font-medium text-white transition rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 bg-primary hover:bg-secondary"
+          className="flex items-center w-full px-4 py-2 font-medium text-white transition rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 bg-primary hover:bg-tertiary"
           onClick={sendToWhatsapp}
         >
-          <div className="grid grid-cols-2 items-center w-[70%]">
-            <img src={WhatsAppIcon} className="w-16 h-16" alt="WhatsApp Icon" />
+          <div className="grid grid-cols-2 items-center justify-evenly w-[60%]">
+            <img src={WhatsAppIcon} className="w-10 h-10" alt="WhatsApp Icon" />
             <p className="whitespace-nowrap text-paragraph4 phone1:text-paragraph5 phone2:text-title2 tablet1:text-title1">
               Solicite contato
             </p>

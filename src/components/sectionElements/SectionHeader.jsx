@@ -14,8 +14,8 @@ export default function SectionHeader(props) {
   };
 
   return (
-    <div className="flex flex-col items-center pb-3 mb-3">
-      <div className="w-[79%] flex flex-col justify-center font-mainFont text-title1 phone1:text-title2 phone3:text-title5 text-center font-medium ">
+    <div className="flex flex-col items-center mb-[28px] desktop1:mb-[48px]">
+      <div className="w-[79%] flex flex-col justify-center font-mainFont text-title1 phone1:text-title2 phone3:text-title5 text-center font-medium">
         <MotionDivLeftToRight>{sectionHeaderTitleFirst}</MotionDivLeftToRight>
       </div>
       <div className="w-[79%] flex flex-col justify-center font-mainFont text-primary text-title1 phone1:text-title2 phone3:text-title5 text-center font-medium ">
