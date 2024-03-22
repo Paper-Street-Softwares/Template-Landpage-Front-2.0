@@ -23,7 +23,6 @@ export default function AboutUs() {
               </div>
               <div className="desktop1:w-[48%] desktop3:w-[46%]">
                 <ArticleAcident
-                  articleSubtitle="Atenção"
                   articleTitle="Cuidados com o manuseio dos produtos"
                   articleParagraphOne="Os produtos que você vai utilizar na sua piscina devem ser armazenados de forma segura, longe do alcance de crianças e em lugar seco e ventilado."
                   articleParagraphTwo="Guarde sempre os produtos separadamente. Existem produtos que não são compatíveis uns com os outros e, se misturados, podem gerar gases nocivos à saúde e até incêndio, já que alguns são inflamáveis."
