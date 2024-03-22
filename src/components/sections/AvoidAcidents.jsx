@@ -1,38 +1,56 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPastilhaCloro from "../../assets/imgs/avoidAccidents/pastilhaCloro.jpg";
+import resgateAcidente from "../../assets/imgs/avoidAccidents/resgateAcidente.jpg";
+import AcidentComponent from "../sectionElements/AcidentComponent";
+import ArticleAcident from "../sectionElements/ArticleAcident";
 
-export default function AvoidAccidents() {
+export default function AboutUs() {
   return (
-    <div className="font-mainFont py-[26px]">
-      <SectionHeader
-        sectionHeaderTitleSecond="Evite acidentes"
-        sectionHeaderDescription="Nesta seção, abordaremos as práticas de segurança essenciais para o armazenamento e manuseio correto de produtos para sua piscina."
-      />
-      <div className="flex w-100% justify-between items-center flex-col desktop1:flex-row phone1:pt-[5%] desktop1:pt-0">
-        <div className=" w-[100%] gap-[10%] desktop1:w-[40%] desktop2:w-[47%] desktop3:w-[60%]">
-          <h3 className="hidden pb-[3%] text-quaternary font-medium text-paragraph3 leading-[24%] phone3:pb-[2%] phone3:text-paragraph4 phone3:leading-[27%] desktop1:pb-[3%] ">
-            Atenção
-          </h3>
-          <h1 className="font-medium text-title2 leading-[150%] text-primary phone3:text-title5 tablet1:font-medium tablet1:text-title4">
-            Cuidado com o manuseio dos produtos
-          </h1>
-          <p className="text-quaternary font-normal text-paragraph3 leading-[150%] phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3 desktop3:size-[94%]">
-            A Mpa é uma empresa familiar criada especialmente para oferecer
-            atendimento personalizado a proprietários de piscinas com grandes
-            volumes de água. Sua criação remonta ao ano de 2003, embora seus
-            idealizadores sejam pessoas ligadas a esse segmento e que contam com
-            pelo menos 45 anos de experiência nesse tipo de atendimento.{" "}
-            <span className="flex pt-[5%]">
-              Nossa missão como empresa é nos aprimorar a cada dia que passa,
-              subir degrau por degrau, avançar no sentido de cumprir sempre
-              nossos objetivos e para que isso aconteça, temos a clara
-              consciência de que precisamos contar sempre com você, cliente.
-              Junte-se a nós!
-            </span>
-          </p>
+    <div>
+      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]">
+        <SectionHeader
+          sectionHeaderTitleSecond="Evite Acidentes"
+          sectionHeaderDescription="Nesta seção, abordaremos as práticas de segurança essenciais para o armazenamento e manuseio correto de produtos para sua piscina."
+        />
+        <div className="desktop1:mt-[5%]">
+          <AcidentComponent>
+            <div className=" desktop1:flex desktop1:flex-row-reverse desktop1: desktop1:justify-between">
+              <div className="mb-[10%] tablet1:mb-[5%] desktop1:w-[50%]">
+                <img
+                  className="size-[100%] desktop1:size-[95%] desktop1:ml-[5%] desktop3:size-[94%] desktop3:ml-[6%]"
+                  src={imgPastilhaCloro}
+                />
+              </div>
+              <div className="desktop1:w-[48%] desktop3:w-[46%]">
+                <ArticleAcident
+                  articleSubtitle="Atenção"
+                  articleTitle="Cuidados com o manuseio dos produtos"
+                  articleParagraphOne="Os produtos que você vai utilizar na sua piscina devem ser armazenados de forma segura, longe do alcance de crianças e em lugar seco e ventilado."
+                  articleParagraphTwo="Guarde sempre os produtos separadamente. Existem produtos que não são compatíveis uns com os outros e, se misturados, podem gerar gases nocivos à saúde e até incêndio, já que alguns são inflamáveis."
+                  articleParagraphThree="Nunca reutilize embalagens vazias, mesmo depois de serem lavadas. Elas podem acabar sendo usadas por pessoas desavisadas, crianças e até animais, e isso pode causar grande desconforto e danos à saúde."
+                />
+              </div>
+            </div>
+          </AcidentComponent>
         </div>
-        <div className="flex justify-center pt-[8%] phone1:w-[100%] phone3:pt-[5%] tablet1:pt-[4%] tablet2:pt-[1%] desktop1:w-[55%] desktop2:w-[40%] desktop3:size-[60%]">
-          <img src={imgPastilhaCloro} alt="pastilha de cloro" />
+
+        <div className=" desktop1:mt-[3%] desktop2:mt-[0%] desktop3:mt-[0%]">
+          <AcidentComponent>
+            <div className=" desktop1:flex desktop1:flex-row desktop1: desktop1:justify-between">
+              <div className="mb-[10%] mt-[5%] phone2:mb-[5%] phone3:mb-[0%] tablet1:mt-[4%] tablet2:mb-[3%] desktop1:w-[65%] desktop1:mt-[0%] desktop3:w-[62%]">
+                <img
+                  className="size-[100%] desktop1:size-[90%] desktop3:size-[90%]"
+                  src={resgateAcidente}
+                />
+              </div>
+              <div className=" mt-[-4%] desktop1:w-[60%] desktop3:w-[55%] ">
+                <ArticleAcident
+                  articleParagraphOne="Utilize sempre um balde plástico pequeno para fazer a dissolução do cloro ou de outro produto em pó, como barrilha, sulfato de alumínio, elevador de alcalinidade, entre outros. Esse balde deverá sempre estar guardado em lugar seguro e não poderá ser utilizado para outros fins."
+                  articleParagraphTwo="Tomando todos esses cuidados e outros relacionados à segurança da sua piscina, você garante uma diversão alegre e segura para todos os usuários, inclusive crianças e idosos. Boa diversão para todos!"
+                />
+              </div>
+            </div>
+          </AcidentComponent>
         </div>
       </div>
     </div>
