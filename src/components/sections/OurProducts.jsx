@@ -22,7 +22,7 @@ export default function OurProducts() {
           <ImgAndButtonsCard
             img={hthLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/hth"
           />
           <ImgAndButtonsCard
             img={gencoLogo}
