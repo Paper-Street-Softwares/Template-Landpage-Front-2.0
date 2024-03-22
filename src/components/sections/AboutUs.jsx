@@ -8,8 +8,9 @@ import SectionArticle from "../sectionElements/SectionArticle";
 
 export default function AboutUs() {
   return (
+
     <div>
-      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%] ">
+      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]" id="about">
         <SectionHeader
           sectionHeaderTitleSecond="Sobre nós"
           sectionHeaderDescription="A Mpa destaca-se no mercado pela excelência no atendimento personalizado e vasta experiência em piscinas de grandes volumes."

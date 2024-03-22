@@ -12,7 +12,7 @@ import suallLogo from "../../assets/imgs/brands/suallLogo.png";
 
 export default function OurProducts() {
   return (
-    <div className="full bg-quinary">
+    <div className="full bg-quinary" id="products">
       <div className="content py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Linha de Produtos"
@@ -22,7 +22,7 @@ export default function OurProducts() {
           <ImgAndButtonsCard
             img={hthLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/hth"
           />
           <ImgAndButtonsCard
             img={gencoLogo}
