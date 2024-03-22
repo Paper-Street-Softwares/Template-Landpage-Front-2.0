@@ -65,13 +65,12 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to=""
-          href="HthPage.jsx"
+          to="products"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
-          offset={-100}
+          offset={-70}
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             PRODUTOS
