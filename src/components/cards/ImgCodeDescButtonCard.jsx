@@ -17,7 +17,6 @@ export default function ImgCodeDescButtonCard(props) {
       <div className="flex justify-center items-center h-[200px] phone3:h-[200px] tablet1:h-[200px]">
         <img src={img} alt="hthLogo" className="max-h-[190px] max-w-[150px]" />
       </div>
-
       <p className="font-medium text-left font-mainFont text-paragraph3 text-quaternary">
         Código: {code}
       </p>

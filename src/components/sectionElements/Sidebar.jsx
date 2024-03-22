@@ -64,7 +64,7 @@ export default function Sidebar({ showSidebar }) {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-390}
+                offset={-340}
               >
                 <li className="mb-2">
                   <a href="contact" className="hover:text-primary">
@@ -78,7 +78,7 @@ export default function Sidebar({ showSidebar }) {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-390}
+                offset={-340}
               >
                 <li className="mb-2">
                   <a href="contact" className="hover:text-primary">
@@ -92,7 +92,7 @@ export default function Sidebar({ showSidebar }) {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-390}
+                offset={-450}
               >
                 <li className="mb-2">
                   <a href="contact" className="hover:text-primary">
