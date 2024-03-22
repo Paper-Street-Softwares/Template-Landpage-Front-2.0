@@ -2,7 +2,6 @@ import { useState } from "react";
 import Checkbox from "@mui/material/Checkbox";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
-import imgProductExample2 from "../../assets/imgs/products/hth/cloros/auxiliares.png";
 import HthProducts from "../util/productsData/hth/HthProducts";
 
 export default function ProductsList() {
@@ -54,36 +53,28 @@ export default function ProductsList() {
             {(selectedCategory === "cloros" || selectedCategory === "all") && (
               <>
                 <ImgCodeDescButtonCard
-                  img={HthProducts.hthProd1.img}
-                  code={HthProducts.hthProd1.code}
-                  description={HthProducts.hthProd1.description}
+                  img={HthProducts.cloros.hthCloros1.img}
+                  code={HthProducts.cloros.hthCloros1.code}
+                  description={HthProducts.cloros.hthCloros1.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.hthProd1.fispqLink}
-                  category={HthProducts.hthProd1.category}
+                  button1Link={HthProducts.cloros.hthCloros1.fispqLink}
+                  category={HthProducts.cloros.hthCloros1.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={HthProducts.hthProd2.img}
-                  code={HthProducts.hthProd2.code}
-                  description={HthProducts.hthProd2.description}
+                  img={HthProducts.cloros.hthCloros2.img}
+                  code={HthProducts.cloros.hthCloros2.code}
+                  description={HthProducts.cloros.hthCloros2.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.hthProd2.fispqLink}
-                  category={HthProducts.hthProd2.category}
+                  button1Link={HthProducts.cloros.hthCloros2.fispqLink}
+                  category={HthProducts.cloros.hthCloros2.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={HthProducts.hthProd3.img}
-                  code={HthProducts.hthProd3.code}
-                  description={HthProducts.hthProd3.description}
+                  img={HthProducts.cloros.hthCloros3.img}
+                  code={HthProducts.cloros.hthCloros3.code}
+                  description={HthProducts.cloros.hthCloros3.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.hthProd3.fispqLink}
-                  category={HthProducts.hthProd3.category}
-                />
-                <ImgCodeDescButtonCard
-                  img={HthProducts.hthProd4.img}
-                  code={HthProducts.hthProd4.code}
-                  description={HthProducts.hthProd4.description}
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.hthProd4.fispqLink}
-                  category={HthProducts.hthProd4.category}
+                  button1Link={HthProducts.cloros.hthCloros3.fispqLink}
+                  category={HthProducts.cloros.hthCloros3.category}
                 />
               </>
             )}
@@ -91,28 +82,44 @@ export default function ProductsList() {
               selectedCategory === "all") && (
               <>
                 <ImgCodeDescButtonCard
-                  img={imgProductExample2}
-                  code="Auxiliar"
-                  description="It is a long established."
+                  img={HthProducts.auxiliares.hthAuxiliares1.img}
+                  code={HthProducts.auxiliares.hthAuxiliares1.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares1.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link="#"
-                  category="auxiliares"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares1.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares1.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={imgProductExample2}
-                  code="Auxiliar"
-                  description="It is a long established fact."
+                  img={HthProducts.auxiliares.hthAuxiliares2.img}
+                  code={HthProducts.auxiliares.hthAuxiliares2.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares2.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link="#"
-                  category="auxiliares"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares2.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares2.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={imgProductExample2}
-                  code="Auxiliar"
-                  description="It is a long established fact that a reader will be distracted by the."
+                  img={HthProducts.auxiliares.hthAuxiliares3.img}
+                  code={HthProducts.auxiliares.hthAuxiliares3.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares3.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link="#"
-                  category="auxiliares"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares3.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares3.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares4.img}
+                  code={HthProducts.auxiliares.hthAuxiliares4.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares4.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares4.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares4.category}
                 />
               </>
             )}
