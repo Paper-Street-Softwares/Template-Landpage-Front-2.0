@@ -12,7 +12,7 @@ export default function HeroSection() {
       >
         <div className="flex items-center">
           <div className="w-full text-white min-h-[518px]">
-            <div className="flex flex-col items-center mt-48 justify-evenly content">
+            <div className="flex flex-col items-center desktop1:mt-44 mt-36 justify-evenly content">
               <MotionDivLeftToRight>
                 <h1 className="w-full font-black leading-none text-center text-title2 phone1:text-title4 phone3:text-title5 tablet1:text-title6 desktop2:text-title6">
                   BEM VINDO AO MUNDO DAS PISCINAS!
