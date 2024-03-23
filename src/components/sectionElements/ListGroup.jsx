@@ -125,7 +125,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-170}
+          offset={-190}
         >
           CONTATO
           <div

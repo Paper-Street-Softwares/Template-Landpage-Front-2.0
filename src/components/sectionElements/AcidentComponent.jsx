@@ -13,5 +13,5 @@ function AcidentComponent({ children }) {
       </div>
     </div>
   );
-};
+}
 export default AcidentComponent
