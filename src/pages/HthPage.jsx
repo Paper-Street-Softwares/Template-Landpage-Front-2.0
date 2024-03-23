@@ -3,7 +3,7 @@ import HeroProducts from "../components/sections/HeroProducts"
 import Footer from "../components/sections/Footer";
 import ProductsList from "../components/sections/ProductsList";
 
-export default function HthProducts() {
+export default function HthPage() {
   return (
     <div className="content">
       <NavbarSection />
