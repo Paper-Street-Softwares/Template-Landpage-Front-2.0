@@ -6,8 +6,8 @@ import ArticleAcident from "../sectionElements/ArticleAcident";
 
 export default function AboutUs() {
   return (
-    <div>
-      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]">
+    <div className="">
+      <div className="font-mainFont py-[26px] phone1:w-[100%]">
         <SectionHeader
           sectionHeaderTitleSecond="Evite Acidentes"
           sectionHeaderDescription="Nesta seção, abordaremos as práticas de segurança essenciais para o armazenamento e manuseio correto de produtos para sua piscina."
@@ -15,7 +15,7 @@ export default function AboutUs() {
         <div className="desktop1:mt-[5%]">
           <AcidentComponent>
             <div className=" desktop1:flex desktop1:flex-row-reverse desktop1: desktop1:justify-between">
-              <div className="mb-[10%] tablet1:mb-[5%] desktop1:w-[50%]">
+              <div className="mb-[5%] tablet1:mb-[5%] desktop1:w-[50%]">
                 <img
                   className="size-[100%] desktop1:size-[95%] desktop1:ml-[5%] desktop3:size-[94%] desktop3:ml-[6%]"
                   src={imgPastilhaCloro}
@@ -33,16 +33,16 @@ export default function AboutUs() {
           </AcidentComponent>
         </div>
 
-        <div className=" desktop1:mt-[3%] desktop2:mt-[0%] desktop3:mt-[0%]">
+        <div className=" desktop1:mt-[3%]  desktop2:mt-[0%] desktop3:mt-[0%]">
           <AcidentComponent>
             <div className=" desktop1:flex desktop1:flex-row desktop1: desktop1:justify-between">
-              <div className="mb-[10%] mt-[5%] phone2:mb-[5%] phone3:mb-[0%] tablet1:mt-[4%] tablet2:mb-[3%] desktop1:w-[65%] desktop1:mt-[0%] desktop3:w-[62%]">
+              <div className="mb-[10%] mt-[5%] phone2:mb-[5%] phone3:mb-[0%] tablet1:mt-[4%] tablet1:mb-[4%] tablet2:mb-[6%] desktop1:w-[65%] desktop1:mt-[0%] desktop1:mb-[0%] desktop3:w-[62%]">
                 <img
                   className="size-[100%] desktop1:size-[90%] desktop3:size-[90%]"
                   src={resgateAcidente}
                 />
               </div>
-              <div className=" mt-[-4%] desktop1:w-[60%] desktop3:w-[55%] ">
+              <div className=" mt-[-4%] desktop1:mt-[-1.5%] desktop1:w-[60%] desktop3:w-[55%] ">
                 <ArticleAcident
                   articleParagraphOne="Utilize sempre um balde plástico pequeno para fazer a dissolução do cloro ou de outro produto em pó, como barrilha, sulfato de alumínio, elevador de alcalinidade, entre outros. Esse balde deverá sempre estar guardado em lugar seguro e não poderá ser utilizado para outros fins."
                   articleParagraphTwo="Tomando todos esses cuidados e outros relacionados à segurança da sua piscina, você garante uma diversão alegre e segura para todos os usuários, inclusive crianças e idosos. Boa diversão para todos!"
