@@ -1,4 +1,4 @@
-import bgImage from "../../assets/importAssets/HeroBanner.png";
+import bgImage from "../../assets/importAssets/bg2.jpg";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
@@ -16,12 +16,10 @@ export default function HeroSection() {
             <div className="flex flex-col items-center gap-6 mb-10 justify-evenly">
               <MotionDivLeftToRight>
                 <div className="font-black leading-none text-center text-title2 phone1:text-title4 phone3:text-title5 tablet1:text-title6 desktop2:text-title6">
-                  <h1>
-                    BEM VINDO AO MUNDO DAS PISCINAS!
-                  </h1>
+                  <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
                 </div>
-                </MotionDivLeftToRight>
-                <MotionDivLeftToRight>
+              </MotionDivLeftToRight>
+              <MotionDivLeftToRight>
                 <div className="text-center phone1:w-full phone1:font-medium phone1:text-paragraph4">
                   <p>
                     Aqui você será atendido por profissionais qualificados que
@@ -29,7 +27,7 @@ export default function HeroSection() {
                     <br /> Continue navegando e encontre o que você precisa!
                   </p>
                 </div>
-                </MotionDivLeftToRight>
+              </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivRightToLeft>
                   <div className="flex justify-center w-full">
