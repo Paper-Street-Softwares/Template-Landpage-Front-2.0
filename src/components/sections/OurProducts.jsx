@@ -27,37 +27,37 @@ export default function OurProducts() {
           <ImgAndButtonsCard
             img={gencoLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/genco"
           />
           <ImgAndButtonsCard
             img={neoclorLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/neoclor"
           />
           <ImgAndButtonsCard
             img={hidroazulLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/hidroazul"
           />
           <ImgAndButtonsCard
             img={domclorLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/domclor"
           />
           <ImgAndButtonsCard
             img={suallLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/suall"
           />
           <ImgAndButtonsCard
             img={sodramarLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/sodramar"
           />
           <ImgAndButtonsCard
             img={netunoLogo}
             button1Label="Consultar produtos"
-            button1Link="#"
+            button1Link="/netuno"
           />
         </SectionContent>
       </div>
