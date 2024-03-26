@@ -25,7 +25,7 @@ function ArticleAcident(props) {
           {articleTitle}
         </h1>
         <div className=" text-quaternary phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] phone2:pt-[3%] phone3:pt-[0%] desktop3:w-[100%]">
-          <p className=" phone1:pt-[0%] phone2:pt-[0%] phone3:pt-[4%] tablet2:pt-[2%] desktop3:pt-[2%]">
+          <p className=" phone1:pt-[0%] phone2:pt-[0%] phone3:pt-[4%] tablet2:pt-[2%] desktop3:pt-[2%] desktop3:w-[96%]">
             {articleParagraphOne}
           </p>
           <p className="phone1:pt-[2%] tablet2:pt-[1%] desktop3:pt-[3%]">
