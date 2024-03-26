@@ -12,9 +12,9 @@ export default function HeroProducts(props) {
   }
 
   return (
-    <div className="flex flex-col text-center text-white desktop1:gap-10 justify-evenly desktop1:flex-row">
+    <div className="flex flex-col text-center text-white justify-evenly desktop1:gap-10 desktop1:flex-row">
       <div>
-        <h1 className="font-bold text-title1 desktop1:text-start whitespace-nowrap">
+        <h1 className="font-bold text-title1 desktop1:text-start">
           {heroTitle}
         </h1>
         <h1 className="font-black text-title6 desktop1:text-start">

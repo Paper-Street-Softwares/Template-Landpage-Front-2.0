@@ -127,7 +127,9 @@ export default function ListGroup() {
           duration={500}
           offset={-190}
         >
-          CONTATO
+          <span className={scrolling ? "hover:text-primary" : ""}>
+            CONTATO
+          </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               scrolling ? "bg-primary" : "bg-white"
