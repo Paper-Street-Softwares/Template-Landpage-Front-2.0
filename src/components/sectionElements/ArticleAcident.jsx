@@ -21,17 +21,17 @@ function ArticleAcident(props) {
         <h3 className=" text-quaternary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-paragraph3 leading-[21px] phone3:text-paragraph4 phone3:leading-6 ">
           {articleSubtitle}
         </h3>
-        <h1 className="  text-primary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone3:text-title2  tablet1:text-title4">
+        <h1 className="  text-primary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone3:text-title2  tablet1:text-title2 desktop1:text-title4">
           {articleTitle}
         </h1>
-        <div className=" text-quaternary phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] phone2:pt-[3%] phone3:pt-[0%] desktop3:w-[100%]">
-          <p className=" phone1:pt-[0%] phone2:pt-[0%] phone3:pt-[4%] tablet2:pt-[2%] desktop3:pt-[2%] desktop3:w-[100%]">
+        <div className=" text-quaternary phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] desktop3:w-[100%]">
+          <p className="pt-[10px] desktop3:w-[100%]">
             {articleParagraphOne}
           </p>
-          <p className="phone1:pt-[2%] tablet2:pt-[1%] desktop3:pt-[3%]">
+          <p className="phone1:pt-[4%] tablet1:pt-[2%]">
             {articleParagraphTwo}
           </p>
-          <p className="phone1:pt-[2%] tablet2:pt-[1%] desktop3:pt-[3%]">
+          <p className="phone1:pt-[4%] tablet1:pt-[2%]">
             {articleParagraphThree}
           </p>
         </div>
@@ -41,5 +41,3 @@ function ArticleAcident(props) {
 }
 
 export default ArticleAcident;
-
-
