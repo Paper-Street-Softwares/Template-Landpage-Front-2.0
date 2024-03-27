@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 export default function ListGroup() {
   const [scrolling, setScrolling] = useState(false);
+  const [showSubMenu, setShowSubMenu] = useState(false);
 
   const handleScroll = () => {
     if (window.scrollY > 0) {
@@ -18,6 +19,10 @@ export default function ListGroup() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const toggleSubMenu = () => {
+    setShowSubMenu(!showSubMenu);
+  };
 
   return (
     <ul
@@ -63,25 +68,88 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <button onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu}>
+        <li className="transition group">
         <Link
-          to="products"
-          className="relative cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-70}
-        >
-          <span className={scrolling ? "hover:text-primary" : ""}>
-            PRODUTOS
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
-            }`}
-          ></div>
-        </Link>
-      </li>
+            to="products"
+            className="relative cursor-pointer"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+          >
+          <span className={scrolling ? 'hover:text-primary' : ''}>PRODUTOS</span>
+          </Link>        
+          {showSubMenu && (
+            <ul className="absolute py-2 uppercase bg-white rounded shadow-2xl w-52 font-mainFont">
+              <li>
+                <a
+                  href="/hth"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  HTH
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/genco"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Genco
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/neoclor"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Neoclor
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/hidroazul"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Hidroazul
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/domclor"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Domclor
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/suall"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Suall
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/sodramar"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Sodramar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/netuno"
+                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
+                >
+                  Netuno
+                </a>
+              </li>
+            </ul>
+          )}
+        </li>
+      </button>
       <li className="transition group">
         <Link
           to="courses"
