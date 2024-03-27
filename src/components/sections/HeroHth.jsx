@@ -13,7 +13,7 @@ export default function HeroHth() {
           <HeroProducts
             heroTitle="Nossa linha de produtos"
             heroName="HTH"
-            heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
+            heroParagraph="Aqui você encontrará tudo o que precisa para produtos de tratamento para sua piscina."
           />
           <div className="h-4" />
         </div>
