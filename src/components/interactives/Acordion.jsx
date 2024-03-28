@@ -160,12 +160,12 @@ export default function CustomizedAccordions() {
         >
           <AccordionSummary aria-controls="panel7d-content" id="panel7d-header">
             <h1 className="font-mainFont text-paragraph3 phone3:text-paragraph4">
-              O que a empresa entende por CNPJs novos?
+              O que a empresa entende por CNPJ novo?
             </h1>
           </AccordionSummary>
           <AccordionDetails>
             <p className="font-mainFont text-quaternary text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
-              Aqueles cuja abertura oficial da empresa seja inferior a 3 anos.
+              Aquela cuja abertura oficial da empresa seja inferior a 3 anos.
             </p>
           </AccordionDetails>
         </Accordion>
