@@ -8,12 +8,14 @@ import SectionArticle from "../sectionElements/SectionArticle";
 
 export default function AboutUs() {
   return (
-
     <div>
-      <div className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]" id="about">
+      <div
+        className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]"
+        id="about"
+      >
         <SectionHeader
           sectionHeaderTitleSecond="Sobre nós"
-          sectionHeaderDescription="A Mpa destaca-se no mercado pela excelência no atendimento personalizado e vasta experiência em piscinas de grandes volumes."
+          sectionHeaderDescription="A MPA destaca-se no mercado pela excelência no atendimento personalizado e sua vasta experiência em piscinas com grandes volumes de água."
         />
 
         <div>
@@ -23,9 +25,9 @@ export default function AboutUs() {
                 <SectionArticle
                   articleSubtitle="Nossa História"
                   articleTitle="Experiência em Grandes Volumes"
-                  articleParagraphOne="A MPA é uma empresa familiar criada especialmente para oferecer um atendimento exclusivo e personalizado a proprietários de piscinas com grandes volumes de água, tais como piscinas olímpicas e semi olímpicas, entre outras."
-                  articleParagraphTwo="A sua criação remonta ao ano de 2003, mas seus idealizadores são pessoas ligadas a esse segmento há pelo menos 45 anos, dessa forma, contam com vasta experiência no atendimento diferenciado que esse tipo de negócio exige."
-                  articleParagraphThree="A sua missão enquanto empresa é se aprimorar a cada dia que passa, subir degrau por degrau, avançar sempre no sentido de cumprir objetivos, entregar ao cliente exatamente o que com ele foi negociado na sua plenitude, e ao final de tudo ter a certeza de ter oferecido a ele uma boa experiência de compra. E para que tudo isso aconteça, a empresa tem a clara convicção de que precisa contar sempre com você, cliente! Junte-se à MPA Piscinas!"
+                  articleParagraphOne="A MPA é uma empresa familiar criada especialmente para oferecer um atendimento exclusivo e personalizado aos proprietários de piscinas com grandes volumes de água, como piscinas olímpicas e semi olímpicas, entre outras."
+                  articleParagraphTwo="Sua criação remonta ao ano de 2003, mas seus idealizadores têm ligação com esse segmento há pelo menos 45 anos, contando assim com vasta experiência no atendimento diferenciado que esse tipo de negócio exige."
+                  articleParagraphThree="A missão da empresa é se aprimorar a cada dia, subir degrau por degrau, avançar sempre no sentido de cumprir objetivos, entregar ao cliente exatamente o que foi negociado com ele na sua plenitude e, ao final de tudo, ter a certeza de ter proporcionado a ele uma boa experiência de compra. E para que tudo isso aconteça, a empresa tem a clara convicção de que precisa contar sempre com você, cliente! Junte-se à MPA Piscinas!"
                 />
               </div>
               <div className=" desktop1:w-[40%] desktop1:pt-[15px]">
