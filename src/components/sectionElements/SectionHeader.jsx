@@ -22,7 +22,7 @@ export default function SectionHeader(props) {
         <MotionDivRightToLeft>{sectionHeaderTitleSecond}</MotionDivRightToLeft>
       </div>
       <div className="w-full h-px mt-6 mb-6 bg-neutral-400"></div>
-      <div className="w-[79%] text-quaternary font-mainFont text-paragraph3 phone3:text-paragraph4 text-center">
+      <div className="w-full tablet1:w-[79%] text-quaternary font-mainFont text-paragraph3 phone3:text-paragraph4 text-center">
         <MotionDivLeftToRight>{sectionHeaderDescription}</MotionDivLeftToRight>
       </div>
     </div>
