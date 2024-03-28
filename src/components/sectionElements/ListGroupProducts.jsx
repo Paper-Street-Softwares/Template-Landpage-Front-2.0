@@ -87,7 +87,8 @@ export default function ListGroupProducts() {
       <button onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu} className="relative">
         <li className="transition group">
         <Link
-            to="products"
+            to="/"
+            onClick={() => handleLinkClick("products", -70)}
             className="relative py-4 cursor-pointer"
             spy={true}
             smooth={true}
