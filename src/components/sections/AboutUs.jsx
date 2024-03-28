@@ -9,7 +9,6 @@ import SectionArticle from "../sectionElements/SectionArticle";
 export default function AboutUs() {
   return (
     <div>
-
       <div
         className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]"
         id="about"
