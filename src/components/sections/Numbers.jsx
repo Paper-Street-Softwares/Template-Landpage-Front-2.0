@@ -45,20 +45,20 @@ export default function Numbers() {
             />
             <ResultsCard
               icon={<Box size={32} strokeWidth={1} className="text-white" />}
-              number={<AnimatedCounter endValue={2000} />}
-              text="Produtos no catálogo"
+              number={<AnimatedCounter endValue={1800} />}
+              text="Quantidade de itens oferecidos"
             />
             <ResultsCard
               icon={
                 <Handshake size={32} strokeWidth={1} className="text-white" />
               }
-              number={<AnimatedCounter endValue={2700} />}
-              text="Clientes cadastrados na base"
+              number={<AnimatedCounter endValue={2400} />}
+              text="Número de clientes atendidos anualmente"
             />
             <ResultsCard
               icon={<Truck size={32} strokeWidth={1} className="text-white" />}
-              number={<AnimatedCounter endValue={8} />}
-              text="Toneladas em capacidade diária de transporte da frota"
+              number={<AnimatedCounter endValue={8000} />}
+              text="Capacidade de entregas diária em kilo/litro"
             />
           </h1>
         </div>

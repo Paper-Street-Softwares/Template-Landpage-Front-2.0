@@ -16,7 +16,7 @@ export default function OurProducts() {
       <div className="content py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Linha de Produtos"
-          sectionHeaderDescription="Ao longo dos anos, fomos firmando parcerias hoje bastante consolidadas com marcas renomadas e de grande credibilidade no mercado. Encontre a marca que você deseja comprar e clique na categoria para ser levado para a página contendo os produtos desta marca."
+          sectionHeaderDescription="Ao longo dos anos, a empresa foi firmando parcerias, hoje bastante consolidadas, com marcas tradicionais, confiáveis e de credibilidade indiscutível. Escolha a marca que você deseja comprar, clique na categoria e você será levado à página contendo os produtos da marca escolhida. Depois, fale com um dos nossos atendentes e boas compras!"
         />
         <SectionContent>
           <ImgAndButtonsCard
