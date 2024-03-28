@@ -49,7 +49,7 @@ export default function ProductsList() {
               />
             </div>
           </div>
-          <div className="flex flex-wrap items-start justify-between w-full gap-7 desktop1:w-[76%]">
+          <div className="flex flex-wrap items-start justify-start w-full gap-7 desktop1:w-[76%]">
             {(selectedCategory === "cloros" || selectedCategory === "all") && (
               <>
                 <ImgCodeDescButtonCard
@@ -67,6 +67,14 @@ export default function ProductsList() {
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros2.fispqLink}
                   category={HthProducts.cloros.hthCloros2.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros3.img}
+                  code={HthProducts.cloros.hthCloros3.code}
+                  description={HthProducts.cloros.hthCloros3.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros3.fispqLink}
+                  category={HthProducts.cloros.hthCloros3.category}
                 />
                 <ImgCodeDescButtonCard
                   img={HthProducts.cloros.hthCloros3.img}
