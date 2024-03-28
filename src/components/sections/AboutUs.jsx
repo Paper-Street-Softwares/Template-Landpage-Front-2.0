@@ -17,7 +17,6 @@ export default function AboutUs() {
       <div>
         <div className=" desktop1:flex desktop1:flex-row desktop1:justify-between desktop1:items-center">
           <div className=" desktop1:w-[41.4%] desktop3:w-[46.3%]">
-            <h3 className="flex items-center phone1:w-[100%] phone1:font-medium phone1:text-paragraph3 leading-[21px] phone3:text-paragraph4 phone3:leading-6  text-quaternary"></h3>
             <h1 className=" flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone1:leading-[33px] phone3:text-title5 phone3:leading-[54px] tablet1:text-title4 tablet1:leading-[45px] text-primary">
               Experiência em piscinas olímpicas e semiolímpicas
             </h1>
