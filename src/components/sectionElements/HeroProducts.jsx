@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import bgImage from "../../assets/importAssets/bg2.jpg";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
