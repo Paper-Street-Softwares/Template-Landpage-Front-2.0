@@ -12,7 +12,7 @@ export default function AboutUs() {
     >
       <SectionHeader
         sectionHeaderTitleSecond="Sobre nós"
-        sectionHeaderDescription="A Mpa destaca-se no mercado pela excelência no atendimento personalizado e vasta experiência em piscinas de grandes volumes."
+        sectionHeaderDescription="A MPA destaca-se no mercado pela excelência no atendimento personalizado e sua vasta experiência em piscinas com grandes volumes de água."
       />
       <div>
         <div className=" desktop1:flex desktop1:flex-row desktop1:justify-between desktop1:items-center">
