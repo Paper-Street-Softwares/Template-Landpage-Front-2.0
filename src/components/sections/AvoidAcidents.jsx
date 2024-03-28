@@ -5,13 +5,13 @@ import resgateAcidente from "../../assets/imgs/avoidAccidents/resgateAcidente.jp
 export default function AboutUs() {
   return (
     <div className="">
-      <div className="font-mainFont py-[26px] phone1:w-[100%] phone2:py-[48px]">
+      <div className="font-mainFont phone1:w-[100%] pb-[8px] phone1:pt-[48px] tablet1:pb-0">
         <SectionHeader
           sectionHeaderTitleSecond="Evite Acidentes"
           sectionHeaderDescription="Nessa sessão, abordaremos práticas básicas de segurança, porém indispensáveis para o armazenamento e manuseio adequado dos produtos que serão utilizados na sua piscina."
         />
-        <div className=" desktop1:flex desktop1:flex-row-reverse desktop1:justify-between desktop1:py-[54px]">
-          <div className=" py-[10px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
+        <div className=" desktop1:flex desktop1:flex-row-reverse desktop1:justify-between desktop1:py-[54px] desktop3:py-[48px]">
+          <div className=" pb-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
             <img
               className="size-[100%] desktop1:size-auto desktop3:"
               src={imgPastilhaCloro}
@@ -19,8 +19,7 @@ export default function AboutUs() {
             />
           </div>
           <div className="desktop1:w-[48.5%] desktop3:w-[46.3%]">
-            <h3 className=" text-quaternary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-paragraph3 leading-[21px] phone3:text-paragraph4 phone3:leading-6 "></h3>
-            <h1 className="  text-primary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone3:text-title2 phone3:py-[10px] tablet1:text-title2 desktop1:py-0 desktop1:text-title4">
+            <h1 className="  text-primary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone3:text-title2 phone1:pb-[10px] tablet1:text-title2 desktop1:text-title4">
               Cuidados com o manuseio dos produtos
             </h1>
             <div className=" text-quaternary phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] desktop3:w-[100%]">
@@ -44,8 +43,8 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="desktop1:flex desktop1:flex-row desktop1:justify-between">
-          <div className=" py-[10px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
+        <div className="desktop1:flex desktop1:flex-row desktop1:justify-between ">
+          <div className=" py-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
             <img
               className=" size-[100%] desktop1:size-[100%] desktop3:w-[100%]"
               src={resgateAcidente}
