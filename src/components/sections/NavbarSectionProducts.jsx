@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import Navbar from "../sectionElements/Navbar";
 import Logo from "../../assets/importAssets/Logo.png";
-import ListGroup from "../sectionElements/ListGroup";
+import ListGroupProducts from "../sectionElements/ListGroupProducts";
 import Sidebar from "../sectionElements/Sidebar";
 import { Menu, X } from "lucide-react";
-import { Link as ScrollLink } from 'react-scroll';
+import { Link } from "react-router-dom";
 
-export default function NavbarSection() {
+export default function NavbarSectionProducts() {
   const [scrolling, setScrolling] = useState(false);
-  const [showListGroup, setShowListGroup] = useState(true);
+  const [showListGroupProducts, setShowListGroupProducts] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
   const [showMenuIcon, setShowMenuIcon] = useState(true);
   const [showSidebarContent, setShowSidebarContent] = useState(false);
@@ -43,9 +43,9 @@ export default function NavbarSection() {
 
   const handleResize = () => {
     if (window.innerWidth < 768) {
-      setShowListGroup(false);
+      setShowListGroupProducts(false);
     } else {
-      setShowListGroup(true);
+      setShowListGroupProducts(true);
     }
   };
 
@@ -59,6 +59,20 @@ export default function NavbarSection() {
     };
   }, []);
 
+  const handleLinkClick = (sectionId, offset) => {
+    setScrolling(true);
+    setTimeout(() => {
+      const sectionTop = document.getElementById(sectionId).offsetTop + offset;
+      window.scrollTo({
+        top: sectionTop,
+        behavior: "smooth"
+      });
+      setTimeout(() => {
+        setScrolling(false);
+      }, 50);
+    }, 10);
+  };
+
   return (
     <div className="full">
       <div
@@ -69,18 +83,18 @@ export default function NavbarSection() {
         }`}
       >
         <Navbar>
-          <ScrollLink
-            to="home"
+          <Link
+            to="/"
+            onClick={() => handleLinkClick("home", 0)}
             className="cursor-pointer"
             spy={true}
             smooth={true}
             duration={500}
-            offset={-100}
           >
             <img src={Logo} alt="Logo" className={`${
                 scrolling ? "h-auto max-h-14 transition-all duration-1000" : "h-auto max-h-28 transition-all duration-1000"
               } tablet3:mb-0`} />
-          </ScrollLink>
+          </Link>
           <button
             onClick={toggleSidebar}
             className="absolute right-6 tablet2:hidden"
@@ -99,7 +113,7 @@ export default function NavbarSection() {
               />
             )}
           </button>
-          {showListGroup ? <ListGroup /> : null}
+          {showListGroupProducts ? <ListGroupProducts /> : null}
         </Navbar>
         <div
           className={`animate-${
