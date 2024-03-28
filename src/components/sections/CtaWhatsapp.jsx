@@ -2,7 +2,8 @@ import SectionContent from "../sectionElements/SectionContent";
 import imgCta from "../../assets/importAssets/CtaWhatsapp.png";
 import imgBackground from "../../assets/importAssets/bg2.jpg";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
+import MotionDivUpToDown from "../animation/MotionDivUpToDown";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function CtaWhatsapp() {
   return (
@@ -21,11 +22,11 @@ export default function CtaWhatsapp() {
           <div className="flex flex-row items-center justify-between h-28 phone1:h-40 phone3:h-48 desktop1:h-60">
             <div className="flex flex-col w-full justify-evenly items-left h-28 phone1:h-40 phone3:h-48 desktop1:h-52">
               <h1 className="text-left text-white text-paragraph1 phone1:text-paragraph4 phone3:text-paragraph5 max-w-32 phone3:max-w-none font-poppins tablet1:text-title2 tablet2:text-title4 desktop1:text-title5 desktop2:text-title6">
-                <MotionDivLeftToRight>
+                <MotionDivUpToDown>
                   Contate-nos através do <strong>Whatsapp</strong>
-                </MotionDivLeftToRight>
+                </MotionDivUpToDown>
               </h1>
-              <MotionDivLeftToRight>
+              <MotionDivDownToUp>
                 <div className="w-full">
                   <a
                     href="https://wa.me/5561992781077"
@@ -43,7 +44,7 @@ export default function CtaWhatsapp() {
                     </p>
                   </a>
                 </div>
-              </MotionDivLeftToRight>
+              </MotionDivDownToUp>
             </div>
 
             <div className="w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
