@@ -4,7 +4,7 @@ import Logo from "../../assets/importAssets/Logo.png";
 import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Menu, X } from "lucide-react";
-import { Link as ScrollLink, animateScroll } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
