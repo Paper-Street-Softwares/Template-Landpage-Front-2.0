@@ -22,9 +22,10 @@ export default function HeroSection() {
               <MotionDivLeftToRight>
                 <div className="text-center phone1:w-full phone1:font-medium phone1:text-paragraph4">
                   <p>
-                    Aqui você será atendido por profissionais qualificados que
-                    prestarão toda orientação que você precisa.
-                    <br /> Continue navegando e encontre o que você precisa!
+                    Aqui você será atendido de forma humanizada por
+                    profissionais qualificados e preparados para esclarecer suas
+                    dúvidas.
+                    <br /> Continue navegando e encontre o que você procura.
                   </p>
                 </div>
               </MotionDivLeftToRight>
@@ -44,7 +45,7 @@ export default function HeroSection() {
                           alt="WhatsApp Icon"
                         />
                         <p className="flex items-center leading-none text-white text-title1">
-                          Falar com atendente
+                          Fale com um consultor
                         </p>
                       </div>
                     </a>
