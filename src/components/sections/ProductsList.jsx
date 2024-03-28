@@ -76,6 +76,14 @@ export default function ProductsList() {
                   button1Link={HthProducts.cloros.hthCloros3.fispqLink}
                   category={HthProducts.cloros.hthCloros3.category}
                 />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros3.img}
+                  code={HthProducts.cloros.hthCloros3.code}
+                  description={HthProducts.cloros.hthCloros3.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros3.fispqLink}
+                  category={HthProducts.cloros.hthCloros3.category}
+                />
               </>
             )}
             {(selectedCategory === "auxiliares" ||
