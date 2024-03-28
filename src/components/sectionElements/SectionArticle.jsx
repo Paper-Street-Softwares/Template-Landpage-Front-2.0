@@ -21,7 +21,7 @@ function SectionArticle(props) {
         <h3 className="hidden flex items-center phone1:w-[100%] phone2:h-[24px] desktop1:w-[131px] phone1:font-medium phone1:text-paragraph3 leading-[21px] phone3:text-paragraph4 phone3:leading-6  text-quaternary">
           {articleSubtitle}
         </h3>
-        <h1 className=" flex items-center phone1:w-[100%]  tablet1:h-[45px] desktop1:h-[90px] desktop3:h-[45px] phone1:font-medium text-title2 phone1:leading-[33px] phone3:leading-[54px] tablet1:text-title4 tablet1:leading-[45px] text-primary">
+        <h1 className=" flex items-center phone1:w-[100%] phone1:font-medium text-title2 phone1:leading-[33px] phone3:leading-[54px] tablet1:text-title4 tablet1:leading-[45px] text-primary">
           {articleTitle}
         </h1>
         <div className=" phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] text-quaternary desktop3:w-full">
