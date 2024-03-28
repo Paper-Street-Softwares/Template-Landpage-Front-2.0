@@ -87,23 +87,24 @@ export default function ListGroupProducts() {
       <button onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu} className="relative">
         <li className="transition group">
         <Link
-            to="/"
-            onClick={() => handleLinkClick("products", -70)}
-            className="relative cursor-pointer"
+            to="products"
+            className="relative py-4 cursor-pointer"
             spy={true}
             smooth={true}
             duration={500}
             offset={-70}
           >
-          <span className={scrolling ? 'hover:text-primary' : ''}>PRODUTOS</span>
+          <span className={`inline-block ${scrolling ? 'hover:text-primary' : ''}`}>
+            PRODUTOS
+            </span>
           </Link>
           <div className={`animate-${showSubMenu ? 'fade-in' : 'fade-out'} duration-1000`}>
             {showSubMenu && (
-                <ul className="absolute py-2 uppercase bg-white rounded shadow-2xl w-40 font-mainFont left-1/2 transform -translate-x-1/2">
+                <ul className="absolute py-3 mt-3 uppercase transform -translate-x-1/2 bg-white rounded-lg shadow-2xl w-52 font-mainFont left-1/2">
                   <li>
                     <a
                       href="/hth"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>HTH</h1>
                     </a>
@@ -111,7 +112,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/genco"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>Genco</h1>
                     </a>
@@ -119,7 +120,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/neoclor"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>Neoclor</h1>
                     </a>
@@ -127,7 +128,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/hidroazul"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>Hidroazul</h1>
                     </a>
@@ -135,7 +136,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/domclor"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>Domclor</h1>
                     </a>
@@ -143,7 +144,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/suall"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>Suall</h1>
                     </a>
@@ -151,7 +152,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/sodramar"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                     >
                       <h1>Sodramar</h1>
                     </a>
@@ -159,7 +160,7 @@ export default function ListGroupProducts() {
                   <li>
                     <a
                       href="/netuno"
-                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                      className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 cursor-pointer hover:text-primary hover:bg-quinary"
                     >
                       <h1>Netuno</h1>
                     </a>

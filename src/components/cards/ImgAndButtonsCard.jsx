@@ -1,9 +1,13 @@
 import PropTypes from "prop-types";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function ImgAndButtonsCard(props) {
   const { img, button1Label, button1Link } = props;
+
+  const handleClick = () => {
+    window.location.href = button1Link + "#";
+  };
 
   ImgAndButtonsCard.propTypes = {
     img: PropTypes.any,
@@ -19,7 +23,7 @@ export default function ImgAndButtonsCard(props) {
         </MotionDivLeftToRight>
       </div>
 
-      <Link to={button1Link} className="w-full">
+      <Link onClick={handleClick} className="w-full">
         <button className="text-white bg-red-700 rounded-[10px] text-paragraph3 py-[8px] px-[31px] font-mainFont font-medium w-full transition hover:bg-red-900">
           <MotionDivLeftToRight>{button1Label}</MotionDivLeftToRight>
         </button>
