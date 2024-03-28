@@ -68,7 +68,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <button onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu}>
+      <button onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu} className="relative">
         <li className="transition group">
         <Link
             to="products"
@@ -79,75 +79,86 @@ export default function ListGroup() {
             offset={-70}
           >
           <span className={scrolling ? 'hover:text-primary' : ''}>PRODUTOS</span>
-          </Link>        
-          {showSubMenu && (
-            <ul className="absolute py-2 uppercase bg-white rounded shadow-2xl w-52 font-mainFont">
-              <li>
-                <a
-                  href="/hth"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  HTH
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/genco"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Genco
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/neoclor"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Neoclor
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/hidroazul"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Hidroazul
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/domclor"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Domclor
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/suall"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Suall
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/sodramar"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Sodramar
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/netuno"
-                  className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary"
-                >
-                  Netuno
-                </a>
-              </li>
-            </ul>
-          )}
+          </Link>
+          <div className={`animate-${showSubMenu ? 'fade-in' : 'fade-out'} duration-1000`}>
+            {showSubMenu && (
+                <ul className="absolute py-2 uppercase bg-white rounded shadow-2xl w-40 font-mainFont left-1/2 transform -translate-x-1/2">
+                  <li>
+                    <a
+                      href="/hth"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>HTH</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/genco"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Genco</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/neoclor"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Neoclor</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/hidroazul"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Hidroazul</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/domclor"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Domclor</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/suall"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Suall</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/sodramar"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Sodramar</h1>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/netuno"
+                      target="_blank"
+                      className="block px-4 py-2 text-center text-black cursor-pointer hover:text-primary hover:bg-quinary transition duration-500"
+                    >
+                      <h1>Netuno</h1>
+                    </a>
+                  </li>
+                </ul>
+            )}
+          </div>
+
         </li>
       </button>
       <li className="transition group">
