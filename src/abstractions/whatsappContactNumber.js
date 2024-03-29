@@ -1,3 +1,3 @@
-const whatsappContactNumber = "+5511994889426";
+const whatsappContactNumber = "+5512994889426";
 
 export default whatsappContactNumber;
