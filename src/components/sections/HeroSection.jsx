@@ -2,7 +2,7 @@ import bgImage from "../../assets/importAssets/bg2.jpg";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
-import whatsappNumber from "../../abstractions/whatsappNumber";
+import whatsappNumber from "../../abstractions/whats";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
