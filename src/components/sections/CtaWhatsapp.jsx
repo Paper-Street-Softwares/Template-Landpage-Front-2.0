@@ -4,7 +4,7 @@ import imgBackground from "../../assets/importAssets/bg2.jpg";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import whatsappNumber from "../../abstractions/WhatsappNumber";
+import whatsappNumber from "../../abstractions/whatsappNumber";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
