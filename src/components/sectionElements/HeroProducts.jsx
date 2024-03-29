@@ -27,10 +27,10 @@ export default function HeroProducts(props) {
               <h1 className="font-bold bg-green-500 text-title1 desktop1:text-start">
                 <MotionDivUpToDown>{heroTitle}</MotionDivUpToDown>
               </h1>
-              <h1 className="font-black bg-blue-600 text-title6 desktop1:text-start">
+              <h1 className="flex justify-center w-full bg-blue-600 desktop1:justify-start">
                 <MotionDivDownToUp>
                   <img
-                    className="h-20 p-2 bg-purple-500 rounded-md"
+                    className="w-auto h-16 p-2 my-2 bg-purple-500 rounded-md max-h-16 max-w-auto"
                     src={heroImg}
                     alt="Logo HTH"
                   />
@@ -38,13 +38,13 @@ export default function HeroProducts(props) {
               </h1>
             </div>
 
-            <div className="">
-              <p className="text-paragraph4 tablet1:font-bold">
+            <div className="bg-red-500">
+              <p className="bg-blue-800 text-paragraph4 tablet1:font-bold">
                 <MotionDivDownToUp>{heroParagraph}</MotionDivDownToUp>
               </p>
             </div>
           </div>
-          <div className="h-4" />
+          <div className="h-4 bg-green-800" />
         </div>
       </div>
     </div>
