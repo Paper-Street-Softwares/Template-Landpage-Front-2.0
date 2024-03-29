@@ -4,6 +4,7 @@ import ProductsList from "../components/sections/ProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import hthLogo from "../assets/imgs/brands/hthLogo.png";
 
 export default function HthPage() {
   return (
@@ -11,7 +12,7 @@ export default function HthPage() {
       <NavbarSectionProducts />
       <HeroProducts
         heroTitle="Nossa linha de produtos"
-        heroName="HTH"
+        heroImg={hthLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
       <ProductsList />
