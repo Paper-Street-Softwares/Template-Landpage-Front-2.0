@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import Navbar from "../sectionElements/Navbar";
 import Logo from "../../assets/importAssets/Logo.png";
 import ListGroupProducts from "../sectionElements/ListGroupProducts";
-import Sidebar from "../sectionElements/Sidebar";
+import SidebarProducts from "../sectionElements/SidebarProducts";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function NavbarSectionProducts() {
   const [scrolling, setScrolling] = useState(false);
   const [showListGroupProducts, setShowListGroupProducts] = useState(true);
-  const [showSidebar, setShowSidebar] = useState(false);
+  const [showSidebarProducts, setShowSidebarProducts] = useState(false);
   const [showMenuIcon, setShowMenuIcon] = useState(true);
   const [showSidebarContent, setShowSidebarContent] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -27,13 +27,13 @@ export default function NavbarSectionProducts() {
       setIsAnimating(true);
       setShowMenuIcon(!showMenuIcon);
       setShowSidebarContent(!showSidebarContent);
-      if (showSidebar) {
+      if (showSidebarProducts) {
         setTimeout(() => {
-          setShowSidebar(false);
+          setShowSidebarProducts(false);
           setIsAnimating(false);
         }, 950);
       } else {
-        setShowSidebar(true);
+        setShowSidebarProducts(true);
         setTimeout(() => {
           setIsAnimating(false);
         }, 0);
@@ -117,10 +117,10 @@ export default function NavbarSectionProducts() {
         </Navbar>
         <div
           className={`animate-${
-            showSidebar ? "slide-down block" : "slide-up hidden"
+            showSidebarProducts ? "slide-down block" : "slide-up hidden"
           }`}
         >
-          {showSidebar ? <Sidebar showSidebar={showSidebarContent} /> : null}
+          {showSidebarProducts ? <SidebarProducts showSidebar={showSidebarContent} /> : null}
         </div>
       </div>
     </div>
