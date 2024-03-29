@@ -2,6 +2,9 @@ import bgImage from "../../assets/importAssets/bg2.jpg";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
+import whatsappNumber from "../../abstractions/WhatsappNumber";
+
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 export default function HeroSection() {
   return (
@@ -33,7 +36,7 @@ export default function HeroSection() {
                 <MotionDivRightToLeft>
                   <div className="flex justify-center w-full">
                     <a
-                      href="https://wa.me/5561992781077"
+                      href={whatsappContactLink}
                       className="flex flex-row items-center justify-around w-auto h-16 transition rounded-lg bg-primary hover:bg-tertiary"
                       target="_blank"
                       rel="noreferrer"
