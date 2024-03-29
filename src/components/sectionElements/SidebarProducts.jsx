@@ -1,8 +1,17 @@
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { PropTypes } from 'prop-types';
 
-export default function Sidebar({ showSidebar }) {
+export default function SidebarProducts({ showSidebar }) {
   
+  const handleLinkClick = (sectionId, offset) => {
+    setTimeout(() => {
+      const sectionTop = document.getElementById(sectionId).offsetTop + offset;
+      window.scrollTo({
+        top: sectionTop,
+        behavior: "smooth"
+      });
+    }, 100);
+  };
 
   return (
     <div
@@ -17,7 +26,8 @@ export default function Sidebar({ showSidebar }) {
           <div className="overflow-y-auto">
             <ul className="text-black phone2:text-paragraph5 phone3:text-title1 tablet1:text-title2">
               <Link
-                to="home"
+                to="/"
+                onClick={() => handleLinkClick("home", 0)}
                 className="cursor-pointer"
                 spy={true}
                 smooth={true}
@@ -31,7 +41,8 @@ export default function Sidebar({ showSidebar }) {
                 </li>
               </Link>
               <Link
-                to="about"
+                to="/"
+                onClick={() => handleLinkClick("about", -70)}
                 className="cursor-pointer"
                 spy={true}
                 smooth={true}
@@ -45,7 +56,8 @@ export default function Sidebar({ showSidebar }) {
                 </li>
               </Link>
               <Link
-                to="products"
+                to="/"
+                onClick={() => handleLinkClick("products", -70)}
                 className="cursor-pointer"
                 spy={true}
                 smooth={true}
@@ -59,7 +71,8 @@ export default function Sidebar({ showSidebar }) {
                 </li>
               </Link>
               <Link
-                to="courses"
+                to="/"
+                onClick={() => handleLinkClick("courses", -70)}
                 className="cursor-pointer"
                 spy={true}
                 smooth={true}
@@ -73,7 +86,8 @@ export default function Sidebar({ showSidebar }) {
                 </li>
               </Link>
               <Link
-                to="faq"
+                to="/"
+                onClick={() => handleLinkClick("faq", -70)}
                 className="cursor-pointer"
                 spy={true}
                 smooth={true}
@@ -87,7 +101,8 @@ export default function Sidebar({ showSidebar }) {
                 </li>
               </Link>
               <Link
-                to="contact"
+                to="/"
+                onClick={() => handleLinkClick("contact", -190)}
                 className="cursor-pointer"
                 spy={true}
                 smooth={true}
@@ -109,6 +124,6 @@ export default function Sidebar({ showSidebar }) {
 }
 
 
-Sidebar.propTypes = {
+SidebarProducts.propTypes = {
   showSidebar: PropTypes.bool.isRequired,
 };
