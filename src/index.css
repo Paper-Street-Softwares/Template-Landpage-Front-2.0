@@ -68,10 +68,12 @@
 
 .animate-fade-in {
   opacity: 1;
+  visibility: visible;
   animation: fadeIn 1s ease-in-out;
 }
 
 .animate-fade-out {
-  opacity: 0;
+  opacity: 1;
+  visibility: hidden;
   animation: fadeOut 1s ease-in-out;
 }
