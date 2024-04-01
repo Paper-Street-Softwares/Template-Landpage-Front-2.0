@@ -17,11 +17,11 @@ export default function HeroProducts(props) {
   return (
     <div className="z-10 full font-mainFont">
       <div
-        className="w-full bg-center bg-cover content"
+        className="w-full bg-center bg-cover"
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
         <div className="h-36" />
-        <div className="mx-auto">
+        <div className="mx-auto content">
           <div className="flex flex-col justify-between mb-4 text-center text-white desktop1:gap-10 desktop1:flex-row">
             <div>
               <h1 className="font-bold text-title1 desktop1:text-start">
