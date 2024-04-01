@@ -11,7 +11,7 @@ export default function Courses() {
       <div className="content py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Aprimore seu conhecimento"
-          sectionHeaderDescription="Nesta seção, você será direcionado para agendar o curso ou palestra de forma espontânea, de acordo com seu interesse no aprendizado que o assunto desperta. Nosso objetivo é que você se sinta livre para escolher entre diferentes fabricantes, sem sentir que está sendo direcionado de forma alguma. Estamos aqui para apoiá-lo em sua jornada de conhecimento."
+          sectionHeaderDescription="Confira abaixo nossas sugestões para palestras ou cursos para tratamento da sua piscina. Escolha o que mais lhe interessar, e boas aulas!"
         />
         <SectionContent>
           <ImgTextAndButtonsCard
