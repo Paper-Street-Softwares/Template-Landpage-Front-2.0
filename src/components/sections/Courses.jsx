@@ -18,7 +18,8 @@ export default function Courses() {
             img={hthLogo}
             text="Curso presencial de tratamento de águas de piscinas."
             button1Label="Visitar site"
-            button1Link="https://hth.com.br/cursos-online/entrar"
+            button1Link="https://hth.com.br/cursos-presenciais
+            "
           />
           <ImgTextAndButtonsCard
             img={gencoLogo}
