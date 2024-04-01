@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 .content {
-  --gap: clamp(1rem, 6vw, 3rem);
+  --gap: clamp(16px, 6vw, 48px);
   --full: minmax(var(--gap), 1fr);
   --content: min(128.3ch, 100% - var(--gap) * 2);
-  --popout: minmax(0, 2rem);
-  --feature: minmax(0, 5rem);
+  --popout: minmax(0, 32px);
+  --feature: minmax(0, 80px);
 
   display: grid;
   grid-template-columns:
