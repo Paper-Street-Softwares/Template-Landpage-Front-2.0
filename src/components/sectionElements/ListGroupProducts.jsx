@@ -20,8 +20,8 @@ export default function ListGroupProducts() {
     };
   }, []);
 
-  const toggleSubMenu = () => {
-    setShowSubMenu(!showSubMenu);
+  const toggleSubMenu = (show) => {
+    setShowSubMenu(show);
   };
 
   const handleLinkClick = (sectionId, offset) => {
@@ -84,7 +84,7 @@ export default function ListGroupProducts() {
           ></div>
         </Link>
       </li>
-      <button onMouseEnter={toggleSubMenu} onMouseLeave={toggleSubMenu} className="relative">
+      <button onMouseEnter={() => toggleSubMenu(true)} onMouseLeave={() => toggleSubMenu(false)} className="relative">
         <li className="transition group">
         <Link
             to="/"

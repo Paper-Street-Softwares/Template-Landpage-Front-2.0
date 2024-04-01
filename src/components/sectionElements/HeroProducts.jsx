@@ -17,12 +17,12 @@ export default function HeroProducts(props) {
   return (
     <div className="z-10 full font-mainFont">
       <div
-        className="w-full bg-center bg-cover"
+        className="w-full bg-center bg-cover content"
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
         <div className="h-36" />
-        <div className="mx-auto content">
-          <div className="flex flex-col mb-4 text-center text-white justify-evenly desktop1:gap-10 desktop1:flex-row">
+        <div className="mx-auto">
+          <div className="flex flex-col justify-between mb-4 text-center text-white desktop1:gap-10 desktop1:flex-row">
             <div>
               <h1 className="font-bold text-title1 desktop1:text-start">
                 <MotionDivUpToDown>{heroTitle}</MotionDivUpToDown>
@@ -39,7 +39,7 @@ export default function HeroProducts(props) {
             </div>
 
             <div>
-              <p className="text-paragraph4 tablet1:font-bold">
+              <p className="desktop1:p-12 text-paragraph4 tablet1:font-bold">
                 <MotionDivDownToUp>{heroParagraph}</MotionDivDownToUp>
               </p>
             </div>
