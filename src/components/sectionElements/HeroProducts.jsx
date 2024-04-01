@@ -22,6 +22,7 @@ export default function HeroProducts(props) {
       >
         <div>
           <div className="flex flex-col justify-between mb-[16px] text-center text-white mt-[144px] desktop1:gap-[40px] desktop1:flex-row">
+
             <div>
               <h1 className="font-bold text-title1 desktop1:text-start">
                 <MotionDivUpToDown>{heroTitle}</MotionDivUpToDown>
