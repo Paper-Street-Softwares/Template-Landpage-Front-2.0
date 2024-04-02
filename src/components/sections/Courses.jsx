@@ -1,7 +1,7 @@
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionContent from "../sectionElements/SectionContent";
 import hthLogo from "../../assets/imgs/brands/hthLogo.png";
-import gencoLogo from "../../assets/imgs/brands/genco2Logo.png";
+import gencoLogo from "../../assets/imgs/brands/gencoLogo.png";
 import hidroazulLogo from "../../assets/imgs/brands/hidroazulLogo.png";
 import ImgTextAndButtonsCard from "../cards/ImgTextAndButtonsCard";
 
@@ -23,7 +23,7 @@ export default function Courses() {
           />
           <ImgTextAndButtonsCard
             img={gencoLogo}
-            text="Curso online de tratamento de águas de piscinas."
+            text="Curso online na Escola da Piscina."
             button1Label="Visitar site"
             button1Link="https://www.genco.com.br/escola-da-piscina/"
           />
