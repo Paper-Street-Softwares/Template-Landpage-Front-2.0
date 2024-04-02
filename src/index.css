@@ -56,13 +56,15 @@
 }
 
 @keyframes fadeOut {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-10px);
+    from {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible; 
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+      visibility: hidden; 
   }
 }
 
@@ -73,7 +75,7 @@
 }
 
 .animate-fade-out {
-  opacity: 1;
-  visibility: hidden;
+  opacity: 1; 
+  visibility: visible; 
   animation: fadeOut 1s ease-in-out;
 }
