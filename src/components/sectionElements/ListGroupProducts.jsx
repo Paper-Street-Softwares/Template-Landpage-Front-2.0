@@ -38,16 +38,6 @@ export default function ListGroupProducts() {
     }, 100);
   };
 
-  function handleMouseEnter() {
-    setShowSubMenu(true);
-  }
-
-  const handleMouseLeave = () => {
-    setTimeout(() => {
-      setShowSubMenu(false);
-    }, 1000);
-  };
-  
   return (
     <ul
       className={`flex items-end justify-end tablet1:items-end tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop1:gap-6 desktop2:gap-8 w-full h-auto font-semibold text-paragraph3 font-poppins ${
@@ -109,7 +99,7 @@ export default function ListGroupProducts() {
             PRODUTOS
             </span>
           </Link>
-          <div onMouseEnter={ () => {handleMouseEnter} } onFocus={ () => {} } onMouseOver={ () => {handleMouseLeave} } onBlur={ () => {} } className={`animate-${showSubMenu ? 'fade-in' : 'fade-out'}`}>
+          <div className={`animate-${showSubMenu ? 'fade-in' : 'fade-out'} duration-1000`}>
             {showSubMenu && (
                 <ul className="absolute py-3 mt-3 uppercase transform -translate-x-1/2 bg-white rounded-lg shadow-2xl w-52 font-mainFont left-1/2">
                   <li>
