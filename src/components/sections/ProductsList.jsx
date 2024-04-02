@@ -124,6 +124,26 @@ export default function ProductsList() {
                   button1Link={HthProducts.cloros.hthCloros9.fispqLink}
                   category={HthProducts.cloros.hthCloros9.category}
                 />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros10.img}
+                  code={HthProducts.cloros.hthCloros10.code}
+                  description={
+                    HthProducts.cloros.hthCloros10.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros10.fispqLink}
+                  category={HthProducts.cloros.hthCloros10.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros11.img}
+                  code={HthProducts.cloros.hthCloros11.code}
+                  description={
+                    HthProducts.cloros.hthCloros11.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros11.fispqLink}
+                  category={HthProducts.cloros.hthCloros11.category}
+                />
               </>
             )}
             {(selectedCategory === "auxiliares" ||
@@ -338,26 +358,6 @@ export default function ProductsList() {
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares21.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares21.category}
-                />
-                <ImgCodeDescButtonCard
-                  img={HthProducts.auxiliares.hthAuxiliares22.img}
-                  code={HthProducts.auxiliares.hthAuxiliares22.code}
-                  description={
-                    HthProducts.auxiliares.hthAuxiliares22.description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.auxiliares.hthAuxiliares23.fispqLink}
-                  category={HthProducts.auxiliares.hthAuxiliares23.category}
-                />
-                <ImgCodeDescButtonCard
-                  img={HthProducts.auxiliares.hthAuxiliares23.img}
-                  code={HthProducts.auxiliares.hthAuxiliares23.code}
-                  description={
-                    HthProducts.auxiliares.hthAuxiliares23.description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.auxiliares.hthAuxiliares23.fispqLink}
-                  category={HthProducts.auxiliares.hthAuxiliares23.category}
                 />
               </>
             )}

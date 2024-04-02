@@ -7,6 +7,8 @@ import hthCloros6 from "../../../../assets/imgs/products/hth/cloros/6hthCloros.j
 import hthCloros7 from "../../../../assets/imgs/products/hth/cloros/7hthCloros.jpg";
 import hthCloros8 from "../../../../assets/imgs/products/hth/cloros/8hthCloros.jpg";
 import hthCloros9 from "../../../../assets/imgs/products/hth/cloros/9hthCloros.jpg";
+import hthCloros10 from "../../../../assets/imgs/products/hth/cloros/10hthCloros.jpg";
+import hthCloros11 from "../../../../assets/imgs/products/hth/cloros/11hthCloros.jpg";
 
 import hthAuxiliares1 from "../../../../assets/imgs/products/hth/auxiliares/1hthAuxiliares.jpg";
 import hthAuxiliares2 from "../../../../assets/imgs/products/hth/auxiliares/2hthAuxiliares.jpg";
@@ -29,8 +31,6 @@ import hthAuxiliares18 from "../../../../assets/imgs/products/hth/auxiliares/18h
 import hthAuxiliares19 from "../../../../assets/imgs/products/hth/auxiliares/19hthAuxiliares.jpg";
 import hthAuxiliares20 from "../../../../assets/imgs/products/hth/auxiliares/20hthAuxiliares.jpg";
 import hthAuxiliares21 from "../../../../assets/imgs/products/hth/auxiliares/21hthAuxiliares.jpg";
-import hthAuxiliares22 from "../../../../assets/imgs/products/hth/auxiliares/22hthAuxiliares.jpg";
-import hthAuxiliares23 from "../../../../assets/imgs/products/hth/auxiliares/23hthAuxiliares.jpg";
 
 const HthProducts = {
   cloros: {
@@ -111,6 +111,24 @@ const HthProducts = {
       description: "PACE DICLORO AÇÃO TOTAL (BD 10,0K)",
       fispqLink:
         "https://www.cloropace.com.br/wp-content/uploads/2021/02/26200-Pace-Acao-Total-PT.pdf",
+      category: "cloros",
+    },
+    hthCloros10: {
+      key: 31,
+      img: hthCloros10,
+      code: 3010,
+      description: "PACE TABLETE TRIPLA AÇÃO 200G",
+      fispqLink:
+        "https://www.cloropace.com.br/wp-content/uploads/2021/02/26071-Pace-Tripla-Acao-PT.pdf",
+      category: "cloros",
+    },
+    hthCloros11: {
+      key: 32,
+      img: hthCloros11,
+      code: 3000,
+      description: "PACE TABLETE COMUM 200G",
+      fispqLink:
+        "https://www.cloropace.com.br/wp-content/uploads/2015/02/Tricloro.pdf",
       category: "cloros",
     },
   },
@@ -301,24 +319,6 @@ const HthProducts = {
       code: 6035,
       description: "HTH FITA TESTE CL/PH/AT (BT C/ 25)",
       fispqLink: "não possui fispq",
-      category: "auxiliares",
-    },
-    hthAuxiliares22: {
-      key: 31,
-      img: hthAuxiliares22,
-      code: 3010,
-      description: "PACE TABLETE TRIPLA AÇÃO 200G",
-      fispqLink:
-        "https://www.cloropace.com.br/wp-content/uploads/2021/02/26071-Pace-Tripla-Acao-PT.pdf",
-      category: "auxiliares",
-    },
-    hthAuxiliares23: {
-      key: 32,
-      img: hthAuxiliares23,
-      code: 3000,
-      description: "PACE TABLETE COMUM 200G",
-      fispqLink:
-        "https://www.cloropace.com.br/wp-content/uploads/2015/02/Tricloro.pdf",
       category: "auxiliares",
     },
   },
