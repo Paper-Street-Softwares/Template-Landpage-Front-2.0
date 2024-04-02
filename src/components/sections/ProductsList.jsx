@@ -77,12 +77,72 @@ export default function ProductsList() {
                   category={HthProducts.cloros.hthCloros3.category}
                 />
                 <ImgCodeDescButtonCard
-                  img={HthProducts.cloros.hthCloros3.img}
-                  code={HthProducts.cloros.hthCloros3.code}
-                  description={HthProducts.cloros.hthCloros3.description}
+                  img={HthProducts.cloros.hthCloros4.img}
+                  code={HthProducts.cloros.hthCloros4.code}
+                  description={HthProducts.cloros.hthCloros4.description}
                   button1Label="Baixar Ficha FISPQ"
-                  button1Link={HthProducts.cloros.hthCloros3.fispqLink}
-                  category={HthProducts.cloros.hthCloros3.category}
+                  button1Link={HthProducts.cloros.hthCloros4.fispqLink}
+                  category={HthProducts.cloros.hthCloros4.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros5.img}
+                  code={HthProducts.cloros.hthCloros5.code}
+                  description={HthProducts.cloros.hthCloros5.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros5.fispqLink}
+                  category={HthProducts.cloros.hthCloros5.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros6.img}
+                  code={HthProducts.cloros.hthCloros6.code}
+                  description={HthProducts.cloros.hthCloros6.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros6.fispqLink}
+                  category={HthProducts.cloros.hthCloros6.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros7.img}
+                  code={HthProducts.cloros.hthCloros7.code}
+                  description={HthProducts.cloros.hthCloros7.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros7.fispqLink}
+                  category={HthProducts.cloros.hthCloros7.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros8.img}
+                  code={HthProducts.cloros.hthCloros8.code}
+                  description={HthProducts.cloros.hthCloros8.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros8.fispqLink}
+                  category={HthProducts.cloros.hthCloros8.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros9.img}
+                  code={HthProducts.cloros.hthCloros9.code}
+                  description={HthProducts.cloros.hthCloros9.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros9.fispqLink}
+                  category={HthProducts.cloros.hthCloros9.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros10.img}
+                  code={HthProducts.cloros.hthCloros10.code}
+                  description={
+                    HthProducts.cloros.hthCloros10.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros10.fispqLink}
+                  category={HthProducts.cloros.hthCloros10.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros11.img}
+                  code={HthProducts.cloros.hthCloros11.code}
+                  description={
+                    HthProducts.cloros.hthCloros11.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros11.fispqLink}
+                  category={HthProducts.cloros.hthCloros11.category}
                 />
               </>
             )}
@@ -128,6 +188,176 @@ export default function ProductsList() {
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares4.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares4.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares5.img}
+                  code={HthProducts.auxiliares.hthAuxiliares5.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares5.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares5.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares5.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares6.img}
+                  code={HthProducts.auxiliares.hthAuxiliares6.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares6.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares6.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares6.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares7.img}
+                  code={HthProducts.auxiliares.hthAuxiliares7.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares7.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares7.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares7.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares8.img}
+                  code={HthProducts.auxiliares.hthAuxiliares8.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares8.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares8.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares8.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares9.img}
+                  code={HthProducts.auxiliares.hthAuxiliares9.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares9.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares9.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares9.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares10.img}
+                  code={HthProducts.auxiliares.hthAuxiliares10.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares10.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares10.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares10.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares11.img}
+                  code={HthProducts.auxiliares.hthAuxiliares11.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares11.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares11.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares11.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares12.img}
+                  code={HthProducts.auxiliares.hthAuxiliares12.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares12.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares12.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares12.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares13.img}
+                  code={HthProducts.auxiliares.hthAuxiliares13.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares13.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares13.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares13.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares14.img}
+                  code={HthProducts.auxiliares.hthAuxiliares14.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares14.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares14.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares14.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares15.img}
+                  code={HthProducts.auxiliares.hthAuxiliares15.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares15.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares15.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares15.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares16.img}
+                  code={HthProducts.auxiliares.hthAuxiliares16.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares16.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares16.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares16.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares17.img}
+                  code={HthProducts.auxiliares.hthAuxiliares17.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares17.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares17.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares17.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares18.img}
+                  code={HthProducts.auxiliares.hthAuxiliares18.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares18.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares18.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares18.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares19.img}
+                  code={HthProducts.auxiliares.hthAuxiliares19.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares19.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares19.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares19.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares20.img}
+                  code={HthProducts.auxiliares.hthAuxiliares20.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares20.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares20.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares20.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.auxiliares.hthAuxiliares21.img}
+                  code={HthProducts.auxiliares.hthAuxiliares21.code}
+                  description={
+                    HthProducts.auxiliares.hthAuxiliares21.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.auxiliares.hthAuxiliares21.fispqLink}
+                  category={HthProducts.auxiliares.hthAuxiliares21.category}
                 />
               </>
             )}
