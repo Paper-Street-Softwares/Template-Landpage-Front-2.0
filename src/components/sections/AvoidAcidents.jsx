@@ -10,7 +10,7 @@ export default function AboutUs() {
       <div className="font-mainFont phone1:w-[100%] pb-[8px] phone1:pt-[48px] tablet1:pb-0">
         <SectionHeader
           sectionHeaderTitleSecond="Evite Acidentes"
-          sectionHeaderDescription="Nessa sessão, abordaremos práticas básicas de segurança, porém indispensáveis para o armazenamento e manuseio adequado dos produtos que serão utilizados na sua piscina."
+          sectionHeaderDescription="Conheça regras básicas de segurança e armazenamento de produtos químicos em geral."
         />
         <div className=" desktop1:flex desktop1:flex-row-reverse desktop1:justify-between desktop1:py-[54px] desktop3:py-[48px]">
           <div className=" pb-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
