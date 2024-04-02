@@ -109,7 +109,7 @@ export default function ListGroupProducts() {
             PRODUTOS
             </span>
           </Link>
-          <div onMouseOver={handleMouseEnter} onMouseOut={handleMouseLeave} className={`animate-${showSubMenu ? 'fade-in' : 'fade-out'}`}>
+          <div onFocus={handleMouseEnter} onBlur={handleMouseLeave} className={`animate-${showSubMenu ? 'fade-in' : 'fade-out'}`}>
             {showSubMenu && (
                 <ul className="absolute py-3 mt-3 uppercase transform -translate-x-1/2 bg-white rounded-lg shadow-2xl w-52 font-mainFont left-1/2">
                   <li>
