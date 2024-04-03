@@ -17,20 +17,20 @@ export default function Courses() {
           <ImgTextAndButtonsCard
             img={hthLogo}
             text="Curso presencial de tratamento de águas de piscinas."
-            button1Label="Visitar site"
+            button1Label="Faça sua inscrição"
             button1Link="https://hth.com.br/cursos-presenciais
             "
           />
           <ImgTextAndButtonsCard
             img={gencoLogo}
             text="Curso online na Escola da Piscina."
-            button1Label="Visitar site"
+            button1Label="Faça sua inscrição"
             button1Link="https://www.genco.com.br/escola-da-piscina/"
           />
           <ImgTextAndButtonsCard
             img={hidroazulLogo}
             text="Curso completo na Universidade da Piscina."
-            button1Label="Visitar site"
+            button1Label="Faça sua inscrição"
             button1Link="https://hidroazul.com.br/universidade-da-piscina/"
           />
         </SectionContent>
