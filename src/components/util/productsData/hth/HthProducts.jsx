@@ -318,7 +318,7 @@ const HthProducts = {
       img: hthAuxiliares21,
       code: 6035,
       description: "HTH FITA TESTE CL/PH/AT (BT C/ 25)",
-      fispqLink: "não possui fispq",
+      fispqLink: "",
       category: "auxiliares",
     },
   },
