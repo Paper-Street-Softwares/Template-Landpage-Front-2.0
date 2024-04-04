@@ -38,6 +38,7 @@ import gencoAuxiliares27 from "../../../../assets/imgs/products/genco/auxiliares
 import gencoAuxiliares28 from "../../../../assets/imgs/products/genco/auxiliares/28gencoAuxiliares.jpg";
 import gencoAuxiliares29 from "../../../../assets/imgs/products/genco/auxiliares/29gencoAuxiliares.jpg";
 import gencoAuxiliares30 from "../../../../assets/imgs/products/genco/auxiliares/30gencoAuxiliares.jpg";
+import gencoAuxiliares31 from "../../../../assets/imgs/products/genco/auxiliares/31gencoAuxiliares.jpg";
 
 const GencoProducts = {
   cloros: {
@@ -125,263 +126,272 @@ const GencoProducts = {
   },
   auxiliares: {
     gencoAuxiliares1: {
-      key: 2,
+      key: 1,
       img: gencoAuxiliares1,
+      code: 1089,
+      description: "GENCO ALGICIDA MANUTENÇÃO POOL TRAT (FR 1,0L)",
+      fispqLink:
+        "https://www.genco.com.br/imagens/produtos/produto-arquivo19.pdf",
+      category: "auxiliares",
+    },
+    gencoAuxiliares2: {
+      key: 2,
+      img: gencoAuxiliares2,
       code: 1087,
       description: "GENCO ALGICIDA MANUTENÇÃO POOL TRAT (GL 5,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo19.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares2: {
+    gencoAuxiliares3: {
       key: 3,
-      img: gencoAuxiliares2,
+      img: gencoAuxiliares3,
       code: 1090,
       description: "GENCO ALGICIDA CHOQUE POOL TRAT (FR 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo18.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares3: {
+    gencoAuxiliares4: {
       key: 4,
-      img: gencoAuxiliares3,
+      img: gencoAuxiliares4,
       code: 1095,
       description: "GENCO ALGICIDA CHOQUE POOL TRAT (GL 5,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo18.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares4: {
+    gencoAuxiliares5: {
       key: 5,
-      img: gencoAuxiliares4,
+      img: gencoAuxiliares5,
       code: 1086,
       description: "GENCO ALGISTÁTICO GENPOOL (FR 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo15.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares5: {
+    gencoAuxiliares6: {
       key: 6,
-      img: gencoAuxiliares5,
+      img: gencoAuxiliares6,
       code: 6201,
       description: "GENCO DOSADOR AUTOMATICO MOD TO2F OFF LINE",
       fispqLink: "",
       category: "auxiliares",
     },
-    gencoAuxiliares6: {
+    gencoAuxiliares7: {
       key: 7,
-      img: gencoAuxiliares6,
+      img: gencoAuxiliares7,
       code: 6194,
       description: "GENCO DOSADOR AUTOMATICO MOD TO3F OFF LINE",
       fispqLink: "",
       category: "auxiliares",
     },
-    gencoAuxiliares7: {
+    gencoAuxiliares8: {
       key: 15,
-      img: gencoAuxiliares7,
+      img: gencoAuxiliares8,
       code: 5036,
       description: "GENCO DUREZA CÁLCICA GENCALCIO (SC 1,5K)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo22.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares8: {
+    gencoAuxiliares9: {
       key: 16,
-      img: gencoAuxiliares8,
+      img: gencoAuxiliares9,
       code: 6191,
       description: "GENCO REMOVEDOR DE MANCHAS GENQUEST (FR 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo17.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares9: {
+    gencoAuxiliares10: {
       key: 17,
-      img: gencoAuxiliares9,
+      img: gencoAuxiliares10,
       code: 5238,
       description: "GENCO PH MENOS LIQUIDO {FR 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo25.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares10: {
+    gencoAuxiliares11: {
       key: 18,
-      img: gencoAuxiliares10,
+      img: gencoAuxiliares11,
       code: 6231,
       description: "GENCO PH MAIS LIQUIDO (FR C/ 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo47.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares11: {
+    gencoAuxiliares12: {
       key: 19,
-      img: gencoAuxiliares11,
+      img: gencoAuxiliares12,
       code: 6232,
       description: "GENCO PH CERTO ALCALINIZANTE (SC C/ 2,0K)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo23.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares12: {
+    gencoAuxiliares13: {
       key: 20,
-      img: gencoAuxiliares12,
+      img: gencoAuxiliares13,
       code: 6233,
       description: "GENCO PH MAIS PÓ (SC C/ 2,0K)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo24.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares13: {
+    gencoAuxiliares14: {
       key: 21,
-      img: gencoAuxiliares13,
+      img: gencoAuxiliares14,
       code: 6235,
       description: "GENCO SULFATO ALUMINIO (SC 2,0K)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo21.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares14: {
+    gencoAuxiliares15: {
       key: 22,
-      img: gencoAuxiliares14,
+      img: gencoAuxiliares15,
       code: 4021,
       description: "GENCO GENFLOC CLARIFICANTE (FR 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo16.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares15: {
+    gencoAuxiliares16: {
       key: 23,
-      img: gencoAuxiliares15,
+      img: gencoAuxiliares16,
       code: 4045,
       description: "GENCO GENFLOC CLARIFICANTE (GL 5,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo16.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares16: {
+    gencoAuxiliares17: {
       key: 26,
-      img: gencoAuxiliares16,
+      img: gencoAuxiliares17,
       code: 6013,
       description: "GENCO BORDA LIMPA (FR 1,0L)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo14.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares17: {
+    gencoAuxiliares18: {
       key: 27,
-      img: gencoAuxiliares17,
+      img: gencoAuxiliares18,
       code: 6010,
       description: "GENCO ESTOJO DE TESTE (AT) KIT",
       fispqLink: "",
       category: "auxiliares",
     },
-    gencoAuxiliares18: {
+    gencoAuxiliares19: {
       key: 28,
-      img: gencoAuxiliares18,
+      img: gencoAuxiliares19,
       code: 6105,
       description: "GENCO ESTOJO DE TESTE (CL/PH) KIT",
       fispqLink: "",
       category: "auxiliares",
     },
-    gencoAuxiliares19: {
+    gencoAuxiliares20: {
       key: 29,
-      img: gencoAuxiliares19,
+      img: gencoAuxiliares20,
       code: 6115,
       description: "GENCO ESTOJO DE TESTE (DC) KIT",
       fispqLink: "",
       category: "auxiliares",
     },
-    gencoAuxiliares20: {
+    gencoAuxiliares21: {
       key: 30,
-      img: gencoAuxiliares20,
+      img: gencoAuxiliares21,
       code: 6229,
       description: "GENCO ESTOJO DE TESTE 3 EM 1 OT (CL/PH/AT) KIT",
       fispqLink: "",
       category: "auxiliares",
     },
-    gencoAuxiliares21: {
+    gencoAuxiliares22: {
       key: 31,
-      img: gencoAuxiliares21,
+      img: gencoAuxiliares22,
       code: 3015,
       description: "GENCO TABLETE MÚLTIPLA AÇÃO 200G",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo12.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares22: {
+    gencoAuxiliares23: {
       key: 32,
-      img: gencoAuxiliares22,
+      img: gencoAuxiliares23,
       code: 3006,
       description: "GENCO TABLETE COMUM T-200G",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo10.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares23: {
+    gencoAuxiliares24: {
       key: 33,
-      img: gencoAuxiliares23,
+      img: gencoAuxiliares24,
       code: 60001,
       description: "GENCO SUPER TRATAMENTO SEM OXIGENCO (SC C/ 0,400G)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo13.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares24: {
+    gencoAuxiliares25: {
       key: 34,
-      img: gencoAuxiliares24,
+      img: gencoAuxiliares25,
       code: 6150,
       description: "GENCO SOLUÇÃO AT1 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo33.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares25: {
+    gencoAuxiliares26: {
       key: 35,
-      img: gencoAuxiliares25,
+      img: gencoAuxiliares26,
       code: 6155,
       description: "GENCO SOLUÇÃO AT2 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo33.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares26: {
+    gencoAuxiliares27: {
       key: 36,
-      img: gencoAuxiliares26,
+      img: gencoAuxiliares27,
       code: 6196,
       description: "GENCO SOLUÇÃO DC1 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo34.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares27: {
+    gencoAuxiliares28: {
       key: 37,
-      img: gencoAuxiliares27,
+      img: gencoAuxiliares28,
       code: 6195,
       description: "GENCO SOLUÇÃO DC2 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo34.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares28: {
+    gencoAuxiliares29: {
       key: 38,
-      img: gencoAuxiliares28,
+      img: gencoAuxiliares29,
       code: 6190,
       description: "GENCO SOLUÇÃO DC3 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo34.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares29: {
+    gencoAuxiliares30: {
       key: 39,
-      img: gencoAuxiliares29,
+      img: gencoAuxiliares30,
       code: 6140,
       description: "GENCO SOLUÇÃO PH VERM DE FENOL (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo32.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares30: {
+    gencoAuxiliares31: {
       key: 40,
-      img: gencoAuxiliares30,
+      img: gencoAuxiliares31,
       code: 6145,
       description: "GENCO SOLUÇÃO CL-OT OTTO TOLUIDINAS (FR C/ 23)",
       fispqLink:

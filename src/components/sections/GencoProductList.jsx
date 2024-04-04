@@ -137,9 +137,9 @@ export default function GencoProductsList() {
                   }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares1.fispqLink
+                    GencoProducts.auxiliares.gencoAuxiliares2.fispqLink
                   }
-                  category={GencoProducts.auxiliares.gencoAuxiliares1.category}
+                  category={GencoProducts.auxiliares.gencoAuxiliares2.category}
                 />
                 <ImgCodeDescButtonCard
                   img={GencoProducts.auxiliares.gencoAuxiliares2.img}
@@ -149,9 +149,9 @@ export default function GencoProductsList() {
                   }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares2.fispqLink
+                    GencoProducts.auxiliares.gencoAuxiliares1.fispqLink
                   }
-                  category={GencoProducts.auxiliares.gencoAuxiliares2.category}
+                  category={GencoProducts.auxiliares.gencoAuxiliares1.category}
                 />
                 <ImgCodeDescButtonCard
                   img={GencoProducts.auxiliares.gencoAuxiliares3.img}
@@ -183,7 +183,10 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares5.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    GencoProducts.auxiliares.gencoAuxiliares5.fispqLink
+                  }
                   category={GencoProducts.auxiliares.gencoAuxiliares5.category}
                 />
                 <ImgCodeDescButtonCard
@@ -201,10 +204,7 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares7.description
                   }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares7.fispqLink
-                  }
+                  button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares7.category}
                 />
                 <ImgCodeDescButtonCard
@@ -321,7 +321,10 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares17.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    GencoProducts.auxiliares.gencoAuxiliares17.fispqLink
+                  }
                   category={GencoProducts.auxiliares.gencoAuxiliares17.category}
                 />
                 <ImgCodeDescButtonCard
@@ -357,10 +360,7 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares21.description
                   }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares21.fispqLink
-                  }
+                  button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares21.category}
                 />
                 <ImgCodeDescButtonCard
@@ -470,6 +470,18 @@ export default function GencoProductsList() {
                     GencoProducts.auxiliares.gencoAuxiliares30.fispqLink
                   }
                   category={GencoProducts.auxiliares.gencoAuxiliares30.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={GencoProducts.auxiliares.gencoAuxiliares31.img}
+                  code={GencoProducts.auxiliares.gencoAuxiliares31.code}
+                  description={
+                    GencoProducts.auxiliares.gencoAuxiliares31.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    GencoProducts.auxiliares.gencoAuxiliares31.fispqLink
+                  }
+                  category={GencoProducts.auxiliares.gencoAuxiliares31.category}
                 />
               </>
             )}
