@@ -51,12 +51,12 @@ export default function OurProducts() {
           />
           <ImgAndButtonsCard
             img={sodramarLogo}
-            button1Label="Consultar produtos"
+            button1Label="Consultar acessórios"
             button1Link="/sodramar"
           />
           <ImgAndButtonsCard
             img={netunoLogo}
-            button1Label="Consultar produtos"
+            button1Label="Consultar acessórios"
             button1Link="/netuno"
           />
         </SectionContent>
