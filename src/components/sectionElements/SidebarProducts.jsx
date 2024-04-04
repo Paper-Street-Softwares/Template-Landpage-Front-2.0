@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
-import { PropTypes } from 'prop-types';
+import { PropTypes } from "prop-types";
 
 export default function SidebarProducts({ showSidebar }) {
-  
   const handleLinkClick = (sectionId, offset) => {
     setTimeout(() => {
       const sectionTop = document.getElementById(sectionId).offsetTop + offset;
       window.scrollTo({
         top: sectionTop,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }, 100);
   };
@@ -20,9 +19,7 @@ export default function SidebarProducts({ showSidebar }) {
       }`}
     >
       <div className="content">
-        <div
-          className="flex h-auto px-12 py-6 bg-white font-mainFont"
-        >
+        <div className="flex h-auto px-12 py-6 bg-white font-mainFont">
           <div className="overflow-y-auto">
             <ul className="text-black phone2:text-paragraph5 phone3:text-title1 tablet1:text-title2">
               <Link
@@ -35,9 +32,7 @@ export default function SidebarProducts({ showSidebar }) {
                 offset={-100}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Início
-                  </span>
+                  <span className="hover:text-primary">Início</span>
                 </li>
               </Link>
               <Link
@@ -50,9 +45,7 @@ export default function SidebarProducts({ showSidebar }) {
                 offset={-320}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Sobre Nós
-                  </span>
+                  <span className="hover:text-primary">Sobre Nós</span>
                 </li>
               </Link>
               <Link
@@ -66,7 +59,7 @@ export default function SidebarProducts({ showSidebar }) {
               >
                 <li className="mb-2">
                   <span className="hover:text-primary">
-                    Produtos
+                    Produtos e Acessórios
                   </span>
                 </li>
               </Link>
@@ -80,9 +73,7 @@ export default function SidebarProducts({ showSidebar }) {
                 offset={-340}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Cursos
-                  </span>
+                  <span className="hover:text-primary">Cursos</span>
                 </li>
               </Link>
               <Link
@@ -110,9 +101,7 @@ export default function SidebarProducts({ showSidebar }) {
                 offset={-450}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Contato
-                  </span>
+                  <span className="hover:text-primary">Contato</span>
                 </li>
               </Link>
             </ul>
@@ -122,7 +111,6 @@ export default function SidebarProducts({ showSidebar }) {
     </div>
   );
 }
-
 
 SidebarProducts.propTypes = {
   showSidebar: PropTypes.bool.isRequired,
