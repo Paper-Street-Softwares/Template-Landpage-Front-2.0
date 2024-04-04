@@ -10,7 +10,7 @@ export default function SodramarPage() {
     <div className="content">
       <NavbarSectionProducts />
       <HeroProducts
-        heroTitle="Nossa linha de produtos"
+        heroTitle="Nossa linha de acessórios"
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />

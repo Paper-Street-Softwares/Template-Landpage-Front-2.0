@@ -1,9 +1,7 @@
 import { Link } from "react-scroll";
-import { PropTypes } from 'prop-types';
+import { PropTypes } from "prop-types";
 
 export default function Sidebar({ showSidebar }) {
-  
-
   return (
     <div
       className={`sidebar transition-transform transform ${
@@ -11,9 +9,7 @@ export default function Sidebar({ showSidebar }) {
       }`}
     >
       <div className="content">
-        <div
-          className="flex h-auto px-12 py-6 bg-white font-mainFont"
-        >
+        <div className="flex h-auto px-12 py-6 bg-white font-mainFont">
           <div className="overflow-y-auto">
             <ul className="text-black phone2:text-paragraph5 phone3:text-title1 tablet1:text-title2">
               <Link
@@ -25,9 +21,7 @@ export default function Sidebar({ showSidebar }) {
                 offset={-100}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Início
-                  </span>
+                  <span className="hover:text-primary">Início</span>
                 </li>
               </Link>
               <Link
@@ -39,9 +33,7 @@ export default function Sidebar({ showSidebar }) {
                 offset={-320}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Sobre Nós
-                  </span>
+                  <span className="hover:text-primary">Sobre Nós</span>
                 </li>
               </Link>
               <Link
@@ -54,7 +46,7 @@ export default function Sidebar({ showSidebar }) {
               >
                 <li className="mb-2">
                   <span className="hover:text-primary">
-                    Produtos
+                    Produtos e Acessórios
                   </span>
                 </li>
               </Link>
@@ -67,9 +59,7 @@ export default function Sidebar({ showSidebar }) {
                 offset={-340}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Cursos
-                  </span>
+                  <span className="hover:text-primary">Cursos</span>
                 </li>
               </Link>
               <Link
@@ -95,9 +85,7 @@ export default function Sidebar({ showSidebar }) {
                 offset={-450}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">
-                    Contato
-                  </span>
+                  <span className="hover:text-primary">Contato</span>
                 </li>
               </Link>
             </ul>
@@ -107,7 +95,6 @@ export default function Sidebar({ showSidebar }) {
     </div>
   );
 }
-
 
 Sidebar.propTypes = {
   showSidebar: PropTypes.bool.isRequired,
