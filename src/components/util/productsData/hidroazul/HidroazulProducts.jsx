@@ -3,6 +3,9 @@ import hidroazulCloros2 from "../../../../assets/imgs/products/hidroazul/cloros/
 import hidroazulCloros3 from "../../../../assets/imgs/products/hidroazul/cloros/3hidroazulCloros.jpg";
 import hidroazulCloros4 from "../../../../assets/imgs/products/hidroazul/cloros/4hidroazulCloros.jpg";
 import hidroazulCloros5 from "../../../../assets/imgs/products/hidroazul/cloros/5hidroazulCloros.jpg";
+import hidroazulCloros6 from "../../../../assets/imgs/products/hidroazul/cloros/6hidroazulCloros.jpg";
+import hidroazulCloros7 from "../../../../assets/imgs/products/hidroazul/cloros/7hidroazulCloros.jpg";
+import hidroazulCloros8 from "../../../../assets/imgs/products/hidroazul/cloros/8hidroazulCloros.jpg";
 
 import hidroazulAuxiliares1 from "../../../../assets/imgs/products/hidroazul/auxiliares/1hidroazulAuxiliares.jpg";
 import hidroazulAuxiliares2 from "../../../../assets/imgs/products/hidroazul/auxiliares/2hidroazulAuxiliares.jpg";
@@ -14,9 +17,6 @@ import hidroazulAuxiliares7 from "../../../../assets/imgs/products/hidroazul/aux
 import hidroazulAuxiliares8 from "../../../../assets/imgs/products/hidroazul/auxiliares/8hidroazulAuxiliares.jpg";
 import hidroazulAuxiliares9 from "../../../../assets/imgs/products/hidroazul/auxiliares/9hidroazulAuxiliares.jpg";
 import hidroazulAuxiliares10 from "../../../../assets/imgs/products/hidroazul/auxiliares/10hidroazulAuxiliares.jpg";
-import hidroazulAuxiliares11 from "../../../../assets/imgs/products/hidroazul/auxiliares/11hidroazulAuxiliares.jpg";
-import hidroazulAuxiliares12 from "../../../../assets/imgs/products/hidroazul/auxiliares/12hidroazulAuxiliares.jpg";
-import hidroazulAuxiliares13 from "../../../../assets/imgs/products/hidroazul/auxiliares/13hidroazulAuxiliares.jpg";
 
 const HidroazulProducts = {
   cloros: {
@@ -63,6 +63,33 @@ const HidroazulProducts = {
       description: "HIDROAZUL DICLORO ORGANICO (BD 10,0K)",
       fispqLink:
         "https://hidroazul.com.br/wp-content/uploads/2022/12/03_FDS_DICLORO-ORGANICO-HIDROAZUL_REV00.pdf",
+      category: "cloros",
+    },
+    hidroazulCloros6: {
+      key: 27,
+      img: hidroazulCloros6,
+      code: 60002,
+      description: "HIDROAZUL PODEROX (BD C/ 3,0K)",
+      fispqLink:
+        "https://hidroazul.com.br/wp-content/uploads/2022/12/16_FDS_PODEROX_REV00.pdf",
+      category: "cloros",
+    },
+    hidroazulCloros7: {
+      key: 28,
+      img: hidroazulCloros7,
+      code: 3021,
+      description: "HIDROAZUL WEEKEND (SC C/ 4,0K)",
+      fispqLink:
+        "https://hidroazul.com.br/wp-content/uploads/2022/12/09_FDS_WEEKEND_REV00.pdf",
+      category: "cloros",
+    },
+    hidroazulCloros8: {
+      key: 29,
+      img: hidroazulCloros8,
+      code: 3020,
+      description: "HIDROAZUL TABLETE MULTIAÇÃO 200G",
+      fispqLink:
+        "https://hidroazul.com.br/wp-content/uploads/2022/12/11_FDS_PASTILHA-DE-TRICLORO-MULTIACAO_REV00.pdf",
       category: "cloros",
     },
   },
@@ -155,33 +182,6 @@ const HidroazulProducts = {
       description: "HIDROAZUL LIMPA BORDAS (FR 1,0L)",
       fispqLink:
         "https://hidroazul.com.br/wp-content/uploads/2022/04/23_FDS_LIMPA-BORDAS-HIDROAZUL_REV01.pdf",
-      category: "auxiliares",
-    },
-    hidroazulAuxiliares11: {
-      key: 27,
-      img: hidroazulAuxiliares11,
-      code: 60002,
-      description: "HIDROAZUL PODEROX (BD C/ 3,0K)",
-      fispqLink:
-        "https://hidroazul.com.br/wp-content/uploads/2022/12/16_FDS_PODEROX_REV00.pdf",
-      category: "auxiliares",
-    },
-    hidroazulAuxiliares12: {
-      key: 28,
-      img: hidroazulAuxiliares12,
-      code: 3021,
-      description: "HIDROAZUL WEEKEND (SC C/ 4,0K)",
-      fispqLink:
-        "https://hidroazul.com.br/wp-content/uploads/2022/12/09_FDS_WEEKEND_REV00.pdf",
-      category: "auxiliares",
-    },
-    hidroazulAuxiliares13: {
-      key: 29,
-      img: hidroazulAuxiliares13,
-      code: 3020,
-      description: "HIDROAZUL TABLETE MULTIAÇÃO 200G",
-      fispqLink:
-        "https://hidroazul.com.br/wp-content/uploads/2022/12/11_FDS_PASTILHA-DE-TRICLORO-MULTIACAO_REV00.pdf",
       category: "auxiliares",
     },
   },

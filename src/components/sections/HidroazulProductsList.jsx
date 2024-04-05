@@ -112,6 +112,42 @@ export default function HidroazulProductsList() {
                   }
                   category={HidroazulProducts.cloros.hidroazulCloros5.category}
                 />
+                <ImgCodeDescButtonCard
+                  img={HidroazulProducts.cloros.hidroazulCloros6.img}
+                  code={HidroazulProducts.cloros.hidroazulCloros6.code}
+                  description={
+                    HidroazulProducts.cloros.hidroazulCloros6.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    HidroazulProducts.cloros.hidroazulCloros6.fispqLink
+                  }
+                  category={HidroazulProducts.cloros.hidroazulCloros6.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HidroazulProducts.cloros.hidroazulCloros7.img}
+                  code={HidroazulProducts.cloros.hidroazulCloros7.code}
+                  description={
+                    HidroazulProducts.cloros.hidroazulCloros7.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    HidroazulProducts.cloros.hidroazulCloros7.fispqLink
+                  }
+                  category={HidroazulProducts.cloros.hidroazulCloros7.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HidroazulProducts.cloros.hidroazulCloros8.img}
+                  code={HidroazulProducts.cloros.hidroazulCloros8.code}
+                  description={
+                    HidroazulProducts.cloros.hidroazulCloros8.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    HidroazulProducts.cloros.hidroazulCloros8.fispqLink
+                  }
+                  category={HidroazulProducts.cloros.hidroazulCloros8.category}
+                />
               </>
             )}
             {(selectedCategory === "auxiliares" ||
@@ -265,51 +301,6 @@ export default function HidroazulProductsList() {
                   }
                   category={
                     HidroazulProducts.auxiliares.hidroazulAuxiliares10.category
-                  }
-                />
-                <ImgCodeDescButtonCard
-                  img={HidroazulProducts.auxiliares.hidroazulAuxiliares11.img}
-                  code={HidroazulProducts.auxiliares.hidroazulAuxiliares11.code}
-                  description={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares11
-                      .description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares11.fispqLink
-                  }
-                  category={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares11.category
-                  }
-                />
-                <ImgCodeDescButtonCard
-                  img={HidroazulProducts.auxiliares.hidroazulAuxiliares12.img}
-                  code={HidroazulProducts.auxiliares.hidroazulAuxiliares12.code}
-                  description={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares12
-                      .description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares12.fispqLink
-                  }
-                  category={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares12.category
-                  }
-                />
-                <ImgCodeDescButtonCard
-                  img={HidroazulProducts.auxiliares.hidroazulAuxiliares13.img}
-                  code={HidroazulProducts.auxiliares.hidroazulAuxiliares13.code}
-                  description={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares13
-                      .description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares13.fispqLink
-                  }
-                  category={
-                    HidroazulProducts.auxiliares.hidroazulAuxiliares13.category
                   }
                 />
               </>
