@@ -73,7 +73,7 @@ export default function SidebarProducts({ showSidebar }) {
                 offset={-340}
               >
                 <li className="mb-2">
-                  <span className="hover:text-primary">Cursos</span>
+                  <span className="hover:text-primary">Cursos e Palestras</span>
                 </li>
               </Link>
               <Link
