@@ -7,6 +7,9 @@ import gencoCloros6 from "../../../../assets/imgs/products/genco/cloros/6gencoCl
 import gencoCloros7 from "../../../../assets/imgs/products/genco/cloros/7gencoCloros.jpg";
 import gencoCloros8 from "../../../../assets/imgs/products/genco/cloros/8gencoCloros.jpg";
 import gencoCloros9 from "../../../../assets/imgs/products/genco/cloros/9gencoCloros.jpg";
+import gencoCloros10 from "../../../../assets/imgs/products/genco/cloros/10gencoCloros.jpg";
+import gencoCloros11 from "../../../../assets/imgs/products/genco/cloros/11gencoCloros.jpg";
+import gencoCloros12 from "../../../../assets/imgs/products/genco/cloros/12gencoCloros.jpg";
 
 import gencoAuxiliares1 from "../../../../assets/imgs/products/genco/auxiliares/1gencoAuxiliares.jpg";
 import gencoAuxiliares2 from "../../../../assets/imgs/products/genco/auxiliares/2gencoAuxiliares.jpg";
@@ -36,9 +39,6 @@ import gencoAuxiliares25 from "../../../../assets/imgs/products/genco/auxiliares
 import gencoAuxiliares26 from "../../../../assets/imgs/products/genco/auxiliares/26gencoAuxiliares.jpg";
 import gencoAuxiliares27 from "../../../../assets/imgs/products/genco/auxiliares/27gencoAuxiliares.jpg";
 import gencoAuxiliares28 from "../../../../assets/imgs/products/genco/auxiliares/28gencoAuxiliares.jpg";
-import gencoAuxiliares29 from "../../../../assets/imgs/products/genco/auxiliares/29gencoAuxiliares.jpg";
-import gencoAuxiliares30 from "../../../../assets/imgs/products/genco/auxiliares/30gencoAuxiliares.jpg";
-import gencoAuxiliares31 from "../../../../assets/imgs/products/genco/auxiliares/31gencoAuxiliares.jpg";
 
 const GencoProducts = {
   cloros: {
@@ -121,6 +121,33 @@ const GencoProducts = {
       description: "GENCO CLORO GRANULADO POOL TRAT 65,0% (SC C/ 1,0K)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo9.pdf",
+      category: "cloros",
+    },
+    gencoCloros10: {
+      key: 31,
+      img: gencoCloros10,
+      code: 3015,
+      description: "GENCO TABLETE MÚLTIPLA AÇÃO 200G",
+      fispqLink:
+        "https://www.genco.com.br/imagens/produtos/produto-arquivo12.pdf",
+      category: "cloros",
+    },
+    gencoCloros11: {
+      key: 32,
+      img: gencoCloros11,
+      code: 3006,
+      description: "GENCO TABLETE COMUM T-200G",
+      fispqLink:
+        "https://www.genco.com.br/imagens/produtos/produto-arquivo10.pdf",
+      category: "cloros",
+    },
+    gencoCloros12: {
+      key: 33,
+      img: gencoCloros12,
+      code: 60001,
+      description: "GENCO SUPER TRATAMENTO SEM OXIGENCO (SC C/ 0,400G)",
+      fispqLink:
+        "https://www.genco.com.br/imagens/produtos/produto-arquivo13.pdf",
       category: "cloros",
     },
   },
@@ -309,89 +336,62 @@ const GencoProducts = {
       category: "auxiliares",
     },
     gencoAuxiliares22: {
-      key: 31,
-      img: gencoAuxiliares22,
-      code: 3015,
-      description: "GENCO TABLETE MÚLTIPLA AÇÃO 200G",
-      fispqLink:
-        "https://www.genco.com.br/imagens/produtos/produto-arquivo12.pdf",
-      category: "auxiliares",
-    },
-    gencoAuxiliares23: {
-      key: 32,
-      img: gencoAuxiliares23,
-      code: 3006,
-      description: "GENCO TABLETE COMUM T-200G",
-      fispqLink:
-        "https://www.genco.com.br/imagens/produtos/produto-arquivo10.pdf",
-      category: "auxiliares",
-    },
-    gencoAuxiliares24: {
-      key: 33,
-      img: gencoAuxiliares24,
-      code: 60001,
-      description: "GENCO SUPER TRATAMENTO SEM OXIGENCO (SC C/ 0,400G)",
-      fispqLink:
-        "https://www.genco.com.br/imagens/produtos/produto-arquivo13.pdf",
-      category: "auxiliares",
-    },
-    gencoAuxiliares25: {
       key: 34,
-      img: gencoAuxiliares25,
+      img: gencoAuxiliares22,
       code: 6150,
       description: "GENCO SOLUÇÃO AT1 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo33.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares26: {
+    gencoAuxiliares23: {
       key: 35,
-      img: gencoAuxiliares26,
+      img: gencoAuxiliares23,
       code: 6155,
       description: "GENCO SOLUÇÃO AT2 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo33.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares27: {
+    gencoAuxiliares24: {
       key: 36,
-      img: gencoAuxiliares27,
+      img: gencoAuxiliares24,
       code: 6196,
       description: "GENCO SOLUÇÃO DC1 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo34.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares28: {
+    gencoAuxiliares25: {
       key: 37,
-      img: gencoAuxiliares28,
+      img: gencoAuxiliares25,
       code: 6195,
       description: "GENCO SOLUÇÃO DC2 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo34.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares29: {
+    gencoAuxiliares26: {
       key: 38,
-      img: gencoAuxiliares29,
+      img: gencoAuxiliares26,
       code: 6190,
       description: "GENCO SOLUÇÃO DC3 (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo34.rar",
       category: "auxiliares",
     },
-    gencoAuxiliares30: {
+    gencoAuxiliares27: {
       key: 39,
-      img: gencoAuxiliares30,
+      img: gencoAuxiliares27,
       code: 6140,
       description: "GENCO SOLUÇÃO PH VERM DE FENOL (FR C/ 23 ML)",
       fispqLink:
         "https://www.genco.com.br/imagens/produtos/produto-arquivo32.pdf",
       category: "auxiliares",
     },
-    gencoAuxiliares31: {
+    gencoAuxiliares28: {
       key: 40,
-      img: gencoAuxiliares31,
+      img: gencoAuxiliares28,
       code: 6145,
       description: "GENCO SOLUÇÃO CL-OT OTTO TOLUIDINAS (FR C/ 23)",
       fispqLink:

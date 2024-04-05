@@ -124,6 +124,42 @@ export default function GencoProductsList() {
                   button1Link={GencoProducts.cloros.gencoCloros9.fispqLink}
                   category={GencoProducts.cloros.gencoCloros9.category}
                 />
+                <ImgCodeDescButtonCard
+                  img={GencoProducts.cloros.gencoCloros10.img}
+                  code={GencoProducts.cloros.gencoCloros10.code}
+                  description={
+                    GencoProducts.cloros.gencoCloros10.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    GencoProducts.cloros.gencoCloros10.fispqLink
+                  }
+                  category={GencoProducts.cloros.gencoCloros10.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={GencoProducts.cloros.gencoCloros11.img}
+                  code={GencoProducts.cloros.gencoCloros11.code}
+                  description={
+                    GencoProducts.cloros.gencoCloros11.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    GencoProducts.cloros.gencoCloros11.fispqLink
+                  }
+                  category={GencoProducts.cloros.gencoCloros11.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={GencoProducts.cloros.gencoCloros12.img}
+                  code={GencoProducts.cloros.gencoCloros12.code}
+                  description={
+                    GencoProducts.cloros.gencoCloros12.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    GencoProducts.cloros.gencoCloros12.fispqLink
+                  }
+                  category={GencoProducts.cloros.gencoCloros12.category}
+                />
               </>
             )}
             {(selectedCategory === "auxiliares" ||
@@ -446,42 +482,6 @@ export default function GencoProductsList() {
                     GencoProducts.auxiliares.gencoAuxiliares28.fispqLink
                   }
                   category={GencoProducts.auxiliares.gencoAuxiliares28.category}
-                />
-                <ImgCodeDescButtonCard
-                  img={GencoProducts.auxiliares.gencoAuxiliares29.img}
-                  code={GencoProducts.auxiliares.gencoAuxiliares29.code}
-                  description={
-                    GencoProducts.auxiliares.gencoAuxiliares29.description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares29.fispqLink
-                  }
-                  category={GencoProducts.auxiliares.gencoAuxiliares29.category}
-                />
-                <ImgCodeDescButtonCard
-                  img={GencoProducts.auxiliares.gencoAuxiliares30.img}
-                  code={GencoProducts.auxiliares.gencoAuxiliares30.code}
-                  description={
-                    GencoProducts.auxiliares.gencoAuxiliares30.description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares30.fispqLink
-                  }
-                  category={GencoProducts.auxiliares.gencoAuxiliares30.category}
-                />
-                <ImgCodeDescButtonCard
-                  img={GencoProducts.auxiliares.gencoAuxiliares31.img}
-                  code={GencoProducts.auxiliares.gencoAuxiliares31.code}
-                  description={
-                    GencoProducts.auxiliares.gencoAuxiliares31.description
-                  }
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={
-                    GencoProducts.auxiliares.gencoAuxiliares31.fispqLink
-                  }
-                  category={GencoProducts.auxiliares.gencoAuxiliares31.category}
                 />
               </>
             )}
