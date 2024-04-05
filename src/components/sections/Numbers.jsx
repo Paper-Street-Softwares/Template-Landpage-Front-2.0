@@ -8,7 +8,7 @@ export default function Numbers() {
   const [yearsOfService, setYearsOfService] = useState(0);
 
   useEffect(() => {
-    const startDate = new Date("2003-01-01");
+    const startDate = new Date("2003-06-04");
     const currentDate = new Date();
     const differenceInYears =
       currentDate.getFullYear() - startDate.getFullYear();
