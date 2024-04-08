@@ -1,4 +1,5 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
+import DomclorProductsList from "../components/sections/DomClorProductsList";
 import Footer from "../components/sections/Footer";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -14,6 +15,7 @@ export default function DomclorPage() {
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
+      <DomclorProductsList />
       <BackToTopButton />
       <FloatingWhatsappButton />
       <Footer />
