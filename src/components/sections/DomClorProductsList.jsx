@@ -20,6 +20,15 @@ export default function DomclorProductsList() {
               Filtrar por categoria
             </h3>
             <div className="bg-white w-full desktop1:flex-col mb-[32px] flex flex-col phone3:justify-evenly phone3:flex-row p-[20px] phone3:p-4 rounded-[10px]">
+            <FormControlLabel
+                control={
+                  <Checkbox
+                    checked={selectedCategory === "all"}
+                    onChange={() => handleCheckboxChange("all")}
+                  />
+                }
+                label="Todos"
+              />
               <FormControlLabel
                 control={
                   <Checkbox
