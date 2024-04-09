@@ -1,5 +1,5 @@
-import { StepperWithContent } from "../interactives/StepperWithContent";
+import { SidebarWithBurgerMenu } from "../interactives/SidebarWithBurgerMenu";
 
 export default function FiveSteps() {
-  return <StepperWithContent />;
+  return <SidebarWithBurgerMenu />;
 }
