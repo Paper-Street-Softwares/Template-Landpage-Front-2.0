@@ -1,5 +1,5 @@
-import Stepper from "../interactives/Stepper";
+import { StepperWithContent } from "../interactives/StepperWithContent";
 
 export default function FiveSteps() {
-  return <Stepper />;
+  return <StepperWithContent />;
 }
