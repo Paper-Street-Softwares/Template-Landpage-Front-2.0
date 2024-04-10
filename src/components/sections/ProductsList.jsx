@@ -56,6 +56,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros1.img}
                   code={HthProducts.cloros.hthCloros1.code}
                   description={HthProducts.cloros.hthCloros1.description}
+                  alt={HthProducts.cloros.hthCloros1.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros1.fispqLink}
                   category={HthProducts.cloros.hthCloros1.category}
@@ -127,9 +128,7 @@ export default function ProductsList() {
                 <ImgCodeDescButtonCard
                   img={HthProducts.cloros.hthCloros10.img}
                   code={HthProducts.cloros.hthCloros10.code}
-                  description={
-                    HthProducts.cloros.hthCloros10.description
-                  }
+                  description={HthProducts.cloros.hthCloros10.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros10.fispqLink}
                   category={HthProducts.cloros.hthCloros10.category}
@@ -137,9 +136,7 @@ export default function ProductsList() {
                 <ImgCodeDescButtonCard
                   img={HthProducts.cloros.hthCloros11.img}
                   code={HthProducts.cloros.hthCloros11.code}
-                  description={
-                    HthProducts.cloros.hthCloros11.description
-                  }
+                  description={HthProducts.cloros.hthCloros11.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros11.fispqLink}
                   category={HthProducts.cloros.hthCloros11.category}
