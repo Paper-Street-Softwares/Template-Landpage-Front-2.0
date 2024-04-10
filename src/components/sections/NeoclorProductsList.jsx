@@ -55,7 +55,9 @@ export default function NeoclorProductsList() {
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.cloros.neoclorCloros1.img}
                   code={NeoclorProducts.cloros.neoclorCloros1.code}
-                  description={NeoclorProducts.cloros.neoclorCloros1.description}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros1.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros1.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros1.category}
@@ -63,7 +65,9 @@ export default function NeoclorProductsList() {
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.cloros.neoclorCloros2.img}
                   code={NeoclorProducts.cloros.neoclorCloros2.code}
-                  description={NeoclorProducts.cloros.neoclorCloros2.description}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros2.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros2.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros2.category}
@@ -71,7 +75,9 @@ export default function NeoclorProductsList() {
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.cloros.neoclorCloros3.img}
                   code={NeoclorProducts.cloros.neoclorCloros3.code}
-                  description={NeoclorProducts.cloros.neoclorCloros3.description}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros3.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros3.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros3.category}
@@ -79,7 +85,9 @@ export default function NeoclorProductsList() {
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.cloros.neoclorCloros4.img}
                   code={NeoclorProducts.cloros.neoclorCloros4.code}
-                  description={NeoclorProducts.cloros.neoclorCloros4.description}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros4.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros4.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros4.category}
@@ -87,7 +95,9 @@ export default function NeoclorProductsList() {
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.cloros.neoclorCloros5.img}
                   code={NeoclorProducts.cloros.neoclorCloros5.code}
-                  description={NeoclorProducts.cloros.neoclorCloros5.description}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros5.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros5.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros5.category}
@@ -95,20 +105,13 @@ export default function NeoclorProductsList() {
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.cloros.neoclorCloros6.img}
                   code={NeoclorProducts.cloros.neoclorCloros6.code}
-                  description={NeoclorProducts.cloros.neoclorCloros6.description}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros6.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros6.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros6.category}
                 />
-                <ImgCodeDescButtonCard
-                  img={NeoclorProducts.cloros.neoclorCloros7.img}
-                  code={NeoclorProducts.cloros.neoclorCloros7.code}
-                  description={NeoclorProducts.cloros.neoclorCloros7.description}
-                  button1Label="Baixar Ficha FISPQ"
-                  button1Link={NeoclorProducts.cloros.neoclorCloros7.fispqLink}
-                  category={NeoclorProducts.cloros.neoclorCloros7.category}
-                />
-
               </>
             )}
             {(selectedCategory === "auxiliares" ||
@@ -124,7 +127,9 @@ export default function NeoclorProductsList() {
                   button1Link={
                     NeoclorProducts.auxiliares.neoclorAuxiliares1.fispqLink
                   }
-                  category={NeoclorProducts.auxiliares.neoclorAuxiliares1.category}
+                  category={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares1.category
+                  }
                 />
                 <ImgCodeDescButtonCard
                   img={NeoclorProducts.auxiliares.neoclorAuxiliares2.img}
@@ -136,7 +141,23 @@ export default function NeoclorProductsList() {
                   button1Link={
                     NeoclorProducts.auxiliares.neoclorAuxiliares2.fispqLink
                   }
-                  category={NeoclorProducts.auxiliares.neoclorAuxiliares2.category}
+                  category={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares2.category
+                  }
+                />
+                <ImgCodeDescButtonCard
+                  img={NeoclorProducts.auxiliares.neoclorAuxiliares3.img}
+                  code={NeoclorProducts.auxiliares.neoclorAuxiliares3.code}
+                  description={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares3.description
+                  }
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares3.fispqLink
+                  }
+                  category={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares3.category
+                  }
                 />
               </>
             )}

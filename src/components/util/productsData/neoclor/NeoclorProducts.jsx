@@ -4,10 +4,12 @@ import neoclorCloros3 from "../../../../assets/imgs/products/neoclor/cloros/3neo
 import neoclorCloros4 from "../../../../assets/imgs/products/neoclor/cloros/4neoclorCloros.jpg";
 import neoclorCloros5 from "../../../../assets/imgs/products/neoclor/cloros/5neoclorCloros.jpg";
 import neoclorCloros6 from "../../../../assets/imgs/products/neoclor/cloros/6neoclorCloros.jpg";
-import neoclorCloros7 from "../../../../assets/imgs/products/neoclor/cloros/7neoclorCloros.jpg";
+
 
 import neoclorAuxiliares1 from "../../../../assets/imgs/products/neoclor/auxiliares/1neoclorAuxiliares.jpg";
 import neoclorAuxiliares2 from "../../../../assets/imgs/products/neoclor/auxiliares/2neoclorAuxiliares.jpg";
+import neoclorAuxiliares3 from "../../../../assets/imgs/products/neoclor/auxiliares/3neoclorAuxiliares.jpg";
+
 
 const NeoclorProducts = {
   cloros: {
@@ -30,44 +32,35 @@ const NeoclorProducts = {
       category: "cloros",
     },
     neoclorCloros3: {
-      key: 6,
-      img: neoclorCloros3,
-      code: 4082,
-      description: "NEOCLOR NEOFLOC (FR 1,0L)",
-      fispqLink:
-        "https://neoclor.com.br/wp-content/uploads/2023/08/FT-032-_-NeoFloc-_-Rev.-01.pdf",
-      category: "cloros",
-    },
-    neoclorCloros4: {
       key: 7,
-      img: neoclorCloros4,
+      img: neoclorCloros3,
       code: 2032,
       description: "NEOCLOR CL GRAN HIPOCALCIO 65,0% (BD C/ 10,0K)",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-021-_-Hipocalcio-_-Rev.-01.pdf",
       category: "cloros",
     },
-    neoclorCloros5: {
+    neoclorCloros4: {
       key: 9,
-      img: neoclorCloros5,
+      img: neoclorCloros4,
       code: 3030,
       description: "NEOCLOR TABLETE TRIACTION 200G",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-023-_-Tablete-Premium-_-Rev.-01.pdf",
       category: "cloros",
     },
-    neoclorCloros6: {
+    neoclorCloros5: {
       key: 10,
-      img: neoclorCloros6,
+      img: neoclorCloros5,
       code: 3040,
       description: "NEOCLOR TABLETE PREMIUM 200G",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-023-_-Tablete-Premium-_-Rev.-01.pdf",
       category: "cloros",
     },
-    neoclorCloros7: {
+    neoclorCloros6: {
       key: 11,
-      img: neoclorCloros7,
+      img: neoclorCloros6,
       code: 60004,
       description: "NEOCLOR NEOOX (BD C/ 0,450G)",
       fispqLink:
@@ -86,8 +79,17 @@ const NeoclorProducts = {
       category: "auxiliares",
     },
     neoclorAuxiliares2: {
-      key: 8,
+      key: 6,
       img: neoclorAuxiliares2,
+      code: 4082,
+      description: "NEOCLOR NEOFLOC (FR 1,0L)",
+      fispqLink:
+        "https://neoclor.com.br/wp-content/uploads/2023/08/FT-032-_-NeoFloc-_-Rev.-01.pdf",
+      category: "auxiliares",
+    },
+    neoclorAuxiliares3: {
+      key: 8,
+      img: neoclorAuxiliares3,
       code: 32111,
       description: "NEOCLOR PEDRA LIMPA CONCENTRADO (GL 5,0 L)",
       fispqLink:
