@@ -36,7 +36,7 @@ import sodramarLimpeza35 from "../../../../assets/imgs/products/sodramar/limpeza
 import sodramarLimpeza36 from "../../../../assets/imgs/products/sodramar/limpeza/36sodramarLimpeza.jpg";
 import sodramarLimpeza37 from "../../../../assets/imgs/products/sodramar/limpeza/37sodramarLimpeza.jpg";
 import sodramarLimpeza38 from "../../../../assets/imgs/products/sodramar/limpeza/38sodramarLimpeza.jpg";
-import sodramarLimpeza39 from "../../../../assets/imgs/products/sodramar/limpeza/38sodramarLimpeza.jpg";
+import sodramarLimpeza39 from "../../../../assets/imgs/products/sodramar/limpeza/39sodramarLimpeza.jpg";
 import sodramarLimpeza40 from "../../../../assets/imgs/products/sodramar/limpeza/40sodramarLimpeza.jpg";
 
 import sodramarConstrução1 from "../../../../assets/imgs/products/sodramar/construção/1sodramarConstrução.jpg";
@@ -173,7 +173,6 @@ import sodramarConstrução131 from "../../../../assets/imgs/products/sodramar/c
 import sodramarConstrução132 from "../../../../assets/imgs/products/sodramar/construção/132sodramarConstrução.jpg";
 import sodramarConstrução133 from "../../../../assets/imgs/products/sodramar/construção/133sodramarConstrução.jpg";
 import sodramarConstrução134 from "../../../../assets/imgs/products/sodramar/construção/134sodramarConstrução.jpg";
-
 
 const SodramarProducts = {
   limpeza: {
