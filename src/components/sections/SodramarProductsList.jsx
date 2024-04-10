@@ -1926,18 +1926,6 @@ export default function SodramarProductsList() {
                     SodramarProducts.construção.sodramarConstrução134.category
                   }
                 />
-                <ImgCodeDescButtonCard
-                  img={SodramarProducts.construção.sodramarConstrução135.img}
-                  code={SodramarProducts.construção.sodramarConstrução135.code}
-                  description={
-                    SodramarProducts.construção.sodramarConstrução135
-                      .description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
-                  category={
-                    SodramarProducts.construção.sodramarConstrução135.category
-                  }
-                />
               </>
             )}
           </div>
