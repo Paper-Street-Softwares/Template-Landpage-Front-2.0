@@ -49,6 +49,9 @@ export default function DomclorProductsList() {
                   description={
                     DomclorProducts.cloros.domclorCloros1.description
                   }
+                  alt={
+                    DomclorProducts.cloros.domclorCloros1.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={DomclorProducts.cloros.domclorCloros1.fispqLink}
                   category={DomclorProducts.cloros.domclorCloros1.category}
@@ -57,6 +60,9 @@ export default function DomclorProductsList() {
                   img={DomclorProducts.cloros.domclorCloros2.img}
                   code={DomclorProducts.cloros.domclorCloros2.code}
                   description={
+                    DomclorProducts.cloros.domclorCloros2.description
+                  }
+                  alt={
                     DomclorProducts.cloros.domclorCloros2.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -69,6 +75,9 @@ export default function DomclorProductsList() {
                   description={
                     DomclorProducts.cloros.domclorCloros3.description
                   }
+                  alt={
+                    DomclorProducts.cloros.domclorCloros3.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={DomclorProducts.cloros.domclorCloros3.fispqLink}
                   category={DomclorProducts.cloros.domclorCloros3.category}
@@ -77,6 +86,9 @@ export default function DomclorProductsList() {
                   img={DomclorProducts.cloros.domclorCloros4.img}
                   code={DomclorProducts.cloros.domclorCloros4.code}
                   description={
+                    DomclorProducts.cloros.domclorCloros4.description
+                  }
+                  alt={
                     DomclorProducts.cloros.domclorCloros4.description
                   }
                   button1Label="Baixar Ficha FISPQ"
