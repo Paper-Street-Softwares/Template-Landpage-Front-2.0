@@ -58,6 +58,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza1.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza1.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza1.category}
                 />
@@ -65,6 +68,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza2.img}
                   code={NetunoProducts.limpeza.netunoLimpeza2.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza2.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza2.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -76,6 +82,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza3.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza3.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza3.category}
                 />
@@ -83,6 +92,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza4.img}
                   code={NetunoProducts.limpeza.netunoLimpeza4.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza4.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza4.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -94,6 +106,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza5.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza5.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza5.category}
                 />
@@ -101,6 +116,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza6.img}
                   code={NetunoProducts.limpeza.netunoLimpeza6.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza6.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza6.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -112,6 +130,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza7.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza7.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza7.category}
                 />
@@ -119,6 +140,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza8.img}
                   code={NetunoProducts.limpeza.netunoLimpeza8.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza8.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza8.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -130,6 +154,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza9.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza9.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza9.category}
                 />
@@ -137,6 +164,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza10.img}
                   code={NetunoProducts.limpeza.netunoLimpeza10.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza10.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza10.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -148,6 +178,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza11.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza11.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza11.category}
                 />
@@ -155,6 +188,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza12.img}
                   code={NetunoProducts.limpeza.netunoLimpeza12.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza12.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza12.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -166,6 +202,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza13.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza13.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza13.category}
                 />
@@ -173,6 +212,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza14.img}
                   code={NetunoProducts.limpeza.netunoLimpeza14.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza14.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza14.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -184,6 +226,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza15.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza15.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza15.category}
                 />
@@ -191,6 +236,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza16.img}
                   code={NetunoProducts.limpeza.netunoLimpeza16.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza16.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza16.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -202,6 +250,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza17.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza17.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza17.category}
                 />
@@ -209,6 +260,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza18.img}
                   code={NetunoProducts.limpeza.netunoLimpeza18.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza18.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza18.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -220,6 +274,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza19.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza19.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza19.category}
                 />
@@ -227,6 +284,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza20.img}
                   code={NetunoProducts.limpeza.netunoLimpeza20.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza20.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza20.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -238,6 +298,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.limpeza.netunoLimpeza21.description
                   }
+                  alt={
+                    NetunoProducts.limpeza.netunoLimpeza21.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={NetunoProducts.limpeza.netunoLimpeza21.category}
                 />
@@ -245,6 +308,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.limpeza.netunoLimpeza22.img}
                   code={NetunoProducts.limpeza.netunoLimpeza22.code}
                   description={
+                    NetunoProducts.limpeza.netunoLimpeza22.description
+                  }
+                  alt={
                     NetunoProducts.limpeza.netunoLimpeza22.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -261,6 +327,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.construção.netunoConstrução1.description
                   }
+                  alt={
+                    NetunoProducts.construção.netunoConstrução1.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={
                     NetunoProducts.construção.netunoConstrução1.category
@@ -270,6 +339,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.construção.netunoConstrução2.img}
                   code={NetunoProducts.construção.netunoConstrução2.code}
                   description={
+                    NetunoProducts.construção.netunoConstrução2.description
+                  }
+                  alt={
                     NetunoProducts.construção.netunoConstrução2.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -283,6 +355,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.construção.netunoConstrução3.description
                   }
+                  alt={
+                    NetunoProducts.construção.netunoConstrução3.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={
                     NetunoProducts.construção.netunoConstrução3.category
@@ -292,6 +367,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.construção.netunoConstrução4.img}
                   code={NetunoProducts.construção.netunoConstrução4.code}
                   description={
+                    NetunoProducts.construção.netunoConstrução4.description
+                  }
+                  alt={
                     NetunoProducts.construção.netunoConstrução4.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -305,6 +383,9 @@ export default function NetunoProductsList() {
                   description={
                     NetunoProducts.construção.netunoConstrução5.description
                   }
+                  alt={
+                    NetunoProducts.construção.netunoConstrução5.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={
                     NetunoProducts.construção.netunoConstrução5.category
@@ -314,6 +395,9 @@ export default function NetunoProductsList() {
                   img={NetunoProducts.construção.netunoConstrução6.img}
                   code={NetunoProducts.construção.netunoConstrução6.code}
                   description={
+                    NetunoProducts.construção.netunoConstrução6.description
+                  }
+                  alt={
                     NetunoProducts.construção.netunoConstrução6.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
