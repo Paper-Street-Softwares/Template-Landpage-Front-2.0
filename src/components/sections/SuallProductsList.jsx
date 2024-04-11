@@ -50,6 +50,9 @@ export default function SuallProductsList() {
                   description={
                     SuallProducts.auxiliares.suallAuxiliares1.description
                   }
+                  alt={
+                    SuallProducts.auxiliares.suallAuxiliares1.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={SuallProducts.auxiliares.suallAuxiliares2.category}
                 />
@@ -57,6 +60,9 @@ export default function SuallProductsList() {
                   img={SuallProducts.auxiliares.suallAuxiliares2.img}
                   code={SuallProducts.auxiliares.suallAuxiliares2.code}
                   description={
+                    SuallProducts.auxiliares.suallAuxiliares2.description
+                  }
+                  alt={
                     SuallProducts.auxiliares.suallAuxiliares2.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -68,6 +74,9 @@ export default function SuallProductsList() {
                   description={
                     SuallProducts.auxiliares.suallAuxiliares3.description
                   }
+                  alt={
+                    SuallProducts.auxiliares.suallAuxiliares3.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={SuallProducts.auxiliares.suallAuxiliares3.category}
                 />
@@ -75,6 +84,9 @@ export default function SuallProductsList() {
                   img={SuallProducts.auxiliares.suallAuxiliares4.img}
                   code={SuallProducts.auxiliares.suallAuxiliares4.code}
                   description={
+                    SuallProducts.auxiliares.suallAuxiliares4.description
+                  }
+                  alt={
                     SuallProducts.auxiliares.suallAuxiliares4.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -86,6 +98,9 @@ export default function SuallProductsList() {
                   description={
                     SuallProducts.auxiliares.suallAuxiliares5.description
                   }
+                  alt={
+                    SuallProducts.auxiliares.suallAuxiliares5.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={SuallProducts.auxiliares.suallAuxiliares5.category}
                 />
@@ -93,6 +108,9 @@ export default function SuallProductsList() {
                   img={SuallProducts.auxiliares.suallAuxiliares6.img}
                   code={SuallProducts.auxiliares.suallAuxiliares6.code}
                   description={
+                    SuallProducts.auxiliares.suallAuxiliares6.description
+                  }
+                  alt={
                     SuallProducts.auxiliares.suallAuxiliares6.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
