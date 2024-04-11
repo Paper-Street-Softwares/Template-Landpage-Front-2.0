@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 export default function ImgCodeDescCard(props) {
-  const { img, description, code, alt } = props;
+  const { img, description, category, code, alt } = props;
 
   ImgCodeDescCard.propTypes = {
     img: PropTypes.any,
