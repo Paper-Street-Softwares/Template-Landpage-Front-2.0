@@ -56,6 +56,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros1.img}
                   code={GencoProducts.cloros.gencoCloros1.code}
                   description={GencoProducts.cloros.gencoCloros1.description}
+                  alt={GencoProducts.cloros.gencoCloros1.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros1.fispqLink}
                   category={GencoProducts.cloros.gencoCloros1.category}
@@ -64,6 +65,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros2.img}
                   code={GencoProducts.cloros.gencoCloros2.code}
                   description={GencoProducts.cloros.gencoCloros2.description}
+                  alt={GencoProducts.cloros.gencoCloros2.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros2.fispqLink}
                   category={GencoProducts.cloros.gencoCloros2.category}
@@ -72,6 +74,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros3.img}
                   code={GencoProducts.cloros.gencoCloros3.code}
                   description={GencoProducts.cloros.gencoCloros3.description}
+                  alt={GencoProducts.cloros.gencoCloros3.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros3.fispqLink}
                   category={GencoProducts.cloros.gencoCloros3.category}
@@ -80,6 +83,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros4.img}
                   code={GencoProducts.cloros.gencoCloros4.code}
                   description={GencoProducts.cloros.gencoCloros4.description}
+                  alt={GencoProducts.cloros.gencoCloros4.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros4.fispqLink}
                   category={GencoProducts.cloros.gencoCloros4.category}
@@ -88,6 +92,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros5.img}
                   code={GencoProducts.cloros.gencoCloros5.code}
                   description={GencoProducts.cloros.gencoCloros5.description}
+                  alt={GencoProducts.cloros.gencoCloros5.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros5.fispqLink}
                   category={GencoProducts.cloros.gencoCloros5.category}
@@ -96,6 +101,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros6.img}
                   code={GencoProducts.cloros.gencoCloros6.code}
                   description={GencoProducts.cloros.gencoCloros6.description}
+                  alt={GencoProducts.cloros.gencoCloros6.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros6.fispqLink}
                   category={GencoProducts.cloros.gencoCloros6.category}
@@ -104,6 +110,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros7.img}
                   code={GencoProducts.cloros.gencoCloros7.code}
                   description={GencoProducts.cloros.gencoCloros7.description}
+                  alt={GencoProducts.cloros.gencoCloros7.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros7.fispqLink}
                   category={GencoProducts.cloros.gencoCloros7.category}
@@ -112,6 +119,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros8.img}
                   code={GencoProducts.cloros.gencoCloros8.code}
                   description={GencoProducts.cloros.gencoCloros8.description}
+                  alt={GencoProducts.cloros.gencoCloros8.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros8.fispqLink}
                   category={GencoProducts.cloros.gencoCloros8.category}
@@ -120,6 +128,7 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros9.img}
                   code={GencoProducts.cloros.gencoCloros9.code}
                   description={GencoProducts.cloros.gencoCloros9.description}
+                  alt={GencoProducts.cloros.gencoCloros9.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={GencoProducts.cloros.gencoCloros9.fispqLink}
                   category={GencoProducts.cloros.gencoCloros9.category}
@@ -128,6 +137,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros10.img}
                   code={GencoProducts.cloros.gencoCloros10.code}
                   description={
+                    GencoProducts.cloros.gencoCloros10.description
+                  }
+                  alt={
                     GencoProducts.cloros.gencoCloros10.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -142,6 +154,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.cloros.gencoCloros11.description
                   }
+                  alt={
+                    GencoProducts.cloros.gencoCloros11.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.cloros.gencoCloros11.fispqLink
@@ -152,6 +167,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.cloros.gencoCloros12.img}
                   code={GencoProducts.cloros.gencoCloros12.code}
                   description={
+                    GencoProducts.cloros.gencoCloros12.description
+                  }
+                  alt={
                     GencoProducts.cloros.gencoCloros12.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -171,6 +189,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares1.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares1.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares1.fispqLink
@@ -181,6 +202,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares2.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares2.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares2.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares2.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -195,6 +219,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares3.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares3.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares3.fispqLink
@@ -205,6 +232,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares4.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares4.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares4.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares4.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -219,6 +249,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares5.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares5.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares5.fispqLink
@@ -231,6 +264,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares6.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares6.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares6.category}
                 />
@@ -240,6 +276,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares7.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares7.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares7.category}
                 />
@@ -247,6 +286,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares8.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares8.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares8.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares8.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -261,6 +303,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares9.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares9.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares9.fispqLink
@@ -271,6 +316,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares10.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares10.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares10.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares10.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -285,6 +333,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares11.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares11.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares11.fispqLink
@@ -295,6 +346,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares12.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares12.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares12.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares12.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -309,6 +363,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares13.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares13.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares13.fispqLink
@@ -319,6 +376,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares14.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares14.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares14.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares14.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -333,6 +393,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares15.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares15.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares15.fispqLink
@@ -343,6 +406,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares16.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares16.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares16.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares16.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -357,6 +423,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares17.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares17.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares17.fispqLink
@@ -369,6 +438,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares18.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares18.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares18.category}
                 />
@@ -376,6 +448,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares19.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares19.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares19.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares19.description
                   }
                   button1Label="Não Possui Ficha FISPQ"
@@ -387,6 +462,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares20.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares20.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares20.category}
                 />
@@ -396,6 +474,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares21.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares21.description
+                  }
                   button1Label="Não Possui Ficha FISPQ"
                   category={GencoProducts.auxiliares.gencoAuxiliares21.category}
                 />
@@ -403,6 +484,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares22.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares22.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares22.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares22.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -417,6 +501,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares23.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares23.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares23.fispqLink
@@ -427,6 +514,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares24.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares24.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares24.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares24.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -441,6 +531,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares25.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares25.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares25.fispqLink
@@ -451,6 +544,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares26.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares26.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares26.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares26.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -465,6 +561,9 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares27.description
                   }
+                  alt={
+                    GencoProducts.auxiliares.gencoAuxiliares27.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     GencoProducts.auxiliares.gencoAuxiliares27.fispqLink
@@ -475,6 +574,9 @@ export default function GencoProductsList() {
                   img={GencoProducts.auxiliares.gencoAuxiliares28.img}
                   code={GencoProducts.auxiliares.gencoAuxiliares28.code}
                   description={
+                    GencoProducts.auxiliares.gencoAuxiliares28.description
+                  }
+                  alt={
                     GencoProducts.auxiliares.gencoAuxiliares28.description
                   }
                   button1Label="Baixar Ficha FISPQ"
