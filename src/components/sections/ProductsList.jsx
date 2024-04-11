@@ -65,6 +65,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros2.img}
                   code={HthProducts.cloros.hthCloros2.code}
                   description={HthProducts.cloros.hthCloros2.description}
+                  alt={HthProducts.cloros.hthCloros2.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros2.fispqLink}
                   category={HthProducts.cloros.hthCloros2.category}
@@ -73,6 +74,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros3.img}
                   code={HthProducts.cloros.hthCloros3.code}
                   description={HthProducts.cloros.hthCloros3.description}
+                  alt={HthProducts.cloros.hthCloros3.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros3.fispqLink}
                   category={HthProducts.cloros.hthCloros3.category}
@@ -81,6 +83,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros4.img}
                   code={HthProducts.cloros.hthCloros4.code}
                   description={HthProducts.cloros.hthCloros4.description}
+                  alt={HthProducts.cloros.hthCloros4.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros4.fispqLink}
                   category={HthProducts.cloros.hthCloros4.category}
@@ -89,6 +92,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros5.img}
                   code={HthProducts.cloros.hthCloros5.code}
                   description={HthProducts.cloros.hthCloros5.description}
+                  alt={HthProducts.cloros.hthCloros5.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros5.fispqLink}
                   category={HthProducts.cloros.hthCloros5.category}
@@ -97,6 +101,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros6.img}
                   code={HthProducts.cloros.hthCloros6.code}
                   description={HthProducts.cloros.hthCloros6.description}
+                  alt={HthProducts.cloros.hthCloros6.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros6.fispqLink}
                   category={HthProducts.cloros.hthCloros6.category}
@@ -105,6 +110,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros7.img}
                   code={HthProducts.cloros.hthCloros7.code}
                   description={HthProducts.cloros.hthCloros7.description}
+                  alt={HthProducts.cloros.hthCloros7.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros7.fispqLink}
                   category={HthProducts.cloros.hthCloros7.category}
@@ -113,6 +119,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros8.img}
                   code={HthProducts.cloros.hthCloros8.code}
                   description={HthProducts.cloros.hthCloros8.description}
+                  alt={HthProducts.cloros.hthCloros8.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros8.fispqLink}
                   category={HthProducts.cloros.hthCloros8.category}
@@ -121,6 +128,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros9.img}
                   code={HthProducts.cloros.hthCloros9.code}
                   description={HthProducts.cloros.hthCloros9.description}
+                  alt={HthProducts.cloros.hthCloros9.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros9.fispqLink}
                   category={HthProducts.cloros.hthCloros9.category}
@@ -129,6 +137,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros10.img}
                   code={HthProducts.cloros.hthCloros10.code}
                   description={HthProducts.cloros.hthCloros10.description}
+                  alt={HthProducts.cloros.hthCloros10.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros10.fispqLink}
                   category={HthProducts.cloros.hthCloros10.category}
@@ -137,6 +146,7 @@ export default function ProductsList() {
                   img={HthProducts.cloros.hthCloros11.img}
                   code={HthProducts.cloros.hthCloros11.code}
                   description={HthProducts.cloros.hthCloros11.description}
+                  alt={HthProducts.cloros.hthCloros11.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros11.fispqLink}
                   category={HthProducts.cloros.hthCloros11.category}
@@ -152,6 +162,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares1.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares1.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares1.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares1.category}
@@ -162,6 +173,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares2.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares2.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares2.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares2.category}
@@ -172,6 +184,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares3.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares3.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares3.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares3.category}
@@ -182,6 +195,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares4.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares4.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares4.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares4.category}
@@ -192,6 +206,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares5.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares5.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares5.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares5.category}
@@ -202,6 +217,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares6.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares6.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares6.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares6.category}
@@ -212,6 +228,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares7.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares7.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares7.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares7.category}
@@ -222,6 +239,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares8.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares8.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares8.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares8.category}
@@ -232,6 +250,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares9.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares9.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares9.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares9.category}
@@ -242,6 +261,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares10.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares10.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares10.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares10.category}
@@ -252,6 +272,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares11.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares11.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares11.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares11.category}
@@ -262,6 +283,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares12.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares12.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares12.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares12.category}
@@ -272,6 +294,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares13.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares13.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares13.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares13.category}
@@ -282,6 +305,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares14.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares14.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares14.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares14.category}
@@ -292,6 +316,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares15.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares15.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares15.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares15.category}
@@ -302,6 +327,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares16.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares16.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares16.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares16.category}
@@ -312,6 +338,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares17.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares17.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares17.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares17.category}
@@ -322,6 +349,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares18.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares18.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares18.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares18.category}
@@ -332,6 +360,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares19.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares19.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares19.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares19.category}
@@ -342,6 +371,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares20.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares20.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares20.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares20.category}
@@ -352,6 +382,7 @@ export default function ProductsList() {
                   description={
                     HthProducts.auxiliares.hthAuxiliares21.description
                   }
+                  alt={HthProducts.auxiliares.hthAuxiliares21.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares21.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares21.category}
