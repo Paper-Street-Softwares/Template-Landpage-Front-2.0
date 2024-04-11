@@ -2,6 +2,7 @@ import { useState } from "react";
 import Checkbox from "@mui/material/Checkbox";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
+import ImgCodeDescCard from "../cards/ImgCodeDescCard";
 import SodramarProducts from "../util/productsData/sodramar/SodramarProducts";
 
 export default function SodramarProductsList() {
@@ -52,16 +53,13 @@ export default function SodramarProductsList() {
           <div className="flex flex-wrap items-start justify-start w-full gap-7 desktop1:w-[76%]">
             {(selectedCategory === "limpeza" || selectedCategory === "all") && (
               <>
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={SodramarProducts.limpeza.sodramarLimpeza1.img}
                   code={SodramarProducts.limpeza.sodramarLimpeza1.code}
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza1.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza1.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={SodramarProducts.limpeza.sodramarLimpeza1.description}
                   category={SodramarProducts.limpeza.sodramarLimpeza1.category}
                 />
                 <ImgCodeDescButtonCard
@@ -70,9 +68,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza2.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza2.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza2.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza2.category}
                 />
@@ -82,9 +78,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza3.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza3.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza3.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza3.category}
                 />
@@ -94,9 +88,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza4.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza4.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza4.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza4.category}
                 />
@@ -106,9 +98,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza5.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza5.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza5.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza5.category}
                 />
@@ -118,9 +108,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza6.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza6.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza6.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza6.category}
                 />
@@ -130,9 +118,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza7.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza7.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza7.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza7.category}
                 />
@@ -142,9 +128,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza8.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza8.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza8.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza8.category}
                 />
@@ -154,9 +138,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza9.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza9.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza9.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza9.category}
                 />
@@ -166,9 +148,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza10.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza10.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza10.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza10.category}
                 />
@@ -178,9 +158,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza11.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza11.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza11.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza11.category}
                 />
@@ -190,9 +168,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza12.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza12.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza12.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza12.category}
                 />
@@ -202,9 +178,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza13.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza13.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza13.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza13.category}
                 />
@@ -214,9 +188,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza14.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza14.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza14.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza14.category}
                 />
@@ -226,9 +198,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza15.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza15.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza15.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza15.category}
                 />
@@ -238,9 +208,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza16.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza16.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza16.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza16.category}
                 />
@@ -250,9 +218,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza17.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza17.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza17.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza17.category}
                 />
@@ -262,9 +228,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza18.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza18.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza18.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza18.category}
                 />
@@ -274,9 +238,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza19.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza19.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza19.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza19.category}
                 />
@@ -286,9 +248,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza20.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza20.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza20.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza20.category}
                 />
@@ -298,9 +258,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza21.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza21.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza21.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza21.category}
                 />
@@ -310,9 +268,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza22.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza22.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza22.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza22.category}
                 />
@@ -322,9 +278,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza23.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza23.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza23.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza23.category}
                 />
@@ -334,9 +288,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza24.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza24.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza24.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza24.category}
                 />
@@ -346,9 +298,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza25.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza25.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza25.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza25.category}
                 />
@@ -358,9 +308,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza26.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza26.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza26.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza26.category}
                 />
@@ -370,9 +318,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza27.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza27.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza27.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza27.category}
                 />
@@ -382,9 +328,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza28.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza28.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza28.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza28.category}
                 />
@@ -394,9 +338,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza29.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza29.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza29.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza29.category}
                 />
@@ -406,9 +348,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza30.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza30.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza30.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza30.category}
                 />
@@ -418,9 +358,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza31.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza31.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza31.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza31.category}
                 />
@@ -430,9 +368,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza32.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza32.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza32.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza32.category}
                 />
@@ -442,9 +378,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza33.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza33.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza33.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza33.category}
                 />
@@ -454,9 +388,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza34.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza34.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza34.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza34.category}
                 />
@@ -466,9 +398,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza35.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza35.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza35.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza35.category}
                 />
@@ -478,9 +408,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza36.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza36.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza36.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza36.category}
                 />
@@ -490,9 +418,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza37.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza37.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza37.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza37.category}
                 />
@@ -502,9 +428,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza38.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza38.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza38.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza38.category}
                 />
@@ -514,9 +438,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza39.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza39.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza39.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza39.category}
                 />
@@ -526,9 +448,7 @@ export default function SodramarProductsList() {
                   description={
                     SodramarProducts.limpeza.sodramarLimpeza40.description
                   }
-                  alt={
-                    SodramarProducts.limpeza.sodramarLimpeza40.description
-                  }
+                  alt={SodramarProducts.limpeza.sodramarLimpeza40.description}
                   button1Label="Não Possui Ficha FISPQ"
                   category={SodramarProducts.limpeza.sodramarLimpeza40.category}
                 />
