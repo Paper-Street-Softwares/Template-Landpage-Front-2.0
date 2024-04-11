@@ -58,6 +58,9 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros1.description
                   }
+                  alt={
+                    NeoclorProducts.cloros.neoclorCloros1.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros1.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros1.category}
@@ -66,6 +69,9 @@ export default function NeoclorProductsList() {
                   img={NeoclorProducts.cloros.neoclorCloros2.img}
                   code={NeoclorProducts.cloros.neoclorCloros2.code}
                   description={
+                    NeoclorProducts.cloros.neoclorCloros2.description
+                  }
+                  alt={
                     NeoclorProducts.cloros.neoclorCloros2.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -78,6 +84,9 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros3.description
                   }
+                  alt={
+                    NeoclorProducts.cloros.neoclorCloros3.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros3.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros3.category}
@@ -86,6 +95,9 @@ export default function NeoclorProductsList() {
                   img={NeoclorProducts.cloros.neoclorCloros4.img}
                   code={NeoclorProducts.cloros.neoclorCloros4.code}
                   description={
+                    NeoclorProducts.cloros.neoclorCloros4.description
+                  }
+                  alt={
                     NeoclorProducts.cloros.neoclorCloros4.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -98,6 +110,9 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros5.description
                   }
+                  alt={
+                    NeoclorProducts.cloros.neoclorCloros5.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros5.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros5.category}
@@ -106,6 +121,9 @@ export default function NeoclorProductsList() {
                   img={NeoclorProducts.cloros.neoclorCloros6.img}
                   code={NeoclorProducts.cloros.neoclorCloros6.code}
                   description={
+                    NeoclorProducts.cloros.neoclorCloros6.description
+                  }
+                  alt={
                     NeoclorProducts.cloros.neoclorCloros6.description
                   }
                   button1Label="Baixar Ficha FISPQ"
@@ -123,6 +141,9 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.auxiliares.neoclorAuxiliares1.description
                   }
+                  alt={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares1.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     NeoclorProducts.auxiliares.neoclorAuxiliares1.fispqLink
@@ -137,6 +158,9 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.auxiliares.neoclorAuxiliares2.description
                   }
+                  alt={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares2.description
+                  }
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={
                     NeoclorProducts.auxiliares.neoclorAuxiliares2.fispqLink
@@ -149,6 +173,9 @@ export default function NeoclorProductsList() {
                   img={NeoclorProducts.auxiliares.neoclorAuxiliares3.img}
                   code={NeoclorProducts.auxiliares.neoclorAuxiliares3.code}
                   description={
+                    NeoclorProducts.auxiliares.neoclorAuxiliares3.description
+                  }
+                  alt={
                     NeoclorProducts.auxiliares.neoclorAuxiliares3.description
                   }
                   button1Label="Baixar Ficha FISPQ"
