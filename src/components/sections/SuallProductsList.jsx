@@ -20,7 +20,7 @@ export default function SuallProductsList() {
               Filtrar por categoria
             </h3>
             <div className="bg-white w-full desktop1:flex-col mb-[32px] flex flex-col phone3:justify-evenly phone3:flex-row p-[20px] phone3:p-4 rounded-[10px]">
-            <FormControlLabel
+              <FormControlLabel
                 control={
                   <Checkbox
                     checked={selectedCategory === "all"}
@@ -53,7 +53,7 @@ export default function SuallProductsList() {
                   alt={
                     SuallProducts.auxiliares.suallAuxiliares1.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={SuallProducts.auxiliares.suallAuxiliares2.category}
                 />
                 <ImgCodeDescButtonCard
@@ -65,7 +65,7 @@ export default function SuallProductsList() {
                   alt={
                     SuallProducts.auxiliares.suallAuxiliares2.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={SuallProducts.auxiliares.suallAuxiliares2.category}
                 />
                 <ImgCodeDescButtonCard
@@ -77,7 +77,7 @@ export default function SuallProductsList() {
                   alt={
                     SuallProducts.auxiliares.suallAuxiliares3.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={SuallProducts.auxiliares.suallAuxiliares3.category}
                 />
                 <ImgCodeDescButtonCard
@@ -89,7 +89,7 @@ export default function SuallProductsList() {
                   alt={
                     SuallProducts.auxiliares.suallAuxiliares4.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={SuallProducts.auxiliares.suallAuxiliares4.category}
                 />
                 <ImgCodeDescButtonCard
@@ -101,7 +101,7 @@ export default function SuallProductsList() {
                   alt={
                     SuallProducts.auxiliares.suallAuxiliares5.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={SuallProducts.auxiliares.suallAuxiliares5.category}
                 />
                 <ImgCodeDescButtonCard
@@ -113,7 +113,7 @@ export default function SuallProductsList() {
                   alt={
                     SuallProducts.auxiliares.suallAuxiliares6.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={SuallProducts.auxiliares.suallAuxiliares6.category}
                 />
               </>

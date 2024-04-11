@@ -267,7 +267,7 @@ export default function GencoProductsList() {
                   alt={
                     GencoProducts.auxiliares.gencoAuxiliares6.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={GencoProducts.auxiliares.gencoAuxiliares6.category}
                 />
                 <ImgCodeDescButtonCard
@@ -276,10 +276,11 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares7.description
                   }
+
                   alt={
                     GencoProducts.auxiliares.gencoAuxiliares7.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={GencoProducts.auxiliares.gencoAuxiliares7.category}
                 />
                 <ImgCodeDescButtonCard
@@ -441,7 +442,7 @@ export default function GencoProductsList() {
                   alt={
                     GencoProducts.auxiliares.gencoAuxiliares18.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={GencoProducts.auxiliares.gencoAuxiliares18.category}
                 />
                 <ImgCodeDescButtonCard
@@ -453,7 +454,7 @@ export default function GencoProductsList() {
                   alt={
                     GencoProducts.auxiliares.gencoAuxiliares19.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={GencoProducts.auxiliares.gencoAuxiliares19.category}
                 />
                 <ImgCodeDescButtonCard
@@ -462,10 +463,11 @@ export default function GencoProductsList() {
                   description={
                     GencoProducts.auxiliares.gencoAuxiliares20.description
                   }
+
                   alt={
                     GencoProducts.auxiliares.gencoAuxiliares20.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={GencoProducts.auxiliares.gencoAuxiliares20.category}
                 />
                 <ImgCodeDescButtonCard
@@ -477,7 +479,7 @@ export default function GencoProductsList() {
                   alt={
                     GencoProducts.auxiliares.gencoAuxiliares21.description
                   }
-                  button1Label="Não Possui Ficha FISPQ"
+                  button1Label="FISPQ Indisponível"
                   category={GencoProducts.auxiliares.gencoAuxiliares21.category}
                 />
                 <ImgCodeDescButtonCard
