@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Checkbox from "@mui/material/Checkbox";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import ImgCodeDescButtonCard from "../cards/ImgCodeDescButtonCard";
+import ImgCodeDescCard from "../cards/ImgCodeDescCard";
 import NetunoProducts from "../util/productsData/netuno/NetunoProducts";
 
 export default function NetunoProductsList() {
@@ -52,268 +52,202 @@ export default function NetunoProductsList() {
           <div className="flex flex-wrap items-start justify-start w-full gap-7 desktop1:w-[76%]">
             {(selectedCategory === "limpeza" || selectedCategory === "all") && (
               <>
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza1.img}
                   code={NetunoProducts.limpeza.netunoLimpeza1.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza1.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza1.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza1.description}
                   category={NetunoProducts.limpeza.netunoLimpeza1.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza2.img}
                   code={NetunoProducts.limpeza.netunoLimpeza2.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza2.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza2.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza2.description}
                   category={NetunoProducts.limpeza.netunoLimpeza2.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza3.img}
                   code={NetunoProducts.limpeza.netunoLimpeza3.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza3.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza3.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza3.description}
                   category={NetunoProducts.limpeza.netunoLimpeza3.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza4.img}
                   code={NetunoProducts.limpeza.netunoLimpeza4.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza4.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza4.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza4.description}
                   category={NetunoProducts.limpeza.netunoLimpeza4.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza5.img}
                   code={NetunoProducts.limpeza.netunoLimpeza5.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza5.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza5.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza5.description}
                   category={NetunoProducts.limpeza.netunoLimpeza5.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza6.img}
                   code={NetunoProducts.limpeza.netunoLimpeza6.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza6.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza6.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza6.description}
                   category={NetunoProducts.limpeza.netunoLimpeza6.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza7.img}
                   code={NetunoProducts.limpeza.netunoLimpeza7.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza7.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza7.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza7.description}
                   category={NetunoProducts.limpeza.netunoLimpeza7.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza8.img}
                   code={NetunoProducts.limpeza.netunoLimpeza8.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza8.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza8.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza8.description}
                   category={NetunoProducts.limpeza.netunoLimpeza8.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza9.img}
                   code={NetunoProducts.limpeza.netunoLimpeza9.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza9.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza9.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza9.description}
                   category={NetunoProducts.limpeza.netunoLimpeza9.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza10.img}
                   code={NetunoProducts.limpeza.netunoLimpeza10.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza10.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza10.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza10.description}
                   category={NetunoProducts.limpeza.netunoLimpeza10.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza11.img}
                   code={NetunoProducts.limpeza.netunoLimpeza11.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza11.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza11.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza11.description}
                   category={NetunoProducts.limpeza.netunoLimpeza11.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza12.img}
                   code={NetunoProducts.limpeza.netunoLimpeza12.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza12.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza12.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza12.description}
                   category={NetunoProducts.limpeza.netunoLimpeza12.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza13.img}
                   code={NetunoProducts.limpeza.netunoLimpeza13.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza13.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza13.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza13.description}
                   category={NetunoProducts.limpeza.netunoLimpeza13.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza14.img}
                   code={NetunoProducts.limpeza.netunoLimpeza14.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza14.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza14.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza14.description}
                   category={NetunoProducts.limpeza.netunoLimpeza14.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza15.img}
                   code={NetunoProducts.limpeza.netunoLimpeza15.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza15.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza15.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza15.description}
                   category={NetunoProducts.limpeza.netunoLimpeza15.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza16.img}
                   code={NetunoProducts.limpeza.netunoLimpeza16.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza16.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza16.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza16.description}
                   category={NetunoProducts.limpeza.netunoLimpeza16.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza17.img}
                   code={NetunoProducts.limpeza.netunoLimpeza17.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza17.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza17.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza17.description}
                   category={NetunoProducts.limpeza.netunoLimpeza17.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza18.img}
                   code={NetunoProducts.limpeza.netunoLimpeza18.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza18.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza18.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza18.description}
                   category={NetunoProducts.limpeza.netunoLimpeza18.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza19.img}
                   code={NetunoProducts.limpeza.netunoLimpeza19.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza19.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza19.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza19.description}
                   category={NetunoProducts.limpeza.netunoLimpeza19.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza20.img}
                   code={NetunoProducts.limpeza.netunoLimpeza20.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza20.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza20.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza20.description}
                   category={NetunoProducts.limpeza.netunoLimpeza20.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza21.img}
                   code={NetunoProducts.limpeza.netunoLimpeza21.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza21.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza21.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza21.description}
                   category={NetunoProducts.limpeza.netunoLimpeza21.category}
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.limpeza.netunoLimpeza22.img}
                   code={NetunoProducts.limpeza.netunoLimpeza22.code}
                   description={
                     NetunoProducts.limpeza.netunoLimpeza22.description
                   }
-                  alt={
-                    NetunoProducts.limpeza.netunoLimpeza22.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.limpeza.netunoLimpeza22.description}
                   category={NetunoProducts.limpeza.netunoLimpeza22.category}
                 />
               </>
@@ -321,86 +255,68 @@ export default function NetunoProductsList() {
             {(selectedCategory === "construção" ||
               selectedCategory === "all") && (
               <>
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.construção.netunoConstrução1.img}
                   code={NetunoProducts.construção.netunoConstrução1.code}
                   description={
                     NetunoProducts.construção.netunoConstrução1.description
                   }
-                  alt={
-                    NetunoProducts.construção.netunoConstrução1.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.construção.netunoConstrução1.description}
                   category={
                     NetunoProducts.construção.netunoConstrução1.category
                   }
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.construção.netunoConstrução2.img}
                   code={NetunoProducts.construção.netunoConstrução2.code}
                   description={
                     NetunoProducts.construção.netunoConstrução2.description
                   }
-                  alt={
-                    NetunoProducts.construção.netunoConstrução2.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.construção.netunoConstrução2.description}
                   category={
                     NetunoProducts.construção.netunoConstrução2.category
                   }
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.construção.netunoConstrução3.img}
                   code={NetunoProducts.construção.netunoConstrução3.code}
                   description={
                     NetunoProducts.construção.netunoConstrução3.description
                   }
-                  alt={
-                    NetunoProducts.construção.netunoConstrução3.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.construção.netunoConstrução3.description}
                   category={
                     NetunoProducts.construção.netunoConstrução3.category
                   }
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.construção.netunoConstrução4.img}
                   code={NetunoProducts.construção.netunoConstrução4.code}
                   description={
                     NetunoProducts.construção.netunoConstrução4.description
                   }
-                  alt={
-                    NetunoProducts.construção.netunoConstrução4.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.construção.netunoConstrução4.description}
                   category={
                     NetunoProducts.construção.netunoConstrução4.category
                   }
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.construção.netunoConstrução5.img}
                   code={NetunoProducts.construção.netunoConstrução5.code}
                   description={
                     NetunoProducts.construção.netunoConstrução5.description
                   }
-                  alt={
-                    NetunoProducts.construção.netunoConstrução5.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.construção.netunoConstrução5.description}
                   category={
                     NetunoProducts.construção.netunoConstrução5.category
                   }
                 />
-                <ImgCodeDescButtonCard
+                <ImgCodeDescCard
                   img={NetunoProducts.construção.netunoConstrução6.img}
                   code={NetunoProducts.construção.netunoConstrução6.code}
                   description={
                     NetunoProducts.construção.netunoConstrução6.description
                   }
-                  alt={
-                    NetunoProducts.construção.netunoConstrução6.description
-                  }
-                  button1Label="Não Possui Ficha FISPQ"
+                  alt={NetunoProducts.construção.netunoConstrução6.description}
                   category={
                     NetunoProducts.construção.netunoConstrução6.category
                   }
