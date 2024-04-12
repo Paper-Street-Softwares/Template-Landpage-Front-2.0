@@ -27,7 +27,7 @@ export default function NeoclorProductsList() {
                     onChange={() => handleCheckboxChange("all")}
                   />
                 }
-                label="Todos"
+                label={<span className="font-mainFont">Todos</span>}
               />
               <FormControlLabel
                 control={
@@ -36,7 +36,7 @@ export default function NeoclorProductsList() {
                     onChange={() => handleCheckboxChange("cloros")}
                   />
                 }
-                label="Cloros"
+                label={<span className="font-mainFont">Cloros</span>}
               />
               <FormControlLabel
                 control={
@@ -45,7 +45,7 @@ export default function NeoclorProductsList() {
                     onChange={() => handleCheckboxChange("auxiliares")}
                   />
                 }
-                label="Auxiliares"
+                label={<span className="font-mainFont">Auxiliares</span>}
               />
             </div>
           </div>
@@ -58,9 +58,7 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros1.description
                   }
-                  alt={
-                    NeoclorProducts.cloros.neoclorCloros1.description
-                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros1.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros1.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros1.category}
@@ -71,9 +69,7 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros2.description
                   }
-                  alt={
-                    NeoclorProducts.cloros.neoclorCloros2.description
-                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros2.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros2.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros2.category}
@@ -84,9 +80,7 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros3.description
                   }
-                  alt={
-                    NeoclorProducts.cloros.neoclorCloros3.description
-                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros3.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros3.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros3.category}
@@ -97,9 +91,7 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros4.description
                   }
-                  alt={
-                    NeoclorProducts.cloros.neoclorCloros4.description
-                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros4.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros4.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros4.category}
@@ -110,9 +102,7 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros5.description
                   }
-                  alt={
-                    NeoclorProducts.cloros.neoclorCloros5.description
-                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros5.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros5.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros5.category}
@@ -123,9 +113,7 @@ export default function NeoclorProductsList() {
                   description={
                     NeoclorProducts.cloros.neoclorCloros6.description
                   }
-                  alt={
-                    NeoclorProducts.cloros.neoclorCloros6.description
-                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros6.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={NeoclorProducts.cloros.neoclorCloros6.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros6.category}
