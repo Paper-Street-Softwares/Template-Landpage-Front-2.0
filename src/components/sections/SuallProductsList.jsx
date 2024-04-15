@@ -27,7 +27,7 @@ export default function SuallProductsList() {
                     onChange={() => handleCheckboxChange("all")}
                   />
                 }
-                label="Todos"
+                label={<span className="font-mainFont">Todos</span>}
               />
               <FormControlLabel
                 control={
@@ -36,7 +36,7 @@ export default function SuallProductsList() {
                     onChange={() => handleCheckboxChange("auxiliares")}
                   />
                 }
-                label="Auxiliares"
+                label={<span className="font-mainFont">Auxiliares</span>}
               />
             </div>
           </div>
