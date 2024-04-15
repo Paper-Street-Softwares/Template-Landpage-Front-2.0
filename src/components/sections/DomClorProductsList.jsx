@@ -20,14 +20,14 @@ export default function DomclorProductsList() {
               Filtrar por categoria
             </h3>
             <div className="bg-white w-full desktop1:flex-col mb-[32px] flex flex-col phone3:justify-evenly phone3:flex-row p-[20px] phone3:p-4 rounded-[10px]">
-            <FormControlLabel
+              <FormControlLabel
                 control={
                   <Checkbox
                     checked={selectedCategory === "all"}
                     onChange={() => handleCheckboxChange("all")}
                   />
                 }
-                label="Todos"
+                label={<span className="font-mainFont">Todos</span>}
               />
               <FormControlLabel
                 control={
@@ -36,7 +36,7 @@ export default function DomclorProductsList() {
                     onChange={() => handleCheckboxChange("cloros")}
                   />
                 }
-                label="Cloros"
+                label={<span className="font-mainFont">Cloros</span>}
               />
             </div>
           </div>
@@ -49,9 +49,7 @@ export default function DomclorProductsList() {
                   description={
                     DomclorProducts.cloros.domclorCloros1.description
                   }
-                  alt={
-                    DomclorProducts.cloros.domclorCloros1.description
-                  }
+                  alt={DomclorProducts.cloros.domclorCloros1.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={DomclorProducts.cloros.domclorCloros1.fispqLink}
                   category={DomclorProducts.cloros.domclorCloros1.category}
@@ -62,9 +60,7 @@ export default function DomclorProductsList() {
                   description={
                     DomclorProducts.cloros.domclorCloros2.description
                   }
-                  alt={
-                    DomclorProducts.cloros.domclorCloros2.description
-                  }
+                  alt={DomclorProducts.cloros.domclorCloros2.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={DomclorProducts.cloros.domclorCloros2.fispqLink}
                   category={DomclorProducts.cloros.domclorCloros2.category}
@@ -75,9 +71,7 @@ export default function DomclorProductsList() {
                   description={
                     DomclorProducts.cloros.domclorCloros3.description
                   }
-                  alt={
-                    DomclorProducts.cloros.domclorCloros3.description
-                  }
+                  alt={DomclorProducts.cloros.domclorCloros3.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={DomclorProducts.cloros.domclorCloros3.fispqLink}
                   category={DomclorProducts.cloros.domclorCloros3.category}
@@ -88,9 +82,7 @@ export default function DomclorProductsList() {
                   description={
                     DomclorProducts.cloros.domclorCloros4.description
                   }
-                  alt={
-                    DomclorProducts.cloros.domclorCloros4.description
-                  }
+                  alt={DomclorProducts.cloros.domclorCloros4.description}
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={DomclorProducts.cloros.domclorCloros4.fispqLink}
                   category={DomclorProducts.cloros.domclorCloros4.category}
