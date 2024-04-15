@@ -27,7 +27,7 @@ export default function SodramarProductsList() {
                     onChange={() => handleCheckboxChange("all")}
                   />
                 }
-                label="Todos"
+                label={<span className="font-mainFont">Todos</span>}
               />
               <FormControlLabel
                 control={
@@ -36,7 +36,7 @@ export default function SodramarProductsList() {
                     onChange={() => handleCheckboxChange("limpeza")}
                   />
                 }
-                label="Limpeza"
+                label={<span className="font-mainFont">Limpeza</span>}
               />
               <FormControlLabel
                 control={
@@ -45,7 +45,7 @@ export default function SodramarProductsList() {
                     onChange={() => handleCheckboxChange("construção")}
                   />
                 }
-                label="Construção"
+                label={<span className="font-mainFont">Construção</span>}
               />
             </div>
           </div>
