@@ -16,14 +16,21 @@ export default function ImagesGallery3Slides(props) {
     {
       original: slide1,
       thumbnail: slide1,
+      originalAlt: 'Piscina grande em resort',
+      thumbnailAlt: 'Piscina grande em resort',
     },
     {
       original: slide2,
       thumbnail: slide2,
+      originalAlt: "Piscina",
+      thumbnailAlt: 'Piscina',
+      
     },
     {
       original: slide3,
       thumbnail: slide3,
+      originalAlt: "Pessoa sentada na Piscina",
+      thumbnailAlt: 'Pessoa sentada na Piscina',
     },
   ];
 
