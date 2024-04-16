@@ -50,9 +50,9 @@ export default function ImportPage() {
       <CtaWhatsapp />
       <Courses />
       {carouselComponent}
-      <BackToTopButton />
       <FrequentlyAskedQuestions />
-      <FloatingWhatsappButton />
+      {/* <BackToTopButton />
+      <FloatingWhatsappButton /> */}
       <Footer />
     </div>
   );
