@@ -5,8 +5,8 @@ import { Phone, Mail } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="bg-secondary full gap-y-[28px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
-      <div className="bg-blue-900 w-[88%] flex flex-col gap-y-[42px] ">
+    <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
+      <div className=" w-[88%] flex flex-col gap-y-[42px] ">
         <div className="flex flex-col gap-y-[16px]">
           <img src={mpaLogo} className="w-[109px] h-[115px]"></img>
           <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
@@ -19,17 +19,17 @@ function Footer() {
             <p>contato@mpapiscinas.com.br</p>
           </div>
         </div>
-        <div className="flex flex-col bg-green-800 gap-y-[16px]">
+        <div className="flex flex-col  gap-y-[16px]">
           <h1 className="font-medium text-title2">SOBRE</h1>
           <p>
             Agradecemos sua visita! Esperamos que em breve você se torne nosso
             cliente e desfrute de todos os benefícios que oferecemos.
           </p>
         </div>
-        <div className="flex flex-col bg-purple-800 gap-y-[16px]">
+        <div className="flex flex-col  gap-y-[16px]">
           <h1 className="font-medium text-title2">NAVEGAÇÃO</h1>
-          <div className="flex justify-between bg-green-800 full">
-            <div className="bg-red-800 w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
+          <div className="flex justify-between full">
+            <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
               <a href="#" className="font-semibold h-[36px] ">
                 Início
               </a>
@@ -40,7 +40,7 @@ function Footer() {
                 Produtos e Acessórios
               </a>
             </div>
-            <div className="bg-red-800 w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
+            <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
               <a href="#" className="font-semibold h-[36px] ">
                 Curso e Palestras
               </a>
@@ -54,8 +54,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-red-900 w-[88%]">
-        <p>2024 - MPA Piscinas - Todos os direitos reservados</p>
+      <div className="text-center w-[88%] flex flex-col">
+        <p className="w-full">
+          2024 - MPA Piscinas - Todos os direitos reservados
+        </p>
         <p>
           Gostaria de ter um site como este?{" "}
           <a
