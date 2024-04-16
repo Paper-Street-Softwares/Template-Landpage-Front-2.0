@@ -8,7 +8,11 @@ function Footer() {
     <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
       <div className=" w-[88%] flex flex-col gap-y-[42px] ">
         <div className="flex flex-col gap-y-[16px]">
-          <img src={mpaLogo} className="w-[109px] h-[115px]"></img>
+          <img
+            alt="Logo MPA Piscinas"
+            src={mpaLogo}
+            className="w-[109px] h-[115px]"
+          ></img>
           <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
           <div className="flex full gap-x-[8px] items-center">
             <Phone size={24} strokeWidth={1} className="text-white" />
