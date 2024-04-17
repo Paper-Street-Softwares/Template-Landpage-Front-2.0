@@ -4,7 +4,7 @@ import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import mpaLogo from "../../assets/importAssets/Logo.png";
 import { Phone, Mail } from "lucide-react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function FooterProducts() {
@@ -20,8 +20,8 @@ export default function FooterProducts() {
       });
       setTimeout(() => {
         setScrolling(false);
-      }, 500);
-    }, 100);
+      }, 50);
+    }, 10);
   };
 
   return (
@@ -84,24 +84,26 @@ export default function FooterProducts() {
                 </div>
                 <div className="h-[36px] ">
                   <Link
-                    to="about"
-                    className="cursor-pointer"
+                    to="/"
+                    onClick={() => handleLinkClick("about", -70)}
+                    className="relative cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-70}
                   >
                     Sobre nós
                   </Link>
                 </div>
                 <div className="h-[36px] ">
                   <Link
-                    to="products"
-                    className="cursor-pointer"
+                    to="/"
+                    onClick={() => handleLinkClick("products", -70)}
+                    className="relative py-4 cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-70}
                   >
                     Produtos e Acessórios
                   </Link>
@@ -110,32 +112,35 @@ export default function FooterProducts() {
               <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
                 <div className="h-[36px] ">
                   <Link
-                    to="courses"
-                    className="cursor-pointer"
+                    to="/"
+                    onClick={() => handleLinkClick("courses", -70)}
+                    className="relative cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-70}
                   >
                     Cursos e Palestras
                   </Link>
                 </div>
                 <div className="h-[36px] ">
                   <Link
-                    to="faq"
-                    className="cursor-pointer"
+                    to="/"
+                    onClick={() => handleLinkClick("faq", -70)}
+                    className="relative cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-70}
                   >
                     Perguntas Frequentes
                   </Link>
                 </div>
                 <div className="h-[36px] ">
                   <Link
-                    to="contact"
-                    className="cursor-pointer"
+                    to="/"
+                    onClick={() => handleLinkClick("contact", -190)}
+                    className="relative cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
