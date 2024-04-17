@@ -5,6 +5,7 @@ import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import whatsappNumber from "../../abstractions/whats";
+import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
@@ -50,7 +51,9 @@ export default function CtaWhatsapp() {
               </MotionDivDownToUp>
             </div>
             <div className=" w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
-              <img className="" alt="Foto Pessoa" src={imgCta} />
+              <MotionDivRightToLeft>
+                <img className="" alt="Foto Pessoa" src={imgCta} />
+              </MotionDivRightToLeft>
             </div>
           </div>
         </div>
