@@ -10,9 +10,9 @@ import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function AboutUs() {
   return (
-    <div>
+    <div className="flex justify-center full">
       <div
-        className="font-mainFont py-[26px] phone3:py-[48px] phone1:w-[100%]"
+        className="font-mainFont py-[26px] phone3:py-[48px] w-[88%] max-w-[1110px]"
         id="about"
       >
         <SectionHeader
@@ -35,7 +35,7 @@ export default function AboutUs() {
                 </MotionDivLeftToRight>
               </div>
 
-              <div className=" desktop1:w-[40%] desktop1:pt-[15px]">
+              <div className="desktop1:w-[40%] desktop1:pt-[15px]">
                 <MotionDivRightToLeft>
                   <ImagesGallery3Slides
                     slide1={slide1}
