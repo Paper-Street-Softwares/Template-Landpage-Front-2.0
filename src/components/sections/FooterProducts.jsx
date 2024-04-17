@@ -1,12 +1,29 @@
-import { Link } from "react-scroll";
+import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
+import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import MotionDivUpToDown from "../animation/MotionDivUpToDown";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import mpaLogo from "../../assets/importAssets/Logo.png";
 import { Phone, Mail } from "lucide-react";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import { Link } from "react-scroll";
+import { useState } from "react";
 
 export default function FooterProducts() {
+  const [scrolling, setScrolling] = useState(false);
+
+  const handleLinkClick = (sectionId, offset) => {
+    setScrolling(true);
+    setTimeout(() => {
+      const sectionTop = document.getElementById(sectionId).offsetTop + offset;
+      window.scrollTo({
+        top: sectionTop,
+        behavior: "smooth",
+      });
+      setTimeout(() => {
+        setScrolling(false);
+      }, 500);
+    }, 100);
+  };
+
   return (
     <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between items-center">
       <div className=" w-[88%] max-w-[1110px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
@@ -54,8 +71,9 @@ export default function FooterProducts() {
               <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
                 <div className="h-[36px] ">
                   <Link
-                    to="home"
-                    className="cursor-pointer"
+                    to="/"
+                    onClick={() => handleLinkClick("home", 0)}
+                    className="relative cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
