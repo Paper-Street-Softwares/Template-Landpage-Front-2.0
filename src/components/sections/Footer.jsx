@@ -62,7 +62,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center w-[88%] flex flex-col">
+      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] h-px bg-white"></div>
+      <div className="text-center w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col">
         <p className="w-full">
           2024 - MPA Piscinas - Todos os direitos reservados
         </p>
