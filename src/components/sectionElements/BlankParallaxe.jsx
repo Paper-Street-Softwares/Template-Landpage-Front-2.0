@@ -3,7 +3,7 @@ export default function ParallaxSectionWithContent(props) {
 
   return (
     <div
-      className="relative bg-center bg-cover full h-60 content"
+      className="relative bg-center bg-cover full h-60 w-[88%] max-w-[1110px]"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundRepeat: "no-repeat",

@@ -8,17 +8,19 @@ import imgLogo from "../assets/imgs/brands/sodramarLogo.png";
 
 export default function SodramarPage() {
   return (
-    <div className="content">
+    <div className="w-full">
       <NavbarSectionProducts />
       <HeroProducts
         heroTitle="Nossa linha de acessórios"
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
+      <div className="flex flex-col mx-auto">
       <SodramarProductsList />
       <BackToTopButton />
       <FloatingWhatsappButton />
       <Footer />
+      </div>
     </div>
   );
 }

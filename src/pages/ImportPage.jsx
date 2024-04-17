@@ -40,7 +40,7 @@ export default function ImportPage() {
   }, []);
 
   return (
-    <div className="content">
+    <div>
       <NavbarSection />
       <HeroSection />
       <AboutUs />

@@ -4,46 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.content {
-  --gap: clamp(16px, 6vw, 48px);
-  --full: minmax(var(--gap), 1fr);
-  --content: min(128.3ch, 100% - var(--gap) * 2);
-  --popout: minmax(0, 32px);
-  --feature: minmax(0, 80px);
-
-  display: grid;
-  grid-template-columns:
-    [full-start] var(--full)
-    [feature-start] var(--feature)
-    [popout-start] var(--popout)
-    [content-start] var(--content) [content-end]
-    var(--popout) [popout-end]
-    var(--feature) [feature-end]
-    var(--full) [full-end];
-}
-
-.content > * {
-  grid-column: content;
-}
-
-.popout {
-  grid-column: popout;
-}
-
-.feature {
-  grid-column: feature;
-}
-
-.full {
-  grid-column: full;
-  border-radius: unset;
-}
-
-:where(.content > *) {
-  display: grid;
-  place-items: center;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -56,15 +16,15 @@
 }
 
 @keyframes fadeOut {
-    from {
-      opacity: 1;
-      transform: translateY(0);
-      visibility: visible; 
-    }
-    to {
-      opacity: 0;
-      transform: translateY(-10px);
-      visibility: hidden; 
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
   }
 }
 
@@ -75,7 +35,7 @@
 }
 
 .animate-fade-out {
-  opacity: 1; 
-  visibility: visible; 
+  opacity: 1;
+  visibility: visible;
   animation: fadeOut 1s ease-in-out;
 }

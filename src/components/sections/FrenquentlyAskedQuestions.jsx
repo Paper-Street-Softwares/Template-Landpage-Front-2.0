@@ -5,14 +5,14 @@ import faqImg from "../../assets/imgs/faq/faq.png";
 
 export default function FrequentlyAskedQuestions() {
   return (
-    <div className="full bg-quinary" id="faq">
-      <div className="content py-[26px] phone3:py-[48px]">
+    <div className="flex justify-center full bg-quinary" id="faq">
+      <div className="w-[88%] max-w-[1110px] py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Perguntas Frequentes"
           sectionHeaderDescription="Ficou com alguma dúvida? Clique na pergunta abaixo e obtenha a resposta. 
         Caso não tenha encontrado a resposta que precisa, entre em contato conosco."
         />
-        <div className="flex">
+        <div className="flex items-center">
           <div className=" w-full desktop1:w-[100%] desktop2:w-[100%]">
             <Acordion />
           </div>
