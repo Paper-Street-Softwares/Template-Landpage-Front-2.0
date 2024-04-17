@@ -15,7 +15,7 @@ export default function HthPage() {
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
-      <div className="w-[88%] max-w-[1110px]">
+      <div className="flex flex-col mx-auto">
       <ProductsList />
       <BackToTopButton />
       <FloatingWhatsappButton />

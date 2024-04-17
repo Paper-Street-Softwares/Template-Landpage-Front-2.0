@@ -74,7 +74,7 @@ export default function NavbarSectionProducts() {
   };
 
   return (
-    <div className="full">
+    <div className="">
       <div
         className={`fixed z-20 top-0 w-full bg-white bg-opacity-0 ${
           scrolling

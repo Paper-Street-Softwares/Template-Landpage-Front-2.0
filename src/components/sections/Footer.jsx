@@ -6,8 +6,8 @@ import { Phone, Mail } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
-      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
+    <footer className="bg-secondary w-full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
+      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between mx-auto">
         <div className="flex flex-col gap-y-[16px]   desktop1:w-[290px]">
           <img
             alt="Logo MPA Piscinas"
@@ -123,9 +123,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] h-px bg-white"></div>
-      <div className="text-center w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0 ">
-        <p className="w-full">
+      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] mx-auto h-px bg-white"></div>
+      <div className="text-center w-[88%] desktop1:w-[90.6%] max-w-[1106px] mx-auto flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0 ">
+        <p className="w-full ">
           2024 - MPA Piscinas - Todos os direitos reservados
         </p>
         <p>
