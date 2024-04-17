@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.content {
+/* .content {
   --gap: clamp(16px, 6vw, 48px);
   --full: minmax(var(--gap), 1fr);
   --content: min(128.3ch, 100% - var(--gap) * 2);
@@ -20,9 +20,9 @@
     var(--popout) [popout-end]
     var(--feature) [feature-end]
     var(--full) [full-end];
-}
+} */
 
-.content > * {
+/* .content > * {
   grid-column: content;
 }
 
@@ -37,12 +37,12 @@
 .full {
   grid-column: full;
   border-radius: unset;
-}
+} */
 
-:where(.content > *) {
+/* :where(.content > *) {
   display: grid;
   place-items: center;
-}
+} */
 
 @keyframes fadeIn {
   from {

@@ -9,7 +9,6 @@ import imgLogo from "../assets/imgs/brands/hthLogo.png";
 export default function HthPage() {
   return (
     <div className="w-full">
-      
       <NavbarSectionProducts />
       <HeroProducts
         heroTitle="Nossa linha de produtos"

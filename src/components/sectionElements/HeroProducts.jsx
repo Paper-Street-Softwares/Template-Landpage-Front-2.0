@@ -15,7 +15,7 @@ export default function HeroProducts(props) {
   };
 
   return (
-    <div className="w-full full font-mainFont">
+    <div className="w-full font-mainFont">
     <div
       className="flex justify-center w-full h-auto bg-center bg-cover"
       style={{ backgroundImage: `url(${bgImage})` }}
