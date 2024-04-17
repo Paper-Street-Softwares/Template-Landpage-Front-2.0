@@ -1,10 +1,10 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
 import DomclorProductsList from "../components/sections/DomClorProductsList";
-import Footer from "../components/sections/Footer";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import imgLogo from "../assets/imgs/brands/domclorLogo.png";
+import FooterProducts from "../components/sections/FooterProducts";
 
 export default function DomclorPage() {
   return (
@@ -16,10 +16,10 @@ export default function DomclorPage() {
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
       <div className="flex flex-col mx-auto">
-      <DomclorProductsList />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+        <DomclorProductsList />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <FooterProducts />
       </div>
     </div>
   );

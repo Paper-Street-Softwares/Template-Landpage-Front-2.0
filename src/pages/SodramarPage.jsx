@@ -1,6 +1,6 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
 import SodramarProductsList from "../components/sections/SodramarProductsList";
-import Footer from "../components/sections/Footer";
+import FooterProducts from "../components/sections/FooterProducts";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
@@ -16,10 +16,10 @@ export default function SodramarPage() {
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
       <div className="flex flex-col mx-auto">
-      <SodramarProductsList />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+        <SodramarProductsList />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <FooterProducts />
       </div>
     </div>
   );

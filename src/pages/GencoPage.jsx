@@ -1,5 +1,5 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
-import Footer from "../components/sections/Footer";
+import FooterProducts from "../components/sections/FooterProducts";
 import GencoProductsList from "../components/sections/GencoProductList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -16,10 +16,10 @@ export default function GencoPage() {
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
       <div className="flex flex-col mx-auto">
-      <GencoProductsList />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+        <GencoProductsList />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <FooterProducts />
       </div>
     </div>
   );

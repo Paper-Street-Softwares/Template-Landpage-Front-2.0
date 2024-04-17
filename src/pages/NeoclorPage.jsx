@@ -1,11 +1,10 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
-import Footer from "../components/sections/Footer";
+import FooterProducts from "../components/sections/FooterProducts";
 import NeoclorProductsList from "../components/sections/NeoclorProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import imgLogo from "../assets/imgs/brands/neoclorLogo.png";
-
 
 export default function NeoclorPage() {
   return (
@@ -17,10 +16,10 @@ export default function NeoclorPage() {
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
       />
       <div className="flex flex-col mx-auto">
-      <NeoclorProductsList />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+        <NeoclorProductsList />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <FooterProducts />
       </div>
     </div>
   );
