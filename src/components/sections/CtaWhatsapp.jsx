@@ -11,7 +11,7 @@ const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 export default function CtaWhatsapp() {
   return (
     <div
-      className="full mt-12 phone1:mt-[15%] phone2:mt-[20%] phone3:mt-[20%] bg-center bg-cover tablet1:mt-28 content"
+      className="mt-12 phone1:mt-[15%] phone2:mt-[20%] phone3:mt-[20%] bg-center bg-cover tablet1:mt-28"
       style={{
         backgroundImage: `url(${imgBackground})`,
         backgroundRepeat: "no-repeat",
@@ -21,9 +21,9 @@ export default function CtaWhatsapp() {
       id="contact"
     >
       <SectionContent>
-        <div className="w-full">
-          <div className="flex flex-row items-center justify-between h-28 phone1:h-40 phone3:h-48 desktop1:h-60">
-            <div className="flex flex-col w-full justify-evenly items-left h-28 phone1:h-40 phone3:h-48 desktop1:h-52">
+        <div className="flex justify-center w-full">
+          <div className="w-[88%] max-w-[1110px] flex flex-row items-end justify-between h-28 phone1:h-40 phone3:h-48 desktop1:h-60">
+            <div className="flex flex-col w-full  justify-evenly items-left h-28 phone1:h-40 phone3:h-48 desktop1:h-52 desktop1:mb-[24px]">
               <h1 className="text-left text-white text-paragraph1 phone1:text-paragraph4 phone3:text-paragraph5 max-w-32 phone3:max-w-none font-poppins tablet1:text-title2 tablet2:text-title4 desktop1:text-title5 desktop2:text-title6">
                 <MotionDivUpToDown>
                   Contate-nos através do <strong>Whatsapp</strong>
@@ -49,9 +49,8 @@ export default function CtaWhatsapp() {
                 </div>
               </MotionDivDownToUp>
             </div>
-
-            <div className="w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
-              <img className="" alt="Foto Edilson" src={imgCta} />
+            <div className=" w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
+              <img className="" alt="Foto Pessoa" src={imgCta} />
             </div>
           </div>
         </div>
