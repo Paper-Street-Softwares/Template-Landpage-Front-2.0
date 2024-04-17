@@ -6,8 +6,8 @@ import { Phone, Mail } from "lucide-react";
 function Footer() {
   return (
     <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
-      <div className=" w-[88%] flex flex-col gap-y-[42px] ">
-        <div className="flex flex-col gap-y-[16px]">
+      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
+        <div className="flex flex-col gap-y-[16px]   desktop1:w-[290px]">
           <img
             alt="Logo MPA Piscinas"
             src={mpaLogo}
@@ -23,42 +23,47 @@ function Footer() {
             <p>contato@mpapiscinas.com.br</p>
           </div>
         </div>
-        <div className="flex flex-col  gap-y-[16px]">
-          <h1 className="font-medium text-title2">SOBRE</h1>
+        <div className="flex flex-col  gap-y-[16px]  desktop1:w-[290px]">
+          <h1 className="font-medium text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            SOBRE
+          </h1>
           <p>
             Agradecemos sua visita! Esperamos que em breve você se torne nosso
             cliente e desfrute de todos os benefícios que oferecemos.
           </p>
         </div>
-        <div className="flex flex-col  gap-y-[16px]">
-          <h1 className="font-medium text-title2">NAVEGAÇÃO</h1>
+        <div className="flex flex-col  gap-y-[16px] desktop1:w-[290px]">
+          <h1 className="font-medium text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            NAVEGAÇÃO
+          </h1>
           <div className="flex justify-between full">
-            <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
-              <a href="#" className="font-semibold h-[36px] ">
-                Início
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Sobre nós
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Produtos e Acessórios
-              </a>
+            <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
+              <div className="h-[36px] ">
+                <a href="#">Início</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Sobre nós</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Produtos e Acessórios</a>
+              </div>
             </div>
-            <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
-              <a href="#" className="font-semibold h-[36px] ">
-                Curso e Palestras
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Perguntas Frequentes
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Contato
-              </a>
+            <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
+              <div className="h-[36px] ">
+                <a href="#">Cursos e Palestras</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Perguntas Frequentes</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Contato</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-center w-[88%] flex flex-col">
+      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] h-px bg-white"></div>
+      <div className="text-center w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0 ">
         <p className="w-full">
           2024 - MPA Piscinas - Todos os direitos reservados
         </p>

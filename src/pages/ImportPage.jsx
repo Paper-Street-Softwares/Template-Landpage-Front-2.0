@@ -51,8 +51,8 @@ export default function ImportPage() {
       <Courses />
       {carouselComponent}
       <FrequentlyAskedQuestions />
-      {/* <BackToTopButton />
-      <FloatingWhatsappButton /> */}
+      <BackToTopButton />
+      <FloatingWhatsappButton />
       <Footer />
     </div>
   );
