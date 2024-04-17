@@ -33,7 +33,7 @@ export default function Numbers() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className=" content">
+      <div className="w-[88%] max-w-[1110px]">
         <div className="py-[26px] phone3:py-[48px]">
           <h1 className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between tablet1:flex-wrap desktop1:flex-nowrap">
             <ResultsCard

@@ -10,10 +10,10 @@ export default function HeroSection() {
   return (
     <div className="full font-mainFont" id="home">
       <div
-        className="w-full h-auto bg-center bg-cover content"
+        className="w-full h-auto bg-center bg-cover"
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
-        <div className="flex items-center content">
+        <div className="flex items-center">
           <div className="w-full text-white ">
             <div className="h-40 tablet2:h-36" />
             <div className="flex flex-col items-center gap-6 mb-10 justify-evenly">
