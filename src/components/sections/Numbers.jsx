@@ -8,7 +8,7 @@ export default function Numbers() {
   const [yearsOfService, setYearsOfService] = useState(0);
 
   useEffect(() => {
-    const startDate = new Date("2003-04-14");
+    const startDate = new Date("2003-01-01");
     const currentDate = new Date();
     const differenceInYears =
       currentDate.getFullYear() - startDate.getFullYear();
@@ -26,7 +26,7 @@ export default function Numbers() {
 
   return (
     <div
-      className="bg-center bg-cover full"
+      className="flex justify-center bg-center bg-cover"
       style={{
         backgroundImage: `url(${imgOfficeGreenBackground})`,
         backgroundRepeat: "no-repeat",
