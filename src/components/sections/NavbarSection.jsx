@@ -60,7 +60,7 @@ export default function NavbarSection() {
   }, []);
 
   return (
-    <div className="full">
+    <div className="w-full">
       <div
         className={`fixed z-20 top-0 w-full bg-white bg-opacity-0 ${
           scrolling
@@ -83,7 +83,7 @@ export default function NavbarSection() {
           </ScrollLink>
           <button
             onClick={toggleSidebar}
-            className="absolute right-6 tablet2:hidden"
+            className="relative right-6 tablet2:hidden"
           >
             {showMenuIcon ? (
               <Menu size={32}
