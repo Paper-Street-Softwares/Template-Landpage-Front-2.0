@@ -12,7 +12,7 @@ export default function FrequentlyAskedQuestions() {
           sectionHeaderDescription="Ficou com alguma dúvida? Clique na pergunta abaixo e obtenha a resposta. 
         Caso não tenha encontrado a resposta que precisa, entre em contato conosco."
         />
-        <div className="flex">
+        <div className="flex items-center">
           <div className=" w-full desktop1:w-[100%] desktop2:w-[100%]">
             <Acordion />
           </div>
