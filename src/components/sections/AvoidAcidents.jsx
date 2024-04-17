@@ -18,7 +18,7 @@ export default function AboutUs() {
               <img
                 className="size-[100%] desktop1:size-auto desktop3:"
                 src={imgPastilhaCloro}
-                alt=""
+                alt="mão segurando produto"
               />
             </MotionDivRightToLeft>
           </div>
@@ -55,7 +55,7 @@ export default function AboutUs() {
               <img
                 className=" size-[100%] desktop1:size-[100%] desktop3:w-[100%]"
                 src={resgateAcidente}
-                alt=""
+                alt="atendimento submerso"
               />
             </MotionDivLeftToRight>
           </div>
