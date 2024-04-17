@@ -12,7 +12,7 @@ import suallLogo from "../../assets/imgs/brands/suallLogo.png";
 
 export default function OurProducts() {
   return (
-    <div className="full bg-quinary" id="products">
+    <div className="flex justify-center full bg-quinary" id="products">
       <div className="w-[88%] max-w-[1110px] py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Linha de Produtos"
