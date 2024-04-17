@@ -118,6 +118,28 @@ export default function NeoclorProductsList() {
                   button1Link={NeoclorProducts.cloros.neoclorCloros6.fispqLink}
                   category={NeoclorProducts.cloros.neoclorCloros6.category}
                 />
+                <ImgCodeDescButtonCard
+                  img={NeoclorProducts.cloros.neoclorCloros7.img}
+                  code={NeoclorProducts.cloros.neoclorCloros7.code}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros7.description
+                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros7.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={NeoclorProducts.cloros.neoclorCloros7.fispqLink}
+                  category={NeoclorProducts.cloros.neoclorCloros7.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={NeoclorProducts.cloros.neoclorCloros8.img}
+                  code={NeoclorProducts.cloros.neoclorCloros8.code}
+                  description={
+                    NeoclorProducts.cloros.neoclorCloros8.description
+                  }
+                  alt={NeoclorProducts.cloros.neoclorCloros8.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={NeoclorProducts.cloros.neoclorCloros8.fispqLink}
+                  category={NeoclorProducts.cloros.neoclorCloros8.category}
+                />
               </>
             )}
             {(selectedCategory === "auxiliares" ||
