@@ -37,27 +37,27 @@ function Footer() {
             NAVEGAÇÃO
           </h1>
           <div className="flex justify-between full">
-            <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
-              <a href="#" className="font-semibold h-[36px] ">
-                Início
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Sobre nós
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Produtos e Acessórios
-              </a>
+            <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
+              <div className="h-[36px] ">
+                <a href="#">Início</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Sobre nós</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Produtos e Acessórios</a>
+              </div>
             </div>
-            <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
-              <a href="#" className="font-semibold h-[36px] ">
-                Curso e Palestras
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Perguntas Frequentes
-              </a>
-              <a href="#" className="font-semibold h-[36px]">
-                Contato
-              </a>
+            <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
+              <div className="h-[36px] ">
+                <a href="#">Cursos e Palestras</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Perguntas Frequentes</a>
+              </div>
+              <div className="h-[36px] ">
+                <a href="#">Contato</a>
+              </div>
             </div>
           </div>
         </div>
