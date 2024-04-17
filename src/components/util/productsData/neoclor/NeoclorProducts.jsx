@@ -4,63 +4,81 @@ import neoclorCloros3 from "../../../../assets/imgs/products/neoclor/cloros/3neo
 import neoclorCloros4 from "../../../../assets/imgs/products/neoclor/cloros/4neoclorCloros.jpg";
 import neoclorCloros5 from "../../../../assets/imgs/products/neoclor/cloros/5neoclorCloros.jpg";
 import neoclorCloros6 from "../../../../assets/imgs/products/neoclor/cloros/6neoclorCloros.jpg";
-
+import neoclorCloros7 from "../../../../assets/imgs/products/neoclor/cloros/7neoclorCloros.jpg";
+import neoclorCloros8 from "../../../../assets/imgs/products/neoclor/cloros/8neoclorCloros.jpg";
 
 import neoclorAuxiliares1 from "../../../../assets/imgs/products/neoclor/auxiliares/1neoclorAuxiliares.jpg";
 import neoclorAuxiliares2 from "../../../../assets/imgs/products/neoclor/auxiliares/2neoclorAuxiliares.jpg";
 import neoclorAuxiliares3 from "../../../../assets/imgs/products/neoclor/auxiliares/3neoclorAuxiliares.jpg";
 
-
 const NeoclorProducts = {
   cloros: {
     neoclorCloros1: {
-      key: 4,
+      key: 2,
       img: neoclorCloros1,
+      code: 2074,
+      description: "NEOCLOR DICLORO GRANULADO MULTIAÇÃO 3 EM 1 (SC 1,0K)",
+      fispqLink:
+        "https://neoclor.com.br/wp-content/uploads/2023/08/FT-018-_-Economic-_-Rev.-02.pdf",
+      category: "cloros",
+    },
+    neoclorCloros2: {
+      key: 3,
+      img: neoclorCloros2,
+      code: 2033,
+      description: "NEOCLOR DICLORO GRANULADO MULTIAÇÃO 3 EM 1 (SC 1,0K)",
+      fispqLink:
+        "https://neoclor.com.br/wp-content/uploads/2023/08/FT-019-_-Multiacao-_-Rev.-02.pdf",
+      category: "cloros",
+    },
+    neoclorCloros3: {
+      key: 4,
+      img: neoclorCloros3,
       code: 2028,
       description: "NEOCLOR DICLORO GRANULADO ECONOMIC (BD C/ 10,0K)",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-018-_-Economic-_-Rev.-02.pdf",
       category: "cloros",
     },
-    neoclorCloros2: {
+    neoclorCloros4: {
       key: 5,
-      img: neoclorCloros2,
+      img: neoclorCloros4,
       code: 2029,
-      description: "NEOCLOR DICL GRAN PREMIUM 56,0% (BD C/ 10,0K)",
+      description: "NEOCLOR DICLORO GRANULADO PREMIUM 56,0% (BD C/ 10,0K)",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-020-_-Premium-_-Rev.-02.pdf",
       category: "cloros",
     },
-    neoclorCloros3: {
+    neoclorCloros5: {
       key: 7,
-      img: neoclorCloros3,
+      img: neoclorCloros5,
       code: 2032,
-      description: "NEOCLOR CL GRAN HIPOCALCIO 65,0% (BD C/ 10,0K)",
+      description: "NEOCLOR CLORO GRANULADO HIPOCÁLCIO 65,0% (BD C/ 10,0K)",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-021-_-Hipocalcio-_-Rev.-01.pdf",
       category: "cloros",
     },
-    neoclorCloros4: {
+    neoclorCloros6: {
       key: 9,
-      img: neoclorCloros4,
+      img: neoclorCloros6,
       code: 3030,
       description: "NEOCLOR TABLETE TRIACTION 200G",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-023-_-Tablete-Premium-_-Rev.-01.pdf",
       category: "cloros",
     },
-    neoclorCloros5: {
+    neoclorCloros7: {
       key: 10,
-      img: neoclorCloros5,
+      img: neoclorCloros7,
       code: 3040,
       description: "NEOCLOR TABLETE PREMIUM 200G",
       fispqLink:
         "https://neoclor.com.br/wp-content/uploads/2023/08/FT-023-_-Tablete-Premium-_-Rev.-01.pdf",
       category: "cloros",
     },
-    neoclorCloros6: {
+    neoclorCloros8: {
       key: 11,
-      img: neoclorCloros6,
+      img: neoclorCloros8,
       code: 60004,
       description: "NEOCLOR NEOOX (BD C/ 0,450G)",
       fispqLink:
