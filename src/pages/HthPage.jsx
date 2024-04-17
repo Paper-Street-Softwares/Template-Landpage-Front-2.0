@@ -1,5 +1,5 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
-import Footer from "../components/sections/Footer";
+import FooterProducts from "../components/sections/FooterProducts";
 import ProductsList from "../components/sections/ProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -13,13 +13,13 @@ export default function HthPage() {
       <HeroProducts
         heroTitle="Nossa linha de produtos"
         heroImg={imgLogo}
-        heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
+        heroParagraph="Aqui você encontra os produtos para o tratamento da água da sua piscina"
       />
       <div className="flex flex-col mx-auto">
-      <ProductsList />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+        <ProductsList />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <FooterProducts />
       </div>
     </div>
   );
