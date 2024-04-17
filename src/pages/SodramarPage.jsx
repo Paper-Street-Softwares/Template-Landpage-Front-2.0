@@ -13,7 +13,7 @@ export default function SodramarPage() {
       <HeroProducts
         heroTitle="Nossa linha de acessórios"
         heroImg={imgLogo}
-        heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
+        heroParagraph="Aqui você encontra os acessórios para construção e limpeza da sua piscina"
       />
       <div className="flex flex-col mx-auto">
         <SodramarProductsList />

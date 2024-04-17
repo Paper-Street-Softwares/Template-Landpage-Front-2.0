@@ -13,7 +13,7 @@ export default function NeoclorPage() {
       <HeroProducts
         heroTitle="Nossa linha de produtos"
         heroImg={imgLogo}
-        heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
+        heroParagraph="Aqui você encontra os produtos para o tratamento da água da sua piscina"
       />
       <div className="flex flex-col mx-auto">
         <NeoclorProductsList />
