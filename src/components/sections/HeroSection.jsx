@@ -15,8 +15,8 @@ export default function HeroSection() {
       >
         <div className="flex items-center">
           <div className="w-full text-white justify-evenly">
-            <div className="h-40 tablet2:h-36" />
-            <div className="flex flex-col mx-auto my-20 w-[88%] max-w-[1110px] items-center gap-10">
+            <div className="h-40 desktop3:h-52" />
+            <div className="flex flex-col mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <MotionDivLeftToRight>
                 <div className="font-black leading-none text-center text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop2:text-title7">
                   <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
@@ -44,7 +44,7 @@ export default function HeroSection() {
                       <div className="flex p-4 text-center">
                         <img
                           src={WhatsAppIcon}
-                          className="h-10 phone2:mr-2 phone3:mr-4"
+                          className="h-10 mr-[8px]"
                           alt="WhatsApp Icon"
                         />
                         <p className="flex items-center leading-none text-white text-title1">
