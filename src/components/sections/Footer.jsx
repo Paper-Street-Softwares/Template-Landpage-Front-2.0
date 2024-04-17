@@ -1,5 +1,6 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import { Link } from "react-scroll";
 import mpaLogo from "../../assets/importAssets/Logo.png";
 import { Phone, Mail } from "lucide-react";
 
@@ -39,24 +40,78 @@ function Footer() {
           <div className="flex justify-between full">
             <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
               <div className="h-[36px] ">
-                <a href="#">Início</a>
+                <Link
+                  to="home"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-100}
+                >
+                  Início
+                </Link>
               </div>
               <div className="h-[36px] ">
-                <a href="#">Sobre nós</a>
+                <Link
+                  to="about"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                >
+                  Sobre nós
+                </Link>
               </div>
               <div className="h-[36px] ">
-                <a href="#">Produtos e Acessórios</a>
+                <Link
+                  to="products"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                >
+                  Produtos e Acessórios
+                </Link>
               </div>
             </div>
             <div className=" w-[46%] flex flex-col gap-y-[16px] text-paragraph3 font-semibold ">
               <div className="h-[36px] ">
-                <a href="#">Cursos e Palestras</a>
+                <Link
+                  to="courses"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                >
+                  Cursos e Palestras
+                </Link>
               </div>
               <div className="h-[36px] ">
-                <a href="#">Perguntas Frequentes</a>
+                <Link
+                  to="faq"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                >
+                  Perguntas Frequentes
+                </Link>
               </div>
               <div className="h-[36px] ">
-                <a href="#">Contato</a>
+                <Link
+                  to="contact"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-190}
+                >
+                  Contato
+                </Link>
               </div>
             </div>
           </div>
