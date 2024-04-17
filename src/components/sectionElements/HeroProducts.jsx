@@ -37,7 +37,7 @@ export default function HeroProducts(props) {
             </h1>
           </div>
 
-          <div className="">
+          <div>
             <p className="text-paragraph4 tablet1:font-bold">
               <MotionDivDownToUp>{heroParagraph}</MotionDivDownToUp>
             </p>
