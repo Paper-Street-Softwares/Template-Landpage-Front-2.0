@@ -5,7 +5,7 @@ import faqImg from "../../assets/imgs/faq/faq.png";
 
 export default function FrequentlyAskedQuestions() {
   return (
-    <div className="full bg-quinary" id="faq">
+    <div className="flex justify-center full bg-quinary" id="faq">
       <div className="w-[88%] max-w-[1110px] py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Perguntas Frequentes"
