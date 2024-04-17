@@ -17,7 +17,13 @@ function Footer() {
           <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
           <div className="flex full gap-x-[8px] items-center">
             <Phone size={24} strokeWidth={1} className="text-white" />
-            <p>(11) 9.9488-9426</p>
+            <a
+              href="https://wa.me/+5511994889426"
+              target="_blank"
+              className="underline"
+            >
+              (11) 9.9488-9426
+            </a>
           </div>
           <div className="flex full gap-x-[8px] items-center">
             <Mail size={24} strokeWidth={1} className="text-white" />
