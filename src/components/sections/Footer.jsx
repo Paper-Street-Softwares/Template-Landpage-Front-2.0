@@ -6,8 +6,8 @@ import { Phone, Mail } from "lucide-react";
 function Footer() {
   return (
     <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[28px] justify-between">
-      <div className=" w-[88%] flex flex-col gap-y-[42px] ">
-        <div className="flex flex-col gap-y-[16px]">
+      <div className="w-[88%] desktop1:w-[90.6%] max-w-[1106px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
+        <div className="flex flex-col gap-y-[16px]   desktop1:w-[290px]">
           <img
             alt="Logo MPA Piscinas"
             src={mpaLogo}
@@ -23,15 +23,19 @@ function Footer() {
             <p>contato@mpapiscinas.com.br</p>
           </div>
         </div>
-        <div className="flex flex-col  gap-y-[16px]">
-          <h1 className="font-medium text-title2">SOBRE</h1>
+        <div className="flex flex-col  gap-y-[16px]  desktop1:w-[290px]">
+          <h1 className="font-medium text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            SOBRE
+          </h1>
           <p>
             Agradecemos sua visita! Esperamos que em breve você se torne nosso
             cliente e desfrute de todos os benefícios que oferecemos.
           </p>
         </div>
-        <div className="flex flex-col  gap-y-[16px]">
-          <h1 className="font-medium text-title2">NAVEGAÇÃO</h1>
+        <div className="flex flex-col  gap-y-[16px] desktop1:w-[290px]">
+          <h1 className="font-medium text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            NAVEGAÇÃO
+          </h1>
           <div className="flex justify-between full">
             <div className="w-[46%] flex flex-col gap-y-[16px] text-paragraph3">
               <a href="#" className="font-semibold h-[36px] ">
