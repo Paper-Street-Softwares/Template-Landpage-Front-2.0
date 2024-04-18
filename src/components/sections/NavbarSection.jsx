@@ -4,7 +4,7 @@ import Logo from "../../assets/importAssets/Logo.png";
 import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Menu, X } from "lucide-react";
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from "react-scroll";
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
@@ -97,26 +97,28 @@ export default function NavbarSection() {
             smooth={true}
             duration={500}
             offset={-100}
+            href="#"
           >
-            <img src={Logo} alt="Logo" className={`mr-20 ${
-                scrolling ? "h-auto max-h-14 transition-all duration-1000" : "h-auto max-h-28 transition-all duration-1000"
-              } tablet3:mb-0`} />
+            <img
+              src={Logo}
+              alt="Logo MPA Piscinas"
+              className={`mr-20 ${
+                scrolling
+                  ? "h-auto max-h-14 transition-all duration-1000"
+                  : "h-auto max-h-28 transition-all duration-1000"
+              } tablet3:mb-0`}
+            />
           </ScrollLink>
-          <button
-            onClick={toggleSidebar}
-            className="relative tablet2:hidden"
-          >
+          <button onClick={toggleSidebar} className="relative tablet2:hidden">
             {showMenuIcon ? (
-              <Menu size={32}
-                className={` ${
-                  scrolling ? "text-secondary" : "text-white"
-                }`}
+              <Menu
+                size={32}
+                className={` ${scrolling ? "text-secondary" : "text-white"}`}
               />
             ) : (
-              <X size={32}
-                className={` ${
-                  scrolling ? "text-secondary" : "text-white"
-                }`}
+              <X
+                size={32}
+                className={` ${scrolling ? "text-secondary" : "text-white"}`}
               />
             )}
           </button>
