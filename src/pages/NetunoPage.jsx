@@ -14,6 +14,7 @@ export default function NetunoPage() {
         heroTitle="Nossa linha de acessórios"
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
+        alt="logo NETUNO"
       />
       <NetunoProductsList />
       <BackToTopButton />
