@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import whatsappGif from "../../assets/importAssets/whatsappGif.gif";
+import whatsappGif from "../../assets/importAssets/whatsappGif.webp";
 import Modal from "../util/Modal";
 
 const FloatingWhatsappButton = () => {
