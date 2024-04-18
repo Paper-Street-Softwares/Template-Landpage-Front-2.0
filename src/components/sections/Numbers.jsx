@@ -38,25 +38,49 @@ export default function Numbers() {
           <h1 className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between tablet1:flex-wrap desktop1:flex-nowrap">
             <ResultsCard
               icon={
-                <Building size={32} strokeWidth={1} className="text-white" />
+                <Building
+                  size={32}
+                  strokeWidth={1}
+                  aria-label="Ícone de Predio da empresa"
+                  className="text-white"
+                />
               }
               number={<AnimatedCounter endValue={yearsOfService} />}
               text="Anos de serviços prestados"
             />
             <ResultsCard
-              icon={<Box size={32} strokeWidth={1} className="text-white" />}
+              icon={
+                <Box
+                  size={32}
+                  strokeWidth={1}
+                  aria-label="Ícone de Caixa de itens"
+                  className="text-white"
+                />
+              }
               number={<AnimatedCounter endValue={1800} />}
               text="Quantidade de itens oferecidos"
             />
             <ResultsCard
               icon={
-                <Handshake size={32} strokeWidth={1} className="text-white" />
+                <Handshake
+                  size={32}
+                  strokeWidth={1}
+                  aria-label="Ícone de Aperto de mãos"
+                  className="text-white"
+                />
               }
               number={<AnimatedCounter endValue={2400} />}
               text="Número de clientes atendidos anualmente"
             />
             <ResultsCard
-              icon={<Truck size={32} strokeWidth={1} className="text-white" />}
+              icon={
+                <Truck
+                  size={32}
+                  strokeWidth={1}
+                  aria-label="Ícone de Caminhão de entregas"
+                  className="text-white"
+                />
+              }
               number={<AnimatedCounter endValue={8000} />}
               text="Capacidade de entregas diária em kilo/litro"
             />

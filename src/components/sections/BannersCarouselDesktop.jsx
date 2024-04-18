@@ -8,10 +8,10 @@ export default function BannersCarousel() {
     <MotionDivLeftToRight>
       <div className="full py-[26px] phone3:py-[48px] flex justify-center">
         <div className="w-[88%] max-w-[1110px]">
-          <ImagesGallery2Slides
-            slide1={imgEntregasDesktop}
-            slide2={imgAtendimentoDesktop}
-          />
+        <ImagesGallery2Slides
+          slide1={imgAtendimentoDesktop}
+          slide2={imgEntregasDesktop}
+        />
         </div>
       </div>
     </MotionDivLeftToRight>

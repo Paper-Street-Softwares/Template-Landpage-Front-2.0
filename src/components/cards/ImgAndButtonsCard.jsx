@@ -3,7 +3,7 @@ import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import { Link } from 'react-router-dom';
 
 export default function ImgAndButtonsCard(props) {
-  const { img, button1Label, button1Link } = props;
+  const { img, alt, button1Label, button1Link } = props;
 
   const handleClick = () => {
     window.location.href = button1Link + "#";
@@ -11,6 +11,7 @@ export default function ImgAndButtonsCard(props) {
 
   ImgAndButtonsCard.propTypes = {
     img: PropTypes.any,
+    alt: PropTypes.string,
     button1Label: PropTypes.any,
     button1Link: PropTypes.any,
   };
@@ -19,7 +20,7 @@ export default function ImgAndButtonsCard(props) {
     <div className="w-full phone3:w-[45%] desktop1:w-[23%]  bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[15px]">
       <div className="flex justify-center items-center h-[125px] phone3:h-[80px] tablet1:h-[125px]">
         <MotionDivLeftToRight>
-          <img src={img} alt="hthLogo" className="max-h-[90px] max-w-[150px]" />
+          <img src={img} alt={alt}  className="max-h-[90px] max-w-[150px]" />
         </MotionDivLeftToRight>
       </div>
 
