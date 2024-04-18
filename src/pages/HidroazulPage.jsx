@@ -14,7 +14,7 @@ export default function HidroazulPage() {
         heroTitle="Nossa linha de produtos"
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
-        alt="logo HIDROAZUL"
+        alt="Logo da marca da Hidroazul"
       />
       <HidroazulProductsList />
       <BackToTopButton />

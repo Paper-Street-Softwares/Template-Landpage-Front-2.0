@@ -41,7 +41,7 @@ export default function Numbers() {
                 <Building
                   size={32}
                   strokeWidth={1}
-                  aria-label="predio da empresa"
+                  aria-label="Ícone de Predio da empresa"
                   className="text-white"
                 />
               }
@@ -53,7 +53,7 @@ export default function Numbers() {
                 <Box
                   size={32}
                   strokeWidth={1}
-                  aria-label="caixa de itens"
+                  aria-label="Ícone de Caixa de itens"
                   className="text-white"
                 />
               }
@@ -65,7 +65,7 @@ export default function Numbers() {
                 <Handshake
                   size={32}
                   strokeWidth={1}
-                  aria-label="aperto de mãos"
+                  aria-label="Ícone de Aperto de mãos"
                   className="text-white"
                 />
               }
@@ -77,7 +77,7 @@ export default function Numbers() {
                 <Truck
                   size={32}
                   strokeWidth={1}
-                  aria-label="caminhão de entregas"
+                  aria-label="Ícone de Caminhão de entregas"
                   className="text-white"
                 />
               }

@@ -14,7 +14,7 @@ export default function GencoPage() {
         heroTitle="Nossa linha de produtos"
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
-        alt="logo GENCO"
+        alt="Logo da marca da Genco"
       />
       <GencoProductsList />
       <BackToTopButton />

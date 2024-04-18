@@ -18,7 +18,7 @@ export default function AboutUs() {
               <img
                 className="size-[100%] desktop1:size-auto desktop3:"
                 src={imgPastilhaCloro}
-                alt="mão segurando produto"
+                alt="Mão segurando pastilha de cloro para limpeza de piscina"
               />
             </MotionDivRightToLeft>
           </div>
@@ -55,7 +55,7 @@ export default function AboutUs() {
               <img
                 className=" size-[100%] desktop1:size-[100%] desktop3:w-[100%]"
                 src={resgateAcidente}
-                alt="atendimento submerso"
+                alt="Atendimento submerso após não efetuar a limpeza adequada da piscina"
               />
             </MotionDivLeftToRight>
           </div>

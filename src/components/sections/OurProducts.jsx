@@ -23,49 +23,49 @@ export default function OurProducts() {
             img={hthLogo}
             button1Label="Consultar produtos"
             button1Link="/hth"
-            alt="hthlogo"
+            alt="Logo da marca Hth"
           />
           <ImgAndButtonsCard
             img={gencoLogo}
             button1Label="Consultar produtos"
             button1Link="/genco"
-            alt="gencologo"
+            alt="Logo da marca Genco"
           />
           <ImgAndButtonsCard
             img={neoclorLogo}
             button1Label="Consultar produtos"
             button1Link="/neoclor"
-            alt="neoclorlogo"
+            alt="Logo da marca Neoclor"
           />
           <ImgAndButtonsCard
             img={hidroazulLogo}
             button1Label="Consultar produtos"
             button1Link="/hidroazul"
-            alt="hidroazullogo"
+            alt="Logo da marca Hidroazul"
           />
           <ImgAndButtonsCard
             img={domclorLogo}
             button1Label="Consultar produtos"
             button1Link="/domclor"
-            alt="domclorlogo"
+            alt="Logo da marca Domclor"
           />
           <ImgAndButtonsCard
             img={suallLogo}
             button1Label="Consultar produtos"
             button1Link="/suall"
-            alt="sualllogo"
+            alt="Logo da marca Suall"
           />
           <ImgAndButtonsCard
             img={sodramarLogo}
             button1Label="Consultar acessórios"
             button1Link="/sodramar"
-            alt="sodramarlogo"
+            alt="Logo da marca Sodramar"
           />
           <ImgAndButtonsCard
             img={netunoLogo}
             button1Label="Consultar acessórios"
             button1Link="/netuno"
-            alt="netunologo"
+            alt="Logo da marca Netuno"
           />
         </SectionContent>
       </div>

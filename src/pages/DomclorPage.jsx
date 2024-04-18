@@ -14,7 +14,7 @@ export default function DomclorPage() {
         heroTitle="Nossa linha de produtos"
         heroImg={imgLogo}
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
-        alt="logo DOMCLOR"
+        alt="Logo da marca da Domclor"
       />
       <DomclorProductsList />
       <BackToTopButton />
