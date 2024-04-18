@@ -44,7 +44,7 @@ const HidroazulProducts = {
       code: 2072,
       description: "HIDROAZUL DICLORO FAZ! (BD 10,0K)",
       fispqLink:
-        "https://hidroazul.com.br/wp-content/uploads/2022/12/02_FDS_CLORO-FAZREV00.pdf",
+        "https://hidroazul.com.br/wp-content/uploads/2022/12/02_FDS_CLORO-FAZ_REV00.pdf",
       category: "cloros",
     },
     hidroazulCloros4: {

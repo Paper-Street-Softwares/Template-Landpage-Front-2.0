@@ -60,6 +60,7 @@ function Footer() {
                     smooth={true}
                     duration={500}
                     offset={-100}
+                    href="#"
                   >
                     Início
                   </Link>
