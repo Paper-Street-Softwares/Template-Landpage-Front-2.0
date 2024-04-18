@@ -85,7 +85,6 @@ export default function ListGroupProducts() {
       <button
         onMouseEnter={() => toggleSubMenu(true)}
         onMouseLeave={() => toggleSubMenu(false)}
-        className="relative"
       >
         <li className="transition group">
           <Link
