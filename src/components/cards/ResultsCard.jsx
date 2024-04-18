@@ -12,7 +12,7 @@ export default function ResultsCard(props) {
 
   return (
     <div className="flex flex-row items-center my-[10%] phone1:my-[5%] w-full tablet1:my-[3%] tablet1:w-[45%] desktop1:my-0 font-poppins desktop1:mx-3">
-      <div className="flex flex-col justify-center items-center h-[68px] w-[68px] phone1:h-[86px] phone1:w-[86px] phone2:h-[74px] phone2:w-[74px] tablet2:h-[82px] tablet2:w-[82px] desktop1:h-[78px] desktop1:w-[60px] border-solid border-[3px] border-primary">
+      <div className="flex flex-col rounded-2xl justify-center items-center h-[68px] w-[68px] phone1:h-[86px] phone1:w-[86px] phone2:h-[74px] phone2:w-[74px] tablet2:h-[82px] tablet2:w-[82px] desktop1:h-[78px] desktop1:w-[60px] border-solid border-[3px] border-primary">
         {icon}
       </div>
       <div className="flex flex-col justify-center flex-1 ml-[5%]">

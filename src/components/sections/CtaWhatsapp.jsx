@@ -34,16 +34,16 @@ export default function CtaWhatsapp() {
                 <div className="w-full">
                   <a
                     href={whatsappContactLink}
-                    className="flex flex-row items-center justify-around w-[90%] h-8 phone1:h-12 px-1 transition rounded-lg max-w-32 tablet1:h-20 phone3:max-w-48 tablet1:max-w-60 phone3:w-[90%] bg-primary hover:bg-tertiary"
+                    className="flex flex-row items-center justify-around w-[90%] h-8 phone1:h-12 phone3:px-2 px-1 tablet1:px-5 transition rounded-[10px] phone3:rounded-[30px] tablet1:rounded-[40px] max-w-32 tablet1:h-20 phone3:max-w-48 tablet1:max-w-[280px] phone3:w-[90%] bg-red-700 hover:bg-red-900"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
                       src={WhatsAppIcon}
-                      className="h-[45%] phone3:h-[60%] tablet1:h-14"
+                      className="h-[45%] phone3:h-[60%] tablet1:h-10"
                       alt="WhatsApp Icon"
                     ></img>
-                    <p className="text-white text-paragraph1 phone1:text-paragraph3 phone3:text-paragraph5 tablet1:pr-[3%] tablet1:font-bold desktop1:font-medium tablet1:text-title3">
+                    <p className="text-white text-paragraph1 phone1:text-paragraph3 phone3:text-paragraph5 phone3:pr-[5px] tablet1:pr-[3%] tablet1:font-medium desktop1:font-medium tablet1:text-title3">
                       Clique aqui
                     </p>
                   </a>

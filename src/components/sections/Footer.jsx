@@ -4,7 +4,6 @@ import { Phone, Mail } from "lucide-react";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 function Footer() {
   return (
@@ -141,7 +140,7 @@ function Footer() {
       <div className="w-[88%] max-w-[1110px] h-px bg-white"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <MotionDivDownToUp>
+        <MotionDivUpToDown>
           <p className="w-full">
             2024 - MPA Piscinas - Todos os direitos reservados
           </p>
@@ -155,7 +154,7 @@ function Footer() {
               Clique aqui
             </a>
           </p>
-        </MotionDivDownToUp>
+        </MotionDivUpToDown>
       </div>
     </footer>
   );
