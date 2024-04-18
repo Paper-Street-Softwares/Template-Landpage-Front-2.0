@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function ListGroup() {
   const [scrolling, setScrolling] = useState(false);
@@ -24,20 +24,6 @@ export default function ListGroup() {
     setShowSubMenu(show);
   };
 
-  const handleLinkClick = (sectionId, offset) => {
-    setScrolling(true);
-    setTimeout(() => {
-      const sectionTop = document.getElementById(sectionId).offsetTop + offset;
-      window.scrollTo({
-        top: sectionTop,
-        behavior: "smooth",
-      });
-      setTimeout(() => {
-        setScrolling(false);
-      }, 500);
-    }, 100);
-  };
-
   return (
     <ul
       className={`h-14 my-auto flex items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop2:gap-8 w-full font-semibold text-paragraph3 font-poppins ${
@@ -46,8 +32,7 @@ export default function ListGroup() {
     >
       <li className="transition group">
         <Link
-          to="/"
-          onClick={() => handleLinkClick("home", 0)}
+          to="home"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
@@ -64,8 +49,7 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="/"
-          onClick={() => handleLinkClick("about", -70)}
+          to="about"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
@@ -85,8 +69,7 @@ export default function ListGroup() {
         <button className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
         onMouseLeave={() => toggleSubMenu(false)}>
           <Link
-            to="/"
-            onClick={() => handleLinkClick("products", -70)}
+            to="products"
             className="relative py-4 cursor-pointer"
             spy={true}
             smooth={true}
@@ -178,8 +161,7 @@ export default function ListGroup() {
         </button>
       <li className="transition group">
         <Link
-          to="/"
-          onClick={() => handleLinkClick("courses", -70)}
+          to="courses"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
@@ -198,8 +180,7 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="/"
-          onClick={() => handleLinkClick("faq", -70)}
+          to="faq"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
@@ -218,8 +199,7 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
         <Link
-          to="/"
-          onClick={() => handleLinkClick("contact", -190)}
+          to="contact"
           className="relative cursor-pointer"
           spy={true}
           smooth={true}
