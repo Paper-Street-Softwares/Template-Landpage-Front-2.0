@@ -97,7 +97,7 @@ export default function NavbarSectionProducts() {
           </Link>
           <button
             onClick={toggleSidebar}
-            className="relative right-6 tablet2:hidden"
+            className="relative tablet2:hidden"
           >
             {showMenuIcon ? (
               <Menu size={32}

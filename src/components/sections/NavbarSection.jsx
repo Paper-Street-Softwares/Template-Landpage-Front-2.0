@@ -83,7 +83,7 @@ export default function NavbarSection() {
           </ScrollLink>
           <button
             onClick={toggleSidebar}
-            className="relative right-6 tablet2:hidden"
+            className="relative tablet2:hidden"
           >
             {showMenuIcon ? (
               <Menu size={32}
