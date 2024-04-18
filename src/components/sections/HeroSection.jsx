@@ -20,15 +20,15 @@ export default function HeroSection() {
         <div className="flex items-center">
           <div className="w-full text-white justify-evenly">
             <div className="h-40 desktop3:h-46" />
-            <div className="flex mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
-              <div className="w-[650px] flex flex-col gap-8">
+            <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
+              <div className="desktop1:w-[650px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
-                  <div className="font-black leading-none text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop2:text-[40px]">
+                  <div className="font-black leading-none text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[40px]">
                     <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
-                  <div className="text-left phone1:w-full phone1:font-medium phone1:text-paragraph4">
+                  <div className="text-center desktop1:text-left phone1:w-full phone1:font-medium phone1:text-paragraph4">
                     <p>
                       Aqui você será atendido de forma humanizada por
                       profissionais qualificados e preparados para esclarecer
@@ -39,7 +39,7 @@ export default function HeroSection() {
                 </MotionDivLeftToRight>
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <MotionDivRightToLeft>
-                    <div className="flex justify-start w-full">
+                    <div className="flex justify-center w-full desktop1:justify-start">
                       <a
                         href={whatsappContactLink}
                         className="flex flex-row items-center justify-around w-auto h-16 transition rounded-[40px] p-6 bg-red-700 hover:bg-red-900"
@@ -61,7 +61,7 @@ export default function HeroSection() {
                   </MotionDivRightToLeft>
                 </div>
               </div>
-              <div className="w-[510px] h-[350px] flex items-center">
+              <div className="desktop1:w-[510px]  desktop1:h-[350px] flex items-center">
                 <ImagesGalleryHero
                   slide1={slide1}
                   slide2={slide2}
