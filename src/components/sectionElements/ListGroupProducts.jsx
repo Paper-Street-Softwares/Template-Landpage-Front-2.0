@@ -82,11 +82,8 @@ export default function ListGroupProducts() {
           ></div>
         </Link>
       </li>
-      <button
-        onMouseEnter={() => toggleSubMenu(true)}
-        onMouseLeave={() => toggleSubMenu(false)}
-      >
-        <li className="transition group">
+        <button className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
+        onMouseLeave={() => toggleSubMenu(false)}>
           <Link
             to="/"
             onClick={() => handleLinkClick("products", -70)}
@@ -116,7 +113,7 @@ export default function ListGroupProducts() {
                     href="/hth"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>HTH</h1>
+                    HTH
                   </a>
                 </li>
                 <li>
@@ -124,7 +121,7 @@ export default function ListGroupProducts() {
                     href="/genco"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Genco</h1>
+                    Genco
                   </a>
                 </li>
                 <li>
@@ -132,7 +129,7 @@ export default function ListGroupProducts() {
                     href="/neoclor"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Neoclor</h1>
+                    Neoclor
                   </a>
                 </li>
                 <li>
@@ -140,7 +137,7 @@ export default function ListGroupProducts() {
                     href="/hidroazul"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Hidroazul</h1>
+                    Hidroazul
                   </a>
                 </li>
                 <li>
@@ -148,7 +145,7 @@ export default function ListGroupProducts() {
                     href="/domclor"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Domclor</h1>
+                    Domclor
                   </a>
                 </li>
                 <li>
@@ -156,7 +153,7 @@ export default function ListGroupProducts() {
                     href="/suall"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Suall</h1>
+                    Suall
                   </a>
                 </li>
                 <li>
@@ -164,7 +161,7 @@ export default function ListGroupProducts() {
                     href="/sodramar"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Sodramar</h1>
+                    Sodramar
                   </a>
                 </li>
                 <li>
@@ -172,14 +169,13 @@ export default function ListGroupProducts() {
                     href="/netuno"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 cursor-pointer hover:text-primary hover:bg-quinary"
                   >
-                    <h1>Netuno</h1>
+                    Netuno
                   </a>
                 </li>
               </ul>
             )}
           </div>
-        </li>
-      </button>
+        </button>
       <li className="transition group">
         <Link
           to="/"
