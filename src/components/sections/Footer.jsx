@@ -4,7 +4,6 @@ import { Phone, Mail } from "lucide-react";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 function Footer() {
   return (

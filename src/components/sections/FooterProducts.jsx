@@ -1,7 +1,6 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import mpaLogo from "../../assets/importAssets/Logo.png";
 import { Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -158,7 +157,7 @@ export default function FooterProducts() {
       <div className="w-[88%] max-w-[1110px] h-px bg-white"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <MotionDivDownToUp>
+        <MotionDivUpToDown>
           <p className="w-full">
             2024 - MPA Piscinas - Todos os direitos reservados
           </p>
@@ -172,7 +171,7 @@ export default function FooterProducts() {
               Clique aqui
             </a>
           </p>
-        </MotionDivDownToUp>
+        </MotionDivUpToDown>
       </div>
     </footer>
   );
