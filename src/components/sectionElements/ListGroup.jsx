@@ -82,7 +82,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-        <a className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
+        <li className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
         onMouseLeave={() => toggleSubMenu(false)}>
           <Link
             to="/"
@@ -113,7 +113,7 @@ export default function ListGroup() {
                     href="/hth"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>HTH</h1>
+                    HTH
                   </a>
                 </li>
                 <li>
@@ -121,7 +121,7 @@ export default function ListGroup() {
                     href="/genco"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Genco</h1>
+                    Genco
                   </a>
                 </li>
                 <li>
@@ -129,7 +129,7 @@ export default function ListGroup() {
                     href="/neoclor"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Neoclor</h1>
+                    Neoclor
                   </a>
                 </li>
                 <li>
@@ -137,7 +137,7 @@ export default function ListGroup() {
                     href="/hidroazul"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Hidroazul</h1>
+                    Hidroazul
                   </a>
                 </li>
                 <li>
@@ -145,7 +145,7 @@ export default function ListGroup() {
                     href="/domclor"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Domclor</h1>
+                    Domclor
                   </a>
                 </li>
                 <li>
@@ -153,7 +153,7 @@ export default function ListGroup() {
                     href="/suall"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Suall</h1>
+                    Suall
                   </a>
                 </li>
                 <li>
@@ -161,7 +161,7 @@ export default function ListGroup() {
                     href="/sodramar"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 border-b cursor-pointer hover:text-primary hover:bg-quinary border-neutral-300"
                   >
-                    <h1>Sodramar</h1>
+                    Sodramar
                   </a>
                 </li>
                 <li>
@@ -169,13 +169,13 @@ export default function ListGroup() {
                     href="/netuno"
                     className="block w-[80%] mx-auto px-4 py-2 text-center text-tertiary transition duration-500 cursor-pointer hover:text-primary hover:bg-quinary"
                   >
-                    <h1>Netuno</h1>
+                    Netuno
                   </a>
                 </li>
               </ul>
             )}
           </div>
-        </a>
+        </li>
       <li className="transition group">
         <Link
           to="/"
