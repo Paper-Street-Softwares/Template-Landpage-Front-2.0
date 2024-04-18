@@ -40,7 +40,7 @@ export default function ListGroupProducts() {
 
   return (
     <ul
-      className={`flex items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop1:gap-6 desktop2:gap-8 w-full h-auto font-semibold text-paragraph3 font-poppins ${
+      className={`h-10 my-auto flex items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop1:gap-6 desktop2:gap-8 w-full font-semibold text-paragraph3 font-poppins ${
         scrolling ? "" : "text-white transition-color duration-200"
       }`}
     >
