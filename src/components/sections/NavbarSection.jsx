@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
 import Logo from "../../assets/importAssets/Logo.png";
 import ListGroup from "../sectionElements/ListGroup";
@@ -13,6 +13,8 @@ export default function NavbarSection() {
   const [showMenuIcon, setShowMenuIcon] = useState(true);
   const [showSidebarContent, setShowSidebarContent] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+
+  const sidebarRef = useRef(null);
 
   const handleScroll = () => {
     if (window.scrollY > 0) {
@@ -49,13 +51,32 @@ export default function NavbarSection() {
     }
   };
 
+  const handleClickOutside = (event) => {
+    if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+      handleCloseSidebar();
+    }
+  };
+
+  const handleCloseSidebar = () => {
+    setShowSidebar(false);
+    setShowSidebarContent(false);
+    setIsAnimating(false);
+    setShowMenuIcon(true);
+  };
+
+  const handleSidebarItemClick = () => {
+    handleCloseSidebar();
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
     handleResize();
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -105,8 +126,15 @@ export default function NavbarSection() {
           className={`animate-${
             showSidebar ? "slide-down block" : "slide-up hidden"
           }`}
+          ref={sidebarRef}
         >
-          {showSidebar ? <Sidebar showSidebar={showSidebarContent} /> : null}
+          {showSidebar ? (
+            <Sidebar
+              showSidebar={showSidebarContent}
+              handleCloseSidebar={handleCloseSidebar}
+              handleSidebarItemClick={handleSidebarItemClick}
+            />
+          ) : null}
         </div>
       </div>
     </div>
