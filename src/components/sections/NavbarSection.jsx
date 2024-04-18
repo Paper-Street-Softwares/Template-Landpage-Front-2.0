@@ -98,7 +98,7 @@ export default function NavbarSection() {
             duration={500}
             offset={-100}
           >
-            <img src={Logo} alt="Logo" className={`mr-24 ${
+            <img src={Logo} alt="Logo" className={`mr-20 ${
                 scrolling ? "h-auto max-h-14 transition-all duration-1000" : "h-auto max-h-28 transition-all duration-1000"
               } tablet3:mb-0`} />
           </ScrollLink>
