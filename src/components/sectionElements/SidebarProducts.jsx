@@ -18,7 +18,7 @@ export default function SidebarProducts({ showSidebar }) {
         showSidebar ? "animate-slide-down" : "animate-slide-up"
       }`}
     >
-      <div className="w-[88%] max-w-[1110px]">
+      <div className="mx-auto w-[88%] max-w-[1110px] tablet2:hidden">
         <div className="flex h-auto px-12 py-6 bg-white font-mainFont">
           <div className="overflow-y-auto">
             <ul className="text-black phone2:text-paragraph5 phone3:text-title1 tablet1:text-title2">
