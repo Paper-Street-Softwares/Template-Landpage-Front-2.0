@@ -73,6 +73,7 @@ function Footer() {
                     smooth={true}
                     duration={500}
                     offset={-80}
+                    href="#"
                   >
                     Sobre nós
                   </Link>
@@ -85,6 +86,7 @@ function Footer() {
                     smooth={true}
                     duration={500}
                     offset={-80}
+                    href="#"
                   >
                     Produtos e Acessórios
                   </Link>
@@ -99,6 +101,7 @@ function Footer() {
                     smooth={true}
                     duration={500}
                     offset={-80}
+                    href="#"
                   >
                     Cursos e Palestras
                   </Link>
@@ -111,6 +114,7 @@ function Footer() {
                     smooth={true}
                     duration={500}
                     offset={-80}
+                    href="#"
                   >
                     Perguntas Frequentes
                   </Link>
@@ -123,6 +127,7 @@ function Footer() {
                     smooth={true}
                     duration={500}
                     offset={-190}
+                    href="#"
                   >
                     Contato
                   </Link>
