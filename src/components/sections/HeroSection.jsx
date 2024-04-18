@@ -1,12 +1,17 @@
-import bgImage from "../../assets/importAssets/bg2.jpg";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
-import whatsappNumber from "../../abstractions/whats";
 import ImagesGalleryHero from "../interactives/ImagesGalleryHero";
-import slide1 from "../../assets/banners/hero/product1.png";
-import slide2 from "../../assets/banners/hero/product4.png";
-import slide3 from "../../assets/banners/hero/product3.png";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import slide1 from "../../assets/banners/hero/slide1.png";
+import slide2 from "../../assets/banners/hero/slide2.png";
+import slide3 from "../../assets/banners/hero/slide3.png";
+import slide4 from "../../assets/banners/hero/slide4.png";
+import slide5 from "../../assets/banners/hero/slide5.png";
+import slide6 from "../../assets/banners/hero/slide6.png";
+import slide7 from "../../assets/banners/hero/slide7.png";
+import slide8 from "../../assets/banners/hero/slide8.png";
+import bgImage from "../../assets/importAssets/bg2.jpg";
+import whatsappNumber from "../../abstractions/whats";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
@@ -38,7 +43,7 @@ export default function HeroSection() {
                   </div>
                 </MotionDivLeftToRight>
                 <div className="w-full phone2:w-full tablet2:w-auto">
-                  <MotionDivRightToLeft>
+                  <MotionDivLeftToRight>
                     <div className="flex justify-center w-full desktop1:justify-start">
                       <a
                         href={whatsappContactLink}
@@ -58,15 +63,22 @@ export default function HeroSection() {
                         </div>
                       </a>
                     </div>
-                  </MotionDivRightToLeft>
+                  </MotionDivLeftToRight>
                 </div>
               </div>
               <div className="desktop1:w-[510px]  desktop1:h-[350px] flex items-center">
-                <ImagesGalleryHero
-                  slide1={slide1}
-                  slide2={slide2}
-                  slide3={slide3}
-                />
+                <MotionDivDownToUp>
+                  <ImagesGalleryHero
+                    slide1={slide1}
+                    slide2={slide2}
+                    slide3={slide3}
+                    slide4={slide4}
+                    slide5={slide5}
+                    slide6={slide6}
+                    slide7={slide7}
+                    slide8={slide8}
+                  />
+                </MotionDivDownToUp>
               </div>
             </div>
           </div>
