@@ -41,6 +41,7 @@ export default function ImagesGalleryHero(props) {
         showPlayButton={false}
         showThumbnails={false}
         showNav={false}
+        slideInterval={2500}
       />
     </div>
   );
