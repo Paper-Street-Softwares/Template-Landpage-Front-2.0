@@ -1,5 +1,5 @@
 import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
-import Footer from "../components/sections/Footer";
+import FooterProducts from "../components/sections/FooterProducts";
 import NetunoProductsList from "../components/sections/NetunoProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -8,7 +8,7 @@ import imgLogo from "../assets/imgs/brands/netunoLogo.png";
 
 export default function NetunoPage() {
   return (
-    <div className="content">
+    <div className="w-full">
       <NavbarSectionProducts />
       <HeroProducts
         heroTitle="Nossa linha de acessórios"
@@ -16,10 +16,12 @@ export default function NetunoPage() {
         heroParagraph="Aqui você encontrará tudo o que precisa para produtos  de tratamento para sua piscina."
         alt="Logo da marca da Netuno"
       />
-      <NetunoProductsList />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+      <div className="flex flex-col mx-auto">
+        <NetunoProductsList />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <FooterProducts />
+      </div>
     </div>
   );
 }

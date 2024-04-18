@@ -8,17 +8,17 @@ const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 export default function HeroSection() {
   return (
-    <div className="full font-mainFont" id="home">
+    <div className="font-mainFont" id="home">
       <div
-        className="w-full h-auto bg-center bg-cover content"
+        className="w-full bg-center bg-cover"
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
-        <div className="flex items-center content">
-          <div className="w-full text-white ">
-            <div className="h-40 tablet2:h-36" />
-            <div className="flex flex-col items-center gap-6 mb-10 justify-evenly">
+        <div className="flex items-center">
+          <div className="w-full text-white justify-evenly">
+            <div className="h-40 desktop3:h-52" />
+            <div className="flex flex-col mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <MotionDivLeftToRight>
-                <div className="font-black leading-none text-center text-title2 phone1:text-title4 phone3:text-title5 tablet1:text-title6 desktop2:text-title6">
+                <div className="font-black leading-none text-center text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop2:text-title7">
                   <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
                 </div>
               </MotionDivLeftToRight>
@@ -44,7 +44,7 @@ export default function HeroSection() {
                       <div className="flex p-4 text-center">
                         <img
                           src={WhatsAppIcon}
-                          className="h-10 phone2:mr-2 phone3:mr-4"
+                          className="h-10 mr-[8px]"
                           alt="WhatsApp Icon"
                         />
                         <p className="flex items-center leading-none text-white text-title1">

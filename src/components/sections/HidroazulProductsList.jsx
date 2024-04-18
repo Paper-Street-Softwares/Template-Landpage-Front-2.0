@@ -12,8 +12,8 @@ export default function HidroazulProductsList() {
   };
 
   return (
-    <div className="full bg-quinary">
-      <div className="content py-[26px] phone3:py-[48px] flex flex-row">
+    <div className="bg-quinary">
+      <div className="mx-auto w-[88%] max-w-[1110px] py-[26px] phone3:py-[48px] flex flex-row">
         <div className="flex flex-col items-start justify-between tablet2:flex-col desktop1:flex-row font-mainFont">
           <div className="w-full desktop1:w-[21%]">
             <h3 className="mb-[10px] w-full text-center bg-white rounded-[10px] p-[15px] tablet2:mb-[10px] font-semibold text-paragraph5 desktop1:text-paragraph4 text-secondary desktop1:w-auto">
@@ -27,7 +27,7 @@ export default function HidroazulProductsList() {
                     onChange={() => handleCheckboxChange("all")}
                   />
                 }
-                label="Todos"
+                label={<span className="font-mainFont">Todos</span>}
               />
               <FormControlLabel
                 control={
@@ -36,7 +36,7 @@ export default function HidroazulProductsList() {
                     onChange={() => handleCheckboxChange("cloros")}
                   />
                 }
-                label="Cloros"
+                label={<span className="font-mainFont">Cloros</span>}
               />
               <FormControlLabel
                 control={
@@ -45,7 +45,7 @@ export default function HidroazulProductsList() {
                     onChange={() => handleCheckboxChange("auxiliares")}
                   />
                 }
-                label="Auxiliares"
+                label={<span className="font-mainFont">Auxiliares</span>}
               />
             </div>
           </div>

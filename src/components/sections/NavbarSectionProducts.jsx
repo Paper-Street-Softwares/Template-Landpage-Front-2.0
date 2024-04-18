@@ -74,7 +74,7 @@ export default function NavbarSectionProducts() {
   };
 
   return (
-    <div className="full">
+    <div className="">
       <div
         className={`fixed z-20 top-0 w-full bg-white bg-opacity-0 ${
           scrolling
@@ -91,13 +91,13 @@ export default function NavbarSectionProducts() {
             smooth={true}
             duration={500}
           >
-            <img src={Logo} alt="Logo" className={`${
+            <img src={Logo} alt="Logo" className={`mr-24 ${
                 scrolling ? "h-auto max-h-14 transition-all duration-1000" : "h-auto max-h-28 transition-all duration-1000"
               } tablet3:mb-0`} />
           </Link>
           <button
             onClick={toggleSidebar}
-            className="absolute right-6 tablet2:hidden"
+            className="relative tablet2:hidden"
           >
             {showMenuIcon ? (
               <Menu size={32}

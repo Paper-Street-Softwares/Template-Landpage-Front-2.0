@@ -60,7 +60,7 @@ export default function NavbarSection() {
   }, []);
 
   return (
-    <div className="full">
+    <div className="w-full">
       <div
         className={`fixed z-20 top-0 w-full bg-white bg-opacity-0 ${
           scrolling
@@ -77,13 +77,13 @@ export default function NavbarSection() {
             duration={500}
             offset={-100}
           >
-            <img src={Logo} alt="Logo" className={`${
+            <img src={Logo} alt="Logo" className={`mr-24 ${
                 scrolling ? "h-auto max-h-14 transition-all duration-1000" : "h-auto max-h-28 transition-all duration-1000"
               } tablet3:mb-0`} />
           </ScrollLink>
           <button
             onClick={toggleSidebar}
-            className="absolute right-6 tablet2:hidden"
+            className="relative tablet2:hidden"
           >
             {showMenuIcon ? (
               <Menu size={32}

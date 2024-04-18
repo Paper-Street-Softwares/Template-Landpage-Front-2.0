@@ -6,8 +6,8 @@ import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 
 export default function AboutUs() {
   return (
-    <div className="">
-      <div className="font-mainFont phone1:w-[100%] pb-[8px] phone1:pt-[48px] tablet1:pb-0">
+    <div className="flex justify-center full">
+      <div className="font-mainFont w-[88%] max-w-[1110px] pb-[8px] phone1:pt-[48px] tablet1:pb-0">
         <SectionHeader
           sectionHeaderTitleSecond="Evite Acidentes"
           sectionHeaderDescription="Conheça regras básicas de segurança e armazenamento de produtos químicos em geral."

@@ -40,7 +40,7 @@ export default function ImportPage() {
   }, []);
 
   return (
-    <div className="content">
+    <div>
       <NavbarSection />
       <HeroSection />
       <AboutUs />
@@ -50,8 +50,8 @@ export default function ImportPage() {
       <CtaWhatsapp />
       <Courses />
       {carouselComponent}
-      <BackToTopButton />
       <FrequentlyAskedQuestions />
+      <BackToTopButton />
       <FloatingWhatsappButton />
       <Footer />
     </div>

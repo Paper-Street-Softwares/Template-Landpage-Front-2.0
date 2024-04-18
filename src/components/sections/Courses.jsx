@@ -7,8 +7,8 @@ import ImgTextAndButtonsCard from "../cards/ImgTextAndButtonsCard";
 
 export default function Courses() {
   return (
-    <div className="full bg-quinary" id="courses">
-      <div className="content py-[26px] phone3:py-[48px]">
+    <div className="flex justify-center full bg-quinary" id="courses">
+      <div className="w-[88%] max-w-[1110px] py-[26px] phone3:py-[48px]">
         <SectionHeader
           sectionHeaderTitleSecond="Aprimore seu conhecimento"
           sectionHeaderDescription="Confira abaixo nossas sugestões para palestras ou cursos para tratamento da sua piscina. Escolha o que mais lhe interessar, e boas aulas!"
