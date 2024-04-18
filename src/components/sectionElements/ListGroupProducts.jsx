@@ -82,7 +82,7 @@ export default function ListGroupProducts() {
           ></div>
         </Link>
       </li>
-        <li className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
+        <button className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
         onMouseLeave={() => toggleSubMenu(false)}>
           <Link
             to="/"
@@ -175,7 +175,7 @@ export default function ListGroupProducts() {
               </ul>
             )}
           </div>
-        </li>
+        </button>
       <li className="transition group">
         <Link
           to="/"
