@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-export default function ListGroupProducts() {
+export default function ListGroup() {
   const [scrolling, setScrolling] = useState(false);
   const [showSubMenu, setShowSubMenu] = useState(false);
 
