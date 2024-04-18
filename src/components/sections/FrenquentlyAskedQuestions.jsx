@@ -20,7 +20,7 @@ export default function FrequentlyAskedQuestions() {
             <MotionDivRightToLeft>
               <img
                 src={faqImg}
-                alt="Faq Img"
+                alt="Boneco com ponto de interrogação com dúvida"
                 className="desktop1:w-[100%]"
               ></img>
             </MotionDivRightToLeft>

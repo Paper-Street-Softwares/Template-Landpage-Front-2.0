@@ -20,18 +20,21 @@ export default function Courses() {
             button1Label="Faça sua inscrição"
             button1Link="https://hth.com.br/cursos-presenciais
             "
+            alt="Logo da marca Hth"
           />
           <ImgTextAndButtonsCard
             img={gencoLogo}
             text="Curso online na Escola da Piscina."
             button1Label="Faça sua inscrição"
             button1Link="https://www.genco.com.br/escola-da-piscina/"
+            alt="Logo da marca Genco"
           />
           <ImgTextAndButtonsCard
             img={hidroazulLogo}
             text="Curso completo na Universidade da Piscina."
             button1Label="Faça sua inscrição"
             button1Link="https://hidroazul.com.br/universidade-da-piscina/"
+            alt="Logo da marca Hidroazul"
           />
         </SectionContent>
       </div>

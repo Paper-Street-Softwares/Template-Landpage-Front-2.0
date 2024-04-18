@@ -2,10 +2,11 @@ import PropTypes from "prop-types";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function ImgTextAndButtonsCard(props) {
-  const { img, button1Label, button1Link, text } = props;
+  const { img, alt, button1Label, button1Link, text } = props;
 
   ImgTextAndButtonsCard.propTypes = {
     img: PropTypes.any,
+    alt: PropTypes.string,
     button1Label: PropTypes.any,
     button1Link: PropTypes.any,
     text: PropTypes.any,
@@ -15,7 +16,7 @@ export default function ImgTextAndButtonsCard(props) {
     <div className="w-full tablet1:w-[45%] desktop1:w-[29%]  bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[15px]">
       <MotionDivLeftToRight>
         <div className="flex justify-center items-center h-[125px] phone3:h-[80px] tablet1:h-[125px]">
-          <img src={img} alt="hthLogo" className="max-h-[90px] max-w-[150px]" />
+          <img src={img} alt={alt} className="max-h-[90px] max-w-[150px]" />
         </div>
       </MotionDivLeftToRight>
       <p className="text-center font-mainFont text-paragraph3 text-quaternary">

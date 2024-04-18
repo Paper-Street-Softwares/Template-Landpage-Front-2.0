@@ -14,10 +14,12 @@ export default function ImagesGallery2Slides(props) {
     {
       original: slide1,
       thumbnail: slide1,
+      originalAlt: "Banner de atendimento",
     },
     {
       original: slide2,
       thumbnail: slide2,
+      originalAlt: "Banner de entregas",
     },
   ];
 

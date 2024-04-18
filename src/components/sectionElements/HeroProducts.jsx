@@ -7,11 +7,13 @@ export default function HeroProducts(props) {
   const heroTitle = props.heroTitle;
   const heroImg = props.heroImg;
   const heroParagraph = props.heroParagraph;
+  const alt = props.alt;
 
   HeroProducts.propTypes = {
     heroTitle: PropTypes.any,
     heroImg: PropTypes.any,
     heroParagraph: PropTypes.any,
+    alt: PropTypes.string,
   };
 
   return (
@@ -31,7 +33,7 @@ export default function HeroProducts(props) {
                 <img
                   className="w-auto h-[64px] p-[8px] my-[8px] bg-white rounded-md max-h-[64px] max-w-auto"
                   src={heroImg}
-                  alt="Logo HTH"
+                  alt={alt}
                 />
               </MotionDivDownToUp>
             </h1>
