@@ -15,7 +15,7 @@ export default function ResultsCard(props) {
       <div className="flex flex-col rounded-2xl justify-center items-center h-[68px] w-[68px] phone1:h-[86px] phone1:w-[86px] phone2:h-[74px] phone2:w-[74px] tablet2:h-[82px] tablet2:w-[82px] desktop1:h-[78px] desktop1:w-[60px] border-solid border-[3px] border-primary">
         {icon}
       </div>
-      <div className="flex flex-col justify-center flex-1 ml-[5%]">
+      <div className="flex flex-col justify-center flex-1 ml-[5%] font-mainFont">
         <div className="flex flex-col justify-start font-extrabold leading-none text-white text-title2 phone1:text-title4 phone2:text-title5 desktop1:text-title4">
           <MotionDivUpToDown>{number}</MotionDivUpToDown>
         </div>
