@@ -22,7 +22,7 @@ export default function CtaWhatsapp() {
       id="contact"
     >
       <SectionContent>
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full font-mainFont">
           <div className="w-[88%] max-w-[1110px] flex flex-row items-end justify-between h-28 phone1:h-40 phone3:h-48 desktop1:h-60">
             <div className="flex flex-col w-full  justify-evenly items-left h-28 phone1:h-40 phone3:h-48 desktop1:h-52 desktop1:mb-[24px]">
               <h1 className="text-left text-white text-paragraph1 phone1:text-paragraph4 phone3:text-paragraph5 max-w-32 phone3:max-w-none font-poppins tablet1:text-title2 tablet2:text-title4 desktop1:text-title5 desktop2:text-title6">
@@ -34,16 +34,16 @@ export default function CtaWhatsapp() {
                 <div className="w-full">
                   <a
                     href={whatsappContactLink}
-                    className="flex flex-row items-center justify-around w-[90%] h-8 phone1:h-12 phone3:px-2 px-1 tablet1:px-5 transition rounded-[10px] phone3:rounded-[30px] tablet1:rounded-[40px] max-w-32 tablet1:h-16 phone3:max-w-48 tablet1:max-w-[280px] phone3:w-[90%] bg-red-700 hover:bg-red-900"
+                    className="flex flex-row items-center justify-around w-[90%] h-[32px] phone1:h-[48px] phone3:px-[8px] px-[4px] tablet1:px-[20px] transition rounded-[10px] phone3:rounded-[30px] tablet1:rounded-[40px] max-w-[128px] tablet1:h-[64px] phone3:max-w-[192px] tablet1:max-w-[300px] phone3:w-[90%] bg-red-700 hover:bg-red-900"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img
                       src={WhatsAppIcon}
-                      className="h-[45%] phone3:h-[60%] tablet1:h-8"
+                      className="h-[45%] phone3:h-[50%] tablet1:h-[32px]"
                       alt="WhatsApp Icon"
                     ></img>
-                    <p className="text-white text-paragraph1 phone1:text-paragraph3 phone3:text-paragraph5 phone3:pr-[5px] tablet1:pr-[3%] tablet1:font-medium desktop1:font-medium tablet1:text-title3">
+                    <p className="text-white text-paragraph1 phone1:text-paragraph3 phone3:pr-[5px] tablet1:pr-[3%] tablet1:text-title1">
                       Clique aqui
                     </p>
                   </a>
@@ -52,7 +52,7 @@ export default function CtaWhatsapp() {
             </div>
             <div className=" w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
               <MotionDivRightToLeft>
-                <img className="" alt="Foto Pessoa" src={imgCta} />
+                <img alt="Foto Pessoa" src={imgCta} />
               </MotionDivRightToLeft>
             </div>
           </div>
