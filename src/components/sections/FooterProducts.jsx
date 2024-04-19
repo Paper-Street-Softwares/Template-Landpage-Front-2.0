@@ -5,6 +5,9 @@ import mpaLogo from "../../assets/importAssets/Logo.png";
 import { Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import whatsappNumber from "../../abstractions/whats";
+
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 export default function FooterProducts() {
   const [scrolling, setScrolling] = useState(false);
@@ -37,7 +40,7 @@ export default function FooterProducts() {
             <div className="flex full gap-x-[8px] items-center">
               <Phone size={24} strokeWidth={1} className="text-white" />
               <a
-                href="https://wa.me/+5511994889426"
+                href={whatsappContactLink}
                 target="_blank"
                 className="underline"
               >

@@ -4,6 +4,9 @@ import { Phone, Mail } from "lucide-react";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import whatsappNumber from "../../abstractions/whats";
+
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 function Footer() {
   return (
@@ -20,7 +23,7 @@ function Footer() {
             <div className="flex full gap-x-[8px] items-center">
               <Phone size={24} strokeWidth={1} className="text-white" />
               <a
-                href="https://wa.me/+5511994889426"
+                href={whatsappContactLink}
                 target="_blank"
                 className="underline"
               >
