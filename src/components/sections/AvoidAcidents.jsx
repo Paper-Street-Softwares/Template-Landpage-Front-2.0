@@ -12,7 +12,7 @@ export default function AboutUs() {
           sectionHeaderTitleSecond="Evite Acidentes"
           sectionHeaderDescription="Conheça regras básicas de segurança e armazenamento de produtos químicos em geral."
         />
-        <div className=" desktop1:flex desktop1:flex-row-reverse desktop1:justify-between desktop1:py-[54px] desktop3:py-[48px]">
+        <div className=" desktop1:flex desktop1:flex-row-reverse desktop1:justify-between desktop1:pb-[54px] desktop3:pb-[48px]">
           <div className=" pb-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
             <MotionDivRightToLeft>
               <img
