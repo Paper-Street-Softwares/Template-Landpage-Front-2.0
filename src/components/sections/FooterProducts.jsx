@@ -41,7 +41,7 @@ export default function FooterProducts() {
                 target="_blank"
                 className="underline"
               >
-                (11) 9.9488-9426
+                (11) 99488-9426
               </a>
             </div>
             <div className="flex full gap-x-[8px] items-center">
