@@ -73,7 +73,7 @@ const HthProducts = {
     hthCloros5: {
       key: 24,
       img: hthCloros5,
-      code: 20000,
+      code: 2000,
       description: "HTH CLORO GRANULADO TRADICIONAL 65,0% (SC 1,0K)",
       fispqLink:
         "https://hth.com.br/file/25931%20-%20HTH%20Cloro%20Granulado%20Trad%20PT.pdf",
