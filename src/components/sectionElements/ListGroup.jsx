@@ -66,6 +66,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
+      <li>
         <button className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
         onMouseLeave={() => toggleSubMenu(false)}>
           <Link
@@ -159,6 +160,7 @@ export default function ListGroup() {
             )}
           </div>
         </button>
+      </li>
       <li className="transition group">
         <Link
           to="courses"
