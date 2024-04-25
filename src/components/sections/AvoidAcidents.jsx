@@ -1,6 +1,6 @@
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgPastilhaCloro from "../../assets/imgs/avoidAccidents/pastilhaCloro.jpg";
-import resgateAcidente from "../../assets/imgs/avoidAccidents/resgateAcidente.jpg";
+import imgPastilhaCloro from "../../assets/imgs/avoidAccidents/pastilhaCloro.webp";
+import resgateAcidente from "../../assets/imgs/avoidAccidents/resgateAcidente.webp";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 
