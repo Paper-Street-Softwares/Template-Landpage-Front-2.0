@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
-import Logo from "../../assets/importAssets/Logo.png";
+import Logo from "../../assets/importAssets/Logo.webp";
 import ListGroupProducts from "../sectionElements/ListGroupProducts";
 import SidebarProducts from "../sectionElements/SidebarProducts";
 import { Menu, X } from "lucide-react";

@@ -1,7 +1,7 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import mpaLogo from "../../assets/importAssets/Logo.png";
+import mpaLogo from "../../assets/importAssets/Logo.webp";
 import { Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";

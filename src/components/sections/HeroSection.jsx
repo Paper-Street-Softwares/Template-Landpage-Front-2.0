@@ -1,16 +1,16 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
+import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
 import ImagesGalleryHero from "../interactives/ImagesGalleryHero";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import slide1 from "../../assets/banners/hero/slide1.png";
-import slide2 from "../../assets/banners/hero/slide2.png";
-import slide3 from "../../assets/banners/hero/slide3.png";
-import slide4 from "../../assets/banners/hero/slide4.png";
-import slide5 from "../../assets/banners/hero/slide5.png";
-import slide6 from "../../assets/banners/hero/slide6.png";
-import slide7 from "../../assets/banners/hero/slide7.png";
-import slide8 from "../../assets/banners/hero/slide8.png";
-import bgImage from "../../assets/importAssets/bg2.jpg";
+import slide1 from "../../assets/banners/hero/slide1.webp";
+import slide2 from "../../assets/banners/hero/slide2.webp";
+import slide3 from "../../assets/banners/hero/slide3.webp";
+import slide4 from "../../assets/banners/hero/slide4.webp";
+import slide5 from "../../assets/banners/hero/slide5.webp";
+import slide6 from "../../assets/banners/hero/slide6.webp";
+import slide7 from "../../assets/banners/hero/slide7.webp";
+import slide8 from "../../assets/banners/hero/slide8.webp";
+import bgImage from "../../assets/importAssets/bg2.webp";
 import whatsappNumber from "../../abstractions/whats";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;

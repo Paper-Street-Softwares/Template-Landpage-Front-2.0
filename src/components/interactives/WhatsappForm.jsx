@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
+import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
 import { CiUser, CiPhone, CiMail, CiChat1 } from "react-icons/ci";
 import whatsappNumber from "../../abstractions/whats";
 
