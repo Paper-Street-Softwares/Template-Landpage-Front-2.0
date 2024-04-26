@@ -10,7 +10,7 @@ import slide5 from "../../assets/banners/hero/slide5.png";
 import slide6 from "../../assets/banners/hero/slide6.png";
 import slide7 from "../../assets/banners/hero/slide7.png";
 import slide8 from "../../assets/banners/hero/slide8.png";
-import bgImage from "../../assets/importAssets/bg2.jpg";
+import bgImage from "../../assets/importAssets/bg2.webp";
 import whatsappNumber from "../../abstractions/whats";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;

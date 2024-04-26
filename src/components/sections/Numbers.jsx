@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import imgOfficeGreenBackground from "../../assets/importAssets/bg2.jpg";
+import imgOfficeGreenBackground from "../../assets/importAssets/bg2.webp";
 import ResultsCard from "../cards/ResultsCard";
 import AnimatedCounter from "../util/AnimatedCounter";
 import { Handshake, Building, Box, Truck } from "lucide-react";
