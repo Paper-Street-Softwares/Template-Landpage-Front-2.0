@@ -44,7 +44,7 @@ export default function CtaWhatsapp() {
                       alt="WhatsApp Icon"
                     ></img>
                     <p className="text-white text-center text-paragraph1 phone3:text-paragraph2 phone3:pr-[5px] tablet1:pr-[3%] tablet1:text-title1">
-                      Falar com um consultor
+                      Fale com um consultor
                     </p>
                   </a>
                 </div>
