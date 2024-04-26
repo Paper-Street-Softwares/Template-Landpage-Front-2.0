@@ -109,7 +109,7 @@ export default function NavbarSection() {
               } tablet3:mb-0`}
             />
           </ScrollLink>
-          <button onClick={toggleSidebar} className="relative tablet2:hidden">
+          <button onClick={toggleSidebar} className="relative tablet2:hidden" aria-label="Abrir menu de navegação">
             {showMenuIcon ? (
               <Menu
                 size={32}
