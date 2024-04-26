@@ -1,5 +1,5 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.png";
+import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
 import ImagesGalleryHero from "../interactives/ImagesGalleryHero";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import slide1 from "../../assets/banners/hero/slide1.png";
