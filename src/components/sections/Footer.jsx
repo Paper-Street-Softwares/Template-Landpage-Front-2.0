@@ -21,7 +21,12 @@ function Footer() {
             ></img>
             <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
             <div className="flex full gap-x-[8px] items-center">
-              <Phone size={24} strokeWidth={1} className="text-white" />
+              <Phone
+                size={24}
+                aria-label="Ícone de Telefone"
+                strokeWidth={1}
+                className="text-white"
+              />
               <a
                 href={whatsappContactLink}
                 target="_blank"
@@ -31,7 +36,12 @@ function Footer() {
               </a>
             </div>
             <div className="flex full gap-x-[8px] items-center">
-              <Mail size={24} strokeWidth={1} className="text-white" />
+              <Mail
+                size={24}
+                aria-label="Ícone de Carta"
+                strokeWidth={1}
+                className="text-white"
+              />
               <p>contato@mpapiscinas.com.br</p>
             </div>
           </div>
