@@ -38,6 +38,7 @@ export default function ListGroup() {
           smooth={true}
           duration={500}
           offset={-100}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>INÍCIO</span>
           <div
@@ -55,6 +56,7 @@ export default function ListGroup() {
           smooth={true}
           duration={500}
           offset={-70}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             SOBRE NÓS
@@ -67,8 +69,11 @@ export default function ListGroup() {
         </Link>
       </li>
       <li>
-        <button className="relative transition group" onMouseEnter={() => toggleSubMenu(true)}
-        onMouseLeave={() => toggleSubMenu(false)}>
+        <button
+          className="relative transition group"
+          onMouseEnter={() => toggleSubMenu(true)}
+          onMouseLeave={() => toggleSubMenu(false)}
+        >
           <Link
             to="products"
             className="relative py-4 cursor-pointer"
@@ -76,6 +81,7 @@ export default function ListGroup() {
             smooth={true}
             duration={500}
             offset={-70}
+            href="#"
           >
             <span
               className={`inline-block ${
@@ -169,6 +175,7 @@ export default function ListGroup() {
           smooth={true}
           duration={500}
           offset={-70}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             CURSOS E PALESTRAS
@@ -188,6 +195,7 @@ export default function ListGroup() {
           smooth={true}
           duration={500}
           offset={-70}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
             PERGUNTAS FREQUENTES
@@ -207,6 +215,7 @@ export default function ListGroup() {
           smooth={true}
           duration={500}
           offset={-190}
+          href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>CONTATO</span>
           <div
