@@ -34,7 +34,7 @@ export default function CtaWhatsapp() {
                 <div className="w-full">
                   <a
                     href={whatsappContactLink}
-                    className="flex flex-row items-center justify-around w-[90%] h-[32px] phone1:h-[48px] phone3:px-[8px] px-[4px] tablet1:px-[20px] transition rounded-[10px] phone3:rounded-[30px] tablet1:rounded-[40px] max-w-[128px] tablet1:h-[64px] phone3:max-w-[192px] tablet1:max-w-[300px] phone3:w-[90%] bg-red-700 hover:bg-red-900"
+                    className="flex flex-row items-center justify-around w-[90%] h-[32px] phone1:h-[48px] px-[8px] phone3:px-[16px] tablet1:px-[20px] transition rounded-[10px] phone3:rounded-[30px] tablet1:rounded-[40px] max-w-[128px] tablet1:h-[64px] phone3:max-w-[192px] tablet1:max-w-[380px] phone3:w-[90%] bg-red-700 hover:bg-red-900"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -43,8 +43,8 @@ export default function CtaWhatsapp() {
                       className="h-[45%] phone3:h-[50%] tablet1:h-[32px]"
                       alt="WhatsApp Icon"
                     ></img>
-                    <p className="text-white text-paragraph1 phone1:text-paragraph3 phone3:pr-[5px] tablet1:pr-[3%] tablet1:text-title1">
-                      Clique aqui
+                    <p className="text-white text-center text-paragraph1 phone3:text-paragraph2 phone3:pr-[5px] tablet1:pr-[3%] tablet1:text-title1">
+                      Falar com um consultor
                     </p>
                   </a>
                 </div>
