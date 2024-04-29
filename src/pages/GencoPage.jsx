@@ -4,7 +4,7 @@ import GencoProductsList from "../components/sections/GencoProductList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/gencoLogo.png";
+import imgLogo from "../assets/imgs/brands/gencoLogo.webp";
 
 export default function GencoPage() {
   return (

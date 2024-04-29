@@ -4,7 +4,7 @@ import FooterProducts from "../components/sections/FooterProducts";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/sodramarLogo.png";
+import imgLogo from "../assets/imgs/brands/sodramarLogo.webp";
 
 export default function SodramarPage() {
   return (

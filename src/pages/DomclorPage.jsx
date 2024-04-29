@@ -3,7 +3,7 @@ import DomclorProductsList from "../components/sections/DomClorProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/domclorLogo.png";
+import imgLogo from "../assets/imgs/brands/domclorLogo.webp";
 import FooterProducts from "../components/sections/FooterProducts";
 
 export default function DomclorPage() {

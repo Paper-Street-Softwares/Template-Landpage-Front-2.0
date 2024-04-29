@@ -4,7 +4,7 @@ import NetunoProductsList from "../components/sections/NetunoProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/netunoLogo.png";
+import imgLogo from "../assets/imgs/brands/netunoLogo.webp";
 
 export default function NetunoPage() {
   return (
