@@ -14,6 +14,7 @@ import CtaWhatsapp from "../components/sections/CtaWhatsapp";
 import Footer from "../components/sections/Footer";
 import PhoneBannersCarousel from "../components/sections/BannersCarouselPhone";
 import TabletBannersCarousel from "../components/sections/BannersCarouselTablet";
+import TesteSidebar from "../components/sections/TesteSidebar";
 
 export default function ImportPage() {
   const [carouselComponent, setCarouselComponent] = useState(null);
@@ -51,6 +52,7 @@ export default function ImportPage() {
       <Courses />
       {carouselComponent}
       <FrequentlyAskedQuestions />
+      <TesteSidebar />
       <BackToTopButton />
       <FloatingWhatsappButton />
       <Footer />
