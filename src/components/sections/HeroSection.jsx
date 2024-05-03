@@ -51,10 +51,10 @@ export default function HeroSection() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <div className="flex p-4 text-center">
+                        <div className="flex p-4 text-center items-center">
                           <img
                             src={WhatsAppIcon}
-                            className="h-8 mr-[24px]"
+                            className="h-9 mr-[24px]"
                             alt="WhatsApp Icon"
                           />
                           <p className="flex items-center leading-none text-white text-title1">
