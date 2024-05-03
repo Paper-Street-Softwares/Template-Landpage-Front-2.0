@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function ImgAndButtonsCard(props) {
   const { img, alt, button1Label, button1Link } = props;
@@ -20,7 +20,7 @@ export default function ImgAndButtonsCard(props) {
     <div className="w-full phone3:w-[45%] desktop1:w-[23%]  bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[15px]">
       <div className="flex justify-center items-center h-[125px] phone3:h-[80px] tablet1:h-[125px]">
         <MotionDivLeftToRight>
-          <img src={img} alt={alt}  className="max-h-[90px] max-w-[150px]" />
+          <img src={img} alt={alt} className="max-h-[90px] max-w-[135px]" />
         </MotionDivLeftToRight>
       </div>
 
