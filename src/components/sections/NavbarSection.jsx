@@ -102,7 +102,7 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo MPA Piscinas"
-              className={`mr-20 ${
+              className={`mr-20 h-auto ${
                 scrolling
                   ? "h-auto max-h-14 transition-all duration-1000"
                   : "h-auto max-h-28 transition-all duration-1000"
