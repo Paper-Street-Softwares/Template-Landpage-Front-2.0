@@ -4,7 +4,7 @@ import HidroazulProductsList from "../components/sections/HidroazulProductsList"
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/hidroazulLogo.png";
+import imgLogo from "../assets/imgs/brands/hidroazulLogo.webp";
 
 export default function HidroazulPage() {
   return (

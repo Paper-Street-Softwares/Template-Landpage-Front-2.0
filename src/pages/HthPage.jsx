@@ -4,7 +4,7 @@ import ProductsList from "../components/sections/ProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/hthLogo.png";
+import imgLogo from "../assets/imgs/brands/hthLogo.webp";
 
 export default function HthPage() {
   return (

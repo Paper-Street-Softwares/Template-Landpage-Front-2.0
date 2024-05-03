@@ -4,7 +4,7 @@ import SuallProductsList from "../components/sections/SuallProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/suallLogo.png";
+import imgLogo from "../assets/imgs/brands/suallLogo.webp";
 
 export default function SuallPage() {
   return (

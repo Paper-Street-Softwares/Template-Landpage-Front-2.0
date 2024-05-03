@@ -4,7 +4,7 @@ import NeoclorProductsList from "../components/sections/NeoclorProductsList";
 import HeroProducts from "../components/sectionElements/HeroProducts";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/neoclorLogo.png";
+import imgLogo from "../assets/imgs/brands/neoclorLogo.webp";
 
 export default function NeoclorPage() {
   return (
