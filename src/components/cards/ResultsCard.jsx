@@ -20,7 +20,7 @@ export default function ResultsCard(props) {
           <MotionDivUpToDown>{number}</MotionDivUpToDown>
         </div>
         <div className="text-left text-white text-paragraph1 phone1:text-paragraph3 phone2:text-paragraph3 phone3:text-paragraph4 tablet1:text-paragraph3 desktop1:text-paragraph2 desktop2:text-paragraph3">
-          <MotionDivUpToDown>{text}</MotionDivUpToDown>
+          <MotionDivUpToDown><p>{text}</p></MotionDivUpToDown>
         </div>
       </div>
     </div>
