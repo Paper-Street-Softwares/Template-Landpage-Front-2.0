@@ -45,6 +45,7 @@ export default function HeroSection() {
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <MotionDivLeftToRight>
                     <div className="flex justify-center w-full desktop1:justify-start">
+                      <button>
                       <a
                         href={whatsappContactLink}
                         className="flex flex-row items-center justify-around w-auto h-16 transition rounded-[40px] p-6 bg-red-700 hover:bg-red-900"
@@ -62,6 +63,7 @@ export default function HeroSection() {
                           </p>
                         </div>
                       </a>
+                      </button>
                     </div>
                   </MotionDivLeftToRight>
                 </div>
