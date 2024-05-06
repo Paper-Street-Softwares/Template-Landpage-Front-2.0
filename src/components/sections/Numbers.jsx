@@ -70,7 +70,7 @@ export default function Numbers() {
                 />
               }
               number={<AnimatedCounter endValue={2400} />}
-              text="Número de clientes atendidos anualmente"
+              text='Número de clientes atendidos anualmente'
             />
             <ResultsCard
               icon={
