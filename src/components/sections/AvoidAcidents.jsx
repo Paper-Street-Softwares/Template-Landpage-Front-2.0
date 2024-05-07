@@ -35,7 +35,7 @@ export default function AboutUs() {
                   <br />
                   Guarde os produtos separadamente e sempre em suas embalagens
                   originais. Produtos químicos, no geral, possuem fórmulas
-                  específicas e, portanto, alguns não são compatíveis uns com os
+                  específicas e, alguns não são compatíveis uns com os
                   outros. Se misturados, podem gerar gases nocivos à saúde,
                   queimaduras na pele e até incêndios, como é o caso dos
                   oxidantes e dos corrosivos. <br />
