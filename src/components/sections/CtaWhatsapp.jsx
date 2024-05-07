@@ -50,7 +50,7 @@ export default function CtaWhatsapp() {
                 </div>
               </MotionDivDownToUp>
             </div>
-            <div className=" h-auto w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
+            <div className=" h-50 w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
               <MotionDivRightToLeft>
                 <img alt="Foto Pessoa" src={imgCta} />
               </MotionDivRightToLeft>
