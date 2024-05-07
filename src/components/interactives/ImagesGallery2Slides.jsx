@@ -15,6 +15,10 @@ export default function ImagesGallery2Slides(props) {
       original: slide1,
       thumbnail: slide1,
       originalAlt: "Banner de atendimento",
+      originalHeight: 100,
+      originalWidth: 100,
+      thumbnailHeight: 100,
+      thumbnailWidth: 100,
     },
     {
       original: slide2,
