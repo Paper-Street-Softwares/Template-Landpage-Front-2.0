@@ -32,6 +32,7 @@ export default function CtaWhatsapp() {
               </h1>
               <MotionDivDownToUp>
                 <div className="w-full">
+                  <button className="w-full">
                   <a
                     href={whatsappContactLink}
                     className="flex flex-row items-center justify-around w-[90%] h-[32px] phone1:h-[48px] px-[8px] phone3:px-[16px] tablet1:px-[20px] transition rounded-[10px] phone3:rounded-[30px] tablet1:rounded-[40px] max-w-[128px] tablet1:h-[64px] phone3:max-w-[192px] tablet1:max-w-[380px] phone3:w-[90%] bg-red-700 hover:bg-red-900"
@@ -47,6 +48,7 @@ export default function CtaWhatsapp() {
                       Fale com um consultor
                     </p>
                   </a>
+                  </button>
                 </div>
               </MotionDivDownToUp>
             </div>

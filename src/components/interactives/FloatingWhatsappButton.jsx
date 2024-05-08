@@ -29,11 +29,13 @@ const FloatingWhatsappButton = () => {
       onClick={() => setOpenModal(!openModal)}
     >
       {openModal ? null : (
-        <img
+        <button>
+          <img
           className="w-16"
           src={whatsappWebm}
           alt="Floating WhatsApp Button"
         />
+        </button>
       )}
       <Modal isOpen={openModal} setCloseModal={setOpenModal} />
     </button>
