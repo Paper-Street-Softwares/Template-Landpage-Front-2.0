@@ -102,10 +102,10 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo MPA Piscinas"
-              className={`mr-20 h-auto ${
+              className={`mr-[80px] h-[80px] ${
                 scrolling
-                  ? "h-auto max-h-14 transition-all duration-1000"
-                  : "h-auto max-h-28 transition-all duration-1000"
+                  ? "h-[56px] max-h-[56px] transition-all duration-1000"
+                  : "h-[112px] max-h-[112px] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
