@@ -16,7 +16,7 @@ export default function AboutUs() {
           <div className=" pb-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
             <MotionDivRightToLeft>
               <img
-                className=" w-auto h-auto size-[100%] desktop1:size-auto"
+                 className=" flex phone1:w-[100%] phone1:h-[100%]"
                 src={imgPastilhaCloro}
                 alt="Mão segurando pastilha de cloro para limpeza de piscina"
               />
@@ -53,7 +53,7 @@ export default function AboutUs() {
           <div className=" py-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
             <MotionDivLeftToRight>
               <img
-                className=" h-auto size-[100%] desktop1:size-[100%] desktop3:w-[100%]"
+                className=" flex phone1:w-[100%] phone1:h-[100%]"
                 src={resgateAcidente}
                 alt="Atendimento submerso após não efetuar a limpeza adequada da piscina"
               />
