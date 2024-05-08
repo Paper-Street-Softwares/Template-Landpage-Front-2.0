@@ -14,6 +14,7 @@ import CtaWhatsapp from "../components/sections/CtaWhatsapp";
 import Footer from "../components/sections/Footer";
 import PhoneBannersCarousel from "../components/sections/BannersCarouselPhone";
 import TabletBannersCarousel from "../components/sections/BannersCarouselTablet";
+import ChamarSidebar from "../components/sections/ChamarSidebar";
 
 export default function ImportPage() {
   const [carouselComponent, setCarouselComponent] = useState(null);
@@ -45,6 +46,7 @@ export default function ImportPage() {
       <HeroSection />
       <AboutUs />
       <Numbers />
+      <ChamarSidebar />
       <OurProducts />
       <AvoidAccidents />
       <CtaWhatsapp />
