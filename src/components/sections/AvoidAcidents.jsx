@@ -7,7 +7,7 @@ import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 export default function AboutUs() {
   return (
     <div className="flex justify-center full">
-      <div className="font-mainFont w-[88%] max-w-[1110px] pb-[8px] phone1:pt-[26px] phone3:pt-[48px] tablet1:pb-0">
+      <div className="font-mainFont w-[88%] max-w-[1110px] pb-[8px] pt-[26px] phone3:pt-[48px] tablet1:pb-0">
         <SectionHeader
           sectionHeaderTitleSecond="Evite Acidentes"
           sectionHeaderDescription="Conheça regras básicas de segurança e armazenamento de produtos químicos em geral."
@@ -35,10 +35,10 @@ export default function AboutUs() {
                   <br />
                   Guarde os produtos separadamente e sempre em suas embalagens
                   originais. Produtos químicos, no geral, possuem fórmulas
-                  específicas e, alguns não são compatíveis uns com os
-                  outros. Se misturados, podem gerar gases nocivos à saúde,
-                  queimaduras na pele e até incêndios, como é o caso dos
-                  oxidantes e dos corrosivos. <br />
+                  específicas e, alguns não são compatíveis uns com os outros.
+                  Se misturados, podem gerar gases nocivos à saúde, queimaduras
+                  na pele e até incêndios, como é o caso dos oxidantes e dos
+                  corrosivos. <br />
                   <br />
                   Nunca reutilize embalagens vazias, mesmo depois de serem
                   lavadas. Elas podem acabar sendo usadas por pessoas
