@@ -244,7 +244,7 @@ const NetunoProducts = {
       key: 13,
       img: netunoConstrução5,
       code: 16133,
-      description: "NETUNO DEGRAU ABS BCO ANATÔMICO S/ REFORÇO (041)",
+      description: "NETUNO DEGRAU ABS BCO ANATÔMICO S/ REFORÇO",
       fispqLink: "",
       category: "construção",
     },
