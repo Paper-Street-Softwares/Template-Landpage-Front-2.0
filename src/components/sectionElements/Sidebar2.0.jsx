@@ -57,7 +57,9 @@ export default function HeadlessDemo() {
             visible={visible}
             onHide={() => setVisible(false)}
             content={({ closeIconRef, hide }) => (
-            <div className=" bg-blue-600 min-h-screen flex relative lg:hidden surface-ground">
+            <div className=" bg-blue-600 min-h-screen flex relative lg:hidden surface-ground"
+                 style={{ width: "280px" }}
+                 >
                 <div
                 id="app-sidebar-2"
                 className="surface-section h-screen lg:hidden flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none bg-red-600"
