@@ -1,3 +1,6 @@
+import PropTypes from "prop-types";
+import { Children } from "react";
+
 export default function SectionArea({ children }) {
   SectionArea.propTypes = {
     children: PropTypes.any,
