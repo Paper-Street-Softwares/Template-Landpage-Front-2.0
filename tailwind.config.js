@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],
+        secondFont: ["Opens Sans", "sans-serif"],
       },
       fontSize: {
         paragraph1: "0.625rem", // 10px
