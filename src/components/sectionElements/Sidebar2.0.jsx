@@ -301,7 +301,7 @@ export default function HeadlessDemo() {
                       image="https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png"
                       shape="circle"
                     />
-                    <span className="font-bold">Amy Elsner</span>
+                    <span className="font-bold">Paper Street</span>
                   </a>
                 </div>
               </div>
