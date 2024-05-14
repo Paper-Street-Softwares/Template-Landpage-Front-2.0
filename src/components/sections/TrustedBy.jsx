@@ -7,6 +7,7 @@ export default function TrustedBy() {
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com os principais condomínios"
+        sectionHeaderSubtitle="Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!"
       />
     </SectionArea>
   );

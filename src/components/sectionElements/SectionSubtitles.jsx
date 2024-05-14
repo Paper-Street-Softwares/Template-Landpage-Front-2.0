@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 import { Children } from "react";
 
-export default function SectionTitles({ children, className }) {
-  SectionTitles.propTypes = {
+export default function SectionSubtitles({ children, className }) {
+  SectionSubtitles.propTypes = {
     children: PropTypes.any,
     className: PropTypes.string,
   };
   const childrenArray = Children.toArray(children);
   return (
     <div
-      className={`text-title4 leading-[34px] desktop1:leading-[54px] tablet1:text-title5 desktop1:text-title6 font-mainFont ${className}`}
+      className={`text-quaternary mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px] text-paragraph4 font-secondFont ${className}`}
     >
       {childrenArray}
     </div>
