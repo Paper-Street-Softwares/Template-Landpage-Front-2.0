@@ -9,7 +9,14 @@ export default function TrustedBy() {
         sectionHeaderTitle="Trabalhamos com os principais condomínios"
         sectionHeaderSubtitle="Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!"
       />
-      <div className="flex-wrap bg-reg-800">a</div>
+      <div className="flex-wrap bg-reg-800">
+        <img src="" className="bg-red-200 w-[130px] h-[40px]" />
+        <img src="" className="bg-red-200 w-[130px] h-[40px]" />
+        <img src="" className="bg-red-200 w-[130px] h-[40px]" />
+        <img src="" className="bg-red-200 w-[130px] h-[40px]" />
+        <img src="" className="bg-red-200 w-[130px] h-[40px]" />
+        <img src="" className="bg-red-200 w-[130px] h-[40px]" />
+      </div>
     </SectionArea>
   );
 }
