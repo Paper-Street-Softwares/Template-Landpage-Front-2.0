@@ -7,8 +7,8 @@ export default function IndexRita() {
   return (
     <div>
       <ContactBarSection />
-      <Faq />
       <TrustedBy />
+      <Faq />
       <Footer />
     </div>
   );
