@@ -17,7 +17,7 @@ export default function SectionHeader(props) {
 
   return (
     <div
-      className={`bg-green-500 w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[729px] ${className}`}
+      className={`w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[729px] ${className}`}
     >
       <SectionTitles>{sectionHeaderTitle}</SectionTitles>
       <SectionSubtitles>{sectionHeaderSubtitle}</SectionSubtitles>
