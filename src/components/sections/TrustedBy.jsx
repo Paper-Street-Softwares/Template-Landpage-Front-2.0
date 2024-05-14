@@ -1,10 +1,13 @@
 import SectionArea from "../sectionElements/SectionArea";
-import SectionTitles from "../sectionElements/SectionTitles";
+import SectionHeader from "../sectionElements/SectionHeader";
 
 export default function TrustedBy() {
   return (
     <SectionArea className="bg-quinary">
-      <SectionTitles className="bg-red-500">Perguntas Frequentes</SectionTitles>
+      <SectionHeader
+        className="text-center"
+        sectionHeaderTitle="Trabalhamos com os principais condomínios"
+      />
     </SectionArea>
   );
 }

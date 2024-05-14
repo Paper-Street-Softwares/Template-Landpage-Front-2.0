@@ -9,7 +9,7 @@ export default function SectionArea({ children, className }) {
   const childrenArray = Children.toArray(children);
   return (
     <div
-      className={`w-full py-[40px] tablet1:py-[64px] desktop1:py-[96px] ${className}`}
+      className={`w-full py-[40px] flex justify-center tablet1:py-[64px] desktop1:py-[96px] ${className}`}
     >
       {childrenArray}
     </div>
