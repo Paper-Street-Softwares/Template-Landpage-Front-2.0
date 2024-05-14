@@ -56,7 +56,7 @@ export default function HeadlessDemo() {
             >
               <div
                 id="app-sidebar-2"
-                className="surface-section h-screen lg:hidden flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none bg-red-600"
+                className="surface-section h-screen lg:hidden flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none bg-white"
                 style={{ width: "280px" }}
               >
                 <div className="flex flex-col h-full">
@@ -85,8 +85,8 @@ export default function HeadlessDemo() {
                         <circle cx="8.5" cy="8.5" r="1.5"></circle>
                         <polyline points="21 15 16 10 5 21"></polyline>
                       </svg>
-                      <span className="font-semibold text-2xl text-black">
-                        Paper Street
+                      <span className="font-semibold text-2xl text-cyan-500">
+                        Your Logo
                       </span>
                     </span>
                     <span>
@@ -112,27 +112,29 @@ export default function HeadlessDemo() {
                           leaveActiveClassName="slideup"
                         >
                           <div
-                            className="p-ripple p-3 flex items-center gap-[5%] text-600 cursor-pointer"
+                            className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer"
                             onClick={toggleSubmenu}
                           >
-                            <span className="font-medium">FAVORITES</span>
+                            <span className=" font-mainFont text-gray-700 ">
+                              FAVORITES
+                            </span>
                             <i className="pi pi-chevron-down"></i>
                             <Ripple />
                           </div>
                         </StyleClass>
                         {submenuVisible && (
-                          <ul className="list-none p-0 m-0 overflow-hidden">
+                          <ul className="list-none p-0 m-0 overflow-hidden font-mainFont font-medium text-gray-700">
                             <li>
                               <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                 <i className="pi pi-home mr-2"></i>
-                                <span className="font-medium">Dashboard</span>
+                                <span className="">Dashboard</span>
                                 <Ripple />
                               </a>
                             </li>
                             <li>
                               <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                 <i className="pi pi-bookmark mr-2"></i>
-                                <span className="font-medium">Bookmarks</span>
+                                <span className="">Bookmarks</span>
                                 <Ripple />
                               </a>
                             </li>
@@ -145,10 +147,14 @@ export default function HeadlessDemo() {
                                 leaveActiveClassName="slideup"
                               >
                                 <div
-                                  className="p-ripple p-3 flex items-center gap-[5%] text-600 cursor-pointer"
+                                  className="p-ripple p-3 flex items-center justify-between  text-600 cursor-pointer"
                                   onClick={toggleReportsSubmenu}
                                 >
-                                  <span className="font-medium">Reports</span>
+                                  <span className="">
+                                    <i className="pi pi-chart-line mr-[9px] "></i>
+                                    Reports
+                                  </span>
+
                                   <i className="pi pi-chevron-down"></i>
                                   <Ripple />
                                 </div>
@@ -156,85 +162,68 @@ export default function HeadlessDemo() {
                               {reportsSubmenuVisible && (
                                 <ul className="list-none p-0 m-0 overflow-hidden">
                                   <li>
-                                    <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                    <StyleClass
+                                      selector="@next"
+                                      enterClassName="hidden"
+                                      enterActiveClassName="slidedown"
+                                      leaveToClassName="hidden"
+                                      leaveActiveClassName="slideup"
+                                    >
+                                      <div
+                                        className="p-ripple p-3 ml-[20px] flex items-center justify-between text-600 cursor-pointer"
+                                        onClick={toggleRevenueSubmenu}
+                                      >
+                                        <span className="">
+                                          <i className="pi pi-chart-line mr-2"></i>
+                                          Revenue
+                                        </span>
+                                        <i className="pi pi-chevron-down"></i>
+                                        <Ripple />
+                                      </div>
+                                    </StyleClass>
+                                    {revenueSubmenuVisible && (
+                                      <ul className="list-none py-0 pl-3 pr- m-0  overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
+                                        <li>
+                                          <a className="p-ripple flex items-center cursor-pointer p-3 pl-[15%] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                            <i className="pi pi-table mr-2"></i>
+                                            <span className="">View</span>
+                                            <Ripple />
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a className="p-ripple flex items-center cursor-pointer p-3 pl-[15%] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                            <i className="pi pi-search mr-2"></i>
+                                            <span className="">Search</span>
+                                            <Ripple />
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    )}
+                                  </li>
+                                  <li>
+                                    <a className="p-ripple flex items-center cursor-pointer p-3 ml-[20px] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                       <i className="pi pi-chart-line mr-2"></i>
-                                      <span className="font-medium">
-                                        Revenue
-                                      </span>
+                                      <span className="">Expenses</span>
                                       <Ripple />
                                     </a>
                                   </li>
-                                  {/* Outros itens de menu */}
                                 </ul>
                               )}
-                              <ul className="list-none py-0 pr-0 m-0 overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
-                                <li>
-                                  <StyleClass
-                                    selector="@next"
-                                    enterClassName="hidden"
-                                    enterActiveClassName="slidedown"
-                                    leaveToClassName="hidden"
-                                    leaveActiveClassName="slideup"
-                                  >
-                                    <div
-                                      className="p-ripple p-3 flex items-center gap-[5%] text-600 cursor-pointer"
-                                      onClick={toggleRevenueSubmenu}
-                                    >
-                                      <span className="font-medium">
-                                        Revenue
-                                      </span>
-                                      <i className="pi pi-chevron-down"></i>
-                                      <Ripple />
-                                    </div>
-                                  </StyleClass>
-                                  {revenueSubmenuVisible && (
-                                    <ul className="list-none py-0 pl-3 pr-0 m-0  overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
-                                      <li>
-                                        <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
-                                          <i className="pi pi-table mr-2"></i>
-                                          <span className="font-medium">
-                                            View
-                                          </span>
-                                          <Ripple />
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
-                                          <i className="pi pi-search mr-2"></i>
-                                          <span className="font-medium">
-                                            Search
-                                          </span>
-                                          <Ripple />
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  )}
-                                </li>
-                                <li>
-                                  <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
-                                    <i className="pi pi-chart-line mr-2"></i>
-                                    <span className="font-medium">
-                                      Expenses
-                                    </span>
-                                    <Ripple />
-                                  </a>
-                                </li>
-                              </ul>
                             </li>
                             <ul className="list-none p-0 m-0 ">
                               <li>
                                 <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                   <i className="pi pi-users mr-2"></i>
-                                  <span className="font-medium">Team</span>
+                                  <span className="">Team</span>
                                   <Ripple />
                                 </a>
                               </li>
                               <li>
                                 <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                   <i className="pi pi-comments mr-2"></i>
-                                  <span className="font-medium">Messages</span>
+                                  <span className="">Messages</span>
                                   <span
-                                    className="inline-flex items-center justify-content-center ml-auto bg-blue-500 text-0 border-circle"
+                                    className="inline-flex items-center justify-center ml-auto bg-blue-500 text-white rounded-[15px]"
                                     style={{
                                       minWidth: "1.5rem",
                                       height: "1.5rem",
@@ -248,14 +237,14 @@ export default function HeadlessDemo() {
                               <li>
                                 <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                   <i className="pi pi-calendar mr-2"></i>
-                                  <span className="font-medium">Calendar</span>
+                                  <span className="">Calendar</span>
                                   <Ripple />
                                 </a>
                               </li>
                               <li>
                                 <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                   <i className="pi pi-cog mr-2"></i>
-                                  <span className="font-medium">Settings</span>
+                                  <span className="">Settings</span>
                                   <Ripple />
                                 </a>
                               </li>
@@ -274,34 +263,34 @@ export default function HeadlessDemo() {
                           leaveActiveClassName="slideup"
                         >
                           <div
-                            className="p-ripple p-3 flex items-center gap-[5%] text-600 cursor-pointer"
+                            className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer font-mainFont text-gray-700"
                             onClick={toggleaplicationSubmenu}
                           >
-                            <span className="font-medium">Aplication</span>
+                            <span className="">APLICATION</span>
                             <i className="pi pi-chevron-down"></i>
                             <Ripple />
                           </div>
                         </StyleClass>
                         {aplicationSubmenuVisible && (
-                          <ul className="list-none p-0 m-0 overflow-hidden">
+                          <ul className="list-none p-0 m-0 overflow-hidden font-mainFont text-gray-700">
                             <li>
                               <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                 <i className="pi pi-folder mr-2"></i>
-                                <span className="font-medium">Projects</span>
+                                <span className="">Projects</span>
                                 <Ripple />
                               </a>
                             </li>
                             <li>
                               <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                 <i className="pi pi-chart-bar mr-2"></i>
-                                <span className="font-medium">Performance</span>
+                                <span className="">Performance</span>
                                 <Ripple />
                               </a>
                             </li>
                             <li>
                               <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                 <i className="pi pi-cog mr-2"></i>
-                                <span className="font-medium">Settings</span>
+                                <span className="">Settings</span>
                                 <Ripple />
                               </a>
                             </li>
