@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 import { Children } from "react";
 
-export default function SectionWrapper({ children, className }) {
-  SectionWrapper.propTypes = {
+export default function Paragraphs({ children, className }) {
+  Paragraphs.propTypes = {
     children: PropTypes.any,
     className: PropTypes.string,
   };
   const childrenArray = Children.toArray(children);
   return (
     <div
-      className={`w-[90%] max-w-[1215px] flex flex-col items-center ${className}`}
+      className={`font-secondFont text-paragraph4 text-paragraphLight ${className}`}
     >
       {childrenArray}
     </div>
