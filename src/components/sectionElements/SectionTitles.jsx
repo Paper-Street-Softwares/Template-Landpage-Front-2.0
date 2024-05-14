@@ -7,5 +7,9 @@ export default function SectionTitles({ children, className }) {
     className: PropTypes.string,
   };
   const childrenArray = Children.toArray(children);
-  return <div className={`text-title4 ${className}`}>{childrenArray}</div>;
+  return (
+    <div className={`text-title4 font-bold font-mainFont ${className}`}>
+      {childrenArray}
+    </div>
+  );
 }

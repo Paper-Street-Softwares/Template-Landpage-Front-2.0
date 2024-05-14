@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "KeepCalm";
+  src: url("./assets/fonts/KeepCalm-Medium.ttf") format("ttf");
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

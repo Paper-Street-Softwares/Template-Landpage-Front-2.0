@@ -12,8 +12,8 @@ module.exports = {
         verylighter: "#21A202",
       },
       fontFamily: {
-        mainFont: ["Poppins", "sans-serif"],
-        secondFont: ["Opens Sans", "sans-serif"],
+        mainFont: ["Keep Calm", "sans-serif"],
+        secondFont: ["Open Sans", "sans-serif"],
       },
       fontSize: {
         paragraph1: "0.625rem", // 10px
