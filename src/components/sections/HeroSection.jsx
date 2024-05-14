@@ -1,16 +1,6 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
-import ImagesGalleryHero from "../interactives/ImagesGalleryHero";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import slide1 from "../../assets/banners/hero/slide1.webp";
-import slide2 from "../../assets/banners/hero/slide2.webp";
-import slide3 from "../../assets/banners/hero/slide3.webp";
-import slide4 from "../../assets/banners/hero/slide4.webp";
-import slide5 from "../../assets/banners/hero/slide5.webp";
-import slide6 from "../../assets/banners/hero/slide6.webp";
-import slide7 from "../../assets/banners/hero/slide7.webp";
-import slide8 from "../../assets/banners/hero/slide8.webp";
-import bgImage from "../../assets/importAssets/bg2.webp";
+import bgImage from "../../assets/imgs/hero/bgHero.webp";
 import whatsappNumber from "../../abstractions/whats";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
@@ -23,22 +13,20 @@ export default function HeroSection() {
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
         <div className="flex items-center">
-          <div className="w-full text-white justify-evenly">
+          <div className="w-full text-white justify-evenly pb-[60px]">
             <div className="h-40 desktop3:h-46" />
-            <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
-              <div className="desktop1:w-[650px] flex flex-col gap-8">
+            <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
+              <div className="desktop1:w-[850px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
-                  <div className="font-black leading-none text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[40px]">
-                    <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
+                  <div className="font-medium leading-none text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
+                    <h1>Transformando desejos em endereços</h1>
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
-                  <div className="text-center desktop1:text-left phone1:w-full phone1:font-medium phone1:text-paragraph4">
+                  <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
                     <p>
-                      Aqui você será atendido de forma humanizada por
-                      profissionais qualificados e preparados para esclarecer
-                      suas dúvidas.
-                      <br /> Continue navegando e encontre o que você procura.
+                      Com paixão e excelência, o lar ideal é nossa
+                      especialidade!
                     </p>
                   </div>
                 </MotionDivLeftToRight>
@@ -49,36 +37,29 @@ export default function HeroSection() {
                         onClick={() =>
                           window.open(whatsappContactLink, "_blank")
                         }
-                        className="flex flex-row items-center justify-around w-auto h-16 transition rounded-[40px] p-6 bg-red-700 hover:bg-red-900"
+                        className="flex flex-row items-center justify-around w-auto h-16 transition rounded-[40px] p-6 bg-black hover:bg-black"
                       >
-                        <div className="flex p-4 text-center items-center">
-                          <img
-                            src={WhatsAppIcon}
-                            className="h-[36px] w-[36px] mr-[24px]"
-                            alt="WhatsApp Icon"
-                          />
-                          <p className="flex items-center leading-none text-white text-title1">
-                            Fale com um consultor
+                        <div className="flex items-center p-4 text-center">
+                          <div className="h-[30px] w-[30px] mr-[24px]">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              fill="currentColor"
+                              class="bi bi-whatsapp"
+                              viewBox="0 0 16 16"
+                            >
+                              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                            </svg>
+                          </div>
+                          <p className="flex items-center leading-none text-white text-paragraph4">
+                            Consultar Imóveis
                           </p>
                         </div>
                       </button>
                     </div>
                   </MotionDivLeftToRight>
                 </div>
-              </div>
-              <div className="desktop1:w-[510px]  desktop1:h-[350px] flex items-center">
-                <MotionDivDownToUp>
-                  <ImagesGalleryHero
-                    slide1={slide1}
-                    slide2={slide2}
-                    slide3={slide3}
-                    slide4={slide4}
-                    slide5={slide5}
-                    slide6={slide6}
-                    slide7={slide7}
-                    slide8={slide8}
-                  />
-                </MotionDivDownToUp>
               </div>
             </div>
           </div>

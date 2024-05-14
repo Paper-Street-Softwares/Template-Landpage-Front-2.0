@@ -6,10 +6,11 @@ module.exports = {
       colors: {
         primary: "#000000", // Com primária (clara)
         secondary: "#000000", // Cor primária (escura)
-        tertiary: "#014E6B", // Opcional
+        tertiary: "#0189BB", // Links
         quaternary: "#636363", // Cinza neutro -> Parágrafos
         quinary: "#EAEAEA ", // Com primária bem clara ou cinza -> Bg de seções
         verylighter: "#21A202",
+        paragraphLight: "#636363", // Cinza neutro -> Parágrafos
       },
       fontFamily: {
         mainFont: ["Keep Calm", "sans-serif"],

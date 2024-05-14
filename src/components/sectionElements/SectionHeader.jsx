@@ -1,5 +1,4 @@
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import PropTypes from "prop-types";
 import SectionTitles from "./SectionTitles";
 import SectionSubtitles from "./SectionSubtitles";
@@ -19,8 +18,12 @@ export default function SectionHeader(props) {
     <div
       className={`w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[729px] ${className}`}
     >
-      <SectionTitles>{sectionHeaderTitle}</SectionTitles>
-      <SectionSubtitles>{sectionHeaderSubtitle}</SectionSubtitles>
+      <SectionTitles>
+        <MotionDivDownToUp>{sectionHeaderTitle}</MotionDivDownToUp>
+      </SectionTitles>
+      <SectionSubtitles>
+        <MotionDivDownToUp>{sectionHeaderSubtitle}</MotionDivDownToUp>
+      </SectionSubtitles>
     </div>
   );
 }
