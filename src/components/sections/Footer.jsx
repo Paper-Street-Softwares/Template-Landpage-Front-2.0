@@ -10,16 +10,18 @@ const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 function Footer() {
   return (
-    <footer className="bg-secondary full gap-y-[42px]  text-white font-mainFont text-left text-paragraph3 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+    <footer className="bg-secondary full gap-y-[42px]  text-white font-secondFont text-left text-paragraph3 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
         <MotionDivLeftToRight>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <img
-              alt="Logo MPA Piscinas"
-              src={mpaLogo}
-              className="w-[109px] h-[115px]"
+              alt="Logo"
+              src=""
+              className="w-[109px] h-[115px] bg-gray-300"
             ></img>
-            <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
+            <p className="full">
+              Rita Almeida: Transformando desejos em endereços.
+            </p>
             <div className="flex full gap-x-[8px] items-center">
               <Phone
                 size={24}
@@ -32,7 +34,7 @@ function Footer() {
                 target="_blank"
                 className="hover:underline"
               >
-                (11) 99488-9426
+                (87) 98812-4109
               </a>
             </div>
             <div className="flex full gap-x-[8px] items-center">
@@ -42,13 +44,13 @@ function Footer() {
                 strokeWidth={1}
                 className="text-white"
               />
-              <p>contato@mpapiscinas.com.br</p>
+              <p>rcsalmeida2@yahoo.com.br</p>
             </div>
           </div>
         </MotionDivLeftToRight>
         <MotionDivUpToDown>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-            <h1 className="font-medium text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               SOBRE
             </h1>
             <p>
@@ -59,7 +61,7 @@ function Footer() {
         </MotionDivUpToDown>
         <MotionDivRightToLeft>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-            <h1 className="font-medium text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               NAVEGAÇÃO
             </h1>
             <div className="flex justify-between full">
@@ -150,7 +152,7 @@ function Footer() {
         </MotionDivRightToLeft>
       </div>
 
-      <div className="w-[88%] max-w-[1110px] h-px bg-white"></div>
+      <div className="hidden w-[88%] max-w-[1110px] h-px bg-white"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <MotionDivUpToDown>

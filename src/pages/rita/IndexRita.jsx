@@ -9,6 +9,7 @@ export default function IndexRita() {
       <ContactBarSection />
       <Faq />
       <TrustedBy />
+      <Footer />
     </div>
   );
 }

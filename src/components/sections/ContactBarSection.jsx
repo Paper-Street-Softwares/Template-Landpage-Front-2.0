@@ -4,7 +4,7 @@ import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 export default function ContactBarSection() {
   return (
     <div className="bg-black w-full py-[16px] tablet1:py-[26px] flex justify-center">
-      <div className="w-[90%] max-w-[1215px] flex justify-between text-paragraph1 tablet1:text-paragraph4 font-secondFont">
+      <div className="w-[90%] max-w-[1215px] flex justify-between text-paragraph1 tablet1:text-paragraph3 font-secondFont">
         <MotionDivLeftToRight>
           <div className=" flex flex-col tablet1:flex-row text-white gap-[20px] tablet1:gap-[40px]">
             <div className="flex gap-[6px]">
@@ -23,9 +23,7 @@ export default function ContactBarSection() {
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
-              <p className="flex items-center">
-                contato@ritaalmeidacorretora.com.br
-              </p>
+              <p className="flex items-center">rcsalmeida2@yahoo.com.br</p>
             </div>
             <div className="flex gap-[6px]">
               <svg
