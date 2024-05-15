@@ -13,23 +13,11 @@ export default function Featuresv1() {
         sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at."
       />
       <SectionWrapper>
-        <div className="flex flex-wrap justify-between w-full gap-[20px] tablet1:gap-[24px]">
+        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
           <FeatureBgImgCard />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
+          <FeatureBgImgCard />
+          <FeatureBgImgCard />
+          <FeatureBgImgCard />
         </div>
       </SectionWrapper>
     </SectionArea>
