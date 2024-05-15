@@ -8,10 +8,10 @@ export default function SectionSubtitles({ children, className }) {
   };
   const childrenArray = Children.toArray(children);
   return (
-    <div
+    <p
       className={`text-quaternary mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px] text-paragraph4 font-secondFont ${className}`}
     >
       {childrenArray}
-    </div>
+    </p>
   );
 }

@@ -7,6 +7,8 @@ import HeroSection from "../../components/sections/HeroSection";
 import NavbarSection from "../../components/sections/NavbarSection";
 import Featuresv1 from "../../components/sections/Featuresv1";
 import Featuresv2 from "../../components/sections/Featuresv2";
+import AboutImgLeft from "../../components/sections/AboutImgLeft";
+import AboutImgRight from "../../components/sections/AboutImgRight";
 
 export default function IndexRita() {
   return (
@@ -16,6 +18,8 @@ export default function IndexRita() {
       <HeroSection />
       <Featuresv1 />
       <Featuresv2 />
+      <AboutImgLeft />
+      <AboutImgRight />
       <Numbers />
       <TrustedBy />
       <Faq />
