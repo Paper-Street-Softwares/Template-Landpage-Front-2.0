@@ -19,8 +19,7 @@ export default function featureBgImgCard(props) {
         <h3 className="font-mainFont font-medium text-[26px]">Casas</h3>
         <p className="font-secondFont text-paragraph4 text-quaternary">
           It is a long established fact that a reader will be aacted by the
-          readable. It is a long established fact that a reader will be aacted
-          by the readable.
+          readable.
         </p>
       </div>
     </div>
