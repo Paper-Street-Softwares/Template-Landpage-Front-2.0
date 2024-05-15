@@ -19,12 +19,14 @@ export default function HeroSection() {
               <div className="desktop1:w-[850px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
                   <div className="font-medium leading-none text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
-                    <h1>Transformando desejos em endereços</h1>
+                    <h1 className="drop-shadow-[0_15px_35px_rgba(0,0,0,0.25)]">
+                      Transformando desejos em endereços
+                    </h1>
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
-                    <p>
+                    <p className="drop-shadow-[0_15px_35px_rgba(0,0,0,0.25)]">
                       Com paixão e excelência, o lar ideal é nossa
                       especialidade!
                     </p>
