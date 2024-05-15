@@ -6,13 +6,14 @@ import { Ripple } from "primereact/ripple";
 import { StyleClass } from "primereact/styleclass";
 import "primeicons/primeicons.css";
 
+
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);
-  const [submenuVisible, setSubmenuVisible] = useState(false); // controla a visibilidade do submenu
+  const [submenuVisible, setSubmenuVisible] = useState(true); // controla a visibilidade do submenu
   const [reportsSubmenuVisible, setReportsSubmenuVisible] = useState(false);
   const [revenueSubmenuVisible, setRevenueSubmenuVisible] = useState(false);
   const [aplicationSubmenuVisible, setAplicationSubmenuVisible] =
-    useState(false);
+    useState(true);
 
   const toggleSidebar = () => {
     // Escurece o fundo do site
@@ -30,6 +31,7 @@ export default function HeadlessDemo() {
   const toggleaplicationSubmenu = () => {
     setAplicationSubmenuVisible((prev) => !prev); // Alterna o submenu "Reports"
   };
+  
 
   return (
     <div className="fixed inset-0 flex items-center z-10">
@@ -147,14 +149,13 @@ export default function HeadlessDemo() {
                                 leaveActiveClassName="slideup"
                               >
                                 <div
-                                  className="p-ripple p-3 flex items-center justify-between  text-600 cursor-pointer"
+                                  className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer"
                                   onClick={toggleReportsSubmenu}
                                 >
                                   <span className="">
                                     <i className="pi pi-chart-line mr-[9px] "></i>
                                     Reports
                                   </span>
-
                                   <i className="pi pi-chevron-down"></i>
                                   <Ripple />
                                 </div>
@@ -182,7 +183,7 @@ export default function HeadlessDemo() {
                                       </div>
                                     </StyleClass>
                                     {revenueSubmenuVisible && (
-                                      <ul className="list-none py-0 pl-3 pr- m-0  overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
+                                      <ul className="list-none py-0 pl-3 pr- m-0  overflow-y-hidden transition-all duration-500 ease-in-out">
                                         <li>
                                           <a className="p-ripple flex items-center cursor-pointer p-3 pl-[15%] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                             <i className="pi pi-table mr-2"></i>
@@ -300,7 +301,7 @@ export default function HeadlessDemo() {
                     </ul>
                   </div>
                   <div className="mt-auto">
-                    <hr className="mb-3 mx-3 border-top-1 border-none surface-border" />
+                    <hr className="mb-3 mx-3 border-top-1 surface-border" />
                     <a
                       v-ripple
                       className="m-3 flex items-center cursor-pointer p-3 gap-2 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
