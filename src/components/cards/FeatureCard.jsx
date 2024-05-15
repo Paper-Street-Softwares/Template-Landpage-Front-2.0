@@ -1,4 +1,5 @@
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
+import imgCasas from "../../assets/imgs/hero/bgHero.webp";
 
 export default function FeatureCard(props) {
   const { img, title, description } = props;
