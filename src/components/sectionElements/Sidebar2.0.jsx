@@ -6,7 +6,6 @@ import { Ripple } from "primereact/ripple";
 import { StyleClass } from "primereact/styleclass";
 import "primeicons/primeicons.css";
 
-
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);
   const [submenuVisible, setSubmenuVisible] = useState(true); // controla a visibilidade do submenu
@@ -31,7 +30,6 @@ export default function HeadlessDemo() {
   const toggleaplicationSubmenu = () => {
     setAplicationSubmenuVisible((prev) => !prev); // Alterna o submenu "Reports"
   };
-  
 
   return (
     <div className="fixed inset-0 flex items-center z-10">
@@ -106,13 +104,7 @@ export default function HeadlessDemo() {
                   <div className="overflow-y-auto">
                     <ul className="list-none p-3 m-0">
                       <li>
-                        <StyleClass
-                          selector="@next"
-                          enterClassName="hidden"
-                          enterActiveClassName="slidedown"
-                          leaveToClassName="hidden"
-                          leaveActiveClassName="slideup"
-                        >
+                        <StyleClass>
                           <div
                             className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer"
                             onClick={toggleSubmenu}
@@ -125,7 +117,7 @@ export default function HeadlessDemo() {
                           </div>
                         </StyleClass>
                         {submenuVisible && (
-                          <ul className="list-none p-0 m-0 overflow-hidden font-mainFont font-medium text-gray-700">
+                          <ul className="list-none p-0 m-0 overflow-hidden font-mainFont text-gray-700">
                             <li>
                               <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                 <i className="pi pi-home mr-2"></i>
@@ -141,13 +133,7 @@ export default function HeadlessDemo() {
                               </a>
                             </li>
                             <li>
-                              <StyleClass
-                                selector="@next"
-                                enterClassName="hidden"
-                                enterActiveClassName="slidedown"
-                                leaveToClassName="hidden"
-                                leaveActiveClassName="slideup"
-                              >
+                              <StyleClass>
                                 <div
                                   className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer"
                                   onClick={toggleReportsSubmenu}
@@ -161,15 +147,9 @@ export default function HeadlessDemo() {
                                 </div>
                               </StyleClass>
                               {reportsSubmenuVisible && (
-                                <ul className="list-none p-0 m-0 overflow-hidden">
+                                <ul className="list-none p-0 m-0 overflow-hidden ">
                                   <li>
-                                    <StyleClass
-                                      selector="@next"
-                                      enterClassName="hidden"
-                                      enterActiveClassName="slidedown"
-                                      leaveToClassName="hidden"
-                                      leaveActiveClassName="slideup"
-                                    >
+                                    <StyleClass>
                                       <div
                                         className="p-ripple p-3 ml-[20px] flex items-center justify-between text-600 cursor-pointer"
                                         onClick={toggleRevenueSubmenu}
@@ -211,7 +191,7 @@ export default function HeadlessDemo() {
                                 </ul>
                               )}
                             </li>
-                            <ul className="list-none p-0 m-0 ">
+                            <ul className="list-none p-0 m-0">
                               <li>
                                 <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
                                   <i className="pi pi-users mr-2"></i>
@@ -256,13 +236,7 @@ export default function HeadlessDemo() {
                     </ul>
                     <ul className="list-none p-3 m-0">
                       <li>
-                        <StyleClass
-                          selector="@next"
-                          enterClassName="hidden"
-                          enterActiveClassName="slidedown"
-                          leaveToClassName="hidden"
-                          leaveActiveClassName="slideup"
-                        >
+                        <StyleClass>
                           <div
                             className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer font-mainFont text-gray-700"
                             onClick={toggleaplicationSubmenu}
