@@ -5,6 +5,7 @@ import Numbers from "../../components/sections/Numbers";
 import TrustedBy from "../../components/sections/TrustedBy";
 import HeroSection from "../../components/sections/HeroSection";
 import NavbarSection from "../../components/sections/NavbarSection";
+import Featuresv1 from "../../components/sections/Featuresv1";
 
 export default function IndexRita() {
   return (
@@ -12,6 +13,7 @@ export default function IndexRita() {
       <ContactBarSection />
       {/* <NavbarSection /> */}
       <HeroSection />
+      <Featuresv1 />
       <TrustedBy />
       <Numbers />
       <Faq />
