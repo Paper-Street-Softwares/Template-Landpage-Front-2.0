@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import bgHouse from "../../assets/cards/bgCardHouses.jpg";
 
-export default function featureBgImgCard(props) {
+export default function FeatureBgImgCard(props) {
   const { bgImg, title, description } = props;
 
-  featureBgImgCard.propTypes = {
+  FeatureBgImgCard.propTypes = {
     bgImg: PropTypes.any,
     title: PropTypes.any,
     description: PropTypes.any,

@@ -1,7 +1,7 @@
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import FeatureBgImgCard from "../cards/featureBgImgCard";
+import FeatureBgImgCard from "../cards/FeatureBgImgCard";
 
 export default function Featuresv1() {
   return (
