@@ -8,10 +8,10 @@ export default function SectionTitles({ children, className }) {
   };
   const childrenArray = Children.toArray(children);
   return (
-    <div
+    <h1
       className={`text-black mb-[8px] text-title4 leading-[34px] tablet1:leading-[54px] tablet1:text-title5 desktop1:text-title6 font-mainFont ${className}`}
     >
       {childrenArray}
-    </div>
+    </h1>
   );
 }
