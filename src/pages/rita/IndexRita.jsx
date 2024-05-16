@@ -17,7 +17,7 @@ export default function IndexRita() {
       <ContactBarSection />
       {/* <NavbarSection /> */}
       <HeroSection />
-      {/* <Featuresv1 /> */}
+      <Featuresv1 />
       <Featuresv2 />
       <AboutImgLeft />
       <AboutImgRight />
