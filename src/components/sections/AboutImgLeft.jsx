@@ -31,7 +31,7 @@ export default function AboutImgLeft() {
             decisão que tomei.
           </Paragraphs>
           <ButtonWithIcon
-            label="Saiba mais"
+            label="Leia mais"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
