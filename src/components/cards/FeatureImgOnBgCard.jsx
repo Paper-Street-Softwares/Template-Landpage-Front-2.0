@@ -16,14 +16,14 @@ export default function FeatureImgOnBgCard(props) {
         className="h-[464px] rounded-2xl p-[10px] flex flex-col justify-end bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${bgImg})` }}
       >
-        <div className="w-full h-auto bg-white rounded-2xl p-[20px] gap-[18px] flex flex-col">
+        <MotionDivDownToUp className="w-full h-auto bg-white rounded-2xl p-[20px] gap-[18px] flex flex-col">
           <h3 className="font-mainFont font-medium text-[26px] desktop1:text-paragraph5 desktop2:text-[26px]">
             {title}
           </h3>
           <p className="font-secondFont text-paragraph4 text-quaternary">
             {description}
           </p>
-        </div>
+        </MotionDivDownToUp>
       </div>
     </MotionDivDownToUp>
   );
