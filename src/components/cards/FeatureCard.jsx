@@ -1,5 +1,6 @@
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import imgCasas from "../../assets/imgs/hero/bgHero.webp";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeatureCard(props) {
   const { img, title, description } = props;
@@ -13,31 +14,33 @@ export default function FeatureCard(props) {
       />
       <div className="">
         <h1 className="font-mainFont text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
-          {title}
+          <MotionDivDownToUp>{title}</MotionDivDownToUp>
         </h1>
         <p className="font-secondFont text-paragraph4 mb-[36px] text-quaternary">
-          {description}
+          <MotionDivDownToUp>{description}</MotionDivDownToUp>
         </p>
-        <ButtonWithIcon
-          label="Saiba mais"
-          icon={
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#ffffff"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-move-right"
-            >
-              <path d="M18 8L22 12L18 16" />
-              <path d="M2 12H22" />
-            </svg>
-          }
-        />
+        <MotionDivDownToUp>
+          <ButtonWithIcon
+            label="Saiba mais"
+            icon={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            }
+          />
+        </MotionDivDownToUp>
       </div>
     </div>
   );

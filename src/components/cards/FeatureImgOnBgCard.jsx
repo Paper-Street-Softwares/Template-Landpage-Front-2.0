@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeatureImgOnBgCard(props) {
   const { bgImg, title, description } = props;
@@ -16,10 +17,10 @@ export default function FeatureImgOnBgCard(props) {
     >
       <div className="w-full h-auto bg-white rounded-2xl p-[20px] gap-[18px] flex flex-col">
         <h3 className="font-mainFont font-medium text-[26px] desktop1:text-paragraph5 desktop2:text-[26px]">
-          {title}
+          <MotionDivDownToUp>{title}</MotionDivDownToUp>
         </h3>
         <p className="font-secondFont text-paragraph4 text-quaternary">
-          {description}
+          <MotionDivDownToUp>{description}</MotionDivDownToUp>
         </p>
       </div>
     </div>

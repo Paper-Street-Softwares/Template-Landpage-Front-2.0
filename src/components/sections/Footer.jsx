@@ -147,22 +147,20 @@ function Footer() {
       <div className="hidden w-[88%] max-w-[1110px] h-px bg-white"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <MotionDivDownToUp>
-          <p className="w-full">
-            2024 - Rita Almeida Corretora de Imóveis - Todos os direitos
-            reservados
-          </p>
-          <p>
-            <a
-              className="transition hover:underline"
-              target="_blank"
-              href="https://www.paperstreet.com.br"
-            >
-              {" "}
-              Gostaria de ter um site como este? Clique aqui
-            </a>
-          </p>
-        </MotionDivDownToUp>
+        <p className="w-full">
+          2024 - Rita Almeida Corretora de Imóveis - Todos os direitos
+          reservados
+        </p>
+        <p>
+          <a
+            className="transition hover:underline"
+            target="_blank"
+            href="https://www.paperstreet.com.br"
+          >
+            {" "}
+            Gostaria de ter um site como este? Clique aqui
+          </a>
+        </p>
       </div>
     </footer>
   );
