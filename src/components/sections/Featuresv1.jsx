@@ -1,7 +1,6 @@
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import FeatureBgImgCard from "../cards/featureBgImgCard";
 
 export default function Featuresv1() {
   return (
@@ -9,15 +8,10 @@ export default function Featuresv1() {
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
-        sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at."
+        sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at"
       />
       <SectionWrapper>
-        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
-          <FeatureBgImgCard />
-          <FeatureBgImgCard />
-          <FeatureBgImgCard />
-          <FeatureBgImgCard />
-        </div>
+        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]"></div>
       </SectionWrapper>
     </SectionArea>
   );

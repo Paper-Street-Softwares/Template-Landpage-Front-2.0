@@ -3,6 +3,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import imgAboutPerson from "../../assets/imgs/about/aboutPerson.jpg";
+import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
 export default function AboutImgLeft() {
   return (
@@ -15,9 +16,9 @@ export default function AboutImgLeft() {
         />
         <div className="desktop1:w-[450px] desktop2:w-[570px]">
           <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
-            Sobre mim
+            Sobre mim 👋
           </SectionTitles>
-          <Paragraphs>
+          <Paragraphs className="phone3:mb-[60px] desktop1:mb-[92px]">
             Creci: 11798/PE <br></br>
             Ensino superior: Administração - Facape<br></br>
             Olá, me chamo Rita Almeida, sou corretora de imóveis há mais de 10
@@ -28,6 +29,26 @@ export default function AboutImgLeft() {
             fiz o curso com minha filha ainda pequena, E não me arrependo da
             decisão que tomei.
           </Paragraphs>
+          <ButtonWithIcon
+            label="Saiba mais"
+            icon={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            }
+          />
         </div>
       </SectionWrapper>
     </SectionArea>
