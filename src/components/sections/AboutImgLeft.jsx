@@ -18,11 +18,12 @@ export default function AboutImgLeft() {
           <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
             Sobre mim 👋
           </SectionTitles>
-          <Paragraphs className="phone3:mb-[60px] desktop1:mb-[92px]">
+          <Paragraphs className="mb-[60px] desktop1:mb-[92px]">
             Creci: 11798/PE <br></br>
-            Ensino superior: Administração - Facape<br></br>
+            Ensino superior: Administração - Facape <br /> <br />
             Olá, me chamo Rita Almeida, sou corretora de imóveis há mais de 10
             anos e sou formada em adm há 30.
+            <br />
             <br></br>Decidi entrar no ramo quando um colega me fez um elogio
             "Rita, você é tão comunicativa, deveria ser corretora de imóveis" eu
             ainda fiquei receosa "há isso não é para mim" mas decidi arriscar,
