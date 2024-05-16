@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-export default function FeatureBgImgCard(props) {
+export default function FeatureImgOnBgCard(props) {
   const { bgImg, title, description } = props;
 
-  FeatureBgImgCard.propTypes = {
+  FeatureImgOnBgCard.propTypes = {
     bgImg: PropTypes.any,
     title: PropTypes.any,
     description: PropTypes.any,
