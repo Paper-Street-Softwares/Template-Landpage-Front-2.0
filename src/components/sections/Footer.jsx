@@ -1,10 +1,8 @@
 import { Link } from "react-scroll";
 import mpaLogo from "../../assets/importAssets/Logo.webp";
 import { Phone, Mail } from "lucide-react";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import whatsappNumber from "../../abstractions/whats";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
@@ -12,7 +10,7 @@ function Footer() {
   return (
     <footer className="bg-secondary full gap-y-[42px]  text-white font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
-        <MotionDivLeftToRight>
+        <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <img
               alt="Logo"
@@ -47,8 +45,8 @@ function Footer() {
               <p>rcsalmeida2@yahoo.com.br</p>
             </div>
           </div>
-        </MotionDivLeftToRight>
-        <MotionDivUpToDown>
+        </MotionDivDownToUp>
+        <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               SOBRE
@@ -78,8 +76,8 @@ function Footer() {
               <p>Salve caso queira mais tarde!</p>
             </div>
           </div>
-        </MotionDivUpToDown>
-        <MotionDivRightToLeft>
+        </MotionDivDownToUp>
+        <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               NAVEGAÇÃO
@@ -143,13 +141,13 @@ function Footer() {
               </div>
             </div>
           </div>
-        </MotionDivRightToLeft>
+        </MotionDivDownToUp>
       </div>
 
       <div className="hidden w-[88%] max-w-[1110px] h-px bg-white"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <MotionDivUpToDown>
+        <MotionDivDownToUp>
           <p className="w-full">
             2024 - Rita Almeida Corretora de Imóveis - Todos os direitos
             reservados
@@ -164,7 +162,7 @@ function Footer() {
               Gostaria de ter um site como este? Clique aqui
             </a>
           </p>
-        </MotionDivUpToDown>
+        </MotionDivDownToUp>
       </div>
     </footer>
   );
