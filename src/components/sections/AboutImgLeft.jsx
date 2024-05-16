@@ -15,11 +15,14 @@ export default function AboutImgLeft() {
           alt="Foto de pessoa"
           className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
         />
-        <MotionDivDownToUp>
-          <div className="desktop1:w-[450px] desktop2:w-[570px]">
+
+        <div className="desktop1:w-[450px] desktop2:w-[570px]">
+          <MotionDivDownToUp>
             <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
               Sobre mim 👋
             </SectionTitles>
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
             <Paragraphs className="mb-[60px] desktop1:mb-[92px]">
               Creci: 11798/PE <br></br>
               Ensino superior: Administração - Facape <br /> <br />
@@ -32,6 +35,8 @@ export default function AboutImgLeft() {
               arriscar, fiz o curso com minha filha ainda pequena, E não me
               arrependo da decisão que tomei.
             </Paragraphs>
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
             <ButtonWithIcon
               label="Leia mais"
               icon={
@@ -52,8 +57,8 @@ export default function AboutImgLeft() {
                 </svg>
               }
             />
-          </div>
-        </MotionDivDownToUp>
+          </MotionDivDownToUp>
+        </div>
       </SectionWrapper>
     </SectionArea>
   );
