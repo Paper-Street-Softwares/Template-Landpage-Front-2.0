@@ -6,6 +6,7 @@ import imgCasas from "../../assets/imgs/hero/bgHero.webp";
 import imgAps from "../../assets/imgs/hero/bgHero.webp";
 import imgTerrenos from "../../assets/imgs/hero/bgHero.webp";
 import imgPontos from "../../assets/imgs/hero/bgHero.webp";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function Featuresv1() {
   return (
@@ -15,6 +16,7 @@ export default function Featuresv1() {
         sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
         sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at"
       />
+
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
           <FeatureImgOnBgCard
