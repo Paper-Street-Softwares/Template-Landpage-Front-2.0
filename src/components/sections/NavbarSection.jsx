@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
-import Logo from "../../assets/importAssets/Logo.webp";
+import Logo from "../../assets/importAssets/Logo.png";
 import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
-import { Menu, X } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 import HeadlessDemo from "../sectionElements/Sidebar2.0";
+import { px } from "framer-motion";
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
@@ -18,7 +18,7 @@ export default function NavbarSection() {
   const sidebarRef = useRef(null);
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 60) {
       setScrolling(true);
     } else {
       setScrolling(false);
@@ -84,10 +84,10 @@ export default function NavbarSection() {
   return (
     <div className="w-full">
       <div
-        className={`fixed z-20 top-0 w-full bg-white bg-opacity-0 ${
+        className={`fixed z-20 w-full transition-colors duration-1000  ${
           scrolling
-            ? "bg-opacity-100 shadow-lg bg-transition-opacity duration-1000"
-            : ""
+            ? 'bg-white bg-opacity-100 shadow-lg -mt-20 transition-all duration-1000'
+            : 'transition-all duration-1000'
         }`}
       >
         <Navbar>
@@ -103,34 +103,17 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo MPA Piscinas"
-              className={`mr-[80px] h-[80px] ${
+              className={`mt-3 ${
                 scrolling
-                  ? "h-[56px] max-h-[56px] transition-all duration-1000"
-                  : "h-[112px] max-h-[112px] transition-all duration-1000"
+                  ? "h-[36px] max-h-[36px] transition-all duration-1000 bg-black"
+                  : "h-[60px] max-h-[60px] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
           <HeadlessDemo />
-          {/* <button
-            onClick={toggleSidebar}
-            className="relative tablet2:hidden"
-            aria-label="Abrir menu de navegação"
-          >
-            {showMenuIcon ? (
-              <Menu
-                size={32}
-                className={` ${scrolling ? "text-secondary" : "text-white"}`}
-              />
-            ) : (
-              <X
-                size={32}
-                className={` ${scrolling ? "text-secondary" : "text-white"}`}
-              />
-            )}
-          </button> */}
           {showListGroup ? <ListGroup /> : null}
         </Navbar>
-        <div className=" flex "></div>
+        <div className="flex "></div>
         <div
           className={`animate-${
             showSidebar ? "slide-down block" : "slide-up hidden"

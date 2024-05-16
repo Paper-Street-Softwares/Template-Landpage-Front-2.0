@@ -15,7 +15,7 @@ export default function IndexRita() {
   return (
     <div>
       <ContactBarSection />
-      {/* <NavbarSection /> */}
+      <NavbarSection />
       <HeroSection />
       <Featuresv1 />
       <Featuresv2 />
