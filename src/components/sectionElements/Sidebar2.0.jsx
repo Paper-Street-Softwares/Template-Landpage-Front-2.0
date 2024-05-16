@@ -32,20 +32,23 @@ export default function HeadlessDemo() {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center z-10">
+    <div className="">
       {/* Camada de fundo escurecida */}
       <div
         className={`${
           visible ? "block" : "hidden"
-        } absolute inset-0 bg-black opacity-50`}
+        } relative inset-0 bg-black opacity-50`}
         onClick={toggleSidebar}
       ></div>
       <div className="card flex justify-center ">
-        <Button
-          className="p-button-rounded p-button-outlined bg-red-700 border-black rounded-md py-[2px] px-[4px]"
-          icon="pi pi-bars"
-          onClick={() => setVisible(true)}
-        />
+        <div className=" w-full">
+          <Button
+            aria-label="Abrir menu de navegação"
+            className="  p-button-rounded p-button-outlined lg:hidden text-green-600 rounded-md flex "
+            icon="pi pi-bars"
+            onClick={() => setVisible(true)}
+          />
+        </div>
         <Sidebar
           visible={visible}
           onHide={() => setVisible(false)}
@@ -56,7 +59,7 @@ export default function HeadlessDemo() {
             >
               <div
                 id="app-sidebar-2"
-                className="surface-section h-screen lg:hidden flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none bg-white"
+                className="surface-section h-screen lg:hidden flex-shrink-0 absolute left-0 top-0 z-1 border-right-1 surface-border select-none bg-white"
                 style={{ width: "280px" }}
               >
                 <div className="flex flex-col h-full">
