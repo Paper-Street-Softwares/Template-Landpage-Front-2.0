@@ -5,6 +5,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import imgAboutPhone from "../../assets/imgs/about/phoneMockup.png";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
+import ButtonWithIconLight from "../interactives/ButtonWithIconLight";
 
 export default function AboutImgRight() {
   return (
@@ -24,9 +25,8 @@ export default function AboutImgRight() {
               amet, consectetur adipiscing elit.
             </Paragraphs>
           </MotionDivDownToUp>
-
-          <div className="flex flex-col gap-[16px] text-paragraph4 phone3:text-title2">
-            <ButtonWithIcon
+          <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
+            <ButtonWithIconLight
               label="Me siga no instagram"
               icon={
                 <svg
@@ -35,7 +35,7 @@ export default function AboutImgRight() {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#ffffff"
+                  stroke="#000000"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -47,7 +47,7 @@ export default function AboutImgRight() {
                 </svg>
               }
             />
-            <ButtonWithIcon
+            <ButtonWithIconLight
               label="Me siga no Twitter"
               icon={
                 <svg
@@ -56,7 +56,7 @@ export default function AboutImgRight() {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#ffffff"
+                  stroke="#000000"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -66,7 +66,7 @@ export default function AboutImgRight() {
                 </svg>
               }
             />
-            <ButtonWithIcon
+            <ButtonWithIconLight
               label="Me siga no Facebook"
               icon={
                 <svg
@@ -75,7 +75,7 @@ export default function AboutImgRight() {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#ffffff"
+                  stroke="#000000"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"

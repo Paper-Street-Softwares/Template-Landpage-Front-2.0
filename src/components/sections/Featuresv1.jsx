@@ -26,7 +26,7 @@ export default function Featuresv1() {
           <FeatureImgOnBgCard
             bgImg={imgAps}
             title="Apartamentos"
-            description="Elegância e praticidade em nossos apartamentos sofisticados."
+            description="Praticidade em nossos apartamentos sofisticados."
           />
           <FeatureImgOnBgCard
             bgImg={imgTerrenos}

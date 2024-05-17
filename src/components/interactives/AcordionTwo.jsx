@@ -17,9 +17,10 @@ export default function AccordionExpandDefault() {
   // Função para obter o estilo de sombra baseado no painel expandido
   const getPanelStyle = (panel) => {
     return {
-      boxShadow: expanded === panel 
-        ? "0px 5px 10px rgba(0, 0, 0, 0.2)" 
-        : "0px 0px 10px rgba(0, 0, 0, 0.1)"
+      boxShadow:
+        expanded === panel
+          ? "0px 5px 10px rgba(0, 0, 0, 0.2)"
+          : "0px 0px 10px rgba(0, 0, 0, 0.1)",
     };
   };
 
@@ -38,13 +39,13 @@ export default function AccordionExpandDefault() {
           id="panel1-header"
         >
           <Typography>
-            <b>pergunta a ser feita 1</b>
+            <b>Quero financiar um imóvel, como eu faço?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Primeiro passo é ter renda comprovada e não ter restrições no cpf,
+            Segundo passo é fazer a simulação.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -62,13 +63,17 @@ export default function AccordionExpandDefault() {
           id="panel2-header"
         >
           <Typography>
-            <b>pergunta a ser feita 2</b>
+            <b>Fui aprovado(a), quais documentos eu preciso?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            É preciso que me envie em PDF: RG, CPF, certidão de nascimento ou de
+            casamento (se for casado é necessário a documentação do cônjuge),
+            comprovante de endereço no nome do titular e por último, imposto de
+            renda ou contracheque, caso clt, é necessário carteira de trabalho
+            digital, e caso queira utilizar o FGTS é necessário o extrato dele
+            também.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -86,13 +91,12 @@ export default function AccordionExpandDefault() {
           id="panel3-header"
         >
           <Typography>
-            <b>pergunta a ser feita 3</b>
+            <b>Quero que venda/alugue meu imóvel, como proceder?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Entre em contato para negociações e contratação.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -110,37 +114,12 @@ export default function AccordionExpandDefault() {
           id="panel4-header"
         >
           <Typography>
-            <b>pergunta a ser feita 4</b>
+            <b>Qual o valor da parcela do financiamento?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      {/* Accordion 5 */}
-      <Accordion
-        className="mb-[2%]"
-        expanded={expanded === "panel5"}
-        onChange={handleChange("panel5")}
-        style={getPanelStyle("panel5")}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel5-content"
-          id="panel5-header"
-        >
-          <Typography>
-            <b>pergunta a ser feita 5</b>
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Depende do valor do imóvel e da renda de cada pessoa.
           </Typography>
         </AccordionDetails>
       </Accordion>
