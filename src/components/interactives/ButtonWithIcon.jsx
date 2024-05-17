@@ -4,7 +4,7 @@ export default function ButtonWithIcon(props) {
   return (
     <button
       onClick={() => window.open(whatsappContactLink, "_blank")}
-      className="flex flex-row items-center justify-around w-auto transition rounded-[40px] px-[30px] py-[16px] bg-black hover:bg-black"
+      className="flex flex-row items-center justify-around transition rounded-[40px] px-[30px] py-[16px] bg-black hover:bg-black"
     >
       <div className="flex items-center text-center gap-[20px]">
         <div className="">{icon}</div>
