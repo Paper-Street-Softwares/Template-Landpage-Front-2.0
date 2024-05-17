@@ -9,12 +9,13 @@ import Featuresv1 from "../../components/sections/Featuresv1";
 import Featuresv2 from "../../components/sections/Featuresv2";
 import AboutImgLeft from "../../components/sections/AboutImgLeft";
 import AboutImgRight from "../../components/sections/AboutImgRight";
+import HeadlessDemo from "../../components/sectionElements/Sidebar2.0";
 
 export default function IndexRita() {
   return (
     <div>
       <ContactBarSection />
-      {/* <NavbarSection /> */}
+      <NavbarSection />
       <HeroSection />
       <Featuresv1 />
       <Featuresv2 />

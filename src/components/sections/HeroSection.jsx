@@ -42,7 +42,7 @@ export default function HeroSection() {
                         className="flex flex-row items-center justify-around w-auto h-16 transition rounded-[40px] p-6 bg-black hover:bg-black"
                       >
                         <div className="flex items-center p-4 text-center">
-                          <div className="h-[30px] w-[30px] mr-[24px]">
+                          <div className="h-[24px] w-[24px] mr-[24px]">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="24"
