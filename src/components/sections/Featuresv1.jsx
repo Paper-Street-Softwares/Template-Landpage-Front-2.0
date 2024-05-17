@@ -16,13 +16,12 @@ export default function Featuresv1() {
         sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
         sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at"
       />
-
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
           <FeatureImgOnBgCard
             bgImg={imgCasas}
             title="Casas"
-            description="Descubra a casa dos seus sonhos! Ambientes sofisticados e confortáveis esperam por você em locais desejados. Venha encontrar seu novo lar!"
+            description="Descubra a casa dos seus sonhos!"
           />
           <FeatureImgOnBgCard
             bgImg={imgAps}
