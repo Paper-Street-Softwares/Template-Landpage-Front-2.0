@@ -5,7 +5,11 @@ import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Menu, X } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
+ Finaliza-Sidebar-de-lib-externa
 import HeadlessDemo from "../sectionElements/Sidebar2";
+
+
+
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
@@ -113,8 +117,10 @@ export default function NavbarSection() {
               
             </div>
           </ScrollLink>
+ Finaliza-Sidebar-de-lib-externa
           <HeadlessDemo  />
           {/* <button onClick={toggleSidebar} className="relative tablet2:hidden" aria-label="Abrir menu de navegação">
+
             {showMenuIcon ? (
               <Menu
                 size={32}
@@ -127,9 +133,11 @@ export default function NavbarSection() {
               />
             )}
           </button> */}
+ Finaliza-Sidebar-de-lib-externa
           {/* {showListGroup ? <ListGroup /> : null} */}
         </Navbar>
         {/* <div
+
           className={`animate-${
             showSidebar ? "slide-down block" : "slide-up hidden"
           }`}
