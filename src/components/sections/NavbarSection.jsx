@@ -106,8 +106,8 @@ export default function NavbarSection() {
               alt="Logo Rita Almeida Corretora"
               className={`py-[8px] ${
                 scrolling
-                  ? "h-[40px] max-h-[40px] transition-all duration-1000 bg-black"
-                  : "h-[60px] max-h-[60px] transition-all duration-1000"
+                  ? "h-[80px] max-h-[80px] transition-all duration-1000"
+                  : "h-[100px] max-h-[100px] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>

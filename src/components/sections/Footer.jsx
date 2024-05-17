@@ -3,6 +3,7 @@ import mpaLogo from "../../assets/importAssets/Logo.webp";
 import { Phone, Mail } from "lucide-react";
 import whatsappNumber from "../../abstractions/whats";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Logo from "../../assets/importAssets/Logo.png";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
@@ -14,8 +15,8 @@ function Footer() {
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <img
               alt="Logo"
-              src=""
-              className="w-[109px] h-[115px] bg-gray-300"
+              src={Logo}
+              className="w-[109px] h-[115px]"
             ></img>
             <p className="full">
               Rita Almeida: Transformando desejos em endereços.
@@ -49,7 +50,7 @@ function Footer() {
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              SOBRE
+              ATÉ MAIS!
             </h1>
             <div className="flex full gap-x-[8px] items-center">
               <p className="text-title4">👋</p>
@@ -65,10 +66,10 @@ function Footer() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-bookmark"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-bookmark"
                 >
                   <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
                 </svg>
