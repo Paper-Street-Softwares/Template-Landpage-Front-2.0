@@ -26,17 +26,17 @@ export default function Featuresv1() {
           <FeatureImgOnBgCard
             bgImg={imgAps}
             title="Apartamentos"
-            description="Elegância e praticidade em nossos apartamentos sofisticados. Ideal para quem busca um estilo de vida moderno e conveniente"
+            description="Elegância e praticidade em nossos apartamentos sofisticados."
           />
           <FeatureImgOnBgCard
             bgImg={imgTerrenos}
             title="Terrenos"
-            description="Construa a realidade que você deseja em nossos terrenos bem localizados. A oportunidade perfeita para desenvolver seu projeto ideal."
+            description="Construa a realidade que você deseja em nossos terrenos bem localizados."
           />
           <FeatureImgOnBgCard
             bgImg={imgPontos}
             title="Pontos Comerciais"
-            description="Posicione seu negócio para o sucesso! Nossos pontos comerciais estão nos melhores locais, maximizando sua visibilidade e acesso."
+            description="Posicione seu negócio para o sucesso!"
           />
         </div>
       </SectionWrapper>
