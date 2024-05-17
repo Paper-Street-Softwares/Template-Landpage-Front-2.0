@@ -86,7 +86,7 @@ export default function NavbarSection() {
       <div
         className={`fixed z-20 w-full transition-colors duration-1000  ${
           scrolling
-            ? 'bg-white bg-opacity-100 shadow-lg -mt-20 transition-all duration-1000'
+            ? 'bg-white bg-opacity-100 shadow-lg -mt-[75px] transition-all duration-1000'
             : 'transition-all duration-1000'
         }`}
       >
@@ -103,14 +103,14 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo MPA Piscinas"
-              className={`mt-3 ${
+              className={`py-[8px] ${
                 scrolling
-                  ? "h-[36px] max-h-[36px] transition-all duration-1000 bg-black"
+                  ? "h-[40px] max-h-[40px] transition-all duration-1000 bg-black"
                   : "h-[60px] max-h-[60px] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
-          <HeadlessDemo />
+          <div className="flex bg-green-500 desktop1:hidden">SIDEBAR AQUI</div>
           {showListGroup ? <ListGroup /> : null}
         </Navbar>
         <div className="flex "></div>
