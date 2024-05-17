@@ -27,14 +27,14 @@ export default function ListGroup() {
 
   return (
     <ul
-      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop2:gap-8 w-full font-semibold text-paragraph3 font-poppins ${
-        scrolling ? "" : "text-white transition-color duration-200"
+      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop2:gap-8 w-full font-normal text-paragraph3 font-poppins ${
+        scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
       <li className="transition group">
         <Link
           to="home"
-          className="relative cursor-pointer"
+          className="relative cursor-pointer font-semibold"
           spy={true}
           smooth={true}
           duration={500}
@@ -50,18 +50,16 @@ export default function ListGroup() {
         </Link>
       </li>
       <li className="transition group">
-        <Link
-          to="about"
-          className="relative cursor-pointer"
+      <Link
+          to="property"
+          className="relative cursor-pointer font-semibold"
           spy={true}
           smooth={true}
           duration={500}
-          offset={-70}
+          offset={-100}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>
-            Imóveis
-          </span>
+          <span className={scrolling ? "hover:text-primary" : ""}>Imóveis</span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               scrolling ? "bg-primary" : "bg-white"
@@ -69,13 +67,10 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li>
-        
-      </li>
       <li className="transition group">
-        <Link
-          to="courses"
-          className="relative cursor-pointer"
+      <Link
+          to="about"
+          className="relative cursor-pointer font-semibold"
           spy={true}
           smooth={true}
           duration={500}
@@ -93,9 +88,9 @@ export default function ListGroup() {
         </Link>
       </li>
       <li className="transition group">
-        <Link
+      <Link
           to="faq"
-          className="relative cursor-pointer"
+          className="relative cursor-pointer font-semibold"
           spy={true}
           smooth={true}
           duration={500}
