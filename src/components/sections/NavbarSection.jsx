@@ -5,6 +5,7 @@ import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Menu, X } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
+import HeadlessDemo from "../sectionElements/Sidebar2";
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
@@ -99,17 +100,21 @@ export default function NavbarSection() {
             offset={-100}
             href="#"
           >
-            <img
-              src={Logo}
-              alt="Logo MPA Piscinas"
-              className={`mr-[80px] h-[80px] ${
-                scrolling
-                  ? "h-[56px] max-h-[56px] transition-all duration-1000"
-                  : "h-[112px] max-h-[112px] transition-all duration-1000"
-              } tablet3:mb-0`}
-            />
+            <div className=" flex justify-between w-[100%]">
+              <img
+                src={Logo}
+                alt="Logo MPA Piscinas"
+                className={`mr-20 h-auto ${
+                  scrolling
+                    ? "h-auto max-h-14 transition-all duration-1000"
+                    : "h-auto max-h-28 transition-all duration-1000"
+                } tablet3:mb-0`}
+              />
+              
+            </div>
           </ScrollLink>
-          <button onClick={toggleSidebar} className="relative tablet2:hidden" aria-label="Abrir menu de navegação">
+          <HeadlessDemo  />
+          {/* <button onClick={toggleSidebar} className="relative tablet2:hidden" aria-label="Abrir menu de navegação">
             {showMenuIcon ? (
               <Menu
                 size={32}
@@ -121,10 +126,10 @@ export default function NavbarSection() {
                 className={` ${scrolling ? "text-secondary" : "text-white"}`}
               />
             )}
-          </button>
-          {showListGroup ? <ListGroup /> : null}
+          </button> */}
+          {/* {showListGroup ? <ListGroup /> : null} */}
         </Navbar>
-        <div
+        {/* <div
           className={`animate-${
             showSidebar ? "slide-down block" : "slide-up hidden"
           }`}
@@ -137,7 +142,7 @@ export default function NavbarSection() {
               handleSidebarItemClick={handleSidebarItemClick}
             />
           ) : null}
-        </div>
+        </div> */}
       </div>
     </div>
   );
