@@ -85,7 +85,7 @@ export default function NavbarSection() {
   return (
     <div className="w-full">
       <div
-        className={`fixed z-20 w-full transition-colors duration-1000  ${
+        className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
             ? 'bg-white bg-opacity-100 shadow-lg tablet1:-mt-[80px] -mt-[100px] transition-all duration-1000'
             : 'transition-all duration-1000'
@@ -104,9 +104,9 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo Rita Almeida Corretora"
-              className={`py-[8px] ${
+              className={`pt-[8px] ${
                 scrolling
-                  ? "h-[80px] max-h-[80px] transition-all duration-1000"
+                  ? "h-[60px] max-h-[60px] transition-all duration-1000"
                   : "h-[100px] max-h-[100px] transition-all duration-1000"
               } tablet3:mb-0`}
             />
