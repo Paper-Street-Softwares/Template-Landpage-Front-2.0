@@ -4,7 +4,7 @@ import Logo from "../../assets/importAssets/Logo.png";
 import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Link as ScrollLink } from "react-scroll";
-import HeadlessDemo from "../sectionElements/Sidebar2.0";
+import HeadlessDemo from "../sectionElements/Sidebar2";
 import { px } from "framer-motion";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
@@ -127,7 +127,7 @@ export default function NavbarSection() {
               </svg>}
             />
             </div>
-            <div className="flex items-center bg-green-500 desktop1:hidden">SIDEBAR AQUI</div>
+            <div className="flex items-center desktop1:hidden"><HeadlessDemo/></div>
           </div>
           {showListGroup ? <ListGroup /> : null}
         </Navbar>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Avatar } from "primereact/avatar";
@@ -13,23 +13,6 @@ export default function HeadlessDemo() {
   const [revenueSubmenuVisible, setRevenueSubmenuVisible] = useState(false);
   const [aplicationSubmenuVisible, setAplicationSubmenuVisible] =
     useState(true);
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [visibleRight, setVisibleRight] = useState (true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   const toggleSidebar = () => {
     // Escurece o fundo do site
@@ -49,42 +32,35 @@ export default function HeadlessDemo() {
   };
 
   return (
-    <div className="">
-      {/* Camada de fundo escurecida */}
+    <div className=" inset-0 flex z-10">
       <div
         className={`${
           visible ? "block" : "hidden"
-        } relative inset-0 bg-black opacity-50`}
+        } fixed inset-0 bg-black opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       ></div>
-      <div className="flex justify-center card">
-        <div className="w-full ">
-          <Button
-            aria-label="Abrir menu de navegação"
-            className={`flex w-40 h-20 p-6 text-3xl rounded-md p-button-rounded p-button-outlined lg:hidden transition-colors duration-1000 ${
-              isScrolled ? 'text-black' : 'text-white'
-            }`}            
-            icon="pi pi-bars"
-            onClick={() => setVisibles(true)}
-          />
-        </div>
+      <div className="card flex justify-center ">
+        <Button
+          className="p-button-rounded p-button-outlined text-white text-[30px] lg:hidden "
+          icon="pi pi-bars"
+          onClick={() => setVisible(true)}
+        />
         <Sidebar
-          visible={visibleRight}
-          position="right" 
-          onHide={() => setVisibleRight(false)}
+          visible={visible}
+          onHide={() => setVisible(false)}
           content={({ closeIconRef, hide }) => (
             <div
-              className="relative flex min-h-screen bg-blue-600 lg:hidden surface-ground"
+              className=" bg-blue-600 min-h-screen flex relative lg:hidden surface-ground"
               style={{ width: "280px" }}
             >
               <div
                 id="app-sidebar-2"
-                className="absolute top-0 right-0 flex-shrink-0 h-screen bg-white select-none surface-section lg:hidden z-1 border-left-0 surface-border"
+                className="surface-section h-screen lg:hidden flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none bg-white"
                 style={{ width: "280px" }}
               >
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center justify-between flex-shrink-0 px-4 pt-3">
-                    <span className="inline-flex items-center gap-2">
+                  <div className="flex items-center justify-between px-4 pt-3 flex-shrink-0">
+                    <span className="inline-flex items-center  gap-2">
                       <svg
                         className=" mt-[5px] "
                         xmlns="http://www.w3.org/2000/svg"
@@ -93,9 +69,9 @@ export default function HeadlessDemo() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       >
                         <rect
                           x="3"
@@ -108,7 +84,7 @@ export default function HeadlessDemo() {
                         <circle cx="8.5" cy="8.5" r="1.5"></circle>
                         <polyline points="21 15 16 10 5 21"></polyline>
                       </svg>
-                      <span className="text-2xl font-semibold text-cyan-500">
+                      <span className="font-semibold text-2xl text-cyan-500">
                         Your Logo
                       </span>
                     </span>
@@ -125,14 +101,14 @@ export default function HeadlessDemo() {
                     </span>
                   </div>
                   <div className="overflow-y-auto">
-                    <ul className="p-3 m-0 list-none">
+                    <ul className="list-none p-3 m-0">
                       <li>
                         <StyleClass>
                           <div
-                            className="flex items-center justify-between p-3 cursor-pointer p-ripple text-600"
+                            className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer"
                             onClick={toggleSubmenu}
                           >
-                            <span className="text-gray-700 font-mainFont">
+                            <span className=" font-mainFont text-gray-700 ">
                               FAVORITES
                             </span>
                             <i className="pi pi-chevron-down"></i>
@@ -140,17 +116,17 @@ export default function HeadlessDemo() {
                           </div>
                         </StyleClass>
                         {submenuVisible && (
-                          <ul className="p-0 m-0 overflow-hidden text-gray-700 list-none font-mainFont">
+                          <ul className="list-none p-0 m-0 overflow-hidden font-mainFont font-medium text-gray-700">
                             <li>
-                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <i className="mr-2 pi pi-home"></i>
+                              <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                <i className="pi pi-home mr-2"></i>
                                 <span className="">Dashboard</span>
                                 <Ripple />
                               </a>
                             </li>
                             <li>
-                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <i className="mr-2 pi pi-bookmark"></i>
+                              <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                <i className="pi pi-bookmark mr-2"></i>
                                 <span className="">Bookmarks</span>
                                 <Ripple />
                               </a>
@@ -158,7 +134,7 @@ export default function HeadlessDemo() {
                             <li>
                               <StyleClass>
                                 <div
-                                  className="flex items-center justify-between p-3 cursor-pointer p-ripple text-600"
+                                  className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer"
                                   onClick={toggleReportsSubmenu}
                                 >
                                   <span className="">
@@ -170,7 +146,7 @@ export default function HeadlessDemo() {
                                 </div>
                               </StyleClass>
                               {reportsSubmenuVisible && (
-                                <ul className="p-0 m-0 overflow-hidden list-none ">
+                                <ul className="list-none p-0 m-0 overflow-hidden">
                                   <li>
                                     <StyleClass>
                                       <div
@@ -178,7 +154,7 @@ export default function HeadlessDemo() {
                                         onClick={toggleRevenueSubmenu}
                                       >
                                         <span className="">
-                                          <i className="mr-2 pi pi-chart-line"></i>
+                                          <i className="pi pi-chart-line mr-2"></i>
                                           Revenue
                                         </span>
                                         <i className="pi pi-chevron-down"></i>
@@ -186,17 +162,17 @@ export default function HeadlessDemo() {
                                       </div>
                                     </StyleClass>
                                     {revenueSubmenuVisible && (
-                                      <ul className="py-0 pl-3 m-0 overflow-y-hidden list-none transition-all duration-500 ease-in-out pr-">
+                                      <ul className="list-none py-0 pl-3 pr- m-0  overflow-y-hidden transition-all duration-500 ease-in-out">
                                         <li>
                                           <a className="p-ripple flex items-center cursor-pointer p-3 pl-[15%] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
-                                            <i className="mr-2 pi pi-table"></i>
+                                            <i className="pi pi-table mr-2"></i>
                                             <span className="">View</span>
                                             <Ripple />
                                           </a>
                                         </li>
                                         <li>
                                           <a className="p-ripple flex items-center cursor-pointer p-3 pl-[15%] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
-                                            <i className="mr-2 pi pi-search"></i>
+                                            <i className="pi pi-search mr-2"></i>
                                             <span className="">Search</span>
                                             <Ripple />
                                           </a>
@@ -206,7 +182,7 @@ export default function HeadlessDemo() {
                                   </li>
                                   <li>
                                     <a className="p-ripple flex items-center cursor-pointer p-3 ml-[20px] border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
-                                      <i className="mr-2 pi pi-chart-line"></i>
+                                      <i className="pi pi-chart-line mr-2"></i>
                                       <span className="">Expenses</span>
                                       <Ripple />
                                     </a>
@@ -214,17 +190,17 @@ export default function HeadlessDemo() {
                                 </ul>
                               )}
                             </li>
-                            <ul className="p-0 m-0 list-none">
+                            <ul className="list-none p-0 m-0">
                               <li>
-                                <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                  <i className="mr-2 pi pi-users"></i>
+                                <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                  <i className="pi pi-users mr-2"></i>
                                   <span className="">Team</span>
                                   <Ripple />
                                 </a>
                               </li>
                               <li>
-                                <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                  <i className="mr-2 pi pi-comments"></i>
+                                <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                  <i className="pi pi-comments mr-2"></i>
                                   <span className="">Messages</span>
                                   <span
                                     className="inline-flex items-center justify-center ml-auto bg-blue-500 text-white rounded-[15px]"
@@ -239,15 +215,15 @@ export default function HeadlessDemo() {
                                 </a>
                               </li>
                               <li>
-                                <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                  <i className="mr-2 pi pi-calendar"></i>
+                                <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                  <i className="pi pi-calendar mr-2"></i>
                                   <span className="">Calendar</span>
                                   <Ripple />
                                 </a>
                               </li>
                               <li>
-                                <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                  <i className="mr-2 pi pi-cog"></i>
+                                <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                  <i className="pi pi-cog mr-2"></i>
                                   <span className="">Settings</span>
                                   <Ripple />
                                 </a>
@@ -257,11 +233,11 @@ export default function HeadlessDemo() {
                         )}
                       </li>
                     </ul>
-                    <ul className="p-3 m-0 list-none">
+                    <ul className="list-none p-3 m-0">
                       <li>
                         <StyleClass>
                           <div
-                            className="flex items-center justify-between p-3 text-gray-700 cursor-pointer p-ripple text-600 font-mainFont"
+                            className="p-ripple p-3 flex items-center justify-between text-600 cursor-pointer font-mainFont text-gray-700"
                             onClick={toggleaplicationSubmenu}
                           >
                             <span className="">APLICATION</span>
@@ -270,24 +246,24 @@ export default function HeadlessDemo() {
                           </div>
                         </StyleClass>
                         {aplicationSubmenuVisible && (
-                          <ul className="p-0 m-0 overflow-hidden text-gray-700 list-none font-mainFont">
+                          <ul className="list-none p-0 m-0 overflow-hidden font-mainFont text-gray-700">
                             <li>
-                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <i className="mr-2 pi pi-folder"></i>
+                              <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                <i className="pi pi-folder mr-2"></i>
                                 <span className="">Projects</span>
                                 <Ripple />
                               </a>
                             </li>
                             <li>
-                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <i className="mr-2 pi pi-chart-bar"></i>
+                              <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                <i className="pi pi-chart-bar mr-2"></i>
                                 <span className="">Performance</span>
                                 <Ripple />
                               </a>
                             </li>
                             <li>
-                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <i className="mr-2 pi pi-cog"></i>
+                              <a className="p-ripple flex items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors w-full">
+                                <i className="pi pi-cog mr-2"></i>
                                 <span className="">Settings</span>
                                 <Ripple />
                               </a>
@@ -298,10 +274,10 @@ export default function HeadlessDemo() {
                     </ul>
                   </div>
                   <div className="mt-auto">
-                    <hr className="mx-3 mb-3 border-top-1 surface-border" />
+                    <hr className="mb-3 mx-3 border-top-1 surface-border" />
                     <a
                       v-ripple
-                      className="flex items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
+                      className="m-3 flex items-center cursor-pointer p-3 gap-2 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
                     >
                       <Avatar
                         image="https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png"
@@ -316,6 +292,7 @@ export default function HeadlessDemo() {
           )}
         ></Sidebar>
       </div>
+         
     </div>
   );
 }
