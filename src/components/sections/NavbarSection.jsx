@@ -127,7 +127,7 @@ export default function NavbarSection() {
               </svg>}
             />
             </div>
-            <div className="flex items-center desktop1:hidden"><HeadlessDemo /></div>
+            <div className="flex items-center desktop1:hidden"><HeadlessDemo/></div>
           </div>
           {showListGroup ? <ListGroup /> : null}
         </Navbar>
