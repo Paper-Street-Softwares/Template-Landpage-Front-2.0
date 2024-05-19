@@ -13,7 +13,7 @@ export default function Featuresv1() {
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
-        sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at"
+        sectionHeaderSubtitle="Temos diversas opções imobiliárias que se encaixam perfeitamente no seu futuro"
       />
       <SectionWrapper>
         <div
