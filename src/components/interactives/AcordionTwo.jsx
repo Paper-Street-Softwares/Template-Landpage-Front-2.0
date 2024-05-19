@@ -44,8 +44,8 @@ export default function AccordionExpandDefault() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Primeiro passo é ter renda comprovada e não ter restrições no cpf,
-            Segundo passo é fazer a simulação.
+            Primeiro passo é ter renda comprovada e não ter restrições no CPF, e
+            depois, fazer a simulação.
           </Typography>
         </AccordionDetails>
       </Accordion>
