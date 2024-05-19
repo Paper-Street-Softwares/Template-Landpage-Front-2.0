@@ -19,10 +19,9 @@ export default function AboutImgRight() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="mb-[36px] phone3:mb-[60px] desktop1:mb-[92px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit.
+              Siga-me nas redes sociais e tenha acesso exclusivo a lançamentos
+              de imóveis, tendências do mercado imobiliário e oportunidades
+              imperdíveis em primeira mão. Não perca nada!
             </Paragraphs>
           </MotionDivDownToUp>
           <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
