@@ -5,7 +5,6 @@ import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Link as ScrollLink } from "react-scroll";
 import HeadlessDemo from "../sectionElements/Sidebar2";
-import { px } from "framer-motion";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
 export default function NavbarSection() {
@@ -104,10 +103,10 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo Rita Almeida Corretora"
-              className={` ${
+              className={`${
                 scrolling
                   ? "h-[30px] max-h-[30px] transition-all duration-1000"
-                  : "h-[50px] max-h-[50px] transition-all duration-1000 invert"
+                  : "h-[40px] max-h-[50px] transition-all duration-1000 invert"
               } tablet3:mb-0`}
             />
           </ScrollLink>

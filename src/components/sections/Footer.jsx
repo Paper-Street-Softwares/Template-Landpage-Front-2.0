@@ -15,7 +15,7 @@ function Footer() {
             <img
               alt="Logo"
               src={Logo}
-              className="w-[250px] h-[80px] invert"
+              className="w-[250px] h-auto invert my-[30px]"
             ></img>
             <p className="full">
               Transformando desejos em endereços.

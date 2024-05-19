@@ -6,6 +6,8 @@ import { Ripple } from "primereact/ripple";
 import "primeicons/primeicons.css";
 import { HelpCircle, HomeIcon, ServerIcon, UserSearch } from 'lucide-react';
 import { Link } from "react-scroll";
+import Logo from "../../assets/importAssets/Logo.png";
+import imgAboutPerson from "../../assets/imgs/about/aboutPerson.jpg";
 
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);
@@ -19,7 +21,7 @@ export default function HeadlessDemo() {
   const toggleSidebar = () => {
     setVisible(!visible);
   };
-  
+    
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -60,48 +62,17 @@ export default function HeadlessDemo() {
             >
               <div
                 id="app-sidebar-2"
-                className="absolute top-0 left-0 flex-shrink-0 h-screen bg-white select-none surface-section lg:hidden lg:static z-1 border-right-1 surface-border"
+                className="absolute top-0 left-0 flex-shrink-0 h-screen bg-white select-none surface-section lg:hidden lg:static z-1 surface-border"
                 style={{ width: "280px" }}
               >
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center justify-between flex-shrink-0 px-4 pt-3">
+                  <div className="flex items-center justify-between flex-shrink-0 px-4 pt-4">
                     <span className="inline-flex items-center gap-2">
-                      <svg
-                        className=" mt-[5px] "
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <rect
-                          x="3"
-                          y="3"
-                          width="18"
-                          height="18"
-                          rx="2"
-                          ry="2"
-                        ></rect>
-                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                        <polyline points="21 15 16 10 5 21"></polyline>
-                      </svg>
-                      <span className="text-2xl font-semibold text-gray-700">
-                      <Link
-                    to="home"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    href="#"
-                  >
-                    Rita Almeida
-                  </Link>
-                      </span>
+                    <img
+              src={Logo}
+              alt="Logo Rita Almeida Corretora"
+              className="w-[200px] h-auto p-[5px]"
+            />                     
                     </span>
                     <span>
                       <Button
@@ -111,15 +82,16 @@ export default function HeadlessDemo() {
                         icon="pi pi-times"
                         rounded
                         outlined
-                        className="h-2rem w-2rem pt-[5px]"
+                        className="h-2rem w-2rem p-[5px]"
                       ></Button>
                     </span>
                   </div>
                   <div className="overflow-y-auto">
+                  <hr className="m-5 mx-3 border-top-1 surface-border" />
                     <ul className="p-3 m-0 list-none">
                       <li>
                         {submenuVisible && (
-                          <ul className="p-0 m-0 mt-[20px] text-paragraph3 overflow-hidden font-medium text-gray-700 list-none font-mainFont">
+                          <ul className="p-0 m-0 -mt-[16px] overflow-hidden font-medium text-gray-700 list-none text-paragraph3 font-mainFont">
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                 <HomeIcon />
@@ -202,18 +174,16 @@ export default function HeadlessDemo() {
                         )}
                       </li>
                     </ul>
-                  </div>
-                  <div className="mt-auto">
                     <hr className="mx-3 mb-3 border-top-1 surface-border" />
                     <a
                       v-ripple
                       className="flex items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
                     >
-                      <Avatar
-                        image="https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png"
-                        shape="circle"
+                      <img
+                        src={imgAboutPerson}
+                        alt="Foto de pessoa"
+                        className="w-[100%]"
                       />
-                      <span className="font-bold">Paper Street</span>
                     </a>
                   </div>
                 </div>
