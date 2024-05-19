@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import mpaLogo from "../../assets/importAssets/Logo.webp";
 import { Phone, Mail } from "lucide-react";
 import whatsappNumber from "../../abstractions/whats";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
@@ -16,10 +15,10 @@ function Footer() {
             <img
               alt="Logo"
               src={Logo}
-              className="w-[109px] h-[115px]"
+              className="w-[250px] h-[80px] invert"
             ></img>
             <p className="full">
-              Rita Almeida: Transformando desejos em endereços.
+              Transformando desejos em endereços.
             </p>
             <div className="flex full gap-x-[8px] items-center">
               <Phone
