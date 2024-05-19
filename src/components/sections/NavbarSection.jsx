@@ -8,6 +8,7 @@ import HeadlessDemo from "../sectionElements/Sidebar2";
 import { px } from "framer-motion";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 
+
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
@@ -104,10 +105,10 @@ export default function NavbarSection() {
             <img
               src={Logo}
               alt="Logo Rita Almeida Corretora"
-              className={`pt-[8px] ${
+              className={`${
                 scrolling
-                  ? "h-[60px] max-h-[60px] transition-all duration-1000"
-                  : "h-[100px] max-h-[100px] transition-all duration-1000"
+                  ? "h-[30px] max-h-[30px] transition-all duration-1000"
+                  : "h-[40px] max-h-[50px] transition-all duration-1000 invert"
               } tablet3:mb-0`}
             />
           </ScrollLink>
