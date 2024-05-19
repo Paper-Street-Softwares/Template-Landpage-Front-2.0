@@ -2,7 +2,9 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import FeatureCard from "../cards/FeatureCard";
-import imgCard from "../../assets/imgs/paralaxe/bgDarkHouse.webp";
+import imgRent from "../../assets/imgs/features/niceHouse.jpg";
+import imgValuation from "../../assets/imgs/features/evaluation.jpg";
+import imgDocs from "../../assets/imgs/features/docs.jpg";
 
 export default function Featuresv2() {
   return (
@@ -10,22 +12,22 @@ export default function Featuresv2() {
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
-        sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at."
+        sectionHeaderSubtitle="Excelência em cada transação imobiliária, garantindo segurança, confiança e satisfação em cada etapa do processo"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
           <FeatureCard
-            img={imgCard}
+            img={imgRent}
             title="Venda e Aluguel"
             description="Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado."
           />
           <FeatureCard
-            img={imgCard}
+            img={imgValuation}
             title="Avaliação"
             description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
           />
           <FeatureCard
-            img={imgCard}
+            img={imgDocs}
             title="Negociação e Documentação"
             description="Facilitamos todo o processo de documentação e conduzimos negociações eficazes para assegurar uma transação tranquila e vantajosa."
           />
