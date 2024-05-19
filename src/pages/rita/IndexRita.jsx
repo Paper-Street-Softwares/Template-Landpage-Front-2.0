@@ -9,7 +9,7 @@ import Featuresv1 from "../../components/sections/Featuresv1";
 import Featuresv2 from "../../components/sections/Featuresv2";
 import AboutImgLeft from "../../components/sections/AboutImgLeft";
 import AboutImgRight from "../../components/sections/AboutImgRight";
-import HeadlessDemo from "../../components/sectionElements/Sidebar2.0";
+import Testesession from "../../components/sections/Testtypinganimation";
 
 export default function IndexRita() {
   return (
@@ -22,6 +22,7 @@ export default function IndexRita() {
       <AboutImgLeft />
       <AboutImgRight />
       <Numbers />
+      <Testesession />
       <TrustedBy />
       <Faq />
       <Footer />
