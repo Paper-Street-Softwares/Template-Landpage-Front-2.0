@@ -19,7 +19,7 @@ export default function NavbarSection() {
   const sidebarRef = useRef(null);
 
   const handleScroll = () => {
-    if (window.scrollY > 60) {
+    if (window.scrollY > 0) {
       setScrolling(true);
     } else {
       setScrolling(false);

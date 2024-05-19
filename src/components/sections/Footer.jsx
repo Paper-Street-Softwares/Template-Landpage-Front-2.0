@@ -100,27 +100,27 @@ function Footer() {
                 </div>
                 <div className="h-[36px] ">
                   <Link
-                    to="about"
+                    to="service"
                     className="cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-350}
                     href="#"
                   >
-                    Imóveis
+                    Serviços
                   </Link>
                 </div>
               </div>
               <div className=" w-[46%] flex flex-col gap-y-[16px] font-semibold ">
                 <div className="h-[36px] ">
                   <Link
-                    to="courses"
+                    to="about"
                     className="cursor-pointer"
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-200}
                     href="#"
                   >
                     Sobre Mim
@@ -133,7 +133,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-80}
+                    offset={-300}
                     href="#"
                   >
                     Perguntas Frequentes

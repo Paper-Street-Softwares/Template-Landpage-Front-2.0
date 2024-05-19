@@ -51,15 +51,15 @@ export default function ListGroup() {
       </li>
       <li className="transition group">
       <Link
-          to="property"
+          to="service"
           className="relative cursor-pointer font-semibold"
           spy={true}
           smooth={true}
           duration={500}
-          offset={-100}
+          offset={-350}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>Imóveis</span>
+          <span className={scrolling ? "hover:text-primary" : ""}>Serviços</span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               scrolling ? "bg-primary" : "bg-white"
@@ -74,7 +74,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-70}
+          offset={-200}
           href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>
@@ -94,7 +94,7 @@ export default function ListGroup() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-70}
+          offset={-300}
           href="#"
         >
           <span className={scrolling ? "hover:text-primary" : ""}>

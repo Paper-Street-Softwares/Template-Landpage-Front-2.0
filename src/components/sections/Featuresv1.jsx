@@ -17,7 +17,7 @@ export default function Featuresv1() {
         sectionHeaderSubtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at"
       />
       <SectionWrapper>
-        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
+        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]" id="service">
           <FeatureImgOnBgCard
             bgImg={imgCasas}
             title="Casas"
