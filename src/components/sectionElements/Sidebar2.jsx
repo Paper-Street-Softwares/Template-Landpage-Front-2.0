@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Avatar } from "primereact/avatar";
@@ -13,6 +13,7 @@ export default function HeadlessDemo() {
   const [revenueSubmenuVisible, setRevenueSubmenuVisible] = useState(false);
   const [aplicationSubmenuVisible, setAplicationSubmenuVisible] =
     useState(true);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleSidebar = () => {
     // Escurece o fundo do site
@@ -30,6 +31,22 @@ export default function HeadlessDemo() {
   const toggleaplicationSubmenu = () => {
     setAplicationSubmenuVisible((prev) => !prev); // Alterna o submenu "Reports"
   };
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className=" inset-0 flex z-10">
@@ -41,7 +58,7 @@ export default function HeadlessDemo() {
       ></div>
       <div className="card flex justify-center ">
         <Button
-          className="p-button-rounded p-button-outlined text-white text-[30px] lg:hidden "
+          className={`p-button-rounded p-button-outlined text-[30px] lg:hidden ${scrolled ? 'text-black' : 'text-white'}`}
           icon="pi pi-bars"
           onClick={() => setVisible(true)}
         />
@@ -69,9 +86,9 @@ export default function HeadlessDemo() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <rect
                           x="3"
