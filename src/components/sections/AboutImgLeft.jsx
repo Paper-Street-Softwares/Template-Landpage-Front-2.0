@@ -16,7 +16,7 @@ export default function AboutImgLeft() {
           className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
         />
 
-        <div className="desktop1:w-[450px] desktop2:w-[570px]">
+        <div className="desktop1:w-[450px] desktop2:w-[570px]" id="about">
           <MotionDivDownToUp>
             <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
               Sobre mim 👋
@@ -47,10 +47,10 @@ export default function AboutImgLeft() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#ffffff"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-move-right"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-move-right"
                 >
                   <path d="M18 8L22 12L18 16" />
                   <path d="M2 12H22" />
