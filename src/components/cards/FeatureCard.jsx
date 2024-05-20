@@ -1,9 +1,9 @@
+import React from 'react';
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
-import imgCasas from "../../assets/imgs/hero/bgHero.webp";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeatureCard(props) {
-  const { img, title, description } = props;
+  const { img, title, description, onButtonClick } = props;
 
   return (
     <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
@@ -22,6 +22,7 @@ export default function FeatureCard(props) {
         <MotionDivDownToUp>
           <ButtonWithIcon
             label="Saiba mais"
+            onClick={onButtonClick}
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +40,7 @@ export default function FeatureCard(props) {
                 <path d="M2 12H22" />
               </svg>
             }
+            className="text-white bg-black px-[2%] py-[0.8%]"
           />
         </MotionDivDownToUp>
       </div>

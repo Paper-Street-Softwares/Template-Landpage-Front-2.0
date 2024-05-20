@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
@@ -5,8 +6,23 @@ import FeatureCard from "../cards/FeatureCard";
 import imgRent from "../../assets/imgs/features/niceHouse.jpg";
 import imgValuation from "../../assets/imgs/features/evaluation.jpg";
 import imgDocs from "../../assets/imgs/features/docs.jpg";
+import { Dialog } from 'primereact/dialog';
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+import AccordionExpandDefault from "../interactives/AcordionTwo";
 
 export default function Featuresv2() {
+  const [visible, setVisible] = useState(false);
+  const [modalContent, setModalContent] = useState('');
+  const [modalTitle, setModalTitle] = useState('');
+
+  const handleButtonClick = (title, content) => {
+    setModalTitle(title);
+    setModalContent(content);
+    setVisible(true);
+  };
+
   return (
     <SectionArea className="bg-quinary">
       <SectionHeader
@@ -20,19 +36,31 @@ export default function Featuresv2() {
             img={imgRent}
             title="Venda e Aluguel"
             description="Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado."
+            onButtonClick={() => handleButtonClick('Venda e Aluguel', 'Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercadoConte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercadoConte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado')}
           />
           <FeatureCard
             img={imgValuation}
             title="Avaliação"
             description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
+            onButtonClick={() => handleButtonClick('Avaliação', 'Conteúdo para Avaliação')}
           />
           <FeatureCard
             img={imgDocs}
             title="Negociação e Documentação"
             description="Facilitamos todo o processo de documentação e conduzimos negociações eficazes para assegurar uma transação tranquila e vantajosa."
+            onButtonClick={() => handleButtonClick('Negociação e Documentação', <AccordionExpandDefault/>)}
           />
         </div>
       </SectionWrapper>
+      <Dialog
+        header={modalTitle}
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: '50vw' }}
+        breakpoints={{ '960px': '75vw', '641px': '100vw' }}
+      >
+        <p className="m-0">{modalContent}</p>
+      </Dialog>
     </SectionArea>
   );
 }
