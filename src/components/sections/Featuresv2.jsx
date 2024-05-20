@@ -11,7 +11,7 @@ export default function Featuresv2() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
+        sectionHeaderTitle="Diferenciais e Expertise"
         sectionHeaderSubtitle="Excelência em cada transação imobiliária, garantindo segurança, confiança e satisfação em cada etapa do processo"
       />
       <SectionWrapper>
