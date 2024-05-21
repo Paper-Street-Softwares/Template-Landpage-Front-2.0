@@ -30,7 +30,7 @@ export default function ListGroup() {
 
   return (
     <ul
-      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop2:gap-8 w-full font-normal text-paragraph3 font-poppins ${
+      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
         scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
