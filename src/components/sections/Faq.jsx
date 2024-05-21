@@ -22,17 +22,19 @@ export default function Faq() {
             <AccordionExpandDefault />
           </div>
         </MotionDivDownToUp>
-        <Paragraphs>
-          Para demais dúvidas,{" "}
-          <a
-            href="#"
-            target="_blank"
-            className="transition text-tertiary hover:underline"
-          >
-            {" "}
-            clique aqui
-          </a>
-        </Paragraphs>
+        <MotionDivDownToUp>
+          <Paragraphs>
+            Para demais dúvidas,{" "}
+            <a
+              href="#"
+              target="_blank"
+              className="transition text-tertiary hover:underline"
+            >
+              {" "}
+              clique aqui
+            </a>
+          </Paragraphs>
+        </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
   );

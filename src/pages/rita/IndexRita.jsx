@@ -9,6 +9,8 @@ import AboutImgLeft from "../../components/sections/AboutImgLeft";
 import AboutImgRight from "../../components/sections/AboutImgRight";
 import NavbarSection from "../../components/sections/NavbarSection";
 import ContactBarSection from "../../components/sections/ContactBarSection";
+import FloatingWhatsappButton from "../../components/interactives/FloatingWhatsappButton";
+import BackToTopButton from "../../components/interactives/BackToTopButton";
 
 export default function IndexRita() {
   return (
@@ -24,6 +26,8 @@ export default function IndexRita() {
       <TrustedBy />
       <Faq />
       <Footer />
+      <FloatingWhatsappButton />
+      <BackToTopButton />
     </div>
   );
 }
