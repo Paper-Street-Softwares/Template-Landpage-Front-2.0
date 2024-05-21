@@ -10,6 +10,7 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function AboutImgLeft() {
   const [visible, setVisible] = useState(false);
@@ -20,31 +21,35 @@ export default function AboutImgLeft() {
     setModalTitle("Sobre mim");
     setModalContent(
       <p>
-        Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape<br></br><br></br> Olá, me chamo
-        Rita Almeida, sou corretora de imóveis há mais de 10 anos e sou formada
-        em Administração há 30. Decidi entrar no ramo quando um colega me fez um
-        elogio: "Rita, você é tão comunicativa, deveria ser corretora de
-        imóveis." Eu ainda fiquei receosa: "Ah, isso não é para mim," mas decidi
-        arriscar. Fiz o curso quando minha filha ainda era pequena e não me
-        arrependo da decisão que tomei.<br></br><br></br> Com a minha formação em Administração,
-        percebi rapidamente que muitas das habilidades adquiridas durante o
-        curso eram essenciais no mercado imobiliário. A capacidade de negociar,
-        organizar finanças e entender os fundamentos econômicos são apenas
-        algumas das competências que me ajudaram a destacar-me na profissão.<br></br><br></br> Nos
-        primeiros anos, equilibrar a vida pessoal com a profissional foi um
-        desafio, especialmente sendo mãe de uma criança pequena. Contudo, sempre
-        busquei manter um alto padrão de ética e dedicação, o que me permitiu
-        construir uma reputação sólida e uma base de clientes fiéis.<br></br><br></br> Ao longo
-        dos anos, vi muitas mudanças no setor imobiliário. A tecnologia
-        transformou a maneira como interagimos com clientes e como os imóveis
-        são apresentados e comercializados. Adaptar-me a essas mudanças foi
-        essencial, e sempre procurei estar atualizada, seja através de cursos de
-        formação continuada ou participando de seminários e workshops.<br></br><br></br> Hoje,
-        posso dizer que minha carreira é uma grande paixão. Cada dia traz um
-        novo desafio e a oportunidade de ajudar alguém a encontrar o lugar ideal
-        para chamar de lar. Continuo empregando as habilidades de administração
-        no meu dia a dia, gerenciando não apenas propriedades, mas também sonhos
-        e expectativas.
+        Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape
+        <br></br>
+        <br></br> Olá, me chamo Rita Almeida, sou corretora de imóveis há mais
+        de 10 anos e sou formada em Administração há 30. Decidi entrar no ramo
+        quando um colega me fez um elogio: "Rita, você é tão comunicativa,
+        deveria ser corretora de imóveis." Eu ainda fiquei receosa: "Ah, isso
+        não é para mim," mas decidi arriscar. Fiz o curso quando minha filha
+        ainda era pequena e não me arrependo da decisão que tomei.<br></br>
+        <br></br> Com a minha formação em Administração, percebi rapidamente que
+        muitas das habilidades adquiridas durante o curso eram essenciais no
+        mercado imobiliário. A capacidade de negociar, organizar finanças e
+        entender os fundamentos econômicos são apenas algumas das competências
+        que me ajudaram a destacar-me na profissão.<br></br>
+        <br></br> Nos primeiros anos, equilibrar a vida pessoal com a
+        profissional foi um desafio, especialmente sendo mãe de uma criança
+        pequena. Contudo, sempre busquei manter um alto padrão de ética e
+        dedicação, o que me permitiu construir uma reputação sólida e uma base
+        de clientes fiéis.<br></br>
+        <br></br> Ao longo dos anos, vi muitas mudanças no setor imobiliário. A
+        tecnologia transformou a maneira como interagimos com clientes e como os
+        imóveis são apresentados e comercializados. Adaptar-me a essas mudanças
+        foi essencial, e sempre procurei estar atualizada, seja através de
+        cursos de formação continuada ou participando de seminários e workshops.
+        <br></br>
+        <br></br> Hoje, posso dizer que minha carreira é uma grande paixão. Cada
+        dia traz um novo desafio e a oportunidade de ajudar alguém a encontrar o
+        lugar ideal para chamar de lar. Continuo empregando as habilidades de
+        administração no meu dia a dia, gerenciando não apenas propriedades, mas
+        também sonhos e expectativas.
       </p>
     );
     setVisible(true);
@@ -53,11 +58,9 @@ export default function AboutImgLeft() {
   return (
     <SectionArea className="">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
-        <img
-          src={imgAboutPerson}
-          alt="Foto de pessoa"
-          className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
-        />
+        <MotionDivLeftToRight className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]">
+          <img src={imgAboutPerson} alt="Foto de pessoa" className="w-full" />
+        </MotionDivLeftToRight>
 
         <div className="desktop1:w-[450px] desktop2:w-[570px]" id="about">
           <MotionDivDownToUp>
@@ -105,6 +108,7 @@ export default function AboutImgLeft() {
         </div>
       </SectionWrapper>
       <Dialog className=" font-secondFont"
+
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}

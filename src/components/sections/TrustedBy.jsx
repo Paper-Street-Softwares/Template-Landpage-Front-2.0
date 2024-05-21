@@ -12,68 +12,70 @@ export default function TrustedBy() {
         sectionHeaderSubtitle="Conectando você aos melhores e mais confiáveis empreendimentos do mercado"
       />
       <SectionWrapper>
-        <div className="flex flex-wrap justify-between w-full gap-[20px] tablet1:gap-[24px]">
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-          <img
-            src=""
-            alt=""
-            className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
-          />
-        </div>
+        <MotionDivDownToUp className="w-full">
+          <div className="flex flex-wrap justify-between w-full gap-[20px] tablet1:gap-[24px]">
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+            <img
+              src=""
+              alt=""
+              className="bg-gray-300 w-[45%] min-h-[30px] max-h-[50px] tablet1:w-[30%] desktop1:w-[13%]"
+            />
+          </div>
+        </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
   );
