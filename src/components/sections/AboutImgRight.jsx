@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
@@ -6,8 +7,18 @@ import imgAboutPhone from "../../assets/imgs/about/phoneMockup.png";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import ButtonWithIconLight from "../interactives/ButtonWithIconLight";
+import { Dialog } from "primereact/dialog";
+import "primereact/resources/themes/saga-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 
 export default function AboutImgRight() {
+  const [visible, setVisible] = useState(false);
+
+  const handleClick = () => {
+    setVisible(true);
+  };
+
   return (
     <SectionArea className="bg-quinary">
       <SectionWrapper className="flex flex-col-reverse desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-evenly">
@@ -40,10 +51,10 @@ export default function AboutImgRight() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-instagram"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-instagram"
                 >
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -61,10 +72,10 @@ export default function AboutImgRight() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-twitter"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-twitter"
                 >
                   <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
                 </svg>
@@ -80,10 +91,10 @@ export default function AboutImgRight() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-facebook"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-facebook"
                 >
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
@@ -92,12 +103,25 @@ export default function AboutImgRight() {
           </div>
         </div>
 
-        <img
-          src={imgAboutPhone}
-          alt="Foto de celular"
-          className="w-[100%] desktop1:w-[415px] desktop2:w-[300px]"
-        />
+        <div onClick={handleClick} className="cursor-pointer">
+          <img
+            src={imgAboutPhone}
+            alt="Foto de celular"
+            className="w-[100%] desktop1:w-[415px] desktop2:w-[300px]"
+          />
+        </div>
       </SectionWrapper>
+      <Dialog
+        header="Me siga nas redes sociais"
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{ "960px": "75vw", "641px": "90vw" }}
+      >
+        <p className="m-0 font-secondFont">
+        Conteúdo a ser adicionado
+        </p>
+      </Dialog>
     </SectionArea>
   );
 }
