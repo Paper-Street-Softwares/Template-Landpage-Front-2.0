@@ -26,7 +26,7 @@ export default function Featuresv2() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
+        sectionHeaderTitle="Diferenciais e Expertise"
         sectionHeaderSubtitle="Excelência em cada transação imobiliária, garantindo segurança, confiança e satisfação em cada etapa do processo"
       />
       <SectionWrapper>
@@ -45,6 +45,7 @@ export default function Featuresv2() {
             description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
             onButtonClick={() =>
               handleButtonClick("Avaliação", "Conteúdo a ser adicionado")
+
             }
           />
           <FeatureCard
@@ -55,6 +56,7 @@ export default function Featuresv2() {
               handleButtonClick(
                 "Negociação e Documentação",
                 "Conteúdo a ser adicionado"
+
               )
             }
           />

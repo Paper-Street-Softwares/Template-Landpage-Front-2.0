@@ -1,16 +1,14 @@
-import ContactBarSection from "../../components/sections/ContactBarSection";
 import Faq from "../../components/sections/Faq";
 import Footer from "../../components/sections/Footer";
 import Numbers from "../../components/sections/Numbers";
 import TrustedBy from "../../components/sections/TrustedBy";
-import HeroSection from "../../components/sections/HeroSection";
-import NavbarSection from "../../components/sections/NavbarSection";
 import Featuresv1 from "../../components/sections/Featuresv1";
 import Featuresv2 from "../../components/sections/Featuresv2";
+import HeroSection from "../../components/sections/HeroSection";
 import AboutImgLeft from "../../components/sections/AboutImgLeft";
 import AboutImgRight from "../../components/sections/AboutImgRight";
-import ResponsiveDemo from "../../components/interactives/Modal";
-
+import NavbarSection from "../../components/sections/NavbarSection";
+import ContactBarSection from "../../components/sections/ContactBarSection";
 
 export default function IndexRita() {
   return (
@@ -23,7 +21,6 @@ export default function IndexRita() {
       <AboutImgLeft />
       <AboutImgRight />
       <Numbers />
-      <ResponsiveDemo />
       <TrustedBy />
       <Faq />
       <Footer />

@@ -29,10 +29,15 @@ export default function AboutImgRight() {
             </SectionTitles>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="mb-[36px] phone3:mb-[60px] desktop1:mb-[92px]">
-              Siga-me nas redes sociais e tenha acesso exclusivo a lançamentos
-              de imóveis, tendências do mercado imobiliário e oportunidades
-              imperdíveis em primeira mão. Não perca nada!
+            <Paragraphs className="mb-[36px] phone3:mb-[60px] desktop1:mb-[68px]">
+              🏡 Quer saber mais sobre o mercado imobiliário? Siga Rita Almeida
+              Corretora nas redes sociais! <br />
+              <br />
+              Em nossas redes sociais, sempre é postado novidades e atualizações
+              sobre imóveis e empreendimentos! Não perca a chance de ficar por
+              dentro das novidades de investimentos. <br />
+              <br />
+              Aqui, cada post é uma oportunidade de descobrir o seu próximo lar.
             </Paragraphs>
           </MotionDivDownToUp>
           <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
