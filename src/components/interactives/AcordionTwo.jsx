@@ -18,9 +18,11 @@ export default function AccordionExpandDefault() {
   const getPanelStyle = (panel) => {
     return {
       boxShadow:
+        expanded === panel ? "0px 5px 10px rgba(0, 0, 0, 0.1)" : "none",
+      border:
         expanded === panel
-          ? "0px 5px 10px rgba(0, 0, 0, 0.2)"
-          : "0px 0px 10px rgba(0, 0, 0, 0.1)",
+          ? "1px solid transparent"
+          : "1px solid rgba(0, 0, 0, 0.05) ",
     };
   };
 
