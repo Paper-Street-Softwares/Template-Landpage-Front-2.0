@@ -10,7 +10,6 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import AccordionExpandDefault from "../interactives/AcordionTwo";
 
 export default function Featuresv2() {
   const [visible, setVisible] = useState(false);
@@ -37,10 +36,7 @@ export default function Featuresv2() {
             title="Venda e Aluguel"
             description="Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado."
             onButtonClick={() =>
-              handleButtonClick(
-                "Venda e Aluguel",
-                "Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercadoConte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercadoConte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado"
-              )
+              handleButtonClick("Venda e Aluguel", "Conteúdo a ser adicionado")
             }
           />
           <FeatureCard
@@ -48,7 +44,8 @@ export default function Featuresv2() {
             title="Avaliação"
             description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
             onButtonClick={() =>
-              handleButtonClick("Avaliação", "Conteúdo para Avaliação")
+              handleButtonClick("Avaliação", "Conteúdo a ser adicionado")
+
             }
           />
           <FeatureCard
@@ -58,7 +55,8 @@ export default function Featuresv2() {
             onButtonClick={() =>
               handleButtonClick(
                 "Negociação e Documentação",
-                <AccordionExpandDefault />
+                "Conteúdo a ser adicionado"
+
               )
             }
           />
@@ -71,7 +69,7 @@ export default function Featuresv2() {
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p className="m-0">{modalContent}</p>
+        <p className="m-0 font-secondFont">{modalContent}</p>
       </Dialog>
     </SectionArea>
   );
