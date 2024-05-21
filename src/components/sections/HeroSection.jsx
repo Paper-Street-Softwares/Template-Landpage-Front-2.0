@@ -14,7 +14,7 @@ export default function HeroSection() {
       >
         <div className="flex items-center">
           <div className="w-full text-white justify-evenly pb-[60px]">
-            <div className="h-40 desktop3:h-46" />
+            <div className="h-40 desktop3:h-52" />
             <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <div className="desktop1:w-[850px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
