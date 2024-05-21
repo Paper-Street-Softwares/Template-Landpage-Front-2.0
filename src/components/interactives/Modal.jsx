@@ -33,7 +33,7 @@ export default function ResponsiveDemo() {
           onClick={() => setVisible(true)}
           className="text-white bg-black px-[2%] py-[0.8%]"
         />
-        <Dialog
+        <Dialog className=" font-secondFont"
           header="Header"
           visible={visible}
           onHide={() => setVisible(false)}

@@ -12,6 +12,7 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 
+
 export default function AboutImgRight() {
   const [visible, setVisible] = useState(false);
 

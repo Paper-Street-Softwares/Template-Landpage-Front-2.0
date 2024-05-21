@@ -62,7 +62,7 @@ export default function Featuresv2() {
           />
         </div>
       </SectionWrapper>
-      <Dialog
+      <Dialog className=" font-secondFont"
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
