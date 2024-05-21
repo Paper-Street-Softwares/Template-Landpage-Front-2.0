@@ -71,7 +71,7 @@ export default function Featuresv2() {
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p className="m-0">{modalContent}</p>
+        <p className="m-0 font-secondFont">{modalContent}</p>
       </Dialog>
     </SectionArea>
   );
