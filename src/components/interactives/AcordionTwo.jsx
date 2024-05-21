@@ -18,9 +18,11 @@ export default function AccordionExpandDefault() {
   const getPanelStyle = (panel) => {
     return {
       boxShadow:
+        expanded === panel ? "0px 5px 10px rgba(0, 0, 0, 0.1)" : "none",
+      border:
         expanded === panel
-          ? "0px 5px 10px rgba(0, 0, 0, 0.2)"
-          : "0px 0px 10px rgba(0, 0, 0, 0.1)",
+          ? "1px solid transparent"
+          : "1px solid rgba(0, 0, 0, 0.1) ",
     };
   };
 
@@ -39,13 +41,17 @@ export default function AccordionExpandDefault() {
           id="panel1-header"
         >
           <Typography>
-            <b>Quero financiar um imóvel, como eu faço?</b>
+            <h1 className="font-secondFont font-bold">
+              Quero financiar um imóvel, como eu faço?
+            </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Primeiro passo é ter renda comprovada e não ter restrições no CPF, e
-            depois, fazer a simulação.
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              Primeiro passo é ter renda comprovada e não ter restrições no CPF,
+              e depois, fazer a simulação.
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -63,17 +69,21 @@ export default function AccordionExpandDefault() {
           id="panel2-header"
         >
           <Typography>
-            <b>Fui aprovado(a), quais documentos eu preciso?</b>
+            <h1 className="font-secondFont font-bold">
+              Fui aprovado(a), quais documentos eu preciso?
+            </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            É preciso que me envie em PDF: RG, CPF, certidão de nascimento ou de
-            casamento (se for casado é necessário a documentação do cônjuge),
-            comprovante de endereço no nome do titular e por último, imposto de
-            renda ou contracheque, caso clt, é necessário carteira de trabalho
-            digital, e caso queira utilizar o FGTS é necessário o extrato dele
-            também.
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              É preciso que me envie em PDF: RG, CPF, certidão de nascimento ou
+              de casamento (se for casado é necessário a documentação do
+              cônjuge), comprovante de endereço no nome do titular e por último,
+              imposto de renda ou contracheque, caso clt, é necessário carteira
+              de trabalho digital, e caso queira utilizar o FGTS é necessário o
+              extrato dele também.
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -91,12 +101,16 @@ export default function AccordionExpandDefault() {
           id="panel3-header"
         >
           <Typography>
-            <b>Quero que venda/alugue meu imóvel, como proceder?</b>
+            <h1 className="font-secondFont font-bold">
+              Quero que venda/alugue meu imóvel, como proceder?
+            </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Entre em contato para negociações e contratação.
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              Entre em contato para negociações e contratação.
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -114,12 +128,16 @@ export default function AccordionExpandDefault() {
           id="panel4-header"
         >
           <Typography>
-            <b>Qual o valor da parcela do financiamento?</b>
+            <h1 className="font-secondFont font-bold">
+              Qual o valor da parcela do financiamento?
+            </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Depende do valor do imóvel e da renda de cada pessoa.
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              Depende do valor do imóvel e da renda de cada pessoa.
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
