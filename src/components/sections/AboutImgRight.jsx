@@ -107,7 +107,7 @@ export default function AboutImgRight() {
         </div>
       </SectionWrapper>
       <Dialog
-        header="header Celular"
+        header="Me siga nas redes sociais"
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
