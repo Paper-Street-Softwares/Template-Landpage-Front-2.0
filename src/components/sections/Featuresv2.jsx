@@ -62,14 +62,14 @@ export default function Featuresv2() {
           />
         </div>
       </SectionWrapper>
-      <Dialog
+      <Dialog className=" font-secondFont"
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p className="m-0 font-secondFont">{modalContent}</p>
+        <p className="m-0">{modalContent}</p>
       </Dialog>
     </SectionArea>
   );
