@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
@@ -6,8 +7,18 @@ import imgAboutPhone from "../../assets/imgs/about/phoneMockup.png";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import ButtonWithIconLight from "../interactives/ButtonWithIconLight";
+import { Dialog } from "primereact/dialog";
+import "primereact/resources/themes/saga-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 
 export default function AboutImgRight() {
+  const [visible, setVisible] = useState(false);
+
+  const handleClick = () => {
+    setVisible(true);
+  };
+
   return (
     <SectionArea className="bg-quinary">
       <SectionWrapper className="flex flex-col-reverse desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-evenly">
@@ -105,12 +116,25 @@ export default function AboutImgRight() {
           </div>
         </div>
 
-        <img
-          src={imgAboutPhone}
-          alt="Foto de celular"
-          className="w-[100%] desktop1:w-[415px] desktop2:w-[300px]"
-        />
+        <div onClick={handleClick} className="cursor-pointer">
+          <img
+            src={imgAboutPhone}
+            alt="Foto de celular"
+            className="w-[100%] desktop1:w-[415px] desktop2:w-[300px]"
+          />
+        </div>
       </SectionWrapper>
+      <Dialog
+        header="Me siga nas redes sociais"
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{ "960px": "75vw", "641px": "90vw" }}
+      >
+        <p className="m-0">
+        Conteúdo a ser adicionado
+        </p>
+      </Dialog>
     </SectionArea>
   );
 }
