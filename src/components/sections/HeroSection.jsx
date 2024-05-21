@@ -26,7 +26,7 @@ export default function HeroSection() {
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
-                    <p className="[text-shadow:_1.8px_1.8px_0_rgb(0_0_0_/_70%)]">
+                    <p className="[text-shadow:_1.8px_1.8px_2px_rgb(0_0_0_/_150%)]">
                       Com paixão e excelência, o lar ideal é nossa
                       especialidade!
                     </p>
