@@ -8,7 +8,6 @@ import HeadlessDemo from "../sectionElements/Sidebar2";
 import { px } from "framer-motion";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 
-
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
@@ -108,8 +107,8 @@ export default function NavbarSection() {
               className={`${
                 scrolling
                   ? "h-[30px] max-h-[30px] transition-all duration-1000"
-                  : "h-[40px] max-h-[50px] transition-all duration-1000 invert"
-              } tablet3:mb-0`}
+                  : "h-[40px] max-h-[50px] transition-all duration-1000 invert "
+              } w-[80%] desktop1:w-[90%] h-auto tablet3:mb-0`}
             />
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
