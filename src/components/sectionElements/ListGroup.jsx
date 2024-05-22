@@ -30,7 +30,7 @@ export default function ListGroup() {
 
   return (
     <ul
-      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center tablet1:flex-wrap tablet1:gap-2 tablet2:gap-4 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
+      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
         scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
@@ -82,7 +82,7 @@ export default function ListGroup() {
           offset={-200}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>
+          <span className={`whitespace-nowrap ${scrolling ? "hover:text-primary" : ""}`}>
             Sobre mim
           </span>
           <div
@@ -102,7 +102,7 @@ export default function ListGroup() {
           offset={-300}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>
+          <span className={`whitespace-nowrap ${scrolling ? "hover:text-primary" : ""}`}>
             Perguntas Frequentes
           </span>
           <div
@@ -114,7 +114,7 @@ export default function ListGroup() {
       </li>
       <a href={whatsappContactLink} target="_blank">
         <ButtonWithIconNavbar
-          label="Consultar Imóveis"
+          label="Contato"
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
