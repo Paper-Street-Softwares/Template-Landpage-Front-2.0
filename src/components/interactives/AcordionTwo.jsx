@@ -6,23 +6,20 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function AccordionExpandDefault() {
-  // Estado para controlar qual painel está expandido
   const [expanded, setExpanded] = useState("panel1");
 
-  // Função para alternar o estado do painel
   const handleChange = (panel) => (_, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
 
-  // Função para obter o estilo de sombra baseado no painel expandido
   const getPanelStyle = (panel) => {
     return {
-      boxShadow:
-        expanded === panel ? "0px 5px 10px rgba(0, 0, 0, 0.1)" : "none",
+      boxShadow: expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
       border:
         expanded === panel
           ? "1px solid transparent"
-          : "1px solid rgba(0, 0, 0, 0.1) ",
+          : "1px solid rgba(0, 0, 0, 0.1)",
+      borderTop: expanded === panel ? "1px solid rgba(0, 0, 0, 0.1)" : "none",
     };
   };
 
@@ -30,12 +27,13 @@ export default function AccordionExpandDefault() {
     <div>
       {/* Accordion 1 */}
       <Accordion
-        className="mb-[2%]"
+        className="mb-[3%]"
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
         style={getPanelStyle("panel1")}
       >
         <AccordionSummary
+          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
@@ -58,12 +56,13 @@ export default function AccordionExpandDefault() {
 
       {/* Accordion 2 */}
       <Accordion
-        className="mb-[2%]"
+        className="mb-[3%]"
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
         style={getPanelStyle("panel2")}
       >
         <AccordionSummary
+          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
@@ -90,12 +89,13 @@ export default function AccordionExpandDefault() {
 
       {/* Accordion 3 */}
       <Accordion
-        className="mb-[2%]"
+        className="mb-[3%]"
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
         style={getPanelStyle("panel3")}
       >
         <AccordionSummary
+          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
           id="panel3-header"
@@ -117,12 +117,13 @@ export default function AccordionExpandDefault() {
 
       {/* Accordion 4 */}
       <Accordion
-        className="mb-[2%]"
+        className="mb-[3%]"
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
         style={getPanelStyle("panel4")}
       >
         <AccordionSummary
+        className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel4-content"
           id="panel4-header"
