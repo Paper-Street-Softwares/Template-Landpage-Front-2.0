@@ -4,7 +4,7 @@ import { Button } from "primereact/button";
 import { Avatar } from "primereact/avatar";
 import { Ripple } from "primereact/ripple";
 import "primeicons/primeicons.css";
-import { HelpCircle, HomeIcon, ServerIcon, UserSearch } from 'lucide-react';
+import { HelpCircle, HomeIcon, ServerIcon, UserSearch, AlignJustify } from 'lucide-react';
 import { Link } from "react-scroll";
 import Logo from "../../assets/importAssets/Logo.png";
 import imgAboutPerson from "../../assets/imgs/about/aboutPerson.jpg";
@@ -17,6 +17,8 @@ export default function HeadlessDemo() {
   const [aplicationSubmenuVisible, setAplicationSubmenuVisible] =
     useState(true);
   const [scrolled, setScrolled] = useState(false);
+
+  
 
   const toggleSidebar = () => {
     setVisible(!visible);
@@ -45,24 +47,20 @@ export default function HeadlessDemo() {
           visible ? "block" : "hidden"
         } fixed inset-0 bg-black opacity-50 lg:hidden`}
         onClick={toggleSidebar}
-      ></div>
-      <div className="flex justify-center card ">
-        <Button
-          className={`p-button-rounded p-button-outlined text-[30px] lg:hidden ${scrolled ? 'text-black' : 'text-white'}`}
-          icon="pi pi-bars"
+      />
+      <div className="flex justify-center card">
+        <AlignJustify
+          className={`p-button-rounded p-button-outlined lg:hidden ${scrolled ? 'text-black' : 'text-white'}`}
           onClick={() => setVisible(true)}
         />
         <Sidebar
           visible={visible}
+          className="w-[280px]"
           onHide={() => setVisible(false)}
           content={({ closeIconRef, hide }) => (
-            <div
-              className="relative flex min-h-screen bg-blue-600 lg:hidden surface-ground"
-              style={{ width: "280px" }}
-            >
               <div
                 id="app-sidebar-2"
-                className="absolute top-0 left-0 flex-shrink-0 h-screen bg-white select-none surface-section lg:hidden lg:static z-1 surface-border"
+                className="absolute top-0 left-0 flex-shrink-0 h-screen select-none surface-section lg:hidden lg:static z-1 surface-border"
                 style={{ width: "280px" }}
               >
                 <div className="flex flex-col h-full">
@@ -86,7 +84,7 @@ export default function HeadlessDemo() {
                       ></Button>
                     </span>
                   </div>
-                  <div className="overflow-y-auto">
+                  <div className="overflow-y-auto h-screen">
                   <hr className="m-5 mx-3 border-top-1 surface-border" />
                     <ul className="p-3 m-0 list-none">
                       <li>
@@ -173,11 +171,10 @@ export default function HeadlessDemo() {
                           </ul>
                         )}
                       </li>
-                    </ul>
-                    <hr className="mx-3 mb-3 border-top-1 surface-border" />
-                    <a
+                      <hr className="mx-3 mb-3 border-top-1 surface-border" />
+                      <a
                       v-ripple
-                      className="flex items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
+                      className="flex phone2:absolute bottom-0 left-0 justify-center items-center gap-2 p-3 m-3 transition-colors cursor-pointer border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
                     >
                       <img
                         src={imgAboutPerson}
@@ -185,10 +182,10 @@ export default function HeadlessDemo() {
                         className="w-[100%]"
                       />
                     </a>
+                    </ul>
                   </div>
                 </div>
               </div>
-            </div>
           )}
         ></Sidebar>
       </div>
