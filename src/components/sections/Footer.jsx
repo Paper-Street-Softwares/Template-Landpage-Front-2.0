@@ -17,9 +17,7 @@ function Footer() {
               src={Logo}
               className="w-[250px] h-auto invert my-[30px]"
             ></img>
-            <p className="full">
-              Transformando desejos em endereços.
-            </p>
+            <p className="full">Transformando desejos em endereços.</p>
             <div className="flex full gap-x-[8px] items-center">
               <Phone
                 size={24}
@@ -73,7 +71,7 @@ function Footer() {
                   <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
                 </svg>
               </p>
-              <p>Salve caso queira mais tarde!</p>
+              <p>Salve para visitar mais tarde!</p>
             </div>
           </div>
         </MotionDivDownToUp>
