@@ -13,8 +13,8 @@ export default function HeroSection() {
         style={{ backgroundImage: "url(" + bgImage + ")" }}
       >
         <div className="flex items-center">
-          <div className="w-full text-white justify-evenly pb-[60px]">
-            <div className="h-[160px] desktop3:h-[190px]" />
+          <div className="w-full text-white justify-evenly pb-[30px]">
+            <div className="h-[120px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
             <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <div className="desktop1:w-[850px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
