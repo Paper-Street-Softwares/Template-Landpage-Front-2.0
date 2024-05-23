@@ -12,7 +12,7 @@ import {
   AlignJustify,
 } from "lucide-react";
 import { Link } from "react-scroll";
-import Logo from "../../assets/importAssets/Logo.png";
+import Logo from "../../assets/imgs/logo/urmLogo.png";
 import imgAboutPerson from "../../assets/imgs/about/aboutPerson.jpg";
 
 export default function HeadlessDemo() {

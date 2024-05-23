@@ -12,11 +12,11 @@ export default function HeroSection() {
         <div className="flex items-center">
           <div className="w-full text-white justify-evenly pb-[30px]">
             <div className="h-[120px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
-            <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
-              <div className=" desktop1:w-[580px] flex flex-col gap-8">
+            <div className="flex flex-col-reverse desktop1:flex-row mx-auto mb-[40px] w-[90%] max-w-[1215px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
+              <div className=" desktop1:w-[580px] flex flex-col">
                 <MotionDivLeftToRight>
-                  <div className=" text-black font-bold leading-[74px] text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
-                    <h1 className="">
+                  <div className=" text-black font-bold leading-[44px] tablet1:leading-[60px] desktop1:leading-[74px] text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
+                    <h1 className="pb-[16px]">
                       Proteja o que <br />
                       <span className="text-primary">mais</span> importa
                     </h1>
@@ -24,7 +24,7 @@ export default function HeroSection() {
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
-                    <p className="text-quaternary">
+                    <p className="text-quaternary pb-[54px]">
                       Protegendo o seu veículo, para que cada viagem seja uma
                       experiência tranquila e segura.
                     </p>
@@ -35,7 +35,7 @@ export default function HeroSection() {
                     <div className="flex justify-center w-full desktop1:justify-start">
                       <a href={whatsappContactLink} target="_blank">
                         <ButtonWithIcon
-                          label="Fazer simulação online"
+                          label="Fazer simulação"
                           icon={
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
