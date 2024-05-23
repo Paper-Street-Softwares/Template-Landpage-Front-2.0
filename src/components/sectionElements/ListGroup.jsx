@@ -31,13 +31,13 @@ export default function ListGroup() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling ? "" : "text-white transition-color duration-1000"
+        scrolling ? "" : "text-black transition-color duration-1000"
       }`}
     >
       <li className="transition group">
         <Link
           to="home"
-          className="relative cursor-pointer font-semibold"
+          className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
@@ -47,7 +47,7 @@ export default function ListGroup() {
           <span className={scrolling ? "hover:text-primary" : ""}>Início</span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-primary"
             }`}
           ></div>
         </Link>
@@ -55,7 +55,7 @@ export default function ListGroup() {
       <li className="transition group">
         <Link
           to="service"
-          className="relative cursor-pointer font-semibold"
+          className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
@@ -67,7 +67,7 @@ export default function ListGroup() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-primary"
             }`}
           ></div>
         </Link>
@@ -75,19 +75,23 @@ export default function ListGroup() {
       <li className="transition group">
         <Link
           to="about"
-          className="relative cursor-pointer font-semibold"
+          className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
           offset={-200}
           href="#"
         >
-          <span className={`whitespace-nowrap ${scrolling ? "hover:text-primary" : ""}`}>
+          <span
+            className={`whitespace-nowrap ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
             Sobre mim
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-primary"
             }`}
           ></div>
         </Link>
@@ -95,26 +99,30 @@ export default function ListGroup() {
       <li className="transition group">
         <Link
           to="faq"
-          className="relative cursor-pointer font-semibold"
+          className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
           offset={-300}
           href="#"
         >
-          <span className={`whitespace-nowrap ${scrolling ? "hover:text-primary" : ""}`}>
+          <span
+            className={`whitespace-nowrap ${
+              scrolling ? "hover:text-primary" : ""
+            }`}
+          >
             Perguntas Frequentes
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-primary"
             }`}
           ></div>
         </Link>
       </li>
       <a href={whatsappContactLink} target="_blank">
         <ButtonWithIconNavbar
-          label="Contato"
+          label="Simule agora seu seguro"
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
