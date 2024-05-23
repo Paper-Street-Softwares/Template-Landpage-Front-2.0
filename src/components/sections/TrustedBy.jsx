@@ -5,7 +5,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function TrustedBy() {
   return (
-    <SectionArea>
+    <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Trabalhamos com os principais empreendimentos"

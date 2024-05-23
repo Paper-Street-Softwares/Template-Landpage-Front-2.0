@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
@@ -13,7 +13,7 @@ export default function FeatureCard(props) {
         className=" tablet1:w-[50%] desktop1:w-full rounded-2xl"
       />
       <div className="">
-        <h1 className=" font-mainFont text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
+        <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
           <MotionDivDownToUp>{title}</MotionDivDownToUp>
         </h1>
         <p className=" font-secondFont text-paragraph4 mb-[36px] text-quaternary">

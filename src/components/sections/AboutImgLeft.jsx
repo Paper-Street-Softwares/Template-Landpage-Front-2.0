@@ -64,21 +64,18 @@ export default function AboutImgLeft() {
         <div className="desktop1:w-[450px] desktop2:w-[570px]" id="about">
           <MotionDivDownToUp>
             <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
-              Sobre mim 👋
+              Sobre nós 👋
             </SectionTitles>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="mb-[60px] desktop1:mb-[92px]">
-              Creci: 11798/PE <br></br>
-              Ensino superior: Administração - Facape <br /> <br />
-              Olá, me chamo Rita Almeida, sou corretora de imóveis há mais de 10
-              anos e sou formada em adm há 30.
+              Nossa equipe comprometida está sempre pronta para oferecer suporte
+              personalizado, desde a consulta inicial até o gerenciamento de
+              sinistros, proporcionando segurança e tranquilidade em cada etapa.
               <br />
-              <br></br>Decidi entrar no ramo quando um colega me fez um elogio
-              "Rita, você é tão comunicativa, deveria ser corretora de imóveis"
-              eu ainda fiquei receosa "há isso não é para mim" mas decidi
-              arriscar, fiz o curso com minha filha ainda pequena, E não me
-              arrependo da decisão que tomei.
+              <br />
+              Entre em contato conosco hoje mesmo e descubra como podemos
+              proteger seus ativos de forma eficaz.
             </Paragraphs>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
