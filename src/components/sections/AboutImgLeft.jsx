@@ -10,7 +10,6 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
 export default function AboutImgLeft() {
   const [visible, setVisible] = useState(false);
@@ -58,9 +57,9 @@ export default function AboutImgLeft() {
   return (
     <SectionArea className="">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
-        <MotionDivLeftToRight className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]">
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]">
           <img src={imgAboutPerson} alt="Foto de pessoa" className="w-full" />
-        </MotionDivLeftToRight>
+        </MotionDivDownToUp>
 
         <div className="desktop1:w-[450px] desktop2:w-[570px]" id="about">
           <MotionDivDownToUp>
@@ -107,8 +106,8 @@ export default function AboutImgLeft() {
           </MotionDivDownToUp>
         </div>
       </SectionWrapper>
-      <Dialog className=" font-secondFont"
-
+      <Dialog
+        className=" font-secondFont"
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}

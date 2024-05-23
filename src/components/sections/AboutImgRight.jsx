@@ -10,8 +10,6 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
-
 
 export default function AboutImgRight() {
   const [visible, setVisible] = useState(false);
@@ -122,14 +120,14 @@ export default function AboutImgRight() {
           </div>
         </div>
 
-        <MotionDivRightToLeft className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
           <img
             onClick={handleClick}
             src={imgAboutPhone}
             alt="Foto de celular"
             className="w-[100%] cursor-pointer"
           />
-        </MotionDivRightToLeft>
+        </MotionDivDownToUp>
       </SectionWrapper>
       <Dialog
         header="Me siga nas redes sociais"
