@@ -4,7 +4,6 @@ import imgBackground from "../../assets/imgs/paralaxe/bgOffice.png";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import whatsappNumber from "../../abstractions/whats";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
@@ -54,9 +53,9 @@ export default function CtaWhatsapp() {
               </MotionDivDownToUp>
             </div>
             <div className="phone1:min-h-[197px] phone1:max-h-[229.39px] phone2:min-h-[229.40px] phone2:max-h-[261px] phone3:min-h-[262px] phone3:max-h-[334px] tablet1:min-h-[235px] tablet1:max-h-[292px] tablet2:min-h-[292px] tablet2:max-h-[335px] desktop1:min-h-[335px] desktop3:max-h-[335px] w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
-              <MotionDivRightToLeft>
+              <MotionDivDownToUp>
                 <img alt="Foto Pessoa" src={imgCta} />
-              </MotionDivRightToLeft>
+              </MotionDivDownToUp>
             </div>
           </div>
         </div>

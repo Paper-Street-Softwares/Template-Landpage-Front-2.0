@@ -2,6 +2,7 @@ import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import whatsappNumber from "../../abstractions/whats";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import HeroImg from "../../assets/imgs/hero/cars.png";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
@@ -54,7 +55,9 @@ export default function HeroSection() {
                   </MotionDivLeftToRight>
                 </div>
               </div>
-              <img src={HeroImg} alt="Veículos"></img>
+              <MotionDivDownToUp>
+                <img src={HeroImg} alt="Veículos"></img>
+              </MotionDivDownToUp>
             </div>
           </div>
         </div>
