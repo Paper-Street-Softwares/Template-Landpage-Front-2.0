@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
-import Logo from "../../assets/importAssets/Logo.png";
+import Logo from "../../assets/imgs/logo/urmLogo.png";
 import ListGroup from "../sectionElements/ListGroup";
 import Sidebar from "../sectionElements/Sidebar";
 import { Link as ScrollLink } from "react-scroll";
@@ -87,7 +87,7 @@ export default function NavbarSection() {
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
-            ? "bg-white bg-opacity-100 shadow-lg tablet1:-mt-[80px] -mt-[100px] transition-all duration-1000"
+            ? "bg-white bg-opacity-100 shadow-lg transition-all duration-1000"
             : "transition-colors duration-1000"
         }`}
       >
@@ -107,7 +107,7 @@ export default function NavbarSection() {
               className={`${
                 scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
-                  : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-colors duration-1000 invert"
+                  : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-colors duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>

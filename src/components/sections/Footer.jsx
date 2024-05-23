@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import { Phone, Mail } from "lucide-react";
 import whatsappNumber from "../../abstractions/whats";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Logo from "../../assets/importAssets/Logo.png";
+import Logo from "../../assets/imgs/logo/urmLogo.png";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
@@ -12,12 +12,9 @@ function Footer() {
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[42px]  desktop1:flex-row desktop1:justify-between">
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-            <img
-              alt="Logo"
-              src={Logo}
-              className="w-[250px] h-auto invert my-[30px]"
-            ></img>
-            <p className="full">Transformando desejos em endereços.</p>
+            <div className="h-[115px] flex items-center">
+              <img alt="Logo" src={Logo} className="w-auto h-[70px]"></img>
+            </div>
             <div className="flex full gap-x-[8px] items-center">
               <Phone
                 size={24}
