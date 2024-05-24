@@ -9,6 +9,7 @@ import NavbarSection from "../../components/sections/NavbarSection";
 import FloatingWhatsappButton from "../../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../../components/interactives/BackToTopButton";
 import CtaWhatsapp from "../../components/sections/CtaWhatsapp";
+import Features from "../../components/sections/Features";
 
 export default function IndexRita() {
   return (
@@ -18,6 +19,7 @@ export default function IndexRita() {
       <TrustedBy />
       <Numbers />
       <AboutImgLeft />
+      <Features />
       <Featuresv2 />
       <CtaWhatsapp />
       <Faq />

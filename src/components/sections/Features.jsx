@@ -2,12 +2,12 @@ import FeatureImgOnBgCard from "../cards/FeatureImgOnBgCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import imgCasas from "../../assets/imgs/features/house.jpg";
-import imgAps from "../../assets/imgs/features/apartment.jpg";
-import imgTerrenos from "../../assets/imgs/features/land.webp";
-import imgPontos from "../../assets/imgs/features/business.jpg";
+import imgCardBackground1 from "../../assets/imgs/features/cardBackground1.webp";
+import imgCardBackground2 from "../../assets/imgs/features/cardBackground2.webp";
+import imgCardBackground3 from "../../assets/imgs/features/cardBackground3.webp";
+import imgCardBackground4 from "../../assets/imgs/features/cardBackground4.webp";
 
-export default function Featuresv1() {
+export default function Features() {
   return (
     <SectionArea className="bg-quinary desktop1:pb-[0px]">
       <SectionHeader
@@ -21,24 +21,24 @@ export default function Featuresv1() {
           id="service"
         >
           <FeatureImgOnBgCard
-            bgImg={imgCasas}
-            title="Casas"
-            description="Descubra a casa dos seus sonhos!"
+            bgImg={imgCardBackground1}
+            title="Cotação de Seguros"
+            description="Lorem ipsum"
           />
           <FeatureImgOnBgCard
-            bgImg={imgAps}
-            title="Apartamentos"
-            description="Praticidade em nossos apartamentos sofisticados."
+            bgImg={imgCardBackground2}
+            title="Gestão de Apólices"
+            description="Lorem ipsum"
           />
           <FeatureImgOnBgCard
-            bgImg={imgTerrenos}
-            title="Terrenos"
-            description="Construa a realidade que você deseja em nossos terrenos bem localizados."
+            bgImg={imgCardBackground3}
+            title="Apoio em Sinistros"
+            description="Lorem ipsum"
           />
           <FeatureImgOnBgCard
-            bgImg={imgPontos}
-            title="Pontos Comerciais"
-            description="Posicione seu negócio para o sucesso!"
+            bgImg={imgCardBackground4}
+            title="Análise de Risco"
+            description="Lorem ipsum"
           />
         </div>
       </SectionWrapper>
