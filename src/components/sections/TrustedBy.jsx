@@ -8,10 +8,6 @@ import imagem3 from "../../assets/imgs/logos/item3.png";
 import imagem4 from "../../assets/imgs/logos/item4.png";
 import imagem5 from "../../assets/imgs/logos/item5.png";
 import imagem6 from "../../assets/imgs/logos/item6.png";
-import imagem7 from "../../assets/imgs/logos/item7.png";
-import imagem8 from "../../assets/imgs/logos/item8.png";
-import imagem9 from "../../assets/imgs/logos/item9.png";
-import imagem10 from "../../assets/imgs/logos/item10.jpg";
 import LogoDisplay from "../sectionElements/LogoDisplay";
 
 const images = [
@@ -21,12 +17,6 @@ const images = [
   { src: imagem4, alt: "" },
   { src: imagem5, alt: "" },
   { src: imagem6, alt: "" },
-  { src: imagem7, alt: "" },
-  { src: imagem8, alt: "" },
-  { src: imagem9, alt: "" },
-  { src: imagem10, alt: "" },
-  { src: imagem3, alt: "" },
-  { src: imagem7, alt: "" },
 ];
 
 export default function TrustedBy() {
