@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import { Phone, Mail } from "lucide-react";
 import whatsappNumber from "../../abstractions/whats";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Logo from "../../assets/imgs/logo/urmLogo.png";
+import Logo from "../../assets/imgs/logo/logo.png";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 

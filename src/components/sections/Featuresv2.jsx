@@ -3,9 +3,9 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import FeatureCard from "../cards/FeatureCard";
-import imgSeguroAuto from "../../assets/imgs/features/guyok.jpg";
-import imgValuation from "../../assets/imgs/features/evaluation.jpg";
-import imgDocs from "../../assets/imgs/features/docs.jpg";
+import imgCard1 from "../../assets/imgs/features/card1.jpg";
+import imgCard2 from "../../assets/imgs/features/card2.jpg";
+import imgCard3 from "../../assets/imgs/features/card3.jpg";
 import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
@@ -32,7 +32,7 @@ export default function Featuresv2() {
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
           <FeatureCard
-            img={imgSeguroAuto}
+            img={imgCard1}
             title="Seguro Auto"
             description="Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado."
             onButtonClick={() =>
@@ -40,7 +40,7 @@ export default function Featuresv2() {
             }
           />
           <FeatureCard
-            img={imgSeguroAuto}
+            img={imgCard2}
             title="Seguro Auto"
             description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
             onButtonClick={() =>
@@ -48,7 +48,7 @@ export default function Featuresv2() {
             }
           />
           <FeatureCard
-            img={imgSeguroAuto}
+            img={imgCard3}
             title="Seguro Auto"
             description="Facilitamos todo o processo de documentação e conduzimos negociações eficazes para assegurar uma transação tranquila e vantajosa."
             onButtonClick={() =>
