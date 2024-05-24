@@ -12,7 +12,22 @@ import imagem7 from "../../assets/imgs/logos/item7.png";
 import imagem8 from "../../assets/imgs/logos/item8.png";
 import imagem9 from "../../assets/imgs/logos/item9.png";
 import imagem10 from "../../assets/imgs/logos/item10.jpg";
+import LogoDisplay from "../sectionElements/LogoDisplay";
 
+const images = [
+  { src: imagem1, alt: "" },
+  { src: imagem2, alt: "" },
+  { src: imagem3, alt: "" },
+  { src: imagem4, alt: "" },
+  { src: imagem5, alt: "" },
+  { src: imagem6, alt: "" },
+  { src: imagem7, alt: "" },
+  { src: imagem8, alt: "" },
+  { src: imagem9, alt: "" },
+  { src: imagem10, alt: "" },
+  { src: imagem3, alt: "" },
+  { src: imagem7, alt: "" },
+];
 
 export default function TrustedBy() {
   return (
@@ -24,70 +39,7 @@ export default function TrustedBy() {
       />
       <SectionWrapper>
         <MotionDivDownToUp className="w-full">
-          <div className="flex flex-wrap justify-between w-full gap-[20px] tablet1:gap-[24px]">
-            <img
-              src={imagem1}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px]  desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem2}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem3}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-
-            <img
-              src={imagem4}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem5}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem6}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-
-            <img
-              src={imagem7}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem8}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem9}
-              alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem10}
-              alt=""
-              className=" max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem10}
-              alt=""
-              className=" max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-            <img
-              src={imagem10}
-              alt=""
-              className=" w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] max-h-[40px] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
-            />
-          </div>
+          <LogoDisplay images={images} />
         </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
