@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
 import Logo from "../../assets/imgs/logo/urmLogo.png";
 import ListGroup from "../sectionElements/ListGroup";
-import Sidebar from "../sectionElements/Sidebar";
 import { Link as ScrollLink } from "react-scroll";
 import HeadlessDemo from "../sectionElements/Sidebar2";
 import { px } from "framer-motion";
@@ -135,21 +134,6 @@ export default function NavbarSection() {
           </div>
           {showListGroup ? <ListGroup /> : null}
         </Navbar>
-        <div className="flex "></div>
-        <div
-          className={`animate-${
-            showSidebar ? "slide-down block" : "slide-up hidden"
-          }`}
-          ref={sidebarRef}
-        >
-          {showSidebar ? (
-            <Sidebar
-              showSidebar={showSidebarContent}
-              handleCloseSidebar={handleCloseSidebar}
-              handleSidebarItemClick={handleSidebarItemClick}
-            />
-          ) : null}
-        </div>
       </div>
     </div>
   );
