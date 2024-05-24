@@ -23,22 +23,22 @@ export default function Features() {
           <FeatureImgOnBgCard
             bgImg={imgCardBackground1}
             title="Cotação de Seguros"
-            description="Lorem ipsum"
+            description="Melhores cotações para suas necessidades"
           />
           <FeatureImgOnBgCard
             bgImg={imgCardBackground2}
             title="Gestão de Apólices"
-            description="Lorem ipsum"
+            description="Administração completa das suas apólices"
           />
           <FeatureImgOnBgCard
             bgImg={imgCardBackground3}
             title="Apoio em Sinistros"
-            description="Lorem ipsum"
+            description="Assistência eficiente na resolução de sinistros"
           />
           <FeatureImgOnBgCard
             bgImg={imgCardBackground4}
             title="Análise de Risco"
-            description="Lorem ipsum"
+            description="Avaliação detalhada dos riscos para proteção ideal"
           />
         </div>
       </SectionWrapper>

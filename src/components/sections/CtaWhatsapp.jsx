@@ -1,5 +1,5 @@
 import SectionContent from "../sectionElements/SectionContent";
-import imgCta from "../../assets/importAssets/CtaWhatsapp.webp";
+import imgCta from "../../assets/imgs/cta/person.png";
 import imgBackground from "../../assets/imgs/paralaxe/bgOffice.png";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
