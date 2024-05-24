@@ -2,6 +2,17 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import imagem1 from "../../assets/imgs/logos/item1.png";
+import imagem2 from "../../assets/imgs/logos/item2.png";
+import imagem3 from "../../assets/imgs/logos/item3.png";
+import imagem4 from "../../assets/imgs/logos/item4.png";
+import imagem5 from "../../assets/imgs/logos/item5.png";
+import imagem6 from "../../assets/imgs/logos/item6.png";
+import imagem7 from "../../assets/imgs/logos/item7.png";
+import imagem8 from "../../assets/imgs/logos/item8.png";
+import imagem9 from "../../assets/imgs/logos/item9.png";
+import imagem10 from "../../assets/imgs/logos/item10.jpg";
+
 
 export default function TrustedBy() {
   return (
@@ -15,67 +26,67 @@ export default function TrustedBy() {
         <MotionDivDownToUp className="w-full">
           <div className="flex flex-wrap justify-between w-full gap-[20px] tablet1:gap-[24px]">
             <img
-              src="src\assets\imgs\logos\image 28.png"
+              src={imagem1}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px]  desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\image 29.png"
+              src={imagem2}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src/assets/imgs/logos/image 30.png"
+              src={imagem3}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
 
             <img
-              src="src\assets\imgs\logos\image 31.png"
+              src={imagem4}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\image 32.png"
+              src={imagem5}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\image 33.png"
+              src={imagem6}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
 
-            {/* <img
-              src="src\assets\imgs\logos\images 3.png"
+            <img
+              src={imagem7}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\download 3.png"
+              src={imagem8}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\download 4.png"
+              src={imagem9}
               alt=""
-              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className="max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\download 3.png"
+              src={imagem10}
               alt=""
-              className=" max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className=" max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\download 4.png"
+              src={imagem10}
               alt=""
-              className=" max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
+              className=" max-h-[40px] w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
             />
             <img
-              src="src\assets\imgs\logos\download 4.png"
+              src={imagem10}
               alt=""
-              className=" w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] max-h-[40px] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%] desktop3:max-h-[120px]"
-            /> */}
+              className=" w-[45.3%] phone3:max-h-[50px] phone3:w-[39.3%] max-h-[40px] object-contain tablet1:w-[26.1%] tablet2:max-h-[60px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[80px] desktop3:w-[29.7%]"
+            />
           </div>
         </MotionDivDownToUp>
       </SectionWrapper>
