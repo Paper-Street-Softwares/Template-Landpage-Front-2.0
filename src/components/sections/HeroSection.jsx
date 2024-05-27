@@ -26,8 +26,8 @@ export default function HeroSection() {
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
                     <p className="text-quaternary pb-[54px]">
-                      Protegendo o seu veículo, para que cada viagem seja uma
-                      experiência tranquila e segura.
+                      Cuidamos de residências a automóveis com soluções
+                      personalizadas garantindo sua tranquilidade
                     </p>
                   </div>
                 </MotionDivLeftToRight>
