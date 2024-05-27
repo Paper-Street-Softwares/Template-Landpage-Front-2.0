@@ -1,6 +1,6 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
-import HeroImg from "../../assets/imgs/hero/heroImg1.png";
+import HeroImg from "../../assets/imgs/hero/heroImg1.webp";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import whatsappNumber from "../../abstractions/whats";
 
