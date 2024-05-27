@@ -1,8 +1,8 @@
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import whatsappNumber from "../../abstractions/whats";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import HeroImg from "../../assets/imgs/hero/heroImg1.png";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import whatsappNumber from "../../abstractions/whats";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 

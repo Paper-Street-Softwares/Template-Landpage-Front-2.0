@@ -27,7 +27,7 @@ function Footer() {
                 target="_blank"
                 className="hover:underline"
               >
-                (87) 98812-4109
+                (21) 3026-2665
               </a>
             </div>
             <div className="flex full gap-x-[8px] items-center">
@@ -37,7 +37,7 @@ function Footer() {
                 strokeWidth={1}
                 className="text-white"
               />
-              <p>rcsalmeida2@yahoo.com.br</p>
+              <p> adm@urmseguros.com.br</p>
             </div>
           </div>
         </MotionDivDownToUp>
@@ -48,7 +48,7 @@ function Footer() {
             </h1>
             <div className="flex full gap-x-[8px] items-center">
               <p className="text-title4">👋</p>
-              <p>Obrigada pela confiança!</p>
+              <p>Obrigado pela confiança!</p>
             </div>
             <div className="flex full gap-x-[8px] items-center">
               <p className="text-title4">
@@ -117,7 +117,7 @@ function Footer() {
                     offset={-200}
                     href="#"
                   >
-                    Sobre Mim
+                    Sobre Nós
                   </Link>
                 </div>
                 <div className="h-[36px] ">
@@ -143,8 +143,7 @@ function Footer() {
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <p className="w-full">
-          2024 - Rita Almeida Corretora de Imóveis - Todos os direitos
-          reservados
+          2024 - URM Corretora de Seguros - Todos os direitos reservados
         </p>
         <p>
           <a
