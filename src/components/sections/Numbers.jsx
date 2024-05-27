@@ -47,7 +47,7 @@ export default function Numbers() {
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
           <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
             <MotionDivDownToUp>
-              <AnimatedCounter endValue={150} />+
+              <AnimatedCounter endValue={200} />+
             </MotionDivDownToUp>
           </h1>
           <p className="font-secondFont text-title1 tablet1:text-title3">
