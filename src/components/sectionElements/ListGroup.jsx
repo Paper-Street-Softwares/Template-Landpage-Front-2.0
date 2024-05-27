@@ -44,7 +44,7 @@ export default function ListGroup() {
           offset={-100}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>Início</span>
+          <span className={scrolling ? "hover:text-primary" : "hover:text-primary"}>Início</span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               scrolling ? "bg-primary" : "bg-primary"
@@ -62,7 +62,7 @@ export default function ListGroup() {
           offset={-350}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : ""}>
+          <span className={scrolling ? "hover:text-primary" : "hover:text-primary"}>
             Serviços
           </span>
           <div
@@ -84,7 +84,7 @@ export default function ListGroup() {
         >
           <span
             className={`whitespace-nowrap ${
-              scrolling ? "hover:text-primary" : ""
+              scrolling ? "hover:text-primary" : "hover:text-primary"
             }`}
           >
             Sobre mim
@@ -108,7 +108,7 @@ export default function ListGroup() {
         >
           <span
             className={`whitespace-nowrap ${
-              scrolling ? "hover:text-primary" : ""
+              scrolling ? "hover:text-primary" : "hover:text-primary"
             }`}
           >
             Perguntas Frequentes
