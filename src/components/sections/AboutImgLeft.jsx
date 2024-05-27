@@ -16,43 +16,43 @@ export default function AboutImgLeft() {
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
-  const onClick = () => {
-    setModalTitle("Sobre mim");
-    setModalContent(
-      <p>
-        Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape
-        <br></br>
-        <br></br> Olá, me chamo Rita Almeida, sou corretora de imóveis há mais
-        de 10 anos e sou formada em Administração há 30. Decidi entrar no ramo
-        quando um colega me fez um elogio: "Rita, você é tão comunicativa,
-        deveria ser corretora de imóveis." Eu ainda fiquei receosa: "Ah, isso
-        não é para mim," mas decidi arriscar. Fiz o curso quando minha filha
-        ainda era pequena e não me arrependo da decisão que tomei.<br></br>
-        <br></br> Com a minha formação em Administração, percebi rapidamente que
-        muitas das habilidades adquiridas durante o curso eram essenciais no
-        mercado imobiliário. A capacidade de negociar, organizar finanças e
-        entender os fundamentos econômicos são apenas algumas das competências
-        que me ajudaram a destacar-me na profissão.<br></br>
-        <br></br> Nos primeiros anos, equilibrar a vida pessoal com a
-        profissional foi um desafio, especialmente sendo mãe de uma criança
-        pequena. Contudo, sempre busquei manter um alto padrão de ética e
-        dedicação, o que me permitiu construir uma reputação sólida e uma base
-        de clientes fiéis.<br></br>
-        <br></br> Ao longo dos anos, vi muitas mudanças no setor imobiliário. A
-        tecnologia transformou a maneira como interagimos com clientes e como os
-        imóveis são apresentados e comercializados. Adaptar-me a essas mudanças
-        foi essencial, e sempre procurei estar atualizada, seja através de
-        cursos de formação continuada ou participando de seminários e workshops.
-        <br></br>
-        <br></br> Hoje, posso dizer que minha carreira é uma grande paixão. Cada
-        dia traz um novo desafio e a oportunidade de ajudar alguém a encontrar o
-        lugar ideal para chamar de lar. Continuo empregando as habilidades de
-        administração no meu dia a dia, gerenciando não apenas propriedades, mas
-        também sonhos e expectativas.
-      </p>
-    );
-    setVisible(true);
-  };
+  // const onClick = () => {
+  //   setModalTitle("Sobre mim");
+  //   setModalContent(
+  //     <p>
+  //       Creci: 11798/PE<br></br> Ensino Superior: Administração - Facape
+  //       <br></br>
+  //       <br></br> Olá, me chamo Rita Almeida, sou corretora de imóveis há mais
+  //       de 10 anos e sou formada em Administração há 30. Decidi entrar no ramo
+  //       quando um colega me fez um elogio: "Rita, você é tão comunicativa,
+  //       deveria ser corretora de imóveis." Eu ainda fiquei receosa: "Ah, isso
+  //       não é para mim," mas decidi arriscar. Fiz o curso quando minha filha
+  //       ainda era pequena e não me arrependo da decisão que tomei.<br></br>
+  //       <br></br> Com a minha formação em Administração, percebi rapidamente que
+  //       muitas das habilidades adquiridas durante o curso eram essenciais no
+  //       mercado imobiliário. A capacidade de negociar, organizar finanças e
+  //       entender os fundamentos econômicos são apenas algumas das competências
+  //       que me ajudaram a destacar-me na profissão.<br></br>
+  //       <br></br> Nos primeiros anos, equilibrar a vida pessoal com a
+  //       profissional foi um desafio, especialmente sendo mãe de uma criança
+  //       pequena. Contudo, sempre busquei manter um alto padrão de ética e
+  //       dedicação, o que me permitiu construir uma reputação sólida e uma base
+  //       de clientes fiéis.<br></br>
+  //       <br></br> Ao longo dos anos, vi muitas mudanças no setor imobiliário. A
+  //       tecnologia transformou a maneira como interagimos com clientes e como os
+  //       imóveis são apresentados e comercializados. Adaptar-me a essas mudanças
+  //       foi essencial, e sempre procurei estar atualizada, seja através de
+  //       cursos de formação continuada ou participando de seminários e workshops.
+  //       <br></br>
+  //       <br></br> Hoje, posso dizer que minha carreira é uma grande paixão. Cada
+  //       dia traz um novo desafio e a oportunidade de ajudar alguém a encontrar o
+  //       lugar ideal para chamar de lar. Continuo empregando as habilidades de
+  //       administração no meu dia a dia, gerenciando não apenas propriedades, mas
+  //       também sonhos e expectativas.
+  //     </p>
+  //   );
+  //   setVisible(true);
+  // };
 
   return (
     <SectionArea className="">
@@ -69,17 +69,22 @@ export default function AboutImgLeft() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="mb-[60px] desktop1:mb-[92px]">
-              Nossa equipe comprometida está sempre pronta para oferecer suporte
-              personalizado, desde a consulta inicial até o gerenciamento de
-              sinistros, proporcionando segurança e tranquilidade em cada etapa.
+              Após 15 anos de dedicação em diversas corretoras e acumulando
+              valiosas experiências na solução dos problemas de seus clientes, o
+              Sr. Uellinton Rodrigues de Matos fundou a URM Seguros.
               <br />
               <br />
-              Entre em contato conosco hoje mesmo e descubra como podemos
-              proteger seus ativos de forma eficaz.
+              Com mais de 30 anos de história, a URM Seguros se consolidou como
+              referência no mercado de seguros, compreendendo profundamente o
+              que é necessário para garantir a sua proteção.
+              <br />
+              <br />
+              Nosso compromisso é oferecer segurança e tranquilidade para você,
+              sua família e seus bens mais preciosos.
             </Paragraphs>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <ButtonWithIcon
+            {/* <ButtonWithIcon
               label="Leia mais"
               onClick={onClick}
               icon={
@@ -99,7 +104,7 @@ export default function AboutImgLeft() {
                   <path d="M2 12H22" />
                 </svg>
               }
-            />
+            /> */}
           </MotionDivDownToUp>
         </div>
       </SectionWrapper>
