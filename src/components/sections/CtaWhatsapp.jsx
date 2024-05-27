@@ -1,6 +1,6 @@
 import SectionContent from "../sectionElements/SectionContent";
 import imgCta from "../../assets/imgs/cta/person.png";
-import imgBackground from "../../assets/imgs/paralaxe/bgOffice.png";
+import imgBackground from "../../assets/imgs/paralaxe/bgOffice.webp";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import whatsappNumber from "../../abstractions/whats";

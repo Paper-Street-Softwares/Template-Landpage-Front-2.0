@@ -2,12 +2,12 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import imagem1 from "../../assets/imgs/trustedBy/item1.png";
-import imagem2 from "../../assets/imgs/trustedBy/item2.png";
-import imagem3 from "../../assets/imgs/trustedBy/item3.png";
-import imagem4 from "../../assets/imgs/trustedBy/item4.png";
-import imagem5 from "../../assets/imgs/trustedBy/item5.png";
-import imagem6 from "../../assets/imgs/trustedBy/item6.png";
+import imagem1 from "../../assets/imgs/trustedBy/item1.webp";
+import imagem2 from "../../assets/imgs/trustedBy/item2.webp";
+import imagem3 from "../../assets/imgs/trustedBy/item3.webp";
+import imagem4 from "../../assets/imgs/trustedBy/item4.webp";
+import imagem5 from "../../assets/imgs/trustedBy/item5.webp";
+import imagem6 from "../../assets/imgs/trustedBy/item6.webp";
 import LogoDisplay from "../sectionElements/LogoDisplay";
 
 const images = [
