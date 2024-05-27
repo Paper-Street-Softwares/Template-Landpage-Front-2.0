@@ -68,7 +68,7 @@ export default function AboutImgLeft() {
             </SectionTitles>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="mb-[60px] desktop1:mb-[92px]">
+            <Paragraphs className="">
               Após 15 anos de dedicação em diversas corretoras e acumulando
               valiosas experiências na solução dos problemas de seus clientes, o
               Sr. Uellinton Rodrigues de Matos fundou a URM Seguros.
