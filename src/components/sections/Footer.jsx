@@ -46,30 +46,10 @@ function Footer() {
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               ATÉ MAIS!
             </h1>
-            <div className="flex full gap-x-[8px] items-center">
-              <p className="text-title4">👋</p>
-              <p>Obrigado pela confiança!</p>
-            </div>
-            <div className="flex full gap-x-[8px] items-center">
-              <p className="text-title4">
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="41"
-                  height="28"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-bookmark"
-                >
-                  <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
-                </svg>
-              </p>
-              <p>Salve para visitar mais tarde!</p>
-            </div>
+            <p>
+              Agradecemos sua visita! Esperamos que em breve você se torne nosso
+              cliente e desfrute de todos as proteções que oferecemos. 🛡️👋
+            </p>
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>
