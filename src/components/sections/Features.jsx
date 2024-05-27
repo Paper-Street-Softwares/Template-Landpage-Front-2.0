@@ -12,8 +12,8 @@ export default function Features() {
     <SectionArea className="bg-quinary desktop1:pb-[0px]">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Trabalhamos com todos os tipos de imóveis"
-        sectionHeaderSubtitle="Temos diversas opções imobiliárias que se encaixam perfeitamente no seu futuro"
+        sectionHeaderTitle="Nossas especialidades"
+        sectionHeaderSubtitle="Serviços personalizados para sua tranquilidade"
       />
       <SectionWrapper>
         <div

@@ -24,8 +24,8 @@ export default function TrustedBy() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Trabalhamos com os principais empreendimentos"
-        sectionHeaderSubtitle="Conectando você aos melhores e mais confiáveis empreendimentos do mercado"
+        sectionHeaderTitle="Parceria com as maiores seguradoras"
+        sectionHeaderSubtitle="Confiabilidade e excelência em proteção"
       />
       <SectionWrapper>
         <MotionDivDownToUp className="w-full">

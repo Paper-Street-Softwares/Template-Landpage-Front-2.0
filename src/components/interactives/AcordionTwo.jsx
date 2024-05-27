@@ -14,7 +14,8 @@ export default function AccordionExpandDefault() {
 
   const getPanelStyle = (panel) => {
     return {
-      boxShadow: expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
+      boxShadow:
+        expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
       border:
         expanded === panel
           ? "1px solid transparent"
@@ -39,16 +40,20 @@ export default function AccordionExpandDefault() {
           id="panel1-header"
         >
           <Typography>
-            <h1 className="font-secondFont font-bold">
-              Quero financiar um imóvel, como eu faço?
+            <h1 className="font-bold font-secondFont">
+              Qual é o tipo de seguro mais adequado para mim?
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              Primeiro passo é ter renda comprovada e não ter restrições no CPF,
-              e depois, fazer a simulação.
+              A resposta a essa pergunta depende muito das suas necessidades
+              específicas. Nossa equipe de corretores está aqui para ajudá-lo a
+              entender suas opções e recomendar o tipo de seguro que melhor se
+              adapta à sua situação. Isso pode incluir seguro de vida, seguro de
+              saúde, seguro de automóvel, seguro residencial, entre outros.
+              Entre em contato conosco para uma consulta personalizada.
             </p>
           </Typography>
         </AccordionDetails>
@@ -68,20 +73,22 @@ export default function AccordionExpandDefault() {
           id="panel2-header"
         >
           <Typography>
-            <h1 className="font-secondFont font-bold">
-              Fui aprovado(a), quais documentos eu preciso?
+            <h1 className="font-bold font-secondFont">
+              Como posso economizar dinheiro no meu seguro?
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              É preciso que me envie em PDF: RG, CPF, certidão de nascimento ou
-              de casamento (se for casado é necessário a documentação do
-              cônjuge), comprovante de endereço no nome do titular e por último,
-              imposto de renda ou contracheque, caso clt, é necessário carteira
-              de trabalho digital, e caso queira utilizar o FGTS é necessário o
-              extrato dele também.
+              Existem várias maneiras de economizar dinheiro no seguro. Uma
+              delas é agrupar várias apólices de seguro sob o mesmo provedor, o
+              que geralmente resulta em descontos. Além disso, manter um bom
+              histórico de condução, um histórico de saúde sólido ou instalar
+              dispositivos de segurança em sua casa ou veículo pode diminuir os
+              custos do seguro. Nossos corretores podem revisar suas opções e
+              oferecer conselhos sobre como maximizar sua cobertura enquanto
+              economiza dinheiro.
             </p>
           </Typography>
         </AccordionDetails>
@@ -101,15 +108,20 @@ export default function AccordionExpandDefault() {
           id="panel3-header"
         >
           <Typography>
-            <h1 className="font-secondFont font-bold">
-              Quero que venda/alugue meu imóvel, como proceder?
+            <h1 className="font-bold font-secondFont">
+              O que devo fazer em caso de sinistro?
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              Entre em contato para negociações e contratação.
+              Em caso de sinistro, é importante nos contatar imediatamente para
+              iniciar o processo de reivindicação. Nosso objetivo é tornar o
+              processo o mais simples possível para você. Coletaremos todas as
+              informações necessárias e orientaremos você em cada etapa do
+              processo de reivindicação, garantindo que você receba a
+              assistência de que precisa o mais rápido possível.
             </p>
           </Typography>
         </AccordionDetails>
@@ -123,21 +135,27 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel4")}
       >
         <AccordionSummary
-        className=" h-[76px]"
+          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel4-content"
           id="panel4-header"
         >
           <Typography>
-            <h1 className="font-secondFont font-bold">
-              Qual o valor da parcela do financiamento?
+            <h1 className="font-bold font-secondFont">
+              Como faço para entender minha apólice de seguro?
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              Depende do valor do imóvel e da renda de cada pessoa.
+              Compreender os termos e condições de sua apólice de seguro pode
+              parecer complicado, mas estamos aqui para ajudar. Nossos
+              corretores estão à disposição para explicar todos os detalhes da
+              sua apólice, incluindo cobertura, exclusões, limites e quaisquer
+              outros aspectos importantes. Não hesite em nos contatar se tiver
+              alguma dúvida sobre sua cobertura ou qualquer aspecto do seu
+              seguro.
             </p>
           </Typography>
         </AccordionDetails>

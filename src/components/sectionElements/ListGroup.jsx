@@ -44,7 +44,35 @@ export default function ListGroup() {
           offset={-100}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : "hover:text-primary"}>Início</span>
+          <span
+            className={scrolling ? "hover:text-primary" : "hover:text-primary"}
+          >
+            Início
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-primary"
+            }`}
+          ></div>
+        </Link>
+      </li>
+      <li className="transition group">
+        <Link
+          to="about"
+          className="relative font-semibold cursor-pointer"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-260}
+          href="#"
+        >
+          <span
+            className={`whitespace-nowrap ${
+              scrolling ? "hover:text-primary" : "hover:text-primary"
+            }`}
+          >
+            Sobre nós
+          </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               scrolling ? "bg-primary" : "bg-primary"
@@ -62,7 +90,9 @@ export default function ListGroup() {
           offset={-350}
           href="#"
         >
-          <span className={scrolling ? "hover:text-primary" : "hover:text-primary"}>
+          <span
+            className={scrolling ? "hover:text-primary" : "hover:text-primary"}
+          >
             Serviços
           </span>
           <div
@@ -72,30 +102,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
-        <Link
-          to="about"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-200}
-          href="#"
-        >
-          <span
-            className={`whitespace-nowrap ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
-            }`}
-          >
-            Sobre mim
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
-            }`}
-          ></div>
-        </Link>
-      </li>
+
       <li className="transition group">
         <Link
           to="faq"

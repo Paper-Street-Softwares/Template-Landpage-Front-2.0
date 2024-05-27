@@ -20,7 +20,7 @@ const AnimatedCounter = ({ endValue }) => {
           const increment = Math.ceil((endValue - prevCounter) / 100);
           return prevCounter + increment;
         });
-      }, 5);
+      }, 7);
     } else {
       clearInterval(intervalId);
     }

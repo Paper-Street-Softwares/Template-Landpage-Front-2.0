@@ -4,6 +4,10 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
+import whatsappNumber from "../../abstractions/whats";
+
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+
 export default function Faq() {
   return (
     <SectionArea className="bg-quinary">
@@ -14,7 +18,7 @@ export default function Faq() {
       />
 
       <SectionWrapper className="flex justify-center">
-        <MotionDivDownToUp className="w-full flex justify-center">
+        <MotionDivDownToUp className="flex justify-center w-full">
           <div
             className="w-[90%] tablet1:w-[80%] desktop1:w-[80%] max-w-[860px] mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]"
             id="faq"
@@ -26,7 +30,7 @@ export default function Faq() {
           <Paragraphs>
             Para demais dúvidas,{" "}
             <a
-              href="#"
+              href={whatsappContactLink}
               target="_blank"
               className="transition text-tertiary hover:underline"
             >
