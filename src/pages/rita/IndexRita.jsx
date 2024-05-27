@@ -10,12 +10,14 @@ import FloatingWhatsappButton from "../../components/interactives/FloatingWhatsa
 import BackToTopButton from "../../components/interactives/BackToTopButton";
 import CtaWhatsapp from "../../components/sections/CtaWhatsapp";
 import Features from "../../components/sections/Features";
+import HomePage from "../../components/sections/Teste";
 
 export default function IndexRita() {
   return (
     <div>
       <NavbarSection />
       <HeroSection />
+      <HomePage/>
       <TrustedBy />
       <Numbers />
       <AboutImgLeft />
