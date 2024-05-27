@@ -148,7 +148,7 @@ export default function HeadlessDemo() {
                                     offset={-1000}
                                     href="#"
                                   >
-                                    Sobre Mim
+                                    Sobre Nós
                                   </Link>
                                 </span>
                                 <Ripple />
