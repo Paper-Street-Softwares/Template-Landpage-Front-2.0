@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import imgOfficeGreenBackground from "../../assets/imgs/paralaxe/bgOffice.png";
+import imgOfficeGreenBackground from "../../assets/imgs/paralaxe/bgOffice.webp";
 import AnimatedCounter from "../util/AnimatedCounter";
 import { Handshake, Building, Box, Truck } from "lucide-react";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
@@ -37,31 +37,31 @@ export default function Numbers() {
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%] ">
           <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
             <MotionDivDownToUp>
-              <AnimatedCounter endValue={3000} />+
+              <AnimatedCounter endValue={45} />+
             </MotionDivDownToUp>
           </h1>
           <p className=" font-secondFont text-title1 tablet1:text-title3">
-            <MotionDivDownToUp>Seguidores nas redes sociais</MotionDivDownToUp>
+            <MotionDivDownToUp>Anos no mercado</MotionDivDownToUp>
           </p>
         </div>
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
           <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
             <MotionDivDownToUp>
-              <AnimatedCounter endValue={200} />+
+              <AnimatedCounter endValue={650} />+
             </MotionDivDownToUp>
           </h1>
           <p className="font-secondFont text-title1 tablet1:text-title3">
-            <MotionDivDownToUp>Imóveis vendidos ou alugados</MotionDivDownToUp>
+            <MotionDivDownToUp>Apólices geridas anualmente</MotionDivDownToUp>
           </p>
         </div>
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
           <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
             <MotionDivDownToUp>
-              <AnimatedCounter endValue={10} />+
+              <AnimatedCounter endValue={96} />%
             </MotionDivDownToUp>
           </h1>
           <p className="font-secondFont text-title1 tablet1:text-title3">
-            <MotionDivDownToUp>Anos de Experiência</MotionDivDownToUp>
+            <MotionDivDownToUp>De índice de renovação</MotionDivDownToUp>
           </p>
         </div>
       </div>

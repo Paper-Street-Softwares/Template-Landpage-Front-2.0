@@ -3,9 +3,9 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import FeatureCard from "../cards/FeatureCard";
-import imgCard1 from "../../assets/imgs/features/card1.jpg";
-import imgCard2 from "../../assets/imgs/features/card2.jpg";
-import imgCard3 from "../../assets/imgs/features/card3.jpg";
+import imgCard1 from "../../assets/imgs/features/card1.webp";
+import imgCard2 from "../../assets/imgs/features/card2.webp";
+import imgCard3 from "../../assets/imgs/features/card3.webp";
 import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
@@ -26,37 +26,25 @@ export default function Featuresv2() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Diferenciais e Expertise"
-        sectionHeaderSubtitle="Excelência em cada transação imobiliária, garantindo segurança, confiança e satisfação em cada etapa do processo"
+        sectionHeaderTitle="Nossos Seguros"
+        sectionHeaderSubtitle="Descubra nossas especialidades em proteção e assistência"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
           <FeatureCard
             img={imgCard1}
-            title="Seguro Auto"
-            description="Conte com nossa experiência para vender ou alugar seu imóvel com rapidez e segurança, garantindo a melhor oferta do mercado."
-            onButtonClick={() =>
-              handleButtonClick("Venda e Aluguel", "Conteúdo a ser adicionado")
-            }
+            title="Seguro Automóvel"
+            description="Proteção completa para seu veículo, com assistência 24 horas e serviços personalizados."
           />
           <FeatureCard
             img={imgCard2}
-            title="Seguro Auto"
-            description="Realizamos avaliações precisas que captam o verdadeiro valor do seu imóvel, preparando-o para uma oferta ideal."
-            onButtonClick={() =>
-              handleButtonClick("Avaliação", "Conteúdo a ser adicionado")
-            }
+            title="Seguro Residencial"
+            description="Coberturas abrangentes para sua casa ou apartamento, incluindo danos estruturais e responsabilidade civil."
           />
           <FeatureCard
             img={imgCard3}
-            title="Seguro Auto"
-            description="Facilitamos todo o processo de documentação e conduzimos negociações eficazes para assegurar uma transação tranquila e vantajosa."
-            onButtonClick={() =>
-              handleButtonClick(
-                "Negociação e Documentação",
-                "Conteúdo a ser adicionado"
-              )
-            }
+            title="Seguro de Vida"
+            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
           />
         </div>
       </SectionWrapper>

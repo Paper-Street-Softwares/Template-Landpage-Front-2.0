@@ -21,7 +21,8 @@ export default function FeatureCard(props) {
         </p>
         <MotionDivDownToUp>
           <ButtonWithIcon
-            label="Saiba mais"
+            label="
+            Contratar"
             onClick={onButtonClick}
             icon={
               <svg

@@ -23,7 +23,7 @@ export default function IndexRita() {
       <AboutImgLeft />
       <Features />
       <Featuresv2 />
-      <CtaWhatsapp />
+      {/* <CtaWhatsapp /> */}
       <Faq />
       <Footer />
       <FloatingWhatsappButton />

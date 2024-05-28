@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-scroll";
 import Logo from "../../assets/imgs/logo/logo.png";
-import imgAboutPerson from "../../assets/imgs/about/aboutPerson.jpg";
+import imgAboutPerson from "../../assets/imgs/about/aboutPerson.webp";
 
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);
@@ -148,7 +148,7 @@ export default function HeadlessDemo() {
                                     offset={-1000}
                                     href="#"
                                   >
-                                    Sobre Mim
+                                    Sobre Nós
                                   </Link>
                                 </span>
                                 <Ripple />
