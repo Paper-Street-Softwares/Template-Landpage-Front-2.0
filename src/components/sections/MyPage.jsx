@@ -1,31 +1,38 @@
-import React from 'react';
-import TabComponent from '../sectionElements/TabComponent';
+import React from "react";
+import TabComponent from "../sectionElements/TabComponent";
+import ModalComponent from "../interactives/ModalComponent";
 
 const MyPage = () => {
   const tabs = [
     {
-      label: 'Home',
+      label: "Home",
       content: {
-        paragraph: 'This is the Home tab content.'
-      }
+        paragraph: "Primeiro texto de teste.",
+      },
     },
     {
-      label: 'Profile',
+      label: "Profile",
       content: {
-        paragraph: 'This is the Profile tab content.'
-      }
+        paragraph: "Segundo texto de teste.",
+      },
     },
     {
-      label: 'Contact',
+      label: "Contact",
       content: {
-        paragraph: 'This is the Contact tab content.'
-      }
-    }
+        paragraph: "Terceiro texto de teste.",
+      },
+    },
   ];
+  const title = "Meu Título Personalizado";
+  const content = <TabComponent tabs={tabs} />;
 
   return (
     <div>
-      <TabComponent tabs={tabs} />
+      <ModalComponent
+        buttonLabel="Abrir"
+        dialogHeader={title}
+        dialogContent={content}
+      />
     </div>
   );
 };

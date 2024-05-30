@@ -36,6 +36,7 @@ export default function Featuresv2() {
             title="Seguro Automóvel"
             description="Proteção completa para seu veículo, com assistência 24 horas e serviços personalizados."
           />
+          
           <FeatureCard
             img={imgCard2}
             title="Seguro Residencial"
