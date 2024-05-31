@@ -10,6 +10,9 @@ import FloatingWhatsappButton from "../../components/interactives/FloatingWhatsa
 import BackToTopButton from "../../components/interactives/BackToTopButton";
 import CtaWhatsapp from "../../components/sections/CtaWhatsapp";
 import Features from "../../components/sections/Features";
+// import TabComponent from "../../components/sectionElements/TabComponent";
+import MyPage from "../../components/sections/MyPage";
+// import ModalComponent from "../../components/interactives/ModalComponent";
 
 export default function IndexRita() {
   return (
@@ -18,6 +21,9 @@ export default function IndexRita() {
       <HeroSection />
       <TrustedBy />
       <Numbers />
+      {/* <ModalComponent/> */}
+      {/* <TabComponent/> */}
+      <MyPage />
       <AboutImgLeft />
       <Features />
       <Featuresv2 />

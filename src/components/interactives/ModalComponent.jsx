@@ -3,9 +3,9 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import ButtonWithIcon from "../interactives/ButtonWithIcon";
+import ButtonWithIcon from "./ButtonWithIcon";
 
-export default function ResponsiveDemo() {
+export default function ModalComponent() {
   const [visible, setVisible] = useState(false);
 
   return (
