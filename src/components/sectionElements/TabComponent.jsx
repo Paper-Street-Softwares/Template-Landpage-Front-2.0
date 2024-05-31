@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const TabButton = ({ tabName, label, isActive, onClick }) => {
+const TabButton = ({ label, isActive, onClick }) => {
   return (
     <button
       className={`px-4 py-2 focus:outline-none border rounded-tl-md rounded-tr-md ${
