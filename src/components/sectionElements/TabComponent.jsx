@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LinkWithIcon from "../interactives/LinkWithIcon";
 
 const TabButton = ({ label, isActive, onClick }) => {
   return (
@@ -19,14 +20,17 @@ const TabContent = ({ content }) => {
   return (
     <div className="mt-4">
       <h2 className="text-xl font-bold">{content.title}</h2>
-      <p>{content.paragraph}</p>
+      <ul>
+        {content.links.map((link, index) => (
+          <LinkWithIcon key={index} label={link.label} url={link.url} />
+        ))}
+      </ul>
     </div>
   );
 };
 
 const TabComponent = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(tabs[0].label);
-
   const activeContent = tabs.find(tab => tab.label === activeTab).content;
 
   return (
