@@ -4,7 +4,7 @@ import { Dialog } from "primereact/dialog";
 import TabComponent from "../sectionElements/TabComponent";
 import Faq from "./Faq";
 
-const MyPage = () => {
+const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
 
   const tabs = [
@@ -29,7 +29,7 @@ const MyPage = () => {
   return (
     <div>
       <ButtonWithIcon
-        label="Saiba mais"
+        label="Ver todos"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,13 +38,14 @@ const MyPage = () => {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="lucide lucide-move-right"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-plus"
           >
-            <path d="M18 8L22 12L18 16" />
-            <path d="M2 12H22" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 12h8" />
+            <path d="M12 8v8" />
           </svg>
         }
         onClick={() => setVisible(true)}
@@ -65,4 +66,4 @@ const MyPage = () => {
   );
 };
 
-export default MyPage;
+export default ServicesModal;
