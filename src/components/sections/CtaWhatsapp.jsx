@@ -1,17 +1,17 @@
-import SectionContent from "../sectionElements/SectionContent";
 import imgCta from "../../assets/imgs/cta/person.png";
-import imgBackground from "../../assets/imgs/paralaxe/bgOffice.webp";
-import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import whatsappNumber from "../../abstractions/whats";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
+import SectionContent from "../sectionElements/SectionContent";
+import MotionDivUpToDown from "../animation/MotionDivUpToDown";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import imgBackground from "../../assets/imgs/paralaxe/bgOffice.webp";
 
 const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
 
 export default function CtaWhatsapp() {
   return (
     <div
-      className="mt-12 phone1:mt-[15%] phone2:mt-[20%] phone3:mt-[20%] bg-center bg-cover tablet1:mt-28"
+      className="bg-center bg-cover"
       style={{
         backgroundImage: `url(${imgBackground})`,
         backgroundRepeat: "no-repeat",
@@ -21,12 +21,12 @@ export default function CtaWhatsapp() {
       id="contact"
     >
       <SectionContent>
-        <div className="flex justify-center w-full font-mainFont">
-          <div className="w-[88%] max-w-[1110px] flex flex-row items-end justify-between h-28 phone1:h-40 phone3:h-48 desktop1:h-80">
-            <div className="flex flex-col w-full  justify-evenly items-left h-28 phone1:h-40 phone3:h-48 desktop1:h-52 desktop1:mb-[70px]">
-              <h1 className="text-left text-white text-paragraph1 phone1:text-paragraph4 phone3:text-paragraph5 max-w-32 phone3:max-w-none font-poppins tablet1:text-title2 tablet2:text-title4 desktop1:text-title5 desktop2:text-title6">
+        <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
+          <div className="w-full max-w-[1110px] flex flex-row items-end justify-between">
+            <div className=" flex flex-col w-full justify-evenly items-center gap-[32px]">
+              <h1 className="w-full text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6">
                 <MotionDivUpToDown>
-                  <p className="mb-[20px]">
+                  <p className="">
                     Simule e contrate agora mesmo
                     <br />o seu <strong>seguro</strong>
                   </p>
@@ -52,7 +52,7 @@ export default function CtaWhatsapp() {
                 </div>
               </MotionDivDownToUp>
             </div>
-            <div className="phone1:min-h-[197px] phone1:max-h-[229.39px] phone2:min-h-[229.40px] phone2:max-h-[261px] phone3:min-h-[262px] phone3:max-h-[334px] tablet1:min-h-[235px] tablet1:max-h-[292px] tablet2:min-h-[292px] tablet2:max-h-[335px] desktop1:min-h-[335px] desktop3:max-h-[335px] w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
+            <div className="hidden phone1:min-h-[197px] phone1:max-h-[229.39px] phone2:min-h-[229.40px] phone2:max-h-[261px] phone3:min-h-[262px] phone3:max-h-[334px] tablet1:min-h-[235px] tablet1:max-h-[292px] tablet2:min-h-[292px] tablet2:max-h-[335px] desktop1:min-h-[335px] desktop3:max-h-[335px] w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
               <MotionDivDownToUp>
                 <img alt="Foto Pessoa" src={imgCta} />
               </MotionDivDownToUp>
