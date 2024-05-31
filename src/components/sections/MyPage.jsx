@@ -1,53 +1,28 @@
-import React, { useState } from 'react';
-import ButtonWithIcon from '../interactives/ButtonWithIcon';
-import { Dialog } from 'primereact/dialog';
-import TabComponent from '../sectionElements/TabComponent';
+import React, { useState } from "react";
+import ButtonWithIcon from "../interactives/ButtonWithIcon";
+import { Dialog } from "primereact/dialog";
+import TabComponent from "../sectionElements/TabComponent";
+import Faq from "./Faq";
 
 const MyPage = () => {
   const [visible, setVisible] = useState(false);
 
   const tabs = [
     {
-      label: 'Tab 1',
-      content: {
-        title: 'Seguro Objetos Pessoais',
-        links: [
-          { label: 'Seguro Objetos Pessoais 1', url: '#' },
-          { label: 'Seguro Objetos Pessoais 2', url: '#' },
-          { label: 'Seguro Objetos Pessoais 3', url: '#' },
-          { label: 'Seguro Objetos Pessoais 4', url: '#' },
-          { label: 'Seguro Objetos Pessoais 5', url: '#' },
-          { label: 'Seguro Objetos Pessoais 6', url: '#' },
-        ],
-      },
+      label: "Tab 1",
+      content: (
+        <div className="bg-red-500 h-60">
+          <Faq />
+        </div>
+      ),
     },
     {
-      label: 'Tab 2',
-      content: {
-        title: 'Outro Seguro',
-        links: [
-          { label: 'Outro Seguro 1', url: '#' },
-          { label: 'Outro Seguro 2', url: '#' },
-          { label: 'Outro Seguro 3', url: '#' },
-          { label: 'Outro Seguro 4', url: '#' },
-          { label: 'Outro Seguro 5', url: '#' },
-          { label: 'Outro Seguro 6', url: '#' },
-        ],
-      },
+      label: "Tab 2",
+      content: <div className="bg-green-500 h-60"></div>,
     },
     {
-      label: 'Tab 3',
-      content: {
-        title: 'Mais Seguros',
-        links: [
-          { label: 'Mais Seguros 1', url: '#' },
-          { label: 'Mais Seguros 2', url: '#' },
-          { label: 'Mais Seguros 3', url: '#' },
-          { label: 'Mais Seguros 4', url: '#' },
-          { label: 'Mais Seguros 5', url: '#' },
-          { label: 'Mais Seguros 6', url: '#' },
-        ],
-      },
+      label: "Tab 3",
+      content: <div className="bg-red-500 h-60"></div>,
     },
   ];
 
@@ -83,7 +58,7 @@ const MyPage = () => {
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "100vw" }}
       >
-        <p className='pt-[6%]'>Selecione o tipo:</p>
+        <p className="pt-[6%]">Selecione o tipo:</p>
         <TabComponent tabs={tabs} />
       </Dialog>
     </div>
