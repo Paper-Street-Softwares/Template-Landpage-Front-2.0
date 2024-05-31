@@ -3,13 +3,14 @@ import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import { Dialog } from "primereact/dialog";
 import TabComponent from "../sectionElements/TabComponent";
 import Faq from "./Faq";
+import PropTypes from "prop-types";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
 
   const tabs = [
     {
-      label: "Tab 1",
+      label: "Pessoal",
       content: (
         <div className="bg-red-500 h-60">
           <Faq />
@@ -17,11 +18,11 @@ const ServicesModal = () => {
       ),
     },
     {
-      label: "Tab 2",
+      label: "Empresarial",
       content: <div className="bg-green-500 h-60"></div>,
     },
     {
-      label: "Tab 3",
+      label: "Patrimonial",
       content: <div className="bg-red-500 h-60"></div>,
     },
   ];
@@ -64,6 +65,16 @@ const ServicesModal = () => {
       </Dialog>
     </div>
   );
+};
+
+//define que receba como propriedades (`props`), para aceitar as informações que eu quero de forma externa
+ServicesModal.propTypes = {
+  tabs: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      content: PropTypes.node.isRequired,
+    })
+  ).isRequired,
 };
 
 export default ServicesModal;
