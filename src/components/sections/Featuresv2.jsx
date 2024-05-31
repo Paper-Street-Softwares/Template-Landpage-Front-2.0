@@ -13,7 +13,6 @@ import "primeicons/primeicons.css";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 
-
 export default function Featuresv2() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
@@ -24,13 +23,6 @@ export default function Featuresv2() {
     setModalContent(content);
     setVisible(true);
   };
-
-  const segurosName = [
-    { label: "Tab 1", content: <div>Conteúdo 1</div> },
-    { label: "Tab 2", content: <div>Conteúdo 2</div> },
-  ];
-  
-
 
   return (
     <SectionArea className="bg-quinary">
@@ -83,7 +75,7 @@ export default function Featuresv2() {
                 </MotionDivDownToUp>
               </p>
               <MotionDivDownToUp>
-                <ServicesModal tabs={segurosName}/>
+                <ServicesModal />
               </MotionDivDownToUp>
             </div>
           </MotionDivDownToUp>
