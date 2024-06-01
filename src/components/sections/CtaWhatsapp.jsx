@@ -21,19 +21,23 @@ export default function CtaWhatsapp() {
       id="contact"
     >
       <SectionContent>
-        <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
-          <div className="w-full max-w-[1110px] flex flex-row items-end justify-between">
-            <div className=" flex flex-col w-full justify-evenly items-center gap-[32px]">
-              <h1 className="w-full text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6">
+        {/* <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]"> */}
+        <div className="flex justify-center w-full phone1:h-[160px] phone2:w- font-mainFont tablet1:py-[64px] desktop1:py-[96px]">
+          {/* <div className="w-full max-w-[1110px] flex flex-row items-end justify-between"> */}
+          <div className=" w-full flex flex-row items-end justify-between">
+            {/* <div className=" flex flex-col w-full justify-evenly items-center gap-[32px]"> */}
+            <div className=" flex flex-col phone1:w-[50%] h-[160px] justify-evenly items-center gap-[10%] phone3:gap-[9%]">
+              {/* <h1 className="w-full text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6"> */}
+              <h1 className="phone1:w-70%] text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6">
                 <MotionDivUpToDown>
-                  <p className="">
+                  <p className="phone1:text-[16px] phone1:w-[150px] phone1:h-[72px]">
                     Simule e contrate agora mesmo
                     <br />o seu <strong>seguro</strong>
                   </p>
                 </MotionDivUpToDown>
               </h1>
               <MotionDivDownToUp>
-                <div className="w-full">
+                <div className="h-[40px] flex justify-center items-center" style={{ transform: 'scale(0.5)' }}>
                   <ButtonWithIcon
                     label="Fazer simulação"
                     icon={
@@ -52,7 +56,8 @@ export default function CtaWhatsapp() {
                 </div>
               </MotionDivDownToUp>
             </div>
-            <div className="hidden phone1:min-h-[197px] phone1:max-h-[229.39px] phone2:min-h-[229.40px] phone2:max-h-[261px] phone3:min-h-[262px] phone3:max-h-[334px] tablet1:min-h-[235px] tablet1:max-h-[292px] tablet2:min-h-[292px] tablet2:max-h-[335px] desktop1:min-h-[335px] desktop3:max-h-[335px] w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]">
+            {/* <div className=" phone1:min-h-[197px] phone1:max-h-[229.39px] phone2:min-h-[229.40px] phone2:max-h-[261px] phone3:min-h-[262px] phone3:max-h-[334px] tablet1:min-h-[235px] tablet1:max-h-[292px] tablet2:min-h-[292px] tablet2:max-h-[335px] desktop1:min-h-[335px] desktop3:max-h-[335px] w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]"> */}
+            <div className="flex phone1:w-[140px]">
               <MotionDivDownToUp>
                 <img alt="Foto Pessoa" src={imgCta} />
               </MotionDivDownToUp>
