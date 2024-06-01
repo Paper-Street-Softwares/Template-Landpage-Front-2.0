@@ -3,25 +3,26 @@ import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import { Dialog } from "primereact/dialog";
 import TabComponent from "../sectionElements/TabComponent";
 import Faq from "./Faq";
+import PropTypes from "prop-types";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
 
   const tabs = [
     {
-      label: "Tab 1",
+      label: "Pessoal",
       content: (
-        <div className="bg-red-500 h-60">
+        <div className="bg-red-500 h-60 ">
           <Faq />
         </div>
       ),
     },
     {
-      label: "Tab 2",
-      content: <div className="bg-green-500 h-60"></div>,
+      label: "Empresarial",
+      content: <div className="bg-green-500 h-60 "></div>,
     },
     {
-      label: "Tab 3",
+      label: "Patrimonial",
       content: <div className="bg-red-500 h-60"></div>,
     },
   ];
@@ -59,11 +60,29 @@ const ServicesModal = () => {
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p className="">Selecione o tipo:</p>
-        <TabComponent tabs={tabs} />
+        <div className="flex flex-col gap-[12px]">
+          <div>
+            <p className="text-[12px]">
+              Selecione o tipo de seguro para conhecer as opções disponíveis:
+            </p>
+          </div>
+          <div>
+            <TabComponent tabs={tabs} />
+          </div>
+        </div>
       </Dialog>
     </div>
   );
+};
+
+//define que receba como propriedades (`props`), para aceitar as informações que eu quero de forma externa
+ServicesModal.propTypes = {
+  tabs: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      content: PropTypes.node.isRequired,
+    })
+  ).isRequired,
 };
 
 export default ServicesModal;

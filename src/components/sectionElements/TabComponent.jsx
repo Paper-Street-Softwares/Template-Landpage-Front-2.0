@@ -3,12 +3,13 @@ import React, { useState } from "react";
 const TabButton = ({ label, isActive, onClick }) => {
   return (
     <button
-      className={`px-4 py-2 focus:outline-none border rounded-tl-md rounded-tr-md ${
+      className={`px-4 py-2 focus:outline-none border overflow-hidden text-[10px] w-[83px] h-[48px] ${
         isActive
-          ? "border-b-2 border-blue-500 text-blue-500 bg-blue-500 bg-opacity-20"
-          : "border-gray-300 text-gray-600 hover:border-blue-500 hover:border-opacity-50"
-      }`}
+          ? "border-b-2 border-blue-500 text-blue-500 font-bold font-secondFont bg-blue-500 bg-opacity-20"
+          : "border-gray-300 text-gray-600 font-bold font-secondFont flex justify-center items-center hover:border-blue-500 hover:border-opacity-50"
+      } flex justify-center items-center`}
       onClick={onClick}
+      
     >
       {label}
     </button>
@@ -16,7 +17,7 @@ const TabButton = ({ label, isActive, onClick }) => {
 };
 
 const TabContent = ({ content }) => {
-  return <div className="py-8">{content}</div>;
+  return <div className="">{content}</div>;
 };
 
 const TabComponent = ({ tabs }) => {
@@ -24,20 +25,22 @@ const TabComponent = ({ tabs }) => {
   const activeContent = tabs.find((tab) => tab.label === activeTab).content;
 
   return (
-    <div className="container mx-auto p-4">
-      <div className="flex border-b">
-        {tabs.map((tab) => (
-          <TabButton
-            key={tab.key}
-            label={tab.label}
-            isActive={activeTab === tab.label}
-            onClick={() => setActiveTab(tab.label)}
-          />
-        ))}
+    <div className="">
+      <div className="border border-gray-600 rounded-[1%]">
+        <div className="flex border-b">
+          {tabs.map((tab) => (
+            <TabButton
+              key={tab.key}
+              label={tab.label}
+              isActive={activeTab === tab.label}
+              onClick={() => setActiveTab(tab.label)}
+            />
+          ))}
+        </div>
+        <TabContent content={activeContent} />
       </div>
-      <TabContent content={activeContent} />
     </div>
   );
-};
+}; // continuar a estilização aqui
 
 export default TabComponent;
