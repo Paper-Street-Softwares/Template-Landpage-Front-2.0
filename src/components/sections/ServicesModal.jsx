@@ -12,14 +12,14 @@ const ServicesModal = () => {
     {
       label: "Pessoal",
       content: (
-        <div className="bg-red-500 h-60">
+        <div className="bg-red-500 h-60 ">
           <Faq />
         </div>
       ),
     },
     {
       label: "Empresarial",
-      content: <div className="bg-green-500 h-60"></div>,
+      content: <div className="bg-green-500 h-60 "></div>,
     },
     {
       label: "Patrimonial",
@@ -60,7 +60,7 @@ const ServicesModal = () => {
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p className="">Selecione o tipo:</p>
+        <p></p>
         <TabComponent tabs={tabs} />
       </Dialog>
     </div>
