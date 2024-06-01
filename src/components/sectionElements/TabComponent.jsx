@@ -17,7 +17,7 @@ const TabButton = ({ label, isActive, onClick }) => {
 };
 
 const TabContent = ({ content }) => {
-  return <div className="py-8">{content}</div>;
+  return <div className="">{content}</div>;
 };
 
 const TabComponent = ({ tabs }) => {
@@ -25,7 +25,7 @@ const TabComponent = ({ tabs }) => {
   const activeContent = tabs.find((tab) => tab.label === activeTab).content;
 
   return (
-    <div className="container">
+    <div className="">
       <div className="border border-gray-600 rounded-[1%]">
         <div className="flex border-b">
           {tabs.map((tab) => (

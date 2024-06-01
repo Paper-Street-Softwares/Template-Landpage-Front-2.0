@@ -60,8 +60,16 @@ const ServicesModal = () => {
         style={{ width: "50vw" }}
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
-        <p></p>
-        <TabComponent tabs={tabs} />
+        <div className="flex flex-col gap-[12px]">
+          <div>
+            <p className="text-[12px]">
+              Selecione o tipo de seguro para conhecer as opções disponíveis:
+            </p>
+          </div>
+          <div>
+            <TabComponent tabs={tabs} />
+          </div>
+        </div>
       </Dialog>
     </div>
   );
