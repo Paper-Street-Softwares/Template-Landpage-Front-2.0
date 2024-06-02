@@ -25,7 +25,7 @@ const ServicesModal = () => {
             <div className="text-[12px] font-secondFont">
               <p>Clique no seguro para saber mais informações:</p>
             </div>
-            <div className="text-[12px] flex flex-col gap-[8px] text-blue-700">
+            <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
               <button className="flex">
                 <ion-icon
                   style={{ fontSize: "18px" }}
