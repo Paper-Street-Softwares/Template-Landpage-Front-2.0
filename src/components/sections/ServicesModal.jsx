@@ -19,7 +19,68 @@ const ServicesModal = () => {
     },
     {
       label: "Empresarial",
-      content: <div className="bg-green-500 h-60 "></div>,
+      content: (
+        <div className="flex justify-center py-[5%] ">
+          <div className="flex w-[210px] h-[250px] flex-col gap-[18px]  ">
+            <div className="text-[12px] font-secondFont">
+              <p>Clique no seguro para saber mais informações:</p>
+            </div>
+            <div className="text-[12px] flex flex-col gap-[8px] text-blue-700">
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1">Seguro Objetos Pessoais</span>
+              </button>
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1 text-left">
+                  Seguro Objetos Pessoais e de <br /> objeto
+                </span>
+              </button>
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1">Seguro Objetos Pessoais</span>
+              </button>
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1">Seguro Objetos Pessoais</span>
+              </button>
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1">Seguro Objetos Pessoais</span>
+              </button>
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1">Seguro Objetos Pessoais</span>
+              </button>
+              <button className="flex">
+                <ion-icon
+                  style={{ fontSize: "18px" }}
+                  name="return-down-forward-outline"
+                ></ion-icon>
+                <span className="ml-1">Seguro Objetos Pessoais</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      ),
     },
     {
       label: "Patrimonial",
@@ -62,7 +123,7 @@ const ServicesModal = () => {
       >
         <div className="flex flex-col gap-[12px]">
           <div>
-            <p className="text-[12px]">
+            <p className="text-[12px] font-secondFont">
               Selecione o tipo de seguro para conhecer as opções disponíveis:
             </p>
           </div>
