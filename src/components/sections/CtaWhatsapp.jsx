@@ -22,42 +22,43 @@ export default function CtaWhatsapp() {
     >
       <SectionContent>
         {/* <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]"> */}
-        <div className="flex justify-center w-full phone1:h-[160px] phone2:w- font-mainFont tablet1:py-[64px] desktop1:py-[96px]">
+        <div className="flex justify-center w-full phone1:h-[160px] font-mainFont tablet1:h-[192px] tablet1:px-[5%] desktop1:px-[20%] ">
           {/* <div className="w-full max-w-[1110px] flex flex-row items-end justify-between"> */}
           <div className=" w-full flex flex-row items-end justify-between">
             {/* <div className=" flex flex-col w-full justify-evenly items-center gap-[32px]"> */}
-            <div className=" flex flex-col phone1:w-[50%] h-[160px] justify-evenly items-center gap-[10%] phone3:gap-[9%]">
+            <div className=" flex flex-col phone1:w-[50%] h-[100%] justify-evenly items-center gap-[10%] phone3:gap-[9%] tablet1:w-[60%] desktop1:w-[50%]">
               {/* <h1 className="w-full text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6"> */}
-              <h1 className="phone1:w-70%] text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6">
+              <h1 className=" text-center text-white text-title4 font-poppins  desktop1:text-title5 desktop2:text-title6">
                 <MotionDivUpToDown>
-                  <p className="phone1:text-[16px] phone1:w-[150px] phone1:h-[72px]">
-                    Simule e contrate agora mesmo
-                    <br />o seu <strong>seguro</strong>
+                  <p className="phone1:text-[16px] phone1:w-[150px] phone1:h-[72px] tablet1:w-[345px]  tablet1:text-[22px] ">
+                    Simule e contrate agora mesmo o seu <strong>seguro</strong>
                   </p>
                 </MotionDivUpToDown>
               </h1>
               <MotionDivDownToUp>
-                <div className="h-[40px] flex justify-center items-center" style={{ transform: 'scale(0.5)' }}>
-                  <ButtonWithIcon
-                    label="Fazer simulação"
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        fill="currentColor"
-                        className="bi bi-whatsapp"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                      </svg>
-                    }
-                  />
+                <div className="h-[40px] flex justify-center items-center transform scale-50 tablet1:scale-75 tablet1:h-[60px] desktop1:h-[70px]">
+                  <div className="tablet1:w-[100%]">
+                    <ButtonWithIcon
+                      label="Fazer simulação"
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                          className="bi bi-whatsapp"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                        </svg>
+                      }
+                    />
+                  </div>
                 </div>
               </MotionDivDownToUp>
             </div>
             {/* <div className=" phone1:min-h-[197px] phone1:max-h-[229.39px] phone2:min-h-[229.40px] phone2:max-h-[261px] phone3:min-h-[262px] phone3:max-h-[334px] tablet1:min-h-[235px] tablet1:max-h-[292px] tablet2:min-h-[292px] tablet2:max-h-[335px] desktop1:min-h-[335px] desktop3:max-h-[335px] w-[90%] max-w-40 phone1:w-[100%] phone1:max-w-none phone3:max-w-60 tablet1:w-[45%]"> */}
-            <div className="flex phone1:w-[140px]">
+            <div className="flex phone1:w-[140px] tablet1:w-[180px]">
               <MotionDivDownToUp>
                 <img alt="Foto Pessoa" src={imgCta} />
               </MotionDivDownToUp>
