@@ -26,7 +26,7 @@ const TabComponent = ({ tabs }) => {
 
   return (
     <div className="">
-      <div className="border border-gray-600 rounded-[1%]">
+      <div className="border border-gray-300 h-auto rounded-[1%]">
         <div className="flex border-b">
           {tabs.map((tab) => (
             <TabButton
