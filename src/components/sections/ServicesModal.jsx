@@ -12,7 +12,7 @@ const ServicesModal = () => {
     {
       label: "Pessoal",
       content: (
-        <div className="bg-red-500 h-60 ">
+        <div className="bg-red-500  h-auto ">
           <Faq />
         </div>
       ),
@@ -21,12 +21,12 @@ const ServicesModal = () => {
       label: "Empresarial",
       content: (
         <div className="flex justify-center py-[5%] ">
-          <div className="flex w-[210px] h-[250px] flex-col gap-[18px]  ">
+          <div className="flex w-[210px] h-auto flex-col gap-[18px]  ">
             <div className="text-[12px] font-secondFont">
               <p>Clique no seguro para saber mais informações:</p>
             </div>
             <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
-              <button className="flex">
+              {/* <button className="flex">
                 <ion-icon
                   style={{ fontSize: "18px" }}
                   name="return-down-forward-outline"
@@ -55,7 +55,8 @@ const ServicesModal = () => {
                   name="return-down-forward-outline"
                 ></ion-icon>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
-              </button>
+              </button> */}
+              
               <button className="flex">
                 <ion-icon
                   style={{ fontSize: "18px" }}
@@ -84,7 +85,7 @@ const ServicesModal = () => {
     },
     {
       label: "Patrimonial",
-      content: <div className="bg-red-500 h-60"></div>,
+      content: <div className="bg-red-500 h-auto"></div>,
     },
   ];
 
@@ -136,7 +137,6 @@ const ServicesModal = () => {
   );
 };
 
-//define que receba como propriedades (`props`), para aceitar as informações que eu quero de forma externa
 ServicesModal.propTypes = {
   tabs: PropTypes.arrayOf(
     PropTypes.shape({
