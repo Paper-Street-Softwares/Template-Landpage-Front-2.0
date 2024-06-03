@@ -4,9 +4,20 @@ import { Dialog } from "primereact/dialog";
 import TabComponent from "../sectionElements/TabComponent";
 import Faq from "./Faq";
 import PropTypes from "prop-types";
+import CardModal from "../sectionElements/CardModal";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
+
+  const [modalAberto, setModalAberto] = useState(false);
+
+  const abrirModal = () => {
+    setModalAberto(true);
+  };
+
+  const fecharModal = () => {
+    setModalAberto(false);
+  };
 
   const tabs = [
     {
@@ -26,13 +37,27 @@ const ServicesModal = () => {
               <p>Clique no seguro para saber mais informações:</p>
             </div>
             <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
-              {/* <button className="flex">
+              <button className="flex" onClick={abrirModal}>
                 <ion-icon
                   style={{ fontSize: "18px" }}
                   name="return-down-forward-outline"
                 ></ion-icon>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
+              {modalAberto && (
+                <CardModal
+                  visible={modalAberto}
+                  onClose={fecharModal}
+                  header="hhhhh"
+                  content={
+                    <div>
+                      <p>Conteúdo do modal</p>
+                    </div>
+                  }
+                />
+              )}
+
+              {/*  */}
               <button className="flex">
                 <ion-icon
                   style={{ fontSize: "18px" }}
@@ -55,8 +80,8 @@ const ServicesModal = () => {
                   name="return-down-forward-outline"
                 ></ion-icon>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
-              </button> */}
-              
+              </button>
+
               <button className="flex">
                 <ion-icon
                   style={{ fontSize: "18px" }}
