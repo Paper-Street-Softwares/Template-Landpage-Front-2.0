@@ -48,10 +48,29 @@ const ServicesModal = () => {
                 <CardModal
                   visible={modalAberto}
                   onClose={fecharModal}
-                  header="hhhhh"
+                  header="Seguro Objetos Pessoais"
                   content={
-                    <div>
-                      <p>Conteúdo do modal</p>
+                    <div className=" w-full flex flex-col gap-[16px]">
+                      <div className="flex w-full">
+                        <img
+                          className="w-[99.9%] "
+                          src="src/assets/imgs/cardModal/imgCardModal.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex">
+                        <div className="flex flex-col gap-[12px]">
+                          <h2 className="flex font-bold">Pra quem é esse seguro?</h2>
+                          <p className="flex">
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page when
+                            looking at its layout. 
+                          </p>
+                        </div>
+                        <div className="w-full">
+                          <button></button>
+                        </div>
+                      </div>
                     </div>
                   }
                 />

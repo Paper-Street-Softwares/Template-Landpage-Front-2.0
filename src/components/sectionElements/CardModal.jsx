@@ -4,13 +4,21 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 
-export default function CardModal({ visible, onClose, header, content }) {
+export default function CardModal({
+  visible,
+  onClose,
+  header,
+  content,
+
+}) {
+  
+
   return (
-    <div className="">
-      <div className=" flex justify-center">
+    <div>
+      <div>
         <Dialog
           className=" font-secondFont"
-          header={header}
+          header={<h2 style={{fontSize:"16px"}}>{header}</h2>}
           visible={visible}
           onHide={onClose}
           style={{ width: "50vw" }}
