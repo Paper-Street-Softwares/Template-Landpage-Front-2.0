@@ -36,8 +36,13 @@ const content = {
       card4Description: "Melhores cotações para suas necessidades",
     },
     cta: {
-      title: "Simule e contrate agora mesmo o seu seguro",
-      subtitle: "Segurança financeira para sua família em casos de imprevistos",
+      title: (
+        <p className="">
+          Simule e contrate agora mesmo
+          <br />o seu <strong>seguro</strong>
+        </p>
+      ),
+      subtitle: "#",
       ctaButtonText: "Fazer simulação",
     },
     faq: {
