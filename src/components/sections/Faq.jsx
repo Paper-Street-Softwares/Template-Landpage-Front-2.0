@@ -5,6 +5,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 import links from "../../abstractions/links";
+import content from "../../abstractions/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -13,8 +14,8 @@ export default function Faq() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Perguntas Frequentes"
-        sectionHeaderSubtitle="Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!"
+        sectionHeaderTitle={content.texts.faq.title}
+        sectionHeaderSubtitle={content.texts.faq.subtitle}
       />
 
       <SectionWrapper className="flex justify-center">
