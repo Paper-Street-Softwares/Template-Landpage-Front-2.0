@@ -10,6 +10,7 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import content from "../../abstractions/content";
 
 export default function AboutImgLeft() {
   const [visible, setVisible] = useState(false);
@@ -64,23 +65,12 @@ export default function AboutImgLeft() {
         <div className="desktop1:w-[450px] desktop2:w-[570px]" id="about">
           <MotionDivDownToUp>
             <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
-              Sobre nós 👋
+              {content.texts.about.title}
             </SectionTitles>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="">
-              Após 15 anos de dedicação em diversas corretoras e acumulando
-              valiosas experiências na solução dos problemas de seus clientes, o
-              Sr. Uellinton Rodrigues de Matos fundou a URM Seguros.
-              <br />
-              <br />
-              Com mais de 30 anos de história, a URM Seguros se consolidou como
-              referência no mercado de seguros, compreendendo profundamente o
-              que é necessário para garantir a sua proteção.
-              <br />
-              <br />
-              Nosso compromisso é oferecer segurança e tranquilidade para você,
-              sua família e seus bens mais preciosos.
+              {content.texts.about.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
           <MotionDivDownToUp>

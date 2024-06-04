@@ -1,7 +1,20 @@
+import logo from "../assets/imgs/logo/logo.png";
+
 const content = {
   texts: {
+    navbar: {
+      logo: { logo },
+      menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
+      ctaButtonText: "Simule agora seu seguro",
+      ctaButtonTextResponsive: "Contato",
+    },
     hero: {
-      title: "Proteja o que mais importa",
+      title: (
+        <div>
+          Proteja o que <br />
+          <span className="text-primary">mais</span> importa
+        </div>
+      ),
       subtitle:
         "Protegendo o seu veículo, para que cada viagem seja uma experiência tranquila e segura.",
       ctaButtonText: "Fazer simulação",
@@ -13,31 +26,50 @@ const content = {
     numbers: {
       number1: 30,
       number1Description: "Anos no mercado",
-      number2: 30,
-      number2Description: "Anos no mercado",
-      number3: 30,
-      number3Description: "Anos no mercado",
+      number2: 650,
+      number2Description: "Apólices geridas anualmente",
+      number3: 96,
+      number3Description: "De índice de renovação",
     },
     about: {
       title: "Sobre nós 👋",
-      paragraph:
-        "Após 15 anos de dedicação em diversas corretoras e acumulando valiosas experiências na solução dos problemas de seus clientes, o Sr. Uellinton Rodrigues de Matos fundou a URM Seguros.",
+      paragraph: (
+        <div>
+          Após 15 anos de dedicação em diversas corretoras e acumulando valiosas
+          experiências na solução dos problemas de seus clientes, o Sr.
+          Uellinton Rodrigues de Matos fundou a URM Seguros.
+          <br />
+          <br />
+          Com mais de 30 anos de história, a URM Seguros se consolidou como
+          referência no mercado de seguros, compreendendo profundamente o que é
+          necessário para garantir a sua proteção.
+          <br />
+          <br />
+          Nosso compromisso é oferecer segurança e tranquilidade para você, sua
+          família e seus bens mais preciosos.
+        </div>
+      ),
     },
     actuation: {
       title: "Nossas especialidades",
       subtitle: "Serviços personalizados para sua tranquilidade",
       card1Title: "Cotação de Seguros",
       card1Description: "Melhores cotações para suas necessidades",
-      card2Title: "Cotação de Seguros",
-      card2Description: "Melhores cotações para suas necessidades",
-      card3Title: "Cotação de Seguros",
-      card3Description: "Melhores cotações para suas necessidades",
-      card4Title: "Cotação de Seguros",
-      card4Description: "Melhores cotações para suas necessidades",
+      card2Title: "Gestão de Apólices",
+      card2Description: "Administração completa das suas apólices",
+      card3Title: "Apoio em Sinistros",
+      card3Description: "Assistência eficiente na resolução de sinistros",
+      card4Title: "Análise de Risco",
+      card4Description: "Avaliação detalhada dos riscos para proteção ideal",
     },
     cta: {
-      title: "Simule e contrate agora mesmo o seu seguro",
-      subtitle: "Segurança financeira para sua família em casos de imprevistos",
+      title: (
+        <p className="">
+          Simule e contrate agora mesmo
+          <br />o seu <strong>seguro</strong>
+        </p>
+      ),
+      subtitle: "#",
       ctaButtonText: "Fazer simulação",
     },
     faq: {
@@ -69,3 +101,5 @@ const content = {
     },
   },
 };
+
+export default content;

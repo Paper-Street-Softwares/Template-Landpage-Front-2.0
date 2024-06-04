@@ -6,6 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import HeadlessDemo from "../sectionElements/Sidebar2";
 import { px } from "framer-motion";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
+import content from "../../abstractions/content";
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);
@@ -101,8 +102,8 @@ export default function NavbarSection() {
             href="#"
           >
             <img
-              src={Logo}
-              alt="Logo Rita Almeida Corretora"
+              src={content.texts.navbar.logo.logo}
+              alt=""
               className={`${
                 scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
@@ -113,7 +114,7 @@ export default function NavbarSection() {
           <div className="flex items-center justify-between gap-[16px]">
             <div className="hidden tablet1:flex desktop1:hidden">
               <ButtonWithIconNavbar
-                label="Contato"
+                label={content.texts.navbar.ctaButtonTextResponsive}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,6 @@
-import imgCta from "../../assets/imgs/cta/person.png";
 import links from "../../abstractions/links";
+import content from "../../abstractions/content";
+import imgCta from "../../assets/imgs/cta/person.png";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import SectionContent from "../sectionElements/SectionContent";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
@@ -25,17 +26,12 @@ export default function CtaWhatsapp() {
           <div className="w-full max-w-[1110px] flex flex-row items-end justify-between">
             <div className=" flex flex-col w-full justify-evenly items-center gap-[32px]">
               <h1 className="w-full text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6">
-                <MotionDivUpToDown>
-                  <p className="">
-                    Simule e contrate agora mesmo
-                    <br />o seu <strong>seguro</strong>
-                  </p>
-                </MotionDivUpToDown>
+                <MotionDivUpToDown>{content.texts.cta.title}</MotionDivUpToDown>
               </h1>
               <MotionDivDownToUp>
                 <div className="w-full">
                   <ButtonWithIcon
-                    label="Fazer simulação"
+                    label={content.texts.cta.ctaButtonText}
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

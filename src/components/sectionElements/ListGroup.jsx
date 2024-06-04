@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 import links from "../../abstractions/links";
+import content from "../../abstractions/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -47,7 +48,7 @@ export default function ListGroup() {
           <span
             className={scrolling ? "hover:text-primary" : "hover:text-primary"}
           >
-            Início
+            {content.texts.navbar.menuItems[0]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
@@ -71,7 +72,7 @@ export default function ListGroup() {
               scrolling ? "hover:text-primary" : "hover:text-primary"
             }`}
           >
-            Sobre nós
+            {content.texts.navbar.menuItems[1]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
@@ -93,7 +94,7 @@ export default function ListGroup() {
           <span
             className={scrolling ? "hover:text-primary" : "hover:text-primary"}
           >
-            Serviços
+            {content.texts.navbar.menuItems[2]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
@@ -118,7 +119,7 @@ export default function ListGroup() {
               scrolling ? "hover:text-primary" : "hover:text-primary"
             }`}
           >
-            Perguntas Frequentes
+            {content.texts.navbar.menuItems[3]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
@@ -129,7 +130,7 @@ export default function ListGroup() {
       </li>
       <a href={whatsappContactLink} target="_blank">
         <ButtonWithIconNavbar
-          label="Simule agora seu seguro"
+          label={content.texts.navbar.ctaButtonText}
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -4,6 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import content from "../../abstractions/content";
 
 export default function AccordionExpandDefault() {
   const [expanded, setExpanded] = useState("panel1");
@@ -41,19 +42,14 @@ export default function AccordionExpandDefault() {
         >
           <Typography>
             <h1 className="font-bold font-secondFont">
-              Qual é o tipo de seguro mais adequado para mim?
+              {content.texts.faq.questions.question1.question}
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              A resposta a essa pergunta depende muito das suas necessidades
-              específicas. Nossa equipe de corretores está aqui para ajudá-lo a
-              entender suas opções e recomendar o tipo de seguro que melhor se
-              adapta à sua situação. Isso pode incluir seguro de vida, seguro de
-              saúde, seguro de automóvel, seguro residencial, entre outros.
-              Entre em contato conosco para uma consulta personalizada.
+              {content.texts.faq.questions.question1.answer}
             </p>
           </Typography>
         </AccordionDetails>
@@ -74,21 +70,14 @@ export default function AccordionExpandDefault() {
         >
           <Typography>
             <h1 className="font-bold font-secondFont">
-              Como posso economizar dinheiro no meu seguro?
+              {content.texts.faq.questions.question2.question}
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              Existem várias maneiras de economizar dinheiro no seguro. Uma
-              delas é agrupar várias apólices de seguro sob o mesmo provedor, o
-              que geralmente resulta em descontos. Além disso, manter um bom
-              histórico de condução, um histórico de saúde sólido ou instalar
-              dispositivos de segurança em sua casa ou veículo pode diminuir os
-              custos do seguro. Nossos corretores podem revisar suas opções e
-              oferecer conselhos sobre como maximizar sua cobertura enquanto
-              economiza dinheiro.
+              {content.texts.faq.questions.question2.answer}
             </p>
           </Typography>
         </AccordionDetails>
@@ -109,19 +98,14 @@ export default function AccordionExpandDefault() {
         >
           <Typography>
             <h1 className="font-bold font-secondFont">
-              O que devo fazer em caso de sinistro?
+              {content.texts.faq.questions.question3.question}
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              Em caso de sinistro, é importante nos contatar imediatamente para
-              iniciar o processo de reivindicação. Nosso objetivo é tornar o
-              processo o mais simples possível para você. Coletaremos todas as
-              informações necessárias e orientaremos você em cada etapa do
-              processo de reivindicação, garantindo que você receba a
-              assistência de que precisa o mais rápido possível.
+              {content.texts.faq.questions.question3.answer}
             </p>
           </Typography>
         </AccordionDetails>
@@ -142,20 +126,14 @@ export default function AccordionExpandDefault() {
         >
           <Typography>
             <h1 className="font-bold font-secondFont">
-              Como faço para entender minha apólice de seguro?
+              {content.texts.faq.questions.question4.question}
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              Compreender os termos e condições de sua apólice de seguro pode
-              parecer complicado, mas estamos aqui para ajudar. Nossos
-              corretores estão à disposição para explicar todos os detalhes da
-              sua apólice, incluindo cobertura, exclusões, limites e quaisquer
-              outros aspectos importantes. Não hesite em nos contatar se tiver
-              alguma dúvida sobre sua cobertura ou qualquer aspecto do seu
-              seguro.
+              {content.texts.faq.questions.question4.answer}
             </p>
           </Typography>
         </AccordionDetails>
