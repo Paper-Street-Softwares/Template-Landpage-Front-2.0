@@ -1,5 +1,12 @@
+import logo from "../assets/imgs/logo/logo.png";
+
 const content = {
   texts: {
+    navbar: {
+      logo: { logo },
+      menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
+      ctaButtonText: "Simule agora seu seguro",
+    },
     hero: {
       title: (
         <div>
