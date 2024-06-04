@@ -13,10 +13,10 @@ const content = {
     numbers: {
       number1: 30,
       number1Description: "Anos no mercado",
-      number2: 30,
-      number2Description: "Anos no mercado",
-      number3: 30,
-      number3Description: "Anos no mercado",
+      number2: 650,
+      number2Description: "Apólices geridas anualmente",
+      number3: 96,
+      number3Description: "De índice de renovação",
     },
     about: {
       title: "Sobre nós 👋",
