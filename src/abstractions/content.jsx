@@ -6,6 +6,7 @@ const content = {
       logo: { logo },
       menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
       ctaButtonText: "Simule agora seu seguro",
+      ctaButtonTextResponsive: "Contato",
     },
     hero: {
       title: (

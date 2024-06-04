@@ -114,7 +114,7 @@ export default function NavbarSection() {
           <div className="flex items-center justify-between gap-[16px]">
             <div className="hidden tablet1:flex desktop1:hidden">
               <ButtonWithIconNavbar
-                label="Contato"
+                label={content.texts.navbar.ctaButtonTextResponsive}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
