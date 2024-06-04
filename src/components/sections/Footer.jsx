@@ -3,6 +3,7 @@ import { Phone, Mail } from "lucide-react";
 import links from "../../abstractions/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import infos from "../../abstractions/infos.jsx";
+import content from "../../abstractions/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -70,7 +71,7 @@ function Footer() {
                     offset={-100}
                     href="#"
                   >
-                    Início
+                    {content.texts.navbar.menuItems[0]}
                   </Link>
                 </div>
                 <div className="h-[36px] ">
@@ -83,7 +84,7 @@ function Footer() {
                     offset={-350}
                     href="#"
                   >
-                    Serviços
+                    {content.texts.navbar.menuItems[2]}
                   </Link>
                 </div>
               </div>
@@ -98,7 +99,7 @@ function Footer() {
                     offset={-200}
                     href="#"
                   >
-                    Sobre Nós
+                    {content.texts.navbar.menuItems[1]}
                   </Link>
                 </div>
                 <div className="h-[36px] ">
@@ -111,7 +112,7 @@ function Footer() {
                     offset={-300}
                     href="#"
                   >
-                    Perguntas Frequentes
+                    {content.texts.navbar.menuItems[3]}
                   </Link>
                 </div>
               </div>
