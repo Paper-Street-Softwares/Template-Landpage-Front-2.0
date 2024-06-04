@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import { Phone, Mail } from "lucide-react";
 import links from "../../abstractions/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import infos from "../../abstractions/infos";
+import infos from "../../abstractions/infos.jsx";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
