@@ -14,6 +14,7 @@ import {
 import { Link } from "react-scroll";
 import Logo from "../../assets/imgs/logo/logo.png";
 import imgAboutPerson from "../../assets/imgs/about/aboutPerson.webp";
+import content from "../../abstractions/content";
 
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);
@@ -109,7 +110,7 @@ export default function HeadlessDemo() {
                                   offset={-100}
                                   href="#"
                                 >
-                                  Início
+                                  {content.texts.navbar.menuItems[0]}
                                 </Link>
                               </span>
                               <Ripple />
@@ -128,7 +129,7 @@ export default function HeadlessDemo() {
                                   offset={-300}
                                   href="#"
                                 >
-                                  Serviços
+                                  {content.texts.navbar.menuItems[2]}
                                 </Link>
                               </span>
                               <Ripple />
@@ -148,7 +149,7 @@ export default function HeadlessDemo() {
                                     offset={-1000}
                                     href="#"
                                   >
-                                    Sobre Nós
+                                    {content.texts.navbar.menuItems[1]}
                                   </Link>
                                 </span>
                                 <Ripple />
@@ -167,7 +168,7 @@ export default function HeadlessDemo() {
                                     offset={-300}
                                     href="#"
                                   >
-                                    Perguntas Frequentes
+                                    {content.texts.navbar.menuItems[3]}
                                   </Link>
                                 </span>
                                 <Ripple />
