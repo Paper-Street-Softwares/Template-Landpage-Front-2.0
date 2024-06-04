@@ -8,6 +8,7 @@ import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ImagesGallerySlides from "../sectionElements/Gallery";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
+import content from "../../abstractions/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -22,17 +23,13 @@ export default function HeroSection() {
               <div className="desktop1:w-[580px] flex flex-col">
                 <MotionDivLeftToRight>
                   <div className="text-black font-bold leading-[44px] tablet1:leading-[60px] desktop1:leading-[74px] text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
-                    <h1 className="pb-[16px]">
-                      Proteja o que <br />
-                      <span className="text-primary">mais</span> importa
-                    </h1>
+                    <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
                     <p className="text-quaternary pb-[54px]">
-                      Protegendo o seu veículo, para que cada viagem seja uma
-                      experiência tranquila e segura.
+                      {content.texts.hero.subtitle}
                     </p>
                   </div>
                 </MotionDivLeftToRight>
@@ -45,7 +42,7 @@ export default function HeroSection() {
                         rel="noopener noreferrer"
                       >
                         <ButtonWithIcon
-                          label="Fazer simulação"
+                          label={content.texts.hero.ctaButtonText}
                           icon={
                             <svg
                               xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,12 @@
 const content = {
   texts: {
     hero: {
-      title: "Proteja o que mais importa",
+      title: (
+        <div>
+          Proteja o que <br />
+          <span className="text-primary">mais</span> importa
+        </div>
+      ),
       subtitle:
         "Protegendo o seu veículo, para que cada viagem seja uma experiência tranquila e segura.",
       ctaButtonText: "Fazer simulação",
