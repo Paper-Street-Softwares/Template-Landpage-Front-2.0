@@ -28,12 +28,12 @@ const content = {
       subtitle: "Serviços personalizados para sua tranquilidade",
       card1Title: "Cotação de Seguros",
       card1Description: "Melhores cotações para suas necessidades",
-      card2Title: "Cotação de Seguros",
-      card2Description: "Melhores cotações para suas necessidades",
-      card3Title: "Cotação de Seguros",
-      card3Description: "Melhores cotações para suas necessidades",
-      card4Title: "Cotação de Seguros",
-      card4Description: "Melhores cotações para suas necessidades",
+      card2Title: "Gestão de Apólices",
+      card2Description: "Administração completa das suas apólices",
+      card3Title: "Apoio em Sinistros",
+      card3Description: "Assistência eficiente na resolução de sinistros",
+      card4Title: "Análise de Risco",
+      card4Description: "Avaliação detalhada dos riscos para proteção ideal",
     },
     cta: {
       title: (
