@@ -9,6 +9,7 @@ import imagem4 from "../../assets/imgs/trustedBy/item4.webp";
 import imagem5 from "../../assets/imgs/trustedBy/item5.webp";
 import imagem6 from "../../assets/imgs/trustedBy/item6.webp";
 import LogoDisplay from "../sectionElements/LogoDisplay";
+import content from "../../abstractions/content";
 
 const images = [
   { src: imagem1, alt: "" },
@@ -24,8 +25,8 @@ export default function TrustedBy() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Parceria com as maiores seguradoras"
-        sectionHeaderSubtitle="Confiabilidade e excelência em proteção"
+        sectionHeaderTitle={content.texts.trustedBy.title}
+        sectionHeaderSubtitle={content.texts.trustedBy.subtitle}
       />
       <SectionWrapper>
         <MotionDivDownToUp className="w-full">
