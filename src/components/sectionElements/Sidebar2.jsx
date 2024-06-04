@@ -118,18 +118,18 @@ export default function HeadlessDemo() {
                           </li>
                           <li>
                             <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                              <ServerIcon />
+                              <UserSearch />
                               <span className="ml-[8px]">
                                 <Link
-                                  to="service"
+                                  to="about"
                                   className="cursor-pointer"
                                   spy={true}
                                   smooth={true}
                                   duration={500}
-                                  offset={-300}
+                                  offset={-1000}
                                   href="#"
                                 >
-                                  {content.texts.navbar.menuItems[2]}
+                                  {content.texts.navbar.menuItems[1]}
                                 </Link>
                               </span>
                               <Ripple />
@@ -138,23 +138,24 @@ export default function HeadlessDemo() {
                           <ul className="p-0 m-0 list-none">
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <UserSearch />
+                                <ServerIcon />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="about"
+                                    to="service"
                                     className="cursor-pointer"
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-1000}
+                                    offset={-300}
                                     href="#"
                                   >
-                                    {content.texts.navbar.menuItems[1]}
+                                    {content.texts.navbar.menuItems[2]}
                                   </Link>
                                 </span>
                                 <Ripple />
                               </a>
                             </li>
+
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                 <HelpCircle />
