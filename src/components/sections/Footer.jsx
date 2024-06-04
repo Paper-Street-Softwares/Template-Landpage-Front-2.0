@@ -1,10 +1,10 @@
 import { Link } from "react-scroll";
 import { Phone, Mail } from "lucide-react";
-import whatsappNumber from "../../abstractions/whats";
+import links from "../../abstractions/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Logo from "../../assets/imgs/logo/logo.png";
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function Footer() {
   return (

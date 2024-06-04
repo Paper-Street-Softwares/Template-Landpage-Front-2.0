@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
-import whatsappNumber from "../../abstractions/whats";
+import links from "../../abstractions/links";
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function ListGroup() {
   const [scrolling, setScrolling] = useState(false);
