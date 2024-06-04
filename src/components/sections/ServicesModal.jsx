@@ -5,6 +5,7 @@ import TabComponent from "../sectionElements/TabComponent";
 import Faq from "./Faq";
 import PropTypes from "prop-types";
 import CardModal from "../sectionElements/CardModal";
+import imgCard from "../../assets/imgs/cardModal/imgCardModal.png";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -38,10 +39,21 @@ const ServicesModal = () => {
             </div>
             <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
               <button className="flex" onClick={abrirModal}>
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
               {modalAberto && (
@@ -53,8 +65,8 @@ const ServicesModal = () => {
                     <div className=" w-full flex flex-col gap-[16px]">
                       <div className="flex w-full">
                         <img
-                          className="w-[99.9%] "
-                          src="src/assets/imgs/cardModal/imgCardModal.png"
+                          className="w-[100%] "
+                          src={imgCard}
                           alt=""
                         />
                       </div>
@@ -66,7 +78,7 @@ const ServicesModal = () => {
                           <p className="flex">
                             It is a long established fact that a reader will be
                             distracted by the readable content of a page when
-                            looking at its layout. 
+                            looking at its layout.
                           </p>
                         </div>
                         <div className="">
@@ -78,7 +90,7 @@ const ServicesModal = () => {
                                 height="24"
                                 viewBox="0 0 1024 1024"
                                 xmlns="http://www.w3.org/2000/svg"
-                                fill="#FFFFFF"
+                                fill="currentColor"
                               >
                                 <path d="M893.8 130.2c-58.8-58.8-154.5-58.8-213.3 0l-453 453c-4.3 4.3-7.4 9.6-9.1 15.4L136.5 873.2c-5.3 17.9-0.8 37.5 12.1 50.4 12.9 12.9 32.5 17.4 50.4 12.1l274.5-81.8c5.8-1.7 11.1-4.8 15.4-9.1l453-453c58.8-58.8 58.8-154.5 0-213.3zM378 791.4l-169.4 50.5 50.5-169.4 378.3-378.3 118.8 118.8L378 791.4zM803.1 366.3L684.3 247.5l75.1-75.1c19.5-19.5 51.1-19.5 70.6 0l48.2 48.2c19.5 19.5 19.5 51.1 0 70.6L803.1 366.3z" />
                                 <path d="M165.3 877.9l-.6.4-28 8.3 8.3-28.1.4-.6zM1024 960v64H0v-64z" />
@@ -94,48 +106,118 @@ const ServicesModal = () => {
 
               {/*  */}
               <button className="flex">
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1 text-left">
                   Seguro Objetos Pessoais e de <br /> objeto
                 </span>
               </button>
+              {/*  */}
               <button className="flex">
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
+              {/*  */}
               <button className="flex">
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
-
+              {/*  */}
               <button className="flex">
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
+              {/*  */}
               <button className="flex">
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
+              {/*  */}
               <button className="flex">
-                <ion-icon
-                  style={{ fontSize: "18px" }}
-                  name="return-down-forward-outline"
-                ></ion-icon>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
                 <span className="ml-1">Seguro Objetos Pessoais</span>
               </button>
             </div>
