@@ -1,10 +1,10 @@
 import { Link } from "react-scroll";
 import { Phone, Mail } from "lucide-react";
-import whatsappNumber from "../../abstractions/whats";
+import links from "../../abstractions/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Logo from "../../assets/imgs/logo/logo.png";
+import infos from "../../abstractions/infos.jsx";
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function Footer() {
   return (
@@ -13,7 +13,11 @@ function Footer() {
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <div className="h-[115px] flex items-center">
-              <img alt="Logo" src={Logo} className="w-auto h-[70px]"></img>
+              <img
+                alt="Logo"
+                src={infos.logo.logo}
+                className="w-auto h-[70px]"
+              ></img>
             </div>
             <div className="flex full gap-x-[8px] items-center">
               <Phone
@@ -27,7 +31,7 @@ function Footer() {
                 target="_blank"
                 className="hover:underline"
               >
-                (21) 3026-2665
+                {infos.phone}
               </a>
             </div>
             <div className="flex full gap-x-[8px] items-center">
@@ -37,7 +41,7 @@ function Footer() {
                 strokeWidth={1}
                 className="text-white"
               />
-              <p> adm@urmseguros.com.br</p>
+              <p>{infos.mail}</p>
             </div>
           </div>
         </MotionDivDownToUp>
@@ -46,10 +50,7 @@ function Footer() {
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               ATÉ MAIS!
             </h1>
-            <p>
-              Agradecemos sua visita! Esperamos que em breve você se torne nosso
-              cliente e desfrute de todos as proteções que oferecemos. 🛡️👋
-            </p>
+            <p>{infos.footerInfos.footerText}</p>
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>
@@ -123,7 +124,7 @@ function Footer() {
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <p className="w-full">
-          2024 - URM Corretora de Seguros - Todos os direitos reservados
+          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
         </p>
         <p>
           <a

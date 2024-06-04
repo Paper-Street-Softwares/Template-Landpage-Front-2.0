@@ -1,12 +1,12 @@
 import imgCta from "../../assets/imgs/cta/person.png";
-import whatsappNumber from "../../abstractions/whats";
+import links from "../../abstractions/links";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import SectionContent from "../sectionElements/SectionContent";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import imgBackground from "../../assets/imgs/paralaxe/bgOffice.webp";
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function CtaWhatsapp() {
   return (

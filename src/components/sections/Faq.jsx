@@ -4,9 +4,9 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
-import whatsappNumber from "../../abstractions/whats";
+import links from "../../abstractions/links";
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function Faq() {
   return (

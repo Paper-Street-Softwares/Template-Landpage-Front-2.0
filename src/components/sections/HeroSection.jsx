@@ -1,15 +1,15 @@
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import whatsappNumber from "../../abstractions/whats";
-import ButtonWithIcon from "../interactives/ButtonWithIcon";
-import ImagesGallerySlides from "../sectionElements/Gallery";
+import links from "../../abstractions/links";
 import HeroImg1 from "../../assets/imgs/hero/heroImg1.webp";
 import HeroImg2 from "../../assets/imgs/hero/heroImg2.png";
 import HeroImg3 from "../../assets/imgs/hero/heroImg3.png";
 import HeroImg4 from "../../assets/imgs/hero/heroImg4.png";
 import HeroImg5 from "../../assets/imgs/hero/heroImg5.png";
+import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import ImagesGallerySlides from "../sectionElements/Gallery";
+import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function HeroSection() {
   return (
