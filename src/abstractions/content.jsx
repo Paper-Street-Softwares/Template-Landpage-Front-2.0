@@ -9,7 +9,10 @@ import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 const content = {
   texts: {
     navbar: {
-      logo: { logo },
+      logo: {
+        img: logo,
+        alt: "",
+      },
       menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
       ctaButtonText: "Simule agora seu seguro",
       ctaButtonTextResponsive: "Contato",
