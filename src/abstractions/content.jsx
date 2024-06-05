@@ -27,27 +27,48 @@ const content = {
       images: {
         background: {},
         static: {},
-        slide1: {},
-        slide2: {},
-        slide3: {},
+        slide1: {
+          img: {},
+          alt: "",
+        },
+        slide2: {
+          img: {},
+          alt: "",
+        },
+        slide3: {
+          img: {},
+          alt: "",
+        },
       },
     },
     trustedBy: {
       title: "Parceria com as maiores seguradoras",
       subtitle: "Confiabilidade e excelência em proteção",
       images: {
-        img1: { trustedByImg1 },
-        img1Alt: "Seguradora Porto Seguro",
-        img2: { trustedByImg2 },
-        img2Alt: "Seguradora Bradesco",
-        img3: { trustedByImg3 },
-        img3Alt: "Seguradora Liberty",
-        img4: { trustedByImg4 },
-        img4Alt: "Seguradora Allianz",
-        img5: { trustedByImg5 },
-        img5Alt: "Seguradora SulAmérica",
-        img6: { trustedByImg6 },
-        img6Alt: "Seguradora Tokio Marine",
+        img1: {
+          img: { trustedByImg1 },
+          alt: "Seguradora Porto Seguro",
+        },
+        img2: {
+          img: { trustedByImg2 },
+          alt: "Seguradora Bradesco",
+        },
+        img3: {
+          img: { trustedByImg3 },
+          alt: "Seguradora Liberty",
+        },
+        img4: {
+          img: { trustedByImg4 },
+          alt: "Seguradora Allianz",
+        },
+        img5: {
+          img: { trustedByImg5 },
+          alt: "Seguradora SulAmérica",
+        },
+        img6: {
+          img: { trustedByImg6 },
+          alt: "Seguradora Tokio Marine",
+        },
       },
     },
     numbers: {
