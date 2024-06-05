@@ -1,4 +1,10 @@
 import logo from "../assets/imgs/logo/logo.png";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
+import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
+import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
+import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 
 const content = {
   texts: {
@@ -18,10 +24,25 @@ const content = {
       subtitle:
         "Protegendo o seu veículo, para que cada viagem seja uma experiência tranquila e segura.",
       ctaButtonText: "Fazer simulação",
+      images: {
+        background: {},
+        static: {},
+        slide1: {},
+        slide2: {},
+        slide3: {},
+      },
     },
     trustedBy: {
       title: "Parceria com as maiores seguradoras",
       subtitle: "Confiabilidade e excelência em proteção",
+      images: {
+        img1: { trustedByImg1 },
+        img2: { trustedByImg2 },
+        img3: { trustedByImg3 },
+        img4: { trustedByImg4 },
+        img5: { trustedByImg5 },
+        img6: { trustedByImg6 },
+      },
     },
     numbers: {
       number1: 30,
