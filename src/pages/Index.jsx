@@ -6,7 +6,7 @@ import TrustedBy from "../components/sections/TrustedBy";
 import Services from "../components/sections/Services";
 import CtaWhatsapp from "../components/sections/CtaWhatsapp";
 import HeroSection from "../components/sections/HeroSection";
-import AboutImgLeft from "../components/sections/AboutImgLeft";
+import About from "../components/sections/About";
 import NavbarSection from "../components/sections/NavbarSection";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
@@ -18,7 +18,7 @@ export default function Index() {
       <HeroSection />
       <TrustedBy />
       <Numbers />
-      <AboutImgLeft />
+      <About />
       <Features />
       <Services />
       <CtaWhatsapp />

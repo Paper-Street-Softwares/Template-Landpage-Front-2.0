@@ -10,7 +10,7 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../abstractions/content";
 
-export default function AboutImgLeft() {
+export default function About() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
