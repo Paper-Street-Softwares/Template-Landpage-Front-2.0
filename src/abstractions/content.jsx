@@ -11,7 +11,7 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "",
+        alt: "Logo URM Corretora de Seguros",
       },
       menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
       ctaButtonText: "Simule agora seu seguro",

@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
-import { Avatar } from "primereact/avatar";
 import { Ripple } from "primereact/ripple";
 import "primeicons/primeicons.css";
 import {
@@ -74,8 +73,8 @@ export default function HeadlessDemo() {
                 <div className="flex items-center justify-between flex-shrink-0 px-4 pt-4">
                   <span className="inline-flex items-center gap-2">
                     <img
-                      src={Logo}
-                      alt="Logo Rita Almeida Corretora"
+                      src={content.texts.navbar.logo.img}
+                      alt={content.texts.navbar.logo.alt}
                       className="w-[200px] h-auto p-[5px]"
                     />
                   </span>
