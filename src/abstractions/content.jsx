@@ -37,11 +37,17 @@ const content = {
       subtitle: "Confiabilidade e excelência em proteção",
       images: {
         img1: { trustedByImg1 },
+        img1Alt: "Seguradora Porto Seguro",
         img2: { trustedByImg2 },
+        img2Alt: "Seguradora Bradesco",
         img3: { trustedByImg3 },
+        img3Alt: "Seguradora Liberty",
         img4: { trustedByImg4 },
+        img4Alt: "Seguradora Allianz",
         img5: { trustedByImg5 },
+        img5Alt: "Seguradora SulAmérica",
         img6: { trustedByImg6 },
+        img6Alt: "Seguradora Tokio Marine",
       },
     },
     numbers: {

@@ -12,12 +12,30 @@ import LogoDisplay from "../sectionElements/LogoDisplay";
 import content from "../../abstractions/content";
 
 const images = [
-  { src: imagem1, alt: "" },
-  { src: imagem2, alt: "" },
-  { src: imagem3, alt: "" },
-  { src: imagem4, alt: "" },
-  { src: imagem5, alt: "" },
-  { src: imagem6, alt: "" },
+  {
+    src: content.texts.trustedBy.images.img1.trustedByImg1,
+    alt: content.texts.trustedBy.images.img1Alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img2.trustedByImg2,
+    alt: content.texts.trustedBy.images.img2Alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img3.trustedByImg3,
+    alt: content.texts.trustedBy.images.img3Alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img4.trustedByImg4,
+    alt: content.texts.trustedBy.images.img4Alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img5.trustedByImg5,
+    alt: content.texts.trustedBy.images.img5Alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img6.trustedByImg6,
+    alt: content.texts.trustedBy.images.img6Alt,
+  },
 ];
 
 export default function TrustedBy() {
