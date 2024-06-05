@@ -16,7 +16,7 @@ export default function ImagesGallerySlides(props) {
   }, [slides.length]);
 
   return (
-    <div className="flex w-full h-full">
+    <div className="relative w-full h-full">
       {slides.map((slide, index) => (
         <div
           key={index}

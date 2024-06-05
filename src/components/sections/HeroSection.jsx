@@ -61,7 +61,7 @@ export default function HeroSection() {
                   </MotionDivLeftToRight>
                 </div>
               </div>
-              <div>
+              <div className=" w-[90%] phone1:pb-[30%] phone1:size-[75%] ">
                 <MotionDivDownToUp>
                   {/* <img src={HeroImg} alt="Veículos" className=""></img> */}
                   <ImagesGallerySlides
