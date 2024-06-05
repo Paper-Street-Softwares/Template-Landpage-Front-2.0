@@ -1,9 +1,8 @@
 import links from "../../abstractions/links";
-import HeroImg1 from "../../assets/imgs/hero/heroImg1.webp";
+import HeroImg1 from "../../assets/imgs/hero/heroImg1.png";
 import HeroImg2 from "../../assets/imgs/hero/heroImg2.png";
 import HeroImg3 from "../../assets/imgs/hero/heroImg3.png";
 import HeroImg4 from "../../assets/imgs/hero/heroImg4.png";
-import HeroImg5 from "../../assets/imgs/hero/heroImg5.png";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ImagesGallerySlides from "../sectionElements/Gallery";
@@ -17,10 +16,20 @@ export default function HeroSection() {
     <div className="font-mainFont" id="home">
       <div className="w-full">
         <div className="flex items-center">
-          <div className="w-full text-white justify-evenly pb-[30px]">
-            <div className="h-[120px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
-            <div className="flex phone1:flex-col desktop1:flex-row mx-auto mb-[38px] phone3:mb-[52px] w-[90%] max-w-[1215px] items-center gap-[20px] tablet2:gap-14 desktop3:gap-20">
-              <div className="desktop1:w-[580px] flex flex-col">
+          <div className="w-full text-white justify-evenly pb-[40px]">
+            <div className="h-[105px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
+            <div className="flex h-auto flex-col w-[90%] max-w-[1215px] items-center gap-[10px] desktop3:gap-20 desktop1:flex-row-reverse mx-auto">
+              <div className="w-full desktop1:w-[50%] flex flex-col items-center tablet1:items-center tablet1:w-[80%]">
+                <MotionDivDownToUp className="w-full h-auto mb-[50%] pt-[5%] desktop1:pt-[0]">
+                  <ImagesGallerySlides
+                    slide1={HeroImg1}
+                    slide2={HeroImg2}
+                    slide3={HeroImg3}
+                    slide4={HeroImg4}
+                  />
+                </MotionDivDownToUp>
+              </div>
+              <div className="w-full desktop1:w-[50%] flex flex-col">
                 <MotionDivLeftToRight>
                   <div className="text-black font-bold leading-[44px] tablet1:leading-[60px] desktop1:leading-[74px] text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
                     <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
@@ -61,18 +70,7 @@ export default function HeroSection() {
                   </MotionDivLeftToRight>
                 </div>
               </div>
-              <div className=" w-[90%] phone1:pb-[30%] phone1:size-[75%] ">
-                <MotionDivDownToUp>
-                  {/* <img src={HeroImg} alt="Veículos" className=""></img> */}
-                  <ImagesGallerySlides
-                    slide1={HeroImg1}
-                    slide2={HeroImg2}
-                    slide3={HeroImg3}
-                    slide4={HeroImg4}
-                    slide5={HeroImg5}
-                  />
-                </MotionDivDownToUp>
-              </div>
+              
             </div>
           </div>
         </div>
