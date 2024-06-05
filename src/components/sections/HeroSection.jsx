@@ -61,19 +61,18 @@ export default function HeroSection() {
                   </MotionDivLeftToRight>
                 </div>
               </div>
-              <div className="phone1: w-[100%] desktop1:w-[50%] desktop2:w-[60%] phone1:mb-[40%] tablet1:mb-[64%] desktop1:mb-[30%]">
-              <MotionDivDownToUp >
-                {/* <img src={HeroImg} alt="Veículos" className=""></img> */}
-                <ImagesGallerySlides
-                  slide1={HeroImg1}
-                  slide2={HeroImg2}
-                  slide3={HeroImg3}
-                  slide4={HeroImg4}
-                  slide5={HeroImg5}
-                />
-              </MotionDivDownToUp>
+              <div>
+                <MotionDivDownToUp>
+                  {/* <img src={HeroImg} alt="Veículos" className=""></img> */}
+                  <ImagesGallerySlides
+                    slide1={HeroImg1}
+                    slide2={HeroImg2}
+                    slide3={HeroImg3}
+                    slide4={HeroImg4}
+                    slide5={HeroImg5}
+                  />
+                </MotionDivDownToUp>
               </div>
-              
             </div>
           </div>
         </div>
