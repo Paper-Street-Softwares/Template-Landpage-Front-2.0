@@ -11,8 +11,6 @@ import {
   AlignJustify,
 } from "lucide-react";
 import { Link } from "react-scroll";
-import Logo from "../../assets/imgs/logo/logo.png";
-import imgAboutPerson from "../../assets/imgs/about/aboutPerson.webp";
 import content from "../../abstractions/content";
 
 export default function HeadlessDemo() {
@@ -184,8 +182,8 @@ export default function HeadlessDemo() {
                       className="bottom-0 left-0 flex items-center justify-center gap-2 p-3 m-3 transition-colors cursor-pointer phone2:absolute border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
                     >
                       <img
-                        src={imgAboutPerson}
-                        alt="Foto de pessoa"
+                        src={content.texts.about.imagem.img}
+                        alt={content.texts.about.imagem.alt}
                         className="w-[100%]"
                       />
                     </a>

@@ -7,6 +7,7 @@ import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 
 const content = {
   texts: {
@@ -89,6 +90,10 @@ const content = {
       number3Description: "De índice de renovação",
     },
     about: {
+      imagem: {
+        img: aboutImg1,
+        alt: "Pessoas em negociação",
+      },
       title: "Sobre nós 👋",
       paragraph: (
         <div>
