@@ -211,11 +211,11 @@ const ServicesModal = () => {
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
         breakpoints={{ "4000px": "384px", "426px": "90vw" }}
-        contentStyle={{  padding: '1rem', paddingLeft:''}}
+        contentStyle={{  padding: '1rem', paddingLeft:'', paddingRight:''}}
         
         // ajustar o tab e o breakpoints
       >
-        <div className="flex flex-col  w-[97%] gap-[12px]">
+        <div className="flex flex-col w-full gap-[12px]">
           <div>
             <p className="text-[12px] font-secondFont">
               Selecione o tipo de seguro para conhecer as opções disponíveis:
