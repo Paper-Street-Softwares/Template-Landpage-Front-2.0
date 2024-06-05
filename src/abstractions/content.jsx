@@ -5,6 +5,8 @@ import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 const content = {
   texts: {
@@ -78,6 +80,7 @@ const content = {
       },
     },
     numbers: {
+      backgroundImg: numbersImgBg,
       number1: 30,
       number1Description: "Anos no mercado",
       number2: 650,
@@ -117,6 +120,7 @@ const content = {
       card4Description: "Avaliação detalhada dos riscos para proteção ideal",
     },
     cta: {
+      backgroundImg: ctaWhatsappImgBg,
       title: (
         <p className="">
           Simule e contrate agora mesmo
