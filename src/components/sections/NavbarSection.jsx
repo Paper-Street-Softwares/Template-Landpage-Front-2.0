@@ -102,8 +102,8 @@ export default function NavbarSection() {
             href="#"
           >
             <img
-              src={content.texts.navbar.logo.logo}
-              alt=""
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"

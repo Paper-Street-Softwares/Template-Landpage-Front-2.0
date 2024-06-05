@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import imgOfficeGreenBackground from "../../assets/imgs/paralaxe/bgOffice.webp";
 import AnimatedCounter from "../util/AnimatedCounter";
-import { Handshake, Building, Box, Truck } from "lucide-react";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../abstractions/content";
 
@@ -29,7 +27,7 @@ export default function Numbers() {
     <div
       className="flex justify-center bg-center bg-cover"
       style={{
-        backgroundImage: `url(${imgOfficeGreenBackground})`,
+        backgroundImage: `url(${content.texts.numbers.backgroundImg})`,
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
       }}

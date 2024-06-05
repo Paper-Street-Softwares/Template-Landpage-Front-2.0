@@ -15,8 +15,8 @@ function Footer() {
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <div className="h-[115px] flex items-center">
               <img
-                alt="Logo"
-                src={infos.logo.logo}
+                src={content.texts.navbar.logo.img}
+                alt={content.texts.navbar.logo.alt}
                 className="w-auto h-[70px]"
               ></img>
             </div>
