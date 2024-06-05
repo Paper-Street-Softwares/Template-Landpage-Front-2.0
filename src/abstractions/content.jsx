@@ -26,7 +26,10 @@ const content = {
       ctaButtonText: "Fazer simulação",
       images: {
         background: {},
-        static: {},
+        static: {
+          img: {},
+          alt: "",
+        },
         slide1: {
           img: {},
           alt: "",
