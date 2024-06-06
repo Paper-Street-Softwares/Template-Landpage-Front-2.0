@@ -19,8 +19,8 @@ export default function HeroSection() {
           <div className="w-full text-white justify-evenly pb-[40px]">
             <div className="h-[105px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
             <div className="flex h-auto flex-col w-[90%] max-w-[1215px] items-center gap-[10px] desktop3:gap-20 desktop1:flex-row-reverse mx-auto">
-              <div className="w-full desktop1:w-[50%] flex flex-col items-center tablet1:items-center tablet1:w-[80%]">
-                <MotionDivDownToUp className="w-full h-auto mb-[50%] pt-[5%] desktop1:pt-[0]">
+              <div className="w-full desktop1:w-[50%] flex flex-col items-center tablet1:items-center tablet1:w-[80%] tablet2:w-[60%]">
+                <MotionDivDownToUp className="w-full h-auto mb-[50%] pt-[5%] desktop1:pt-[0] tablet2:flex tablet2:items-center">
                   <ImagesGallerySlides
                     slide1={HeroImg1}
                     slide2={HeroImg2}
@@ -70,7 +70,6 @@ export default function HeroSection() {
                   </MotionDivLeftToRight>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
