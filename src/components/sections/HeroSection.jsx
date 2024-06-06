@@ -31,7 +31,7 @@ export default function HeroSection() {
               </div>
               <div className="w-full desktop1:w-[50%] flex flex-col">
                 <MotionDivLeftToRight>
-                  <div className="text-black font-bold leading-[44px] tablet1:leading-[60px] desktop1:leading-[74px] text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[66px]">
+                  <div className="text-black desktop1:w-[100%] font-bold leading-[44px] tablet1:leading-[60px] text-center desktop1:leading-[74px] desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-">
                     <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
                   </div>
                 </MotionDivLeftToRight>
