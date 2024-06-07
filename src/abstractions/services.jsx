@@ -1,10 +1,9 @@
-import mainServicesImg1 from "../assets/imgs/services/servicesImg1.webp";
-import mainServicesImg2 from "../assets/imgs/services/servicesImg2.webp";
-import mainServicesImg3 from "../assets/imgs/services/servicesImg3.webp";
-import mainServicesImg4 from "../assets/imgs/services/servicesImg4.webp";
-import mainServicesImg5 from "../assets/imgs/services/servicesImg5.webp";
-import mainServicesImg6 from "../assets/imgs/services/servicesImg6.webp";
-import otherServicesImg1 from "../assets/imgs/services/othersImg1.webp";
+import mainServicesImg1 from "../assets/imgs/services/servicesImg1.png";
+import mainServicesImg2 from "../assets/imgs/services/servicesImg2.png";
+import mainServicesImg3 from "../assets/imgs/services/servicesImg3.png";
+import mainServicesImg4 from "../assets/imgs/services/servicesImg4.png";
+import mainServicesImg5 from "../assets/imgs/services/servicesImg5.png";
+import mainServicesImg6 from "../assets/imgs/services/servicesImg6.png";
 
 const services = {
   main: {
@@ -53,16 +52,6 @@ const services = {
       alt: "",
       title: "Demais seguros",
       description: "Confira todos os nosso seguros clicando abaixo.",
-      readMore: "",
-    },
-  },
-  others: {
-    card1: {
-      img: otherServicesImg1,
-      alt: "",
-      title: "Seguro Objetos Pessoais",
-      description:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       readMore: "",
     },
   },
