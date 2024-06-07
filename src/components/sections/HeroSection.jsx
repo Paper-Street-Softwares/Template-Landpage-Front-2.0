@@ -15,8 +15,8 @@ export default function HeroSection() {
     <div className="font-mainFont" id="home">
       <div className="w-full">
         <div className="flex items-center">
-          <div className="w-full justify-evenly pb-[40px] tablet1:pb-[64px] desktop1:pb-[96px]">
-            <div className="h-[105px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
+          <div className="w-full justify-evenly pb-[40px] tablet1:pb-[64px] desktop1:pb-[60px]">
+            <div className="h-[105px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[160px]" />
             <div className=" flex h-auto flex-col w-[90%] max-w-[1215px] items-center pt-[20px] gap-[30px] desktop3:gap-20 desktop1:flex-row-reverse mx-auto">
               <div className="w-full desktop1:w-[50%] flex flex-col items-center tablet1:items-center tablet1:w-[80%] tablet2:w-[60%]">
                 <MotionDivDownToUp className="">
@@ -33,7 +33,7 @@ export default function HeroSection() {
               </div>
               <div className="w-full desktop1:w-[50%] flex flex-col">
                 <MotionDivLeftToRight>
-                  <div className="text-black desktop1:w-[100%] font-bold leading-[44px] tablet1:leading-[60px] text-center desktop1:leading-[74px] desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-">
+                  <div className="text-black desktop1:w-[100%] font-bold leading-[44px] tablet1:leading-[60px] text-center desktop1:leading-[82px] desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[60px] desktop2:text-[80px]">
                     <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
                   </div>
                 </MotionDivLeftToRight>
