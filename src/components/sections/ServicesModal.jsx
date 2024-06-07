@@ -4,7 +4,7 @@ import { Dialog } from "primereact/dialog";
 import TabComponent from "../sectionElements/TabComponent";
 import PropTypes from "prop-types";
 import CardModal from "../sectionElements/CardModal";
-import imgCard from "../../assets/imgs/cardModal/imgCardModal.png";
+import imgCard from "../../assets/imgs/cardModal/imgCardModal1.png";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -103,11 +103,13 @@ const ServicesModal = () => {
     },
     {
       label: "Patrimonial",
-      content: 
-      <div className="flex justify-center py-[5%] ">
+      content: (
+        <div className="flex justify-center py-[5%] ">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px] ">
             <div className="text-[12px] font-secondFont">
-              <p>Clique no seguro para saber mais wnifnheifhwerfrqfrrefqewfer :</p>
+              <p>
+                Clique no seguro para saber mais wnifnheifhwerfrqfrrefqewfer :
+              </p>
             </div>
             <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
               <button className="flex" onClick={abrirModal}>
@@ -176,6 +178,7 @@ const ServicesModal = () => {
             </div>
           </div>
         </div>
+      ),
     },
   ];
 
@@ -211,8 +214,8 @@ const ServicesModal = () => {
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
         breakpoints={{ "4000px": "384px", "426px": "90vw" }}
-        contentStyle={{  padding: '1rem', paddingLeft:'', paddingRight:''}}
-        
+        contentStyle={{ padding: "1rem", paddingLeft: "", paddingRight: "" }}
+
         // ajustar o tab e o breakpoints
       >
         <div className="flex flex-col w-full gap-[12px]">
