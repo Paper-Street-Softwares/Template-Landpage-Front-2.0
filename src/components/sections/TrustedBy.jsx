@@ -2,6 +2,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Paragraphs from "../sectionElements/Paragraphs";
 import LogoDisplay from "../sectionElements/LogoDisplay";
 import content from "../../abstractions/content";
 
@@ -41,8 +42,21 @@ export default function TrustedBy() {
         sectionHeaderSubtitle={content.texts.trustedBy.subtitle}
       />
       <SectionWrapper>
-        <MotionDivDownToUp className="w-full">
+        <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
           <LogoDisplay images={images} />
+        </MotionDivDownToUp>
+        <MotionDivDownToUp className="">
+          <Paragraphs className="text-center">
+            Para ver todas seguradoras que trabalhamos,{" "}
+            <a
+              href=""
+              target="_blank"
+              className="transition text-tertiary hover:underline"
+            >
+              {" "}
+              clique aqui
+            </a>
+          </Paragraphs>
         </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
