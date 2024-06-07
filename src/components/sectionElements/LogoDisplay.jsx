@@ -2,7 +2,7 @@ import React from "react";
 
 const LogoDisplay = ({ images }) => {
   return (
-    <div className="flex flex-wrap justify-between w-full gap-[20px] tablet1:gap-[24px]">
+    <div className="flex flex-wrap justify-between w-full gap-y-[60px] p-[40px] desktop1:py-0 desktop1:px-[80px]">
       {images.map((image, index) => (
         <img
           key={index}
