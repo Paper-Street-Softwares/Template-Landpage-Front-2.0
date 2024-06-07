@@ -1,5 +1,5 @@
 import logo from "../assets/imgs/logo/logo.png";
-import aboutImg1 from "../assets/imgs/about/aboutImg.png";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -12,7 +12,6 @@ import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
-
 
 const content = {
   texts: {
@@ -58,6 +57,11 @@ const content = {
     trustedBy: {
       title: "Parceria com as maiores seguradoras",
       subtitle: "Confiabilidade e excelência em proteção",
+      trustedMore: {
+        title: "Seguradoras",
+        subtitle:
+          "Confiança que apenas as maiores seguradoras do Brasil oferecem",
+      },
       images: {
         img1: {
           img: { trustedByImg1 },
@@ -80,6 +84,22 @@ const content = {
           alt: "Seguradora SulAmérica",
         },
         img6: {
+          img: { trustedByImg6 },
+          alt: "Seguradora Tokio Marine",
+        },
+        img7: {
+          img: { trustedByImg6 },
+          alt: "Seguradora Tokio Marine",
+        },
+        img8: {
+          img: { trustedByImg6 },
+          alt: "Seguradora Tokio Marine",
+        },
+        img9: {
+          img: { trustedByImg6 },
+          alt: "Seguradora Tokio Marine",
+        },
+        img10: {
           img: { trustedByImg6 },
           alt: "Seguradora Tokio Marine",
         },

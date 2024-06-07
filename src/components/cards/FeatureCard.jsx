@@ -10,9 +10,9 @@ export default function FeatureCard(props) {
       <div
         style={{ backgroundImage: `url(${img})` }}
         alt=""
-        className="tablet1:w-[50%] desktop1:w-full rounded-2xl bg-center bg-no-repeat bg-cover h-[260px]"
+        className="tablet1:w-[50%] desktop1:w-full rounded-2xl bg-center bg-no-repeat bg-cover tablet1:h-[260px] h-[160px] phone2:h-[240px]"
       />
-      <div className="">
+      <div className="tablet1:w-[50%] desktop1:w-[auto]">
         <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[28px] leading-[36px] mb-[16px]">
           <MotionDivDownToUp>{title}</MotionDivDownToUp>
         </h1>

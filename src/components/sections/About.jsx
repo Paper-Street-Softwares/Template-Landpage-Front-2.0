@@ -1,14 +1,15 @@
-import React, { useState } from "react";
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../abstractions/content";
+import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
 export default function About() {
   const [visible, setVisible] = useState(false);
@@ -56,11 +57,12 @@ export default function About() {
   return (
     <SectionArea className="">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]">
-          <img
-            src={content.texts.about.imagem.img}
-            alt={content.texts.about.imagem.alt}
-            className="w-full"
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
+          <div
+            style={{
+              backgroundImage: `url(${content.texts.about.imagem.img})`,
+            }}
+            className="bg-center bg-no-repeat bg-cover h-[400px] desktop1:h-[550px]"
           />
         </MotionDivDownToUp>
 
@@ -75,8 +77,8 @@ export default function About() {
               {content.texts.about.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
-          <MotionDivDownToUp>
-            {/* <ButtonWithIcon
+          {/* <MotionDivDownToUp>
+            <ButtonWithIcon
               label="Leia mais"
               onClick={onClick}
               icon={
@@ -96,8 +98,8 @@ export default function About() {
                   <path d="M2 12H22" />
                 </svg>
               }
-            /> */}
-          </MotionDivDownToUp>
+            />
+          </MotionDivDownToUp> */}
         </div>
       </SectionWrapper>
       <Dialog
