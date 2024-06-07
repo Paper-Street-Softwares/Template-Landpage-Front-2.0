@@ -7,13 +7,13 @@ export default function FeatureCard(props) {
 
   return (
     <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
-      <img
-        src={img}
+      <div
+        style={{ backgroundImage: `url(${img})` }}
         alt=""
-        className=" tablet1:w-[50%] desktop1:w-full rounded-2xl"
+        className="tablet1:w-[50%] desktop1:w-full rounded-2xl bg-center bg-no-repeat bg-cover h-[260px]"
       />
       <div className="">
-        <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
+        <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[28px] leading-[36px] mb-[16px]">
           <MotionDivDownToUp>{title}</MotionDivDownToUp>
         </h1>
         <p className=" font-secondFont text-paragraph4 mb-[36px] text-quaternary">
