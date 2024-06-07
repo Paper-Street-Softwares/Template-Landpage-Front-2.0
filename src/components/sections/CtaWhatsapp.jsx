@@ -15,7 +15,7 @@ export default function CtaWhatsapp() {
       style={{
         backgroundImage: `url(${content.texts.cta.backgroundImg})`,
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
+        backgroundAttachment: "scroll",
       }}
       id="contact"
     >
