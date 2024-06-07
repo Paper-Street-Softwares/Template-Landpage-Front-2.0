@@ -7,10 +7,10 @@ import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 const content = {
