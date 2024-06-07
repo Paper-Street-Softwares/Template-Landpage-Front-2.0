@@ -45,7 +45,7 @@ export default function TrustedBy() {
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle("Sobre mim");
+    setModalTitle("Nossas Seguradoras");
     setModalContent(
       <div>
         <TrustedByMore />
