@@ -32,38 +32,38 @@ export default function Numbers() {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+      <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white">
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%] ">
-          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
+          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
             <MotionDivDownToUp>
               <AnimatedCounter endValue={content.texts.numbers.number1} />+
             </MotionDivDownToUp>
           </h1>
-          <p className=" font-secondFont text-title1 tablet1:text-title3">
+          <p className=" font-secondFont text-title1 tablet1:text-title3 [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
             <MotionDivDownToUp>
               {content.texts.numbers.number1Description}
             </MotionDivDownToUp>
           </p>
         </div>
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
-          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
+          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
             <MotionDivDownToUp>
               <AnimatedCounter endValue={content.texts.numbers.number2} />+
             </MotionDivDownToUp>
           </h1>
-          <p className="font-secondFont text-title1 tablet1:text-title3">
+          <p className="font-secondFont text-title1 tablet1:text-title3 [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
             <MotionDivDownToUp>
               {content.texts.numbers.number2Description}
             </MotionDivDownToUp>
           </p>
         </div>
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%]">
-          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
+          <h1 className="text-[72px] font-mainFont leading-[76px] font-bold [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
             <MotionDivDownToUp>
               <AnimatedCounter endValue={content.texts.numbers.number3} />%
             </MotionDivDownToUp>
           </h1>
-          <p className="font-secondFont text-title1 tablet1:text-title3">
+          <p className="font-secondFont text-title1 tablet1:text-title3 [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
             <MotionDivDownToUp>
               {content.texts.numbers.number3Description}
             </MotionDivDownToUp>

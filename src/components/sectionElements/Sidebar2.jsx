@@ -73,7 +73,7 @@ export default function HeadlessDemo() {
                     <img
                       src={content.texts.navbar.logo.img}
                       alt={content.texts.navbar.logo.alt}
-                      className="w-[200px] h-auto p-[5px]"
+                      className="w-[200px] h-auto py-[15px] pr-[15px]"
                     />
                   </span>
                   <span>

@@ -2,10 +2,9 @@ import links from "../../abstractions/links";
 import HeroImg1 from "../../assets/imgs/hero/heroImg1.png";
 import HeroImg2 from "../../assets/imgs/hero/heroImg2.png";
 import HeroImg3 from "../../assets/imgs/hero/heroImg3.png";
-import HeroImg4 from "../../assets/imgs/hero/heroImg4.png";
+import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import ImagesGallerySlides from "../sectionElements/Gallery";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../abstractions/content";
 
@@ -16,17 +15,20 @@ export default function HeroSection() {
     <div className="font-mainFont" id="home">
       <div className="w-full">
         <div className="flex items-center">
-          <div className="w-full text-white justify-evenly pb-[40px]">
+          <div className="w-full justify-evenly pb-[40px] tablet1:pb-[64px] desktop1:pb-[96px]">
             <div className="h-[105px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[190px]" />
-            <div className="flex h-auto flex-col w-[90%] max-w-[1215px] items-center gap-[10px] desktop3:gap-20 desktop1:flex-row-reverse mx-auto">
+            <div className=" flex h-auto flex-col w-[90%] max-w-[1215px] items-center pt-[20px] gap-[30px] desktop3:gap-20 desktop1:flex-row-reverse mx-auto">
               <div className="w-full desktop1:w-[50%] flex flex-col items-center tablet1:items-center tablet1:w-[80%] tablet2:w-[60%]">
-                <MotionDivDownToUp className="w-full h-auto mb-[50%] pt-[5%] desktop1:pt-[0] tablet2:flex tablet2:items-center">
-                  <ImagesGallerySlides
-                    slide1={HeroImg1}
-                    slide2={HeroImg2}
-                    slide3={HeroImg3}
-                    slide4={HeroImg4}
-                  />
+                <MotionDivDownToUp className="">
+                  <div className="">
+                    <ImagesGallery3Slides
+                      slide1={HeroImg1}
+                      slide2={HeroImg2}
+                      slide3={HeroImg3}
+                    />
+
+                    {/* <img src={HeroImg1}></img> */}
+                  </div>
                 </MotionDivDownToUp>
               </div>
               <div className="w-full desktop1:w-[50%] flex flex-col">
