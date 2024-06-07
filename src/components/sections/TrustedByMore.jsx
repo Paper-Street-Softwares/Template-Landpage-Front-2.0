@@ -38,10 +38,9 @@ const images = [
 
 export default function TrustedByMore() {
   return (
-    <SectionArea className="bg-quinary">
+    <SectionArea className="bg-quinary py-[20px] tablet1:py-[32px] desktop1:py-[46px]">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle={content.texts.trustedBy.trustedMore.title}
         sectionHeaderSubtitle={content.texts.trustedBy.trustedMore.subtitle}
       />
       <SectionWrapper>
