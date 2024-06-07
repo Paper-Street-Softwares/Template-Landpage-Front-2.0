@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.unfix-ios-bg {
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: initial !important;
+  }
+}
+
 @font-face {
   font-family: "KeepCalm";
   src: url("./assets/fonts/KeepCalm-Medium.ttf") format("opentype");
