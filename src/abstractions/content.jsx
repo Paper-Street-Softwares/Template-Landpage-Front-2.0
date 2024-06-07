@@ -32,7 +32,7 @@ const content = {
         </div>
       ),
       subtitle:
-        "Protegendo o seu veículo, para que cada viagem seja uma experiência tranquila e segura.",
+        "Protegendo o seu patrimônio, para que você tenha sempre uma vida tranquila e segura.",
       ctaButtonText: "Fazer simulação",
       images: {
         background: {},
