@@ -9,7 +9,7 @@ export default function CardModal({ visible, onClose, header, content }) {
     <div>
       <div>
         <Dialog
-          className=" font-secondFont"
+          className="font-secondFont"
           header={<h2 style={{ fontSize: "16px" }}>{header}</h2>}
           visible={visible}
           onHide={onClose}
