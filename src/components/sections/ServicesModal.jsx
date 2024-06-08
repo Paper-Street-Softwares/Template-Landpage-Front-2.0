@@ -51,12 +51,13 @@ const ServicesModal = () => {
                     <div className="flex flex-col gap-[32px]">
                       <div className="flex flex-col gap-[12px]">
                         <h2 className="font-bold text-title1 text-black">
-                          Pra quem é esse seguro?
+                          {services.moreServices.pessoal.service1.cardSubtitle}
                         </h2>
                         <p>
-                          Ideal para viajantes que querem transcender fronteiras
-                          com segurança, desfrutando de cada destino sem
-                          preocupações.
+                          {
+                            services.moreServices.pessoal.service1
+                              .cardDescription
+                          }
                         </p>
                       </div>
                       <div className="">

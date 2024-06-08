@@ -72,8 +72,8 @@ const services = {
           img: morePessoalServicesImg1,
           alt: "Foto de pessoa andando",
         },
-        cardSubtitle: "",
-        cardDescription: "",
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription: "Ideal para viajantes... etc..",
         buttonLink: "#",
       },
       service2: {
