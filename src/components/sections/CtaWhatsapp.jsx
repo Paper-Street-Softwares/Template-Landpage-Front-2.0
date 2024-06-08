@@ -1,5 +1,5 @@
-import links from "../../abstractions/links";
-import content from "../../abstractions/content";
+import links from "../../content/links";
+import content from "../../content/content";
 import imgCta from "../../assets/imgs/cta/person.png";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import SectionContent from "../sectionElements/SectionContent";

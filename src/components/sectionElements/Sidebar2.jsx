@@ -11,7 +11,7 @@ import {
   AlignJustify,
 } from "lucide-react";
 import { Link } from "react-scroll";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 
 export default function HeadlessDemo() {
   const [visible, setVisible] = useState(false);

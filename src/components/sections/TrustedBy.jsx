@@ -4,7 +4,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Paragraphs from "../sectionElements/Paragraphs";
 import LogoDisplay from "../sectionElements/LogoDisplay";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 import { Dialog } from "primereact/dialog";
 import React, { useState } from "react";
 import "primereact/resources/themes/saga-blue/theme.css";

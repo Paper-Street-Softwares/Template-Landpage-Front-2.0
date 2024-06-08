@@ -2,7 +2,7 @@ import FeatureImgOnBgCard from "../cards/FeatureImgOnBgCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 
 export default function Features() {
   return (

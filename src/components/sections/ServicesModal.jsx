@@ -11,7 +11,7 @@ import imgCard19 from "../../assets/imgs/cardModal/imgCardModal19.png";
 import imgCard20 from "../../assets/imgs/cardModal/imgCardModal20.png";
 import imgCard25 from "../../assets/imgs/cardModal/imgCardModal25.png";
 import imgCard26 from "../../assets/imgs/cardModal/imgCardModal26.png";
-import services from "../../abstractions/services";
+import services from "../../content/services";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
 
 const ServicesModal = () => {

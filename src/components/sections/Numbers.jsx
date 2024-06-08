@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AnimatedCounter from "../util/AnimatedCounter";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 
 export default function Numbers() {
   const [yearsOfService, setYearsOfService] = useState(0);

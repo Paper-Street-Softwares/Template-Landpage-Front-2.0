@@ -1,9 +1,9 @@
 import { Link } from "react-scroll";
 import { Phone, Mail } from "lucide-react";
-import links from "../../abstractions/links";
+import links from "../../content/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import infos from "../../abstractions/infos.jsx";
-import content from "../../abstractions/content";
+import infos from "../../content/infos.jsx";
+import content from "../../content/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 

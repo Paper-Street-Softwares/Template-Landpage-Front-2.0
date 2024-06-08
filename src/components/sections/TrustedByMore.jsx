@@ -3,7 +3,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import LogoDisplay from "../sectionElements/LogoDisplay";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 
 const images = [
   {

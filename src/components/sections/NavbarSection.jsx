@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import HeadlessDemo from "../sectionElements/Sidebar2";
 import { px } from "framer-motion";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 
 export default function NavbarSection() {
   const [scrolling, setScrolling] = useState(false);

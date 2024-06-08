@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import ServicesModal from "./ServicesModal";
 import FeatureCard from "../cards/FeatureCard";
-import services from "../../abstractions/services";
+import services from "../../content/services";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
@@ -12,7 +12,7 @@ import testimg from "../../assets/imgs/services/servicesImg6.png";
 import "primeicons/primeicons.css";
 import "primereact/resources/primereact.min.css";
 import "primereact/resources/themes/saga-blue/theme.css";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 
 export default function Services() {
   const [visible, setVisible] = useState(false);

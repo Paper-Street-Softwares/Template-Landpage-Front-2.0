@@ -8,7 +8,7 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import content from "../../abstractions/content";
+import content from "../../content/content";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
 export default function About() {
