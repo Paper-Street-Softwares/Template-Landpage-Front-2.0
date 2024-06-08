@@ -21,7 +21,7 @@ const content = {
         alt: "Logo URM Corretora de Seguros",
       },
       menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
-      ctaButtonText: "Simule agora seu seguro",
+      ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
