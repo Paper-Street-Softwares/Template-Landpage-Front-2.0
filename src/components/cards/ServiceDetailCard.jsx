@@ -1,3 +1,5 @@
+import ButtonWithIcon from "../interactives/ButtonWithIcon";
+
 export default function ServiceDetailCard(props) {
   const { img, subtitle, description, buttonLabel, buttonIcon, buttonLink } =
     props;

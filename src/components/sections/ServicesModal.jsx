@@ -12,6 +12,7 @@ import imgCard20 from "../../assets/imgs/cardModal/imgCardModal20.png";
 import imgCard25 from "../../assets/imgs/cardModal/imgCardModal25.png";
 import imgCard26 from "../../assets/imgs/cardModal/imgCardModal26.png";
 import services from "../../abstractions/services";
+import ServiceDetailCard from "../cards/ServiceDetailCard";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -39,56 +40,24 @@ const ServicesModal = () => {
               <ModalComponent
                 header={services.moreServices.pessoal.service1.name}
                 content={
-                  <div className="w-full flex flex-col gap-[16px]">
-                    <div className="w-full">
-                      <div
-                        style={{
-                          backgroundImage: `url(${services.moreServices.pessoal.service1.img.img})`,
-                        }}
-                        className="w-[100%] h-[180px] phone2:h-[230px] phone3:h-[250px] desktop1:h-[300px] bg-no-repeat bg-top bg-cover"
-                      />
-                    </div>
-                    <div className="flex flex-col gap-[32px]">
-                      <div className="flex flex-col gap-[12px]">
-                        <h2 className="font-bold text-title1 text-black">
-                          {services.moreServices.pessoal.service1.cardSubtitle}
-                        </h2>
-                        <p>
-                          {
-                            services.moreServices.pessoal.service1
-                              .cardDescription
-                          }
-                        </p>
-                      </div>
-                      <div className="">
-                        <ButtonWithIcon
-                          label={services.moreServices.ctaButtons.buttonLabel}
-                          icon={services.moreServices.ctaButtons.icon}
-                          link={
-                            services.moreServices.pessoal.service1.buttonLink
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  <ServiceDetailCard
+                    img={services.moreServices.pessoal.service1.img.img}
+                    subtitle={
+                      services.moreServices.pessoal.service1.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.pessoal.service1.cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.pessoal.service1.buttonLink
+                    }
+                  />
                 }
               >
                 <button className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-corner-down-right"
-                  >
-                    <polyline points="15 10 20 15 15 20" />
-                    <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                  </svg>
+                  {services.moreServices.arrowIcon}
                   <span className="ml-1">
                     {services.moreServices.pessoal.service1.name}
                   </span>
@@ -96,61 +65,29 @@ const ServicesModal = () => {
               </ModalComponent>
               {/* link2 */}
               <ModalComponent
-                header="Seguro Auto"
+                header={services.moreServices.pessoal.service2.name}
                 content={
-                  <div className="w-full flex flex-col gap-[16px]">
-                    <div className="flex w-full">
-                      <img className="w-[100%]" src={imgCard2} alt="" />
-                    </div>
-                    <div className="flex flex-col gap-[32px]">
-                      <div className="flex flex-col gap-[12px]">
-                        <h2 className="flex font-bold">
-                          Pra quem é esse seguro?
-                        </h2>
-                        <p className="flex">
-                          Recomendado para motoristas que desejam proteger seu
-                          veículo, embarcando em suas jornadas com segurança e
-                          confiança.
-                        </p>
-                      </div>
-                      <div className="">
-                        <ButtonWithIcon
-                          label="Simular Agora"
-                          icon={
-                            <svg
-                              width="24"
-                              height="24"
-                              viewBox="0 0 1024 1024"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                            >
-                              <path d="M893.8 130.2c-58.8-58.8-154.5-58.8-213.3 0l-453 453c-4.3 4.3-7.4 9.6-9.1 15.4L136.5 873.2c-5.3 17.9-0.8 37.5 12.1 50.4 12.9 12.9 32.5 17.4 50.4 12.1l274.5-81.8c5.8-1.7 11.1-4.8 15.4-9.1l453-453c58.8-58.8 58.8-154.5 0-213.3zM378 791.4l-169.4 50.5 50.5-169.4 378.3-378.3 118.8 118.8L378 791.4zM803.1 366.3L684.3 247.5l75.1-75.1c19.5-19.5 51.1-19.5 70.6 0l48.2 48.2c19.5 19.5 19.5 51.1 0 70.6L803.1 366.3z" />
-                              <path d="M165.3 877.9l-.6.4-28 8.3 8.3-28.1.4-.6zM1024 960v64H0v-64z" />
-                            </svg>
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  <ServiceDetailCard
+                    img={services.moreServices.pessoal.service2.img.img}
+                    subtitle={
+                      services.moreServices.pessoal.service2.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.pessoal.service2.cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.pessoal.service2.buttonLink
+                    }
+                  />
                 }
               >
                 <button className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-corner-down-right"
-                  >
-                    <polyline points="15 10 20 15 15 20" />
-                    <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                  </svg>
-                  <span className="ml-1">Seguro Auto</span>
+                  {services.moreServices.arrowIcon}
+                  <span className="ml-1">
+                    {services.moreServices.pessoal.service2.name}
+                  </span>
                 </button>
               </ModalComponent>
               {/* link3 */}

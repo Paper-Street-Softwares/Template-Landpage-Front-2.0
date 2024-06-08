@@ -4,7 +4,7 @@ import mainServicesImg3 from "../assets/imgs/services/servicesImg3.png";
 import mainServicesImg4 from "../assets/imgs/services/servicesImg4.png";
 import mainServicesImg5 from "../assets/imgs/services/servicesImg5.png";
 import morePessoalServicesImg1 from "../assets/imgs/services/servicesImg1.png";
-import morePessoalServicesImg2 from "../assets/imgs/services/servicesImg1.png";
+import morePessoalServicesImg2 from "../assets/imgs/services/servicesImg2.png";
 
 const services = {
   main: {
@@ -50,6 +50,23 @@ const services = {
     },
   },
   moreServices: {
+    arrowIcon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="15"
+        height="15"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="lucide lucide-corner-down-right"
+      >
+        <polyline points="15 10 20 15 15 20" />
+        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+      </svg>
+    ),
     ctaButtons: {
       buttonLabel: "Simular",
       icon: (
@@ -70,7 +87,6 @@ const services = {
         name: "Seguro 1",
         img: {
           img: morePessoalServicesImg1,
-          alt: "Foto de pessoa andando",
         },
         cardSubtitle: "Pra quem é esse seguro? Seguro 1",
         cardDescription: "Ideal para viajantes... etc.. Seguro 1",
@@ -80,10 +96,9 @@ const services = {
         name: "Seguro 2",
         img: {
           img: morePessoalServicesImg2,
-          alt: "Foto de pessoa andando",
         },
-        cardSubtitle: "",
-        cardDescription: "",
+        cardSubtitle: "Pra quem é esse seguro? Seguro 2",
+        cardDescription: "Ideal para viajantes... etc.. Seguro 2",
         buttonLink: "#",
       },
     },
@@ -92,7 +107,6 @@ const services = {
         name: "Seguro 1",
         img: {
           img: { morePessoalServicesImg1 },
-          alt: "",
         },
         cardSubtitle: "",
         cardDescription: "",
