@@ -37,7 +37,7 @@ const ServicesModal = () => {
             {/* link1 */}
             <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
               <ModalComponent
-                header="Seguro Viagem"
+                header={services.moreServices.pessoal.service1.name}
                 content={
                   <div className="w-full flex flex-col gap-[16px]">
                     <div className="w-full">
@@ -64,6 +64,9 @@ const ServicesModal = () => {
                         <ButtonWithIcon
                           label={services.moreServices.ctaButtons.buttonLabel}
                           icon={services.moreServices.ctaButtons.icon}
+                          link={
+                            services.moreServices.pessoal.service1.buttonLink
+                          }
                         />
                       </div>
                     </div>
@@ -86,7 +89,9 @@ const ServicesModal = () => {
                     <polyline points="15 10 20 15 15 20" />
                     <path d="M4 4v7a4 4 0 0 0 4 4h12" />
                   </svg>
-                  <span className="ml-1">Seguro Viagem</span>
+                  <span className="ml-1">
+                    {services.moreServices.pessoal.service1.name}
+                  </span>
                 </button>
               </ModalComponent>
               {/* link2 */}
