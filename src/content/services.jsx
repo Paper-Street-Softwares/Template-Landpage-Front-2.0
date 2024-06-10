@@ -23,12 +23,13 @@ import morePessoalServicesImg17 from "../assets/imgs/cardModal/imgCardModal17.pn
 import morePessoalServicesImg18 from "../assets/imgs/cardModal/imgCardModal18.png";
 import morePessoalServicesImg19 from "../assets/imgs/cardModal/imgCardModal19.png";
 
-import morePatrimonialServicesImg20 from "../assets/imgs/cardModal/imgCardModal20.png";
-import morePatrimonialServicesImg21 from "../assets/imgs/cardModal/imgCardModal21.png";
-import morePatrimonialServicesImg22 from "../assets/imgs/cardModal/imgCardModal22.png";
-import morePatrimonialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
-import morePatrimonialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
-import morePatrimonialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
+import moreEmpresarialServicesImg20 from "../assets/imgs/cardModal/imgCardModal20.png";
+import moreEmpresarialServicesImg21 from "../assets/imgs/cardModal/imgCardModal21.png";
+import moreEmpresarialServicesImg22 from "../assets/imgs/cardModal/imgCardModal22.png";
+import moreEmpresarialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
+import moreEmpresarialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
+import moreEmpresarialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
+
 import morePatrimonialServicesImg26 from "../assets/imgs/cardModal/imgCardModal26.png";
 import morePatrimonialServicesImg27 from "../assets/imgs/cardModal/imgCardModal27.png";
 import morePatrimonialServicesImg28 from "../assets/imgs/cardModal/imgCardModal28.png";
@@ -318,7 +319,7 @@ const services = {
       service1: {
         name: "Seguro Auto Empresarial",
         img: {
-          img: morePatrimonialServicesImg20,
+          img: moreEmpresarialServicesImg20,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -328,7 +329,7 @@ const services = {
       service2: {
         name: "Seguro de Vida Empresarial",
         img: {
-          img: morePatrimonialServicesImg21,
+          img: moreEmpresarialServicesImg21,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -338,7 +339,7 @@ const services = {
       service3: {
         name: "Seguro Imobiliária",
         img: {
-          img: morePatrimonialServicesImg22,
+          img: moreEmpresarialServicesImg22,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -348,7 +349,7 @@ const services = {
       service4: {
         name: "Seguro Saúde Ocupacional",
         img: {
-          img: morePatrimonialServicesImg23,
+          img: moreEmpresarialServicesImg23,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -358,7 +359,7 @@ const services = {
       service5: {
         name: "Seguro para Convenções Coletivas",
         img: {
-          img: morePatrimonialServicesImg24,
+          img: moreEmpresarialServicesImg24,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -368,7 +369,7 @@ const services = {
       service6: {
         name: "Seguro Condomínio",
         img: {
-          img: morePatrimonialServicesImg25,
+          img: moreEmpresarialServicesImg25,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
