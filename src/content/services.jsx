@@ -34,6 +34,19 @@ import imgCardModal25 from "../assets/imgs/cardModal/imgCardModal25.png";
 import imgCardModal26 from "../assets/imgs/cardModal/imgCardModal26.png";
 import imgCardModal27 from "../assets/imgs/cardModal/imgCardModal27.png";
 import imgCardModal28 from "../assets/imgs/cardModal/imgCardModal28.png";
+import imgCardModal29 from "../assets/imgs/cardModal/imgCardModal29.png";
+import imgCardModal30 from "../assets/imgs/cardModal/imgCardModal30.png";
+import imgCardModal31 from "../assets/imgs/cardModal/imgCardModal31.png";
+import imgCardModal32 from "../assets/imgs/cardModal/imgCardModal32.png";
+import imgCardModal33 from "../assets/imgs/cardModal/imgCardModal33.png";
+import imgCardModal34 from "../assets/imgs/cardModal/imgCardModal34.png";
+import imgCardModal35 from "../assets/imgs/cardModal/imgCardModal35.png";
+import imgCardModal36 from "../assets/imgs/cardModal/imgCardModal36.png";
+import imgCardModal37 from "../assets/imgs/cardModal/imgCardModal37.png";
+import imgCardModal38 from "../assets/imgs/cardModal/imgCardModal38.png";
+import imgCardModal39 from "../assets/imgs/cardModal/imgCardModal39.png";
+import imgCardModal40 from "../assets/imgs/cardModal/imgCardModal40.png";
+import imgCardModal41 from "../assets/imgs/cardModal/imgCardModal41.png";
 
 const services = {
   main: {
@@ -362,6 +375,168 @@ const services = {
         cardSubtitle: "Seguro Condomínio",
         cardDescription:
           "Para síndicos e moradores que desejam proteger áreas comuns e privativas, promovendo um ambiente seguro.",
+        buttonLink: "#",
+      },
+    },
+    patrimonial: {
+      service1: {
+        name: "Seguro 1",
+        img: {
+          img: imgCardModal26,
+        },
+        cardSubtitle: "Seguro Residência",
+        cardDescription:
+          "Para famílias que desejam proteger seu lar contra imprevistos, garantindo segurança e tranquilidade no mosaico de suas vidas.",
+        buttonLink: "#",
+      },
+      service2: {
+        name: "Seguro 2",
+        img: {
+          img: imgCardModal27,
+        },
+        cardSubtitle: "Seguro Moto",
+        cardDescription:
+          "Para motociclistas que querem proteger sua paixão sobre duas rodas, navegando o labirinto urbano com tranquilidade.",
+        buttonLink: "#",
+      },
+      service3: {
+        name: "Seguro 3",
+        img: {
+          img: imgCardModal28,
+        },
+        cardSubtitle: "Seguro Equipamentos Portáteis",
+        cardDescription:
+          "Perfeito para quem carrega tecnologia valiosa no dia a dia, orquestrando proteção em sua rotina digital.",
+        buttonLink: "#",
+      },
+      service4: {
+        name: "Seguro 4",
+        img: {
+          img: imgCardModal29,
+        },
+        cardSubtitle: "Seguro para notebooks",
+        cardDescription:
+          "Para profissionais e estudantes que dependem de seus notebooks, garantindo segurança em seu trabalho e estudos.",
+        buttonLink: "#",
+      },
+      service5: {
+        name: "Seguro 5",
+        img: {
+          img: imgCardModal30,
+        },
+        cardSubtitle: "Seguro para Câmera Fotográfica",
+        cardDescription:
+          "Para fotógrafos que desejam proteger seus equipamentos, capturando momentos sem preocupações.",
+        buttonLink: "#",
+      },
+      service6: {
+        name: "Seguro 6",
+        img: {
+          img: imgCardModal31,
+        },
+        cardSubtitle: "Seguro Residência Veraneio",
+        cardDescription:
+          "Para quem possui casa de veraneio e quer desfrutar de momentos tranquilos, protegendo seu refúgio particular.",
+        buttonLink: "#",
+      },
+      service7: {
+        name: "Seguro 7",
+        img: {
+          img: imgCardModal32,
+        },
+        cardSubtitle: "Seguro Táxi",
+        cardDescription:
+          "Para taxistas que querem garantir a segurança de seu veículo, navegando a cidade com tranquilidade.",
+        buttonLink: "#",
+      },
+      service8: {
+        name: "Seguro 8",
+        img: {
+          img: imgCardModal33,
+        },
+        cardSubtitle: "Seguro Caminhão",
+        cardDescription:
+          "Para caminhoneiros que desejam proteger seu meio de vida, enfrentando as estradas com segurança.",
+        buttonLink: "#",
+      },
+      service9: {
+        name: "Seguro 9",
+        img: {
+          img: imgCardModal34,
+        },
+        cardSubtitle: "Seguro Residência Habitual",
+        cardDescription:
+          "Para famílias que querem proteger seu lar cotidiano, tecendo uma rede de segurança e tranquilidade.",
+        buttonLink: "#",
+      },
+      service10: {
+        name: "Seguro 10",
+        img: {
+          img: imgCardModal35,
+        },
+        cardSubtitle: "Seguro para Filmadora",
+        cardDescription:
+          "Para videomakers que buscam proteger suas filmadoras, capturando suas histórias com segurança.",
+        buttonLink: "#",
+      },
+      service11: {
+        name: "Seguro 11",
+        img: {
+          img: imgCardModal36,
+        },
+        cardSubtitle: "Seguro Residência Apartamento",
+        cardDescription:
+          "Para moradores de apartamentos que desejam proteger seu lar, garantindo segurança em cada detalhe do cotidiano.",
+        buttonLink: "#",
+      },
+      service12: {
+        name: "Seguro 12",
+        img: {
+          img: imgCardModal37,
+        },
+        cardSubtitle: "Seguro para Celular",
+        cardDescription:
+          "Para quem deseja proteger seu celular, transcendendo as preocupações e aproveitando a tecnologia sem medos.",
+        buttonLink: "#",
+      },
+      service13: {
+        name: "Seguro 13",
+        img: {
+          img: imgCardModal38,
+        },
+        cardSubtitle: "Consórcio de Imóvel",
+        cardDescription:
+          "Para quem deseja adquirir um imóvel, entrelaçando economia e planejamento na realização de sonhos.",
+        buttonLink: "#",
+      },
+      service14: {
+        name: "Seguro 14",
+        img: {
+          img: imgCardModal39,
+        },
+        cardSubtitle: "Seguro Residência Premium",
+        cardDescription:
+          "Para quem busca proteção completa e sofisticada para seu lar, transcendendo as preocupações cotidianas.",
+        buttonLink: "#",
+      },
+      service15: {
+        name: "Seguro 15",
+        img: {
+          img: imgCardModal40,
+        },
+        cardSubtitle: "Seguro Auto Premium",
+        cardDescription:
+          "Para motoristas que buscam uma proteção superior, garantindo segurança e tranquilidade nas suas viagens.",
+        buttonLink: "#",
+      },
+      service16: {
+        name: "Seguro 16",
+        img: {
+          img: imgCardModal41,
+        },
+        cardSubtitle: "Seguro para Tablet",
+        cardDescription:
+          "Para quem depende de seu tablet no dia a dia, garantindo proteção e tranquilidade digital.",
         buttonLink: "#",
       },
     },
