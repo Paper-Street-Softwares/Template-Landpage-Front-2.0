@@ -189,7 +189,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-paragraph3 text-left text-primary">
                     {services.moreServices.pessoal.service6.name}
                   </span>
                 </button>
