@@ -29,7 +29,6 @@ import morePatrimonialServicesImg22 from "../assets/imgs/cardModal/imgCardModal2
 import morePatrimonialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
 import morePatrimonialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
 import morePatrimonialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
-
 import morePatrimonialServicesImg26 from "../assets/imgs/cardModal/imgCardModal26.png";
 import morePatrimonialServicesImg27 from "../assets/imgs/cardModal/imgCardModal27.png";
 import morePatrimonialServicesImg28 from "../assets/imgs/cardModal/imgCardModal28.png";
@@ -125,7 +124,7 @@ const services = {
     },
     pessoal: {
       service1: {
-        name: "Seguro 1",
+        name: "Seguro Viagem",
         img: {
           img: morePessoalServicesImg1,
         },
@@ -135,7 +134,7 @@ const services = {
         buttonLink: "#",
       },
       service2: {
-        name: "Seguro 2",
+        name: "Seguro Auto",
         img: {
           img: morePessoalServicesImg2,
         },
@@ -401,7 +400,7 @@ const services = {
       service3: {
         name: "Seguro 3",
         img: {
-          img:morePatrimonialServicesImg28,
+          img: morePatrimonialServicesImg28,
         },
         cardSubtitle: "Seguro Equipamentos Portáteis",
         cardDescription:
