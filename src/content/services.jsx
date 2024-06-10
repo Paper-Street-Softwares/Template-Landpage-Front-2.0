@@ -30,22 +30,22 @@ import morePatrimonialServicesImg23 from "../assets/imgs/cardModal/imgCardModal2
 import morePatrimonialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
 import morePatrimonialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
 
-import imgCardModal26 from "../assets/imgs/cardModal/imgCardModal26.png";
-import imgCardModal27 from "../assets/imgs/cardModal/imgCardModal27.png";
-import imgCardModal28 from "../assets/imgs/cardModal/imgCardModal28.png";
-import imgCardModal29 from "../assets/imgs/cardModal/imgCardModal29.png";
-import imgCardModal30 from "../assets/imgs/cardModal/imgCardModal30.png";
-import imgCardModal31 from "../assets/imgs/cardModal/imgCardModal31.png";
-import imgCardModal32 from "../assets/imgs/cardModal/imgCardModal32.png";
-import imgCardModal33 from "../assets/imgs/cardModal/imgCardModal33.png";
-import imgCardModal34 from "../assets/imgs/cardModal/imgCardModal34.png";
-import imgCardModal35 from "../assets/imgs/cardModal/imgCardModal35.png";
-import imgCardModal36 from "../assets/imgs/cardModal/imgCardModal36.png";
-import imgCardModal37 from "../assets/imgs/cardModal/imgCardModal37.png";
-import imgCardModal38 from "../assets/imgs/cardModal/imgCardModal38.png";
-import imgCardModal39 from "../assets/imgs/cardModal/imgCardModal39.png";
-import imgCardModal40 from "../assets/imgs/cardModal/imgCardModal40.png";
-import imgCardModal41 from "../assets/imgs/cardModal/imgCardModal41.png";
+import morePatrimonialServicesImg26 from "../assets/imgs/cardModal/imgCardModal26.png";
+import morePatrimonialServicesImg27 from "../assets/imgs/cardModal/imgCardModal27.png";
+import morePatrimonialServicesImg28 from "../assets/imgs/cardModal/imgCardModal28.png";
+import morePatrimonialServicesImg29 from "../assets/imgs/cardModal/imgCardModal29.png";
+import morePatrimonialServicesImg30 from "../assets/imgs/cardModal/imgCardModal30.png";
+import morePatrimonialServicesImg31 from "../assets/imgs/cardModal/imgCardModal31.png";
+import morePatrimonialServicesImg32 from "../assets/imgs/cardModal/imgCardModal32.png";
+import morePatrimonialServicesImg33 from "../assets/imgs/cardModal/imgCardModal33.png";
+import morePatrimonialServicesImg34 from "../assets/imgs/cardModal/imgCardModal34.png";
+import morePatrimonialServicesImg35 from "../assets/imgs/cardModal/imgCardModal35.png";
+import morePatrimonialServicesImg36 from "../assets/imgs/cardModal/imgCardModal36.png";
+import morePatrimonialServicesImg37 from "../assets/imgs/cardModal/imgCardModal37.png";
+import morePatrimonialServicesImg38 from "../assets/imgs/cardModal/imgCardModal38.png";
+import morePatrimonialServicesImg39 from "../assets/imgs/cardModal/imgCardModal39.png";
+import morePatrimonialServicesImg40 from "../assets/imgs/cardModal/imgCardModal40.png";
+import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal41.png";
 
 const services = {
   main: {
@@ -381,7 +381,7 @@ const services = {
       service1: {
         name: "Seguro 1",
         img: {
-          img: imgCardModal26,
+          img: morePatrimonialServicesImg26,
         },
         cardSubtitle: "Seguro Residência",
         cardDescription:
@@ -391,7 +391,7 @@ const services = {
       service2: {
         name: "Seguro 2",
         img: {
-          img: imgCardModal27,
+          img: morePatrimonialServicesImg27,
         },
         cardSubtitle: "Seguro Moto",
         cardDescription:
@@ -401,7 +401,7 @@ const services = {
       service3: {
         name: "Seguro 3",
         img: {
-          img: imgCardModal28,
+          img:morePatrimonialServicesImg28,
         },
         cardSubtitle: "Seguro Equipamentos Portáteis",
         cardDescription:
@@ -411,7 +411,7 @@ const services = {
       service4: {
         name: "Seguro 4",
         img: {
-          img: imgCardModal29,
+          img: morePatrimonialServicesImg29,
         },
         cardSubtitle: "Seguro para notebooks",
         cardDescription:
@@ -421,7 +421,7 @@ const services = {
       service5: {
         name: "Seguro 5",
         img: {
-          img: imgCardModal30,
+          img: morePatrimonialServicesImg30,
         },
         cardSubtitle: "Seguro para Câmera Fotográfica",
         cardDescription:
@@ -431,7 +431,7 @@ const services = {
       service6: {
         name: "Seguro 6",
         img: {
-          img: imgCardModal31,
+          img: morePatrimonialServicesImg31,
         },
         cardSubtitle: "Seguro Residência Veraneio",
         cardDescription:
@@ -441,7 +441,7 @@ const services = {
       service7: {
         name: "Seguro 7",
         img: {
-          img: imgCardModal32,
+          img: morePatrimonialServicesImg32,
         },
         cardSubtitle: "Seguro Táxi",
         cardDescription:
@@ -451,7 +451,7 @@ const services = {
       service8: {
         name: "Seguro 8",
         img: {
-          img: imgCardModal33,
+          img: morePatrimonialServicesImg33,
         },
         cardSubtitle: "Seguro Caminhão",
         cardDescription:
@@ -461,7 +461,7 @@ const services = {
       service9: {
         name: "Seguro 9",
         img: {
-          img: imgCardModal34,
+          img: morePatrimonialServicesImg34,
         },
         cardSubtitle: "Seguro Residência Habitual",
         cardDescription:
@@ -471,7 +471,7 @@ const services = {
       service10: {
         name: "Seguro 10",
         img: {
-          img: imgCardModal35,
+          img: morePatrimonialServicesImg35,
         },
         cardSubtitle: "Seguro para Filmadora",
         cardDescription:
@@ -481,7 +481,7 @@ const services = {
       service11: {
         name: "Seguro 11",
         img: {
-          img: imgCardModal36,
+          img: morePatrimonialServicesImg36,
         },
         cardSubtitle: "Seguro Residência Apartamento",
         cardDescription:
@@ -491,7 +491,7 @@ const services = {
       service12: {
         name: "Seguro 12",
         img: {
-          img: imgCardModal37,
+          img: morePatrimonialServicesImg37,
         },
         cardSubtitle: "Seguro para Celular",
         cardDescription:
@@ -501,7 +501,7 @@ const services = {
       service13: {
         name: "Seguro 13",
         img: {
-          img: imgCardModal38,
+          img: morePatrimonialServicesImg38,
         },
         cardSubtitle: "Consórcio de Imóvel",
         cardDescription:
@@ -511,7 +511,7 @@ const services = {
       service14: {
         name: "Seguro 14",
         img: {
-          img: imgCardModal39,
+          img: morePatrimonialServicesImg39,
         },
         cardSubtitle: "Seguro Residência Premium",
         cardDescription:
@@ -521,7 +521,7 @@ const services = {
       service15: {
         name: "Seguro 15",
         img: {
-          img: imgCardModal40,
+          img: morePatrimonialServicesImg40,
         },
         cardSubtitle: "Seguro Auto Premium",
         cardDescription:
@@ -531,7 +531,7 @@ const services = {
       service16: {
         name: "Seguro 16",
         img: {
-          img: imgCardModal41,
+          img: morePatrimonialServicesImg41,
         },
         cardSubtitle: "Seguro para Tablet",
         cardDescription:
