@@ -23,12 +23,12 @@ import morePessoalServicesImg17 from "../assets/imgs/cardModal/imgCardModal17.pn
 import morePessoalServicesImg18 from "../assets/imgs/cardModal/imgCardModal18.png";
 import morePessoalServicesImg19 from "../assets/imgs/cardModal/imgCardModal19.png";
 
-import imgCardModal20 from "../assets/imgs/cardModal/imgCardModal20.png";
-import imgCardModal21 from "../assets/imgs/cardModal/imgCardModal21.png";
-import imgCardModal22 from "../assets/imgs/cardModal/imgCardModal22.png";
-import imgCardModal23 from "../assets/imgs/cardModal/imgCardModal23.png";
-import imgCardModal24 from "../assets/imgs/cardModal/imgCardModal24.png";
-import imgCardModal25 from "../assets/imgs/cardModal/imgCardModal25.png";
+import morePatrimonialServicesImg20 from "../assets/imgs/cardModal/imgCardModal20.png";
+import morePatrimonialServicesImg21 from "../assets/imgs/cardModal/imgCardModal21.png";
+import morePatrimonialServicesImg22 from "../assets/imgs/cardModal/imgCardModal22.png";
+import morePatrimonialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
+import morePatrimonialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
+import morePatrimonialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
 
 import imgCardModal26 from "../assets/imgs/cardModal/imgCardModal26.png";
 import imgCardModal27 from "../assets/imgs/cardModal/imgCardModal27.png";
@@ -319,7 +319,7 @@ const services = {
       service1: {
         name: "Seguro 1",
         img: {
-          img: imgCardModal20,
+          img: morePatrimonialServicesImg20,
         },
         cardSubtitle: "Seguro Auto Empresarial",
         cardDescription:
@@ -329,7 +329,7 @@ const services = {
       service2: {
         name: "Seguro 2",
         img: {
-          img: imgCardModal21,
+          img: morePatrimonialServicesImg21,
         },
         cardSubtitle: "Seguro de Vida Empresarial",
         cardDescription:
@@ -339,7 +339,7 @@ const services = {
       service3: {
         name: "Seguro 3",
         img: {
-          img: imgCardModal22,
+          img: morePatrimonialServicesImg22,
         },
         cardSubtitle: "Seguro Imobiliária",
         cardDescription:
@@ -349,7 +349,7 @@ const services = {
       service4: {
         name: "Seguro 4",
         img: {
-          img: imgCardModal23,
+          img: morePatrimonialServicesImg23,
         },
         cardSubtitle: "Seguro Saúde Ocupacional",
         cardDescription:
@@ -359,7 +359,7 @@ const services = {
       service5: {
         name: "Seguro 5",
         img: {
-          img: imgCardModal24,
+          img: morePatrimonialServicesImg24,
         },
         cardSubtitle: "Seguro para Convenções Coletivas",
         cardDescription:
@@ -369,7 +369,7 @@ const services = {
       service6: {
         name: "Seguro 6",
         img: {
-          img: imgCardModal25,
+          img: morePatrimonialServicesImg25,
         },
         cardSubtitle: "Seguro Condomínio",
         cardDescription:
