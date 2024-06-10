@@ -316,61 +316,61 @@ const services = {
     },
     empresarial: {
       service1: {
-        name: "Seguro 1",
+        name: "Seguro Auto Empresarial",
         img: {
           img: morePatrimonialServicesImg20,
         },
-        cardSubtitle: "Seguro Auto Empresarial",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresas que desejam proteger sua frota de veículos, garantindo segurança e tranquilidade nas operações.",
         buttonLink: "#",
       },
       service2: {
-        name: "Seguro 2",
+        name: "Seguro de Vida Empresarial",
         img: {
           img: morePatrimonialServicesImg21,
         },
-        cardSubtitle: "Seguro de Vida Empresarial",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresários que desejam proteger seus sócios e funcionários, tecendo uma rede de segurança corporativa.",
         buttonLink: "#",
       },
       service3: {
-        name: "Seguro 3",
+        name: "Seguro Imobiliária",
         img: {
           img: morePatrimonialServicesImg22,
         },
-        cardSubtitle: "Seguro Imobiliária",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para imobiliárias que desejam proteger seus negócios, garantindo uma gestão tranquila e segura dos imóveis.",
         buttonLink: "#",
       },
       service4: {
-        name: "Seguro 4",
+        name: "Seguro Saúde Ocupacional",
         img: {
           img: morePatrimonialServicesImg23,
         },
-        cardSubtitle: "Seguro Saúde Ocupacional",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresas que querem assegurar a saúde de seus funcionários, promovendo um ambiente de trabalho seguro e saudável.",
         buttonLink: "#",
       },
       service5: {
-        name: "Seguro 5",
+        name: "Seguro para Convenções Coletivas",
         img: {
           img: morePatrimonialServicesImg24,
         },
-        cardSubtitle: "Seguro para Convenções Coletivas",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Ideal para sindicatos ou organizações que precisam se proteger de mudanças proveniente de decisões em grupo.",
         buttonLink: "#",
       },
       service6: {
-        name: "Seguro 6",
+        name: "Seguro Condomínio",
         img: {
           img: morePatrimonialServicesImg25,
         },
-        cardSubtitle: "Seguro Condomínio",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para síndicos e moradores que desejam proteger áreas comuns e privativas, promovendo um ambiente seguro.",
         buttonLink: "#",
