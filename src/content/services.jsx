@@ -3,27 +3,25 @@ import mainServicesImg2 from "../assets/imgs/services/servicesImg2.png";
 import mainServicesImg3 from "../assets/imgs/services/servicesImg3.png";
 import mainServicesImg4 from "../assets/imgs/services/servicesImg4.png";
 import mainServicesImg5 from "../assets/imgs/services/servicesImg5.png";
-import morePessoalServicesImg1 from "../assets/imgs/services/servicesImg1.png";
-import morePessoalServicesImg2 from "../assets/imgs/services/servicesImg2.png";
-import imgCardModal1 from "../assets/imgs/cardModal/imgCardModal1.png";
-import imgCardModal2 from "../assets/imgs/cardModal/imgCardModal2.png";
-import imgCardModal3 from "../assets/imgs/cardModal/imgCardModal3.png";
-import imgCardModal4 from "../assets/imgs/cardModal/imgCardModal4.png";
-import imgCardModal5 from "../assets/imgs/cardModal/imgCardModal5.png";
-import imgCardModal6 from "../assets/imgs/cardModal/imgCardModal6.png";
-import imgCardModal7 from "../assets/imgs/cardModal/imgCardModal7.png";
-import imgCardModal8 from "../assets/imgs/cardModal/imgCardModal8.png";
-import imgCardModal9 from "../assets/imgs/cardModal/imgCardModal9.png";
-import imgCardModal10 from "../assets/imgs/cardModal/imgCardModal10.png";
-import imgCardModal11 from "../assets/imgs/cardModal/imgCardModal11.png";
-import imgCardModal12 from "../assets/imgs/cardModal/imgCardModal12.png";
-import imgCardModal13 from "../assets/imgs/cardModal/imgCardModal13.png";
-import imgCardModal14 from "../assets/imgs/cardModal/imgCardModal14.png";
-import imgCardModal15 from "../assets/imgs/cardModal/imgCardModal15.png";
-import imgCardModal16 from "../assets/imgs/cardModal/imgCardModal16.png";
-import imgCardModal17 from "../assets/imgs/cardModal/imgCardModal17.png";
-import imgCardModal18 from "../assets/imgs/cardModal/imgCardModal18.png";
-import imgCardModal19 from "../assets/imgs/cardModal/imgCardModal19.png";
+import morePessoalServicesImg1 from "../assets/imgs/cardModal/imgCardModal1.png";
+import morePessoalServicesImg2 from "../assets/imgs/cardModal/imgCardModal2.png";
+import morePessoalServicesImg3 from "../assets/imgs/cardModal/imgCardModal3.png";
+import morePessoalServicesImg4 from "../assets/imgs/cardModal/imgCardModal4.png";
+import morePessoalServicesImg5 from "../assets/imgs/cardModal/imgCardModal5.png";
+import morePessoalServicesImg6 from "../assets/imgs/cardModal/imgCardModal6.png";
+import morePessoalServicesImg7 from "../assets/imgs/cardModal/imgCardModal7.png";
+import morePessoalServicesImg8 from "../assets/imgs/cardModal/imgCardModal8.png";
+import morePessoalServicesImg9 from "../assets/imgs/cardModal/imgCardModal9.png";
+import morePessoalServicesImg10 from "../assets/imgs/cardModal/imgCardModal10.png";
+import morePessoalServicesImg11 from "../assets/imgs/cardModal/imgCardModal11.png";
+import morePessoalServicesImg12 from "../assets/imgs/cardModal/imgCardModal12.png";
+import morePessoalServicesImg13 from "../assets/imgs/cardModal/imgCardModal13.png";
+import morePessoalServicesImg14 from "../assets/imgs/cardModal/imgCardModal14.png";
+import morePessoalServicesImg15 from "../assets/imgs/cardModal/imgCardModal15.png";
+import morePessoalServicesImg16 from "../assets/imgs/cardModal/imgCardModal16.png";
+import morePessoalServicesImg17 from "../assets/imgs/cardModal/imgCardModal17.png";
+import morePessoalServicesImg18 from "../assets/imgs/cardModal/imgCardModal18.png";
+import morePessoalServicesImg19 from "../assets/imgs/cardModal/imgCardModal19.png";
 
 import imgCardModal20 from "../assets/imgs/cardModal/imgCardModal20.png";
 import imgCardModal21 from "../assets/imgs/cardModal/imgCardModal21.png";
@@ -31,6 +29,7 @@ import imgCardModal22 from "../assets/imgs/cardModal/imgCardModal22.png";
 import imgCardModal23 from "../assets/imgs/cardModal/imgCardModal23.png";
 import imgCardModal24 from "../assets/imgs/cardModal/imgCardModal24.png";
 import imgCardModal25 from "../assets/imgs/cardModal/imgCardModal25.png";
+
 import imgCardModal26 from "../assets/imgs/cardModal/imgCardModal26.png";
 import imgCardModal27 from "../assets/imgs/cardModal/imgCardModal27.png";
 import imgCardModal28 from "../assets/imgs/cardModal/imgCardModal28.png";
@@ -128,7 +127,7 @@ const services = {
       service1: {
         name: "Seguro 1",
         img: {
-          img: imgCardModal1,
+          img: morePessoalServicesImg1,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -138,7 +137,7 @@ const services = {
       service2: {
         name: "Seguro 2",
         img: {
-          img: imgCardModal2,
+          img: morePessoalServicesImg2,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -148,7 +147,7 @@ const services = {
       service3: {
         name: "Seguro 3",
         img: {
-          img: imgCardModal3,
+          img: morePessoalServicesImg3,
         },
         cardSubtitle: "Seguro Vida On",
         cardDescription:
@@ -158,7 +157,7 @@ const services = {
       service4: {
         name: "Seguro 4",
         img: {
-          img: imgCardModal4,
+          img: morePessoalServicesImg4,
         },
         cardSubtitle: "Seguro Fiança",
         cardDescription:
@@ -168,7 +167,7 @@ const services = {
       service5: {
         name: "Seguro 5",
         img: {
-          img: imgCardModal5,
+          img: morePessoalServicesImg5,
         },
         cardSubtitle: "Seguro Auto Jovem",
         cardDescription:
@@ -178,7 +177,7 @@ const services = {
       service6: {
         name: "Seguro 6",
         img: {
-          img: imgCardModal6,
+          img: morePessoalServicesImg6,
         },
         cardSubtitle: "Seguro de Acidentes Pessoais Individual Prazo Curto",
         cardDescription:
@@ -188,7 +187,7 @@ const services = {
       service7: {
         name: "Seguro 7",
         img: {
-          img: imgCardModal7,
+          img: morePessoalServicesImg7,
         },
         cardSubtitle: "Seguro de Acidentes Pessoais Escolar",
         cardDescription:
@@ -198,7 +197,7 @@ const services = {
       service8: {
         name: "Seguro 8",
         img: {
-          img: imgCardModal8,
+          img: morePessoalServicesImg8,
         },
         cardSubtitle: "Previdência para Crianças",
         cardDescription:
@@ -208,7 +207,7 @@ const services = {
       service9: {
         name: "Seguro 9",
         img: {
-          img: imgCardModal9,
+          img: morePessoalServicesImg9,
         },
         cardSubtitle: "Seguro Vida",
         cardDescription:
@@ -218,7 +217,7 @@ const services = {
       service10: {
         name: "Seguro 10",
         img: {
-          img: imgCardModal10,
+          img: morePessoalServicesImg10,
         },
         cardSubtitle: "Seguro Auto Mulher",
         cardDescription:
@@ -228,7 +227,7 @@ const services = {
       service11: {
         name: "Seguro 11",
         img: {
-          img: imgCardModal11,
+          img: morePessoalServicesImg11,
         },
         cardSubtitle: "Seguro de Vida em Grupo",
         cardDescription:
@@ -238,7 +237,7 @@ const services = {
       service12: {
         name: "Seguro 12",
         img: {
-          img: imgCardModal12,
+          img: morePessoalServicesImg12,
         },
         cardSubtitle: "Seguro Saúde",
         cardDescription:
@@ -248,7 +247,7 @@ const services = {
       service13: {
         name: "Seguro 13",
         img: {
-          img: imgCardModal13,
+          img: morePessoalServicesImg13,
         },
         cardSubtitle: "Consórcio",
         cardDescription:
@@ -258,7 +257,7 @@ const services = {
       service14: {
         name: "Seguro 14",
         img: {
-          img: imgCardModal14,
+          img: morePessoalServicesImg14,
         },
         cardSubtitle: "Previdência",
         cardDescription:
@@ -268,7 +267,7 @@ const services = {
       service15: {
         name: "Seguro 15",
         img: {
-          img: imgCardModal15,
+          img: morePessoalServicesImg15,
         },
         cardSubtitle: "Seguro Odontológico",
         cardDescription:
@@ -278,7 +277,7 @@ const services = {
       service16: {
         name: "Seguro 16",
         img: {
-          img: imgCardModal16,
+          img: morePessoalServicesImg16,
         },
         cardSubtitle: "Seguro de Vida Mais Mulher",
         cardDescription:
@@ -288,7 +287,7 @@ const services = {
       service17: {
         name: "Seguro 17",
         img: {
-          img: imgCardModal17,
+          img: morePessoalServicesImg17,
         },
         cardSubtitle: "Seguro de Vida Individual",
         cardDescription:
@@ -298,7 +297,7 @@ const services = {
       service18: {
         name: "Seguro 18",
         img: {
-          img: imgCardModal18,
+          img: morePessoalServicesImg18,
         },
         cardSubtitle: "Seguro Auto Sênior",
         cardDescription:
@@ -308,7 +307,7 @@ const services = {
       service19: {
         name: "Seguro 19",
         img: {
-          img: imgCardModal19,
+          img: morePessoalServicesImg19,
         },
         cardSubtitle: "Seguro de Acidentes Pessoais Plus",
         cardDescription:
