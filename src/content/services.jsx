@@ -25,6 +25,16 @@ import imgCardModal17 from "../assets/imgs/cardModal/imgCardModal17.png";
 import imgCardModal18 from "../assets/imgs/cardModal/imgCardModal18.png";
 import imgCardModal19 from "../assets/imgs/cardModal/imgCardModal19.png";
 
+import imgCardModal20 from "../assets/imgs/cardModal/imgCardModal20.png";
+import imgCardModal21 from "../assets/imgs/cardModal/imgCardModal21.png";
+import imgCardModal22 from "../assets/imgs/cardModal/imgCardModal22.png";
+import imgCardModal23 from "../assets/imgs/cardModal/imgCardModal23.png";
+import imgCardModal24 from "../assets/imgs/cardModal/imgCardModal24.png";
+import imgCardModal25 from "../assets/imgs/cardModal/imgCardModal25.png";
+import imgCardModal26 from "../assets/imgs/cardModal/imgCardModal26.png";
+import imgCardModal27 from "../assets/imgs/cardModal/imgCardModal27.png";
+import imgCardModal28 from "../assets/imgs/cardModal/imgCardModal28.png";
+
 const services = {
   main: {
     card1: {
@@ -297,10 +307,61 @@ const services = {
       service1: {
         name: "Seguro 1",
         img: {
-          img: { morePessoalServicesImg1 },
+          img: imgCardModal20,
         },
-        cardSubtitle: "",
-        cardDescription: "",
+        cardSubtitle: "Seguro Auto Empresarial",
+        cardDescription:
+          "Para empresas que desejam proteger sua frota de veículos, garantindo segurança e tranquilidade nas operações.",
+        buttonLink: "#",
+      },
+      service2: {
+        name: "Seguro 2",
+        img: {
+          img: imgCardModal21,
+        },
+        cardSubtitle: "Seguro de Vida Empresarial",
+        cardDescription:
+          "Para empresários que desejam proteger seus sócios e funcionários, tecendo uma rede de segurança corporativa.",
+        buttonLink: "#",
+      },
+      service3: {
+        name: "Seguro 3",
+        img: {
+          img: imgCardModal22,
+        },
+        cardSubtitle: "Seguro Imobiliária",
+        cardDescription:
+          "Para imobiliárias que desejam proteger seus negócios, garantindo uma gestão tranquila e segura dos imóveis.",
+        buttonLink: "#",
+      },
+      service4: {
+        name: "Seguro 4",
+        img: {
+          img: imgCardModal23,
+        },
+        cardSubtitle: "Seguro Saúde Ocupacional",
+        cardDescription:
+          "Para empresas que querem assegurar a saúde de seus funcionários, promovendo um ambiente de trabalho seguro e saudável.",
+        buttonLink: "#",
+      },
+      service5: {
+        name: "Seguro 5",
+        img: {
+          img: imgCardModal24,
+        },
+        cardSubtitle: "Seguro para Convenções Coletivas",
+        cardDescription:
+          "Ideal para sindicatos ou organizações que precisam se proteger de mudanças proveniente de decisões em grupo.",
+        buttonLink: "#",
+      },
+      service6: {
+        name: "Seguro 6",
+        img: {
+          img: imgCardModal25,
+        },
+        cardSubtitle: "Seguro Condomínio",
+        cardDescription:
+          "Para síndicos e moradores que desejam proteger áreas comuns e privativas, promovendo um ambiente seguro.",
         buttonLink: "#",
       },
     },
