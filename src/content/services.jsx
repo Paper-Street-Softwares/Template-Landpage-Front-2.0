@@ -23,12 +23,13 @@ import morePessoalServicesImg17 from "../assets/imgs/cardModal/imgCardModal17.pn
 import morePessoalServicesImg18 from "../assets/imgs/cardModal/imgCardModal18.png";
 import morePessoalServicesImg19 from "../assets/imgs/cardModal/imgCardModal19.png";
 
-import morePatrimonialServicesImg20 from "../assets/imgs/cardModal/imgCardModal20.png";
-import morePatrimonialServicesImg21 from "../assets/imgs/cardModal/imgCardModal21.png";
-import morePatrimonialServicesImg22 from "../assets/imgs/cardModal/imgCardModal22.png";
-import morePatrimonialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
-import morePatrimonialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
-import morePatrimonialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
+import moreEmpresarialServicesImg20 from "../assets/imgs/cardModal/imgCardModal20.png";
+import moreEmpresarialServicesImg21 from "../assets/imgs/cardModal/imgCardModal21.png";
+import moreEmpresarialServicesImg22 from "../assets/imgs/cardModal/imgCardModal22.png";
+import moreEmpresarialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
+import moreEmpresarialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
+import moreEmpresarialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
+
 import morePatrimonialServicesImg26 from "../assets/imgs/cardModal/imgCardModal26.png";
 import morePatrimonialServicesImg27 from "../assets/imgs/cardModal/imgCardModal27.png";
 import morePatrimonialServicesImg28 from "../assets/imgs/cardModal/imgCardModal28.png";
@@ -144,171 +145,171 @@ const services = {
         buttonLink: "#",
       },
       service3: {
-        name: "Seguro 3",
+        name: "Seguro Vida On",
         img: {
           img: morePessoalServicesImg3,
         },
-        cardSubtitle: "Seguro Vida On",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para indivíduos que desejam garantir o futuro de seus entes queridos, tecendo um legado de cuidado e proteção.",
         buttonLink: "#",
       },
       service4: {
-        name: "Seguro 4",
+        name: "Seguro Fiança",
         img: {
           img: morePessoalServicesImg4,
         },
-        cardSubtitle: "Seguro Fiança",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Ideal para inquilinos e proprietários que buscam segurança nos contratos de locação, tecendo uma relação de confiança.",
         buttonLink: "#",
       },
       service5: {
-        name: "Seguro 5",
+        name: "Seguro Auto Jovem",
         img: {
           img: morePessoalServicesImg5,
         },
-        cardSubtitle: "Seguro Auto Jovem",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Destinado a jovens motoristas que buscam proteção e segurança ao iniciarem sua jornada no trânsito.",
         buttonLink: "#",
       },
       service6: {
-        name: "Seguro 6",
+        name: "Seguro de Acidentes Pessoais Individual Prazo Curto",
         img: {
           img: morePessoalServicesImg6,
         },
-        cardSubtitle: "Seguro de Acidentes Pessoais Individual Prazo Curto",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem busca proteção em situações específicas e temporárias, garantindo segurança em momentos cruciais.",
         buttonLink: "#",
       },
       service7: {
-        name: "Seguro 7",
+        name: "Seguro de Acidentes Pessoais Escolar",
         img: {
           img: morePessoalServicesImg7,
         },
-        cardSubtitle: "Seguro de Acidentes Pessoais Escolar",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para escolas que desejam garantir a segurança de seus alunos, protegendo-os em suas atividades diárias.",
         buttonLink: "#",
       },
       service8: {
-        name: "Seguro 8",
+        name: "Previdência para Crianças",
         img: {
           img: morePessoalServicesImg8,
         },
-        cardSubtitle: "Previdência para Crianças",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para pais que querem assegurar o futuro financeiro de seus filhos, entrelaçando segurança e prosperidade.",
         buttonLink: "#",
       },
       service9: {
-        name: "Seguro 9",
+        name: "Seguro Vida",
         img: {
           img: morePessoalServicesImg9,
         },
-        cardSubtitle: "Seguro Vida",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para indivíduos que querem garantir a segurança financeira de seus entes queridos, criando um legado de cuidado.",
         buttonLink: "#",
       },
       service10: {
-        name: "Seguro 10",
+        name: "Seguro Auto Mulher",
         img: {
           img: morePessoalServicesImg10,
         },
-        cardSubtitle: "Seguro Auto Mulher",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Destinado a mulheres motoristas que desejam proteção especial, navegando com segurança pelo trânsito diário.",
         buttonLink: "#",
       },
       service11: {
-        name: "Seguro 11",
+        name: "Seguro de Vida em Grupo",
         img: {
           img: morePessoalServicesImg11,
         },
-        cardSubtitle: "Seguro de Vida em Grupo",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresas que desejam proteger seus funcionários, orquestrando uma rede de segurança coletiva.",
         buttonLink: "#",
       },
       service12: {
-        name: "Seguro 12",
+        name: "Seguro Saúde",
         img: {
           img: morePessoalServicesImg12,
         },
-        cardSubtitle: "Seguro Saúde",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem busca proteção abrangente para sua saúde, promovendo bem-estar e tranquilidade.",
         buttonLink: "#",
       },
       service13: {
-        name: "Seguro 13",
+        name: "Consórcio",
         img: {
           img: morePessoalServicesImg13,
         },
-        cardSubtitle: "Consórcio",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja adquirir bens de forma planejada, orquestrando um futuro seguro e próspero.",
         buttonLink: "#",
       },
       service14: {
-        name: "Seguro 14",
+        name: "Previdência",
         img: {
           img: morePessoalServicesImg14,
         },
-        cardSubtitle: "Previdência",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem planeja o futuro financeiro, garantindo tranquilidade e segurança nos anos vindouros.",
         buttonLink: "#",
       },
       service15: {
-        name: "Seguro 15",
+        name: "Seguro Odontológico",
         img: {
           img: morePessoalServicesImg15,
         },
-        cardSubtitle: "Seguro Odontológico",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja cuidar da saúde bucal, garantindo sorrisos saudáveis e seguros.",
         buttonLink: "#",
       },
       service16: {
-        name: "Seguro 16",
+        name: "Seguro de Vida Mais Mulher",
         img: {
           img: morePessoalServicesImg16,
         },
-        cardSubtitle: "Seguro de Vida Mais Mulher",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Destinado a mulheres que desejam uma proteção diferenciada, entrelaçando cuidado e segurança.",
         buttonLink: "#",
       },
       service17: {
-        name: "Seguro 17",
+        name: "Seguro de Vida Individual",
         img: {
           img: morePessoalServicesImg17,
         },
-        cardSubtitle: "Seguro de Vida Individual",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja proteção personalizada, garantindo segurança financeira aos entes queridos.",
         buttonLink: "#",
       },
       service18: {
-        name: "Seguro 18",
+        name: "Seguro Auto Sênior",
         img: {
           img: morePessoalServicesImg18,
         },
-        cardSubtitle: "Seguro Auto Sênior",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para motoristas seniores que querem garantir segurança e tranquilidade ao dirigir, protegendo-se no trânsito.",
         buttonLink: "#",
       },
       service19: {
-        name: "Seguro 19",
+        name: "Seguro de Acidentes Pessoais Plus",
         img: {
           img: morePessoalServicesImg19,
         },
-        cardSubtitle: "Seguro de Acidentes Pessoais Plus",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja uma proteção ampla contra acidentes, garantindo segurança em várias situações.",
         buttonLink: "#",
@@ -316,61 +317,61 @@ const services = {
     },
     empresarial: {
       service1: {
-        name: "Seguro 1",
+        name: "Seguro Auto Empresarial",
         img: {
-          img: morePatrimonialServicesImg20,
+          img: moreEmpresarialServicesImg20,
         },
-        cardSubtitle: "Seguro Auto Empresarial",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresas que desejam proteger sua frota de veículos, garantindo segurança e tranquilidade nas operações.",
         buttonLink: "#",
       },
       service2: {
-        name: "Seguro 2",
+        name: "Seguro de Vida Empresarial",
         img: {
-          img: morePatrimonialServicesImg21,
+          img: moreEmpresarialServicesImg21,
         },
-        cardSubtitle: "Seguro de Vida Empresarial",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresários que desejam proteger seus sócios e funcionários, tecendo uma rede de segurança corporativa.",
         buttonLink: "#",
       },
       service3: {
-        name: "Seguro 3",
+        name: "Seguro Imobiliária",
         img: {
-          img: morePatrimonialServicesImg22,
+          img: moreEmpresarialServicesImg22,
         },
-        cardSubtitle: "Seguro Imobiliária",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para imobiliárias que desejam proteger seus negócios, garantindo uma gestão tranquila e segura dos imóveis.",
         buttonLink: "#",
       },
       service4: {
-        name: "Seguro 4",
+        name: "Seguro Saúde Ocupacional",
         img: {
-          img: morePatrimonialServicesImg23,
+          img: moreEmpresarialServicesImg23,
         },
-        cardSubtitle: "Seguro Saúde Ocupacional",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresas que querem assegurar a saúde de seus funcionários, promovendo um ambiente de trabalho seguro e saudável.",
         buttonLink: "#",
       },
       service5: {
-        name: "Seguro 5",
+        name: "Seguro para Convenções Coletivas",
         img: {
-          img: morePatrimonialServicesImg24,
+          img: moreEmpresarialServicesImg24,
         },
-        cardSubtitle: "Seguro para Convenções Coletivas",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Ideal para sindicatos ou organizações que precisam se proteger de mudanças proveniente de decisões em grupo.",
         buttonLink: "#",
       },
       service6: {
-        name: "Seguro 6",
+        name: "Seguro Condomínio",
         img: {
-          img: morePatrimonialServicesImg25,
+          img: moreEmpresarialServicesImg25,
         },
-        cardSubtitle: "Seguro Condomínio",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para síndicos e moradores que desejam proteger áreas comuns e privativas, promovendo um ambiente seguro.",
         buttonLink: "#",
@@ -378,161 +379,161 @@ const services = {
     },
     patrimonial: {
       service1: {
-        name: "Seguro 1",
+        name: "Seguro Residência",
         img: {
           img: morePatrimonialServicesImg26,
         },
-        cardSubtitle: "Seguro Residência",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para famílias que desejam proteger seu lar contra imprevistos, garantindo segurança e tranquilidade no mosaico de suas vidas.",
         buttonLink: "#",
       },
       service2: {
-        name: "Seguro 2",
+        name: "Seguro Moto",
         img: {
           img: morePatrimonialServicesImg27,
         },
-        cardSubtitle: "Seguro Moto",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para motociclistas que querem proteger sua paixão sobre duas rodas, navegando o labirinto urbano com tranquilidade.",
         buttonLink: "#",
       },
       service3: {
-        name: "Seguro 3",
+        name: "Seguro Equipamentos Portáteis",
         img: {
           img: morePatrimonialServicesImg28,
         },
-        cardSubtitle: "Seguro Equipamentos Portáteis",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Perfeito para quem carrega tecnologia valiosa no dia a dia, orquestrando proteção em sua rotina digital.",
         buttonLink: "#",
       },
       service4: {
-        name: "Seguro 4",
+        name: "Seguro para notebooks",
         img: {
           img: morePatrimonialServicesImg29,
         },
-        cardSubtitle: "Seguro para notebooks",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para profissionais e estudantes que dependem de seus notebooks, garantindo segurança em seu trabalho e estudos.",
         buttonLink: "#",
       },
       service5: {
-        name: "Seguro 5",
+        name: "Seguro para Câmera Fotográfica",
         img: {
           img: morePatrimonialServicesImg30,
         },
-        cardSubtitle: "Seguro para Câmera Fotográfica",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para fotógrafos que desejam proteger seus equipamentos, capturando momentos sem preocupações.",
         buttonLink: "#",
       },
       service6: {
-        name: "Seguro 6",
+        name: "Seguro Residência Veraneio",
         img: {
           img: morePatrimonialServicesImg31,
         },
-        cardSubtitle: "Seguro Residência Veraneio",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem possui casa de veraneio e quer desfrutar de momentos tranquilos, protegendo seu refúgio particular.",
         buttonLink: "#",
       },
       service7: {
-        name: "Seguro 7",
+        name: "Seguro Táxi",
         img: {
           img: morePatrimonialServicesImg32,
         },
-        cardSubtitle: "Seguro Táxi",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para taxistas que querem garantir a segurança de seu veículo, navegando a cidade com tranquilidade.",
         buttonLink: "#",
       },
       service8: {
-        name: "Seguro 8",
+        name: "Seguro Caminhão",
         img: {
           img: morePatrimonialServicesImg33,
         },
-        cardSubtitle: "Seguro Caminhão",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para caminhoneiros que desejam proteger seu meio de vida, enfrentando as estradas com segurança.",
         buttonLink: "#",
       },
       service9: {
-        name: "Seguro 9",
+        name: "Seguro Residência Habitual",
         img: {
           img: morePatrimonialServicesImg34,
         },
-        cardSubtitle: "Seguro Residência Habitual",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para famílias que querem proteger seu lar cotidiano, tecendo uma rede de segurança e tranquilidade.",
         buttonLink: "#",
       },
       service10: {
-        name: "Seguro 10",
+        name: "Seguro para Filmadora",
         img: {
           img: morePatrimonialServicesImg35,
         },
-        cardSubtitle: "Seguro para Filmadora",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para videomakers que buscam proteger suas filmadoras, capturando suas histórias com segurança.",
         buttonLink: "#",
       },
       service11: {
-        name: "Seguro 11",
+        name: "Seguro Residência Apartamento",
         img: {
           img: morePatrimonialServicesImg36,
         },
-        cardSubtitle: "Seguro Residência Apartamento",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para moradores de apartamentos que desejam proteger seu lar, garantindo segurança em cada detalhe do cotidiano.",
         buttonLink: "#",
       },
       service12: {
-        name: "Seguro 12",
+        name: "Seguro para Celular",
         img: {
           img: morePatrimonialServicesImg37,
         },
-        cardSubtitle: "Seguro para Celular",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja proteger seu celular, transcendendo as preocupações e aproveitando a tecnologia sem medos.",
         buttonLink: "#",
       },
       service13: {
-        name: "Seguro 13",
+        name: "Consórcio de Imóvel",
         img: {
           img: morePatrimonialServicesImg38,
         },
-        cardSubtitle: "Consórcio de Imóvel",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja adquirir um imóvel, entrelaçando economia e planejamento na realização de sonhos.",
         buttonLink: "#",
       },
       service14: {
-        name: "Seguro 14",
+        name: "Seguro Residência Premium",
         img: {
           img: morePatrimonialServicesImg39,
         },
-        cardSubtitle: "Seguro Residência Premium",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem busca proteção completa e sofisticada para seu lar, transcendendo as preocupações cotidianas.",
         buttonLink: "#",
       },
       service15: {
-        name: "Seguro 15",
+        name: "Seguro Auto Premium",
         img: {
           img: morePatrimonialServicesImg40,
         },
-        cardSubtitle: "Seguro Auto Premium",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para motoristas que buscam uma proteção superior, garantindo segurança e tranquilidade nas suas viagens.",
         buttonLink: "#",
       },
       service16: {
-        name: "Seguro 16",
+        name: "Seguro para Tablet",
         img: {
           img: morePatrimonialServicesImg41,
         },
-        cardSubtitle: "Seguro para Tablet",
+        cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem depende de seu tablet no dia a dia, garantindo proteção e tranquilidade digital.",
         buttonLink: "#",
