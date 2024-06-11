@@ -6,6 +6,11 @@ import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
+import trustedByImg7 from "../assets/imgs/trustedBy/item7.png";
+import trustedByImg8 from "../assets/imgs/trustedBy/item8.png";
+import trustedByImg9 from "../assets/imgs/trustedBy/item9.png";
+import trustedByImg10 from "../assets/imgs/trustedBy/item10.png";
+import trustedByImg11 from "../assets/imgs/trustedBy/item11.png";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
@@ -88,20 +93,24 @@ const content = {
           alt: "Seguradora Tokio Marine",
         },
         img7: {
-          img: { trustedByImg6 },
-          alt: "Seguradora Tokio Marine",
+          img: { trustedByImg7 },
+          alt: "Seguradora Mapfre Seguros",
         },
         img8: {
-          img: { trustedByImg6 },
-          alt: "Seguradora Tokio Marine",
+          img: { trustedByImg8 },
+          alt: "Seguradora Itaú Seguros",
         },
         img9: {
-          img: { trustedByImg6 },
-          alt: "Seguradora Tokio Marine",
+          img: { trustedByImg9 },
+          alt: "Seguradora Azul Seguros",
         },
         img10: {
-          img: { trustedByImg6 },
-          alt: "Seguradora Tokio Marine",
+          img: { trustedByImg10 },
+          alt: "Seguradora HDI Seguros",
+        },
+        img11: {
+          img: { trustedByImg11 },
+          alt: "Seguradora SUHAI Seguros",
         },
       },
     },
