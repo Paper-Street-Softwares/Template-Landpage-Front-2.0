@@ -31,8 +31,24 @@ const images = [
     alt: content.texts.trustedBy.images.img6.alt,
   },
   {
-    src: content.texts.trustedBy.images.img7.img.trustedByImg6,
+    src: content.texts.trustedBy.images.img7.img.trustedByImg7,
     alt: content.texts.trustedBy.images.img7.alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img8.img.trustedByImg8,
+    alt: content.texts.trustedBy.images.img8.alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img9.img.trustedByImg9,
+    alt: content.texts.trustedBy.images.img9.alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img10.img.trustedByImg10,
+    alt: content.texts.trustedBy.images.img10.alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img11.img.trustedByImg11,
+    alt: content.texts.trustedBy.images.img11.alt,
   },
 ];
 
