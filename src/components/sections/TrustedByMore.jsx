@@ -2,7 +2,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import LogoDisplay from "../sectionElements/LogoDisplay";
+import LogoDisplayMore from "../sectionElements/LogoDisplayMore";
 import content from "../../content/content";
 
 const images = [
@@ -54,14 +54,14 @@ const images = [
 
 export default function TrustedByMore() {
   return (
-    <SectionArea className="bg-quinary py-[20px] tablet1:py-[32px] desktop1:py-[46px]">
+    <SectionArea className="bg-quinary pt-[20px] pb-0 tablet1:pt-[32px] tablet1:pb-0 desktop1:py-[28px] desktop1:pb-0">
       <SectionHeader
         className="text-center"
         sectionHeaderSubtitle={content.texts.trustedBy.trustedMore.subtitle}
       />
       <SectionWrapper>
-        <MotionDivDownToUp className="w-full mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
-          <LogoDisplay images={images} />
+        <MotionDivDownToUp className="w-full desktop1:mb-[80px]">
+          <LogoDisplayMore images={images} />
         </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
