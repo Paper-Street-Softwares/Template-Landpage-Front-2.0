@@ -7,7 +7,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import testimg from "../../assets/imgs/services/servicesImg6.png";
+import testimg from "../../assets/imgs/services/servicesImg6.webp";
 
 import "primeicons/primeicons.css";
 import "primereact/resources/primereact.min.css";
