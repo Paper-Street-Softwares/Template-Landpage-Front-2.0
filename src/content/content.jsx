@@ -118,10 +118,10 @@ const content = {
       backgroundImg: numbersImgBg,
       number1: 30,
       number1Description: "Anos no mercado",
-      number2: 650,
-      number2Description: "Apólices geridas anualmente",
-      number3: 96,
-      number3Description: "De índice de renovação",
+      number2: 40,
+      number2Description: "Tipos de seguros",
+      number3: 10,
+      number3Description: "Seguradoras parceiras",
     },
     about: {
       imagem: {
