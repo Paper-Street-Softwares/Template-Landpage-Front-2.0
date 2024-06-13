@@ -189,7 +189,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-left text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service6.name}
                   </span>
                 </button>
@@ -1212,7 +1212,7 @@ const ServicesModal = () => {
       />
 
       <Dialog
-        header="Demais Seguros"
+        header="Nossos Seguros"
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
