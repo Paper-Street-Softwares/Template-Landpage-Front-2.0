@@ -17,7 +17,7 @@ function Footer() {
               <img
                 src={content.texts.navbar.logo.img}
                 alt={content.texts.navbar.logo.alt}
-                className="w-[80%] tablet1:w-[50%] desktop1:w-[80%]"
+                className="w-[50%] tablet1:w-[50%] desktop1:w-[80%]"
               ></img>
             </div>
             <div className="flex full gap-x-[8px] items-center opacity-70">
