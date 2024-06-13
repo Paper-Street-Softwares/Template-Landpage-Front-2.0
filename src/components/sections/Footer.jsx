@@ -81,7 +81,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-50}
+                    offset={-60}
                     href="#"
                   >
                     {content.texts.navbar.menuItems[2]}
@@ -96,7 +96,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-50}
+                    offset={-60}
                     href="#"
                   >
                     {content.texts.navbar.menuItems[1]}
@@ -109,7 +109,7 @@ function Footer() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-50}
+                    offset={-60}
                     href="#"
                   >
                     {content.texts.navbar.menuItems[3]}

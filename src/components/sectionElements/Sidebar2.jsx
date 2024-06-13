@@ -123,7 +123,7 @@ export default function HeadlessDemo() {
                                   spy={true}
                                   smooth={true}
                                   duration={500}
-                                  offset={-1000}
+                                  offset={-80}
                                   href="#"
                                 >
                                   {content.texts.navbar.menuItems[1]}
@@ -143,7 +143,7 @@ export default function HeadlessDemo() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-300}
+                                    offset={-80}
                                     href="#"
                                   >
                                     {content.texts.navbar.menuItems[2]}
@@ -163,7 +163,7 @@ export default function HeadlessDemo() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-300}
+                                    offset={-80}
                                     href="#"
                                   >
                                     {content.texts.navbar.menuItems[3]}
@@ -176,7 +176,7 @@ export default function HeadlessDemo() {
                         </ul>
                       )}
                     </li>
-                    <hr className="mx-3 mb-3 border-top-1 surface-border" />
+                    {/* <hr className="mx-3 mb-3 border-top-1 surface-border" />
                     <a
                       v-ripple
                       className="bottom-0 left-0 flex items-center justify-center gap-2 p-3 m-3 transition-colors cursor-pointer phone2:absolute border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
@@ -186,7 +186,7 @@ export default function HeadlessDemo() {
                         alt={content.texts.about.imagem.alt}
                         className="w-[100%]"
                       />
-                    </a>
+                    </a> */}
                   </ul>
                 </div>
               </div>
