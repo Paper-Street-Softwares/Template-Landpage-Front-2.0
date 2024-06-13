@@ -32,6 +32,7 @@ export default function CtaWhatsapp() {
                   <div className="w-full">
                     <ButtonWithIcon
                       label={content.texts.cta.ctaButtonText}
+                      link={whatsappContactLink}
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

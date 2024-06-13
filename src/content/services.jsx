@@ -199,7 +199,7 @@ const services = {
         img: {
           img: morePessoalServicesImg8,
         },
-        cardSubtitle: "Pra quem é esse seguro?",
+        cardSubtitle: "Pra quem esta previdência é indicada?",
         cardDescription:
           "Para pais que querem assegurar o futuro financeiro de seus filhos, entrelaçando segurança e prosperidade.",
         buttonLink: "#",
@@ -249,7 +249,7 @@ const services = {
         img: {
           img: morePessoalServicesImg13,
         },
-        cardSubtitle: "Pra quem é esse seguro?",
+        cardSubtitle: "Pra quem o consórcio é indicado?",
         cardDescription:
           "Para quem deseja adquirir bens de forma planejada, orquestrando um futuro seguro e próspero.",
         buttonLink: "#",
@@ -259,7 +259,7 @@ const services = {
         img: {
           img: morePessoalServicesImg14,
         },
-        cardSubtitle: "Pra quem é esse seguro?",
+        cardSubtitle: "Pra quem a previdência é indicada?",
         cardDescription:
           "Para quem planeja o futuro financeiro, garantindo tranquilidade e segurança nos anos vindouros.",
         buttonLink: "#",
@@ -503,7 +503,7 @@ const services = {
         img: {
           img: morePatrimonialServicesImg38,
         },
-        cardSubtitle: "Pra quem é esse seguro?",
+        cardSubtitle: "Pra quem o consórcio é indicado?",
         cardDescription:
           "Para quem deseja adquirir um imóvel, entrelaçando economia e planejamento na realização de sonhos.",
         buttonLink: "#",

@@ -38,7 +38,7 @@ const content = {
       ),
       subtitle:
         "Cuidamos do seu patrimônio, para que você tenha sempre uma vida tranquila e segura!",
-      ctaButtonText: "Fazer simulação",
+      ctaButtonText: "Fale com nossa equipe",
       images: {
         background: {},
         static: {
