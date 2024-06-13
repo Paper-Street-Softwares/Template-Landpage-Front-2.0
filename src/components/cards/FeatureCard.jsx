@@ -3,7 +3,8 @@ import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeatureCard(props) {
-  const { img, title, description, onButtonClick } = props;
+  const { img, title, description, onButtonClick, buttonLabel, buttonLink } =
+    props;
 
   return (
     <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
@@ -21,9 +22,9 @@ export default function FeatureCard(props) {
         </p>
         <MotionDivDownToUp>
           <ButtonWithIcon
-            label="
-            Contratar"
+            label={buttonLabel}
             onClick={onButtonClick}
+            link={buttonLink}
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"

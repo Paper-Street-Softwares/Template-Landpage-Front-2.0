@@ -6,17 +6,14 @@ import content from "../../content/content";
 
 export default function Features() {
   return (
-    <SectionArea className="bg-quinary desktop1:pb-[0px]">
+    <SectionArea id="service" className="bg-quinary desktop1:pb-[0px]">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
       />
       <SectionWrapper>
-        <div
-          className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]"
-          id="service"
-        >
+        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
           <FeatureImgOnBgCard
             bgImg={content.texts.features.card1.img}
             title={content.texts.features.card1.title}

@@ -36,28 +36,38 @@ export default function Services() {
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
           <FeatureCard
             img={services.main.card1.img.img}
-            title="Seguro Automóvel"
-            description="Proteção completa para seu veículo, com assistência 24 horas e serviços personalizados."
+            title={services.main.card1.title}
+            description={services.main.card1.description}
+            buttonLabel={services.main.card1.buttonLabel}
+            buttonLink={services.main.card1.buttonLink}
           />
           <FeatureCard
             img={services.main.card2.img.img}
-            title="Seguro Residencial e Condomínios"
-            description="Coberturas abrangentes para sua casa ou apartamento, incluindo danos estruturais e responsabilidade civil."
+            title={services.main.card2.title}
+            description={services.main.card2.description}
+            buttonLabel={services.main.card2.buttonLabel}
+            buttonLink={services.main.card2.buttonLink}
           />
           <FeatureCard
             img={services.main.card3.img.img}
-            title="Seguro de Vida e Acidentes"
-            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
+            title={services.main.card3.title}
+            description={services.main.card3.description}
+            buttonLabel={services.main.card3.buttonLabel}
+            buttonLink={services.main.card3.buttonLink}
           />
           <FeatureCard
             img={services.main.card4.img.img}
-            title="Seguro Empresarial"
-            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
+            title={services.main.card4.title}
+            description={services.main.card4.description}
+            buttonLabel={services.main.card4.buttonLabel}
+            buttonLink={services.main.card4.buttonLink}
           />
           <FeatureCard
             img={services.main.card5.img.img}
-            title="Planos de Saúde"
-            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
+            title={services.main.card5.title}
+            description={services.main.card5.description}
+            buttonLabel={services.main.card5.buttonLabel}
+            buttonLink={services.main.card5.buttonLink}
           />
           <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
             <div className="">

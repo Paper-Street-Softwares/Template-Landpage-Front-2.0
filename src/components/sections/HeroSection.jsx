@@ -1,4 +1,3 @@
-import links from "../../content/links";
 import HeroImg1 from "../../assets/imgs/hero/heroImg1.png";
 import HeroImg2 from "../../assets/imgs/hero/heroImg2.png";
 import HeroImg3 from "../../assets/imgs/hero/heroImg3.png";
@@ -7,6 +6,7 @@ import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
+import links from "../../content/links";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
