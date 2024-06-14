@@ -7,7 +7,7 @@ module.exports = {
         primary: "#0376A0", // Com primária (escura)
         secondary: "#FFFFFF", // Cor primária (clara, sobressai sobre a primária)
         lighter: "#21A202",
-        darker: "#000000",
+        darker: "00131B",
         tertiary: "#0189BB", // Links
         quaternary: "#636363", // Cinza neutro -> Parágrafos
         quinary: "#F6F6F6 ", // Com primária bem clara ou cinza -> Bg de seções
