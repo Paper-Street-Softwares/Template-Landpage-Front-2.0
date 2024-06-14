@@ -1,8 +1,10 @@
-import mainServicesImg1 from "../assets/imgs/services/servicesImg1.png";
-import mainServicesImg2 from "../assets/imgs/services/servicesImg2.png";
-import mainServicesImg3 from "../assets/imgs/services/servicesImg3.png";
-import mainServicesImg4 from "../assets/imgs/services/servicesImg4.png";
-import mainServicesImg5 from "../assets/imgs/services/servicesImg5.png";
+import mainServicesImg1 from "../assets/imgs/services/servicesImg1.webp";
+import mainServicesImg2 from "../assets/imgs/services/servicesImg2.webp";
+import mainServicesImg3 from "../assets/imgs/services/servicesImg3.webp";
+import mainServicesImg4 from "../assets/imgs/services/servicesImg4.webp";
+import mainServicesImg5 from "../assets/imgs/services/servicesImg5.webp";
+// import mainServicesImg6 from "../assets/imgs/services/servicesImg6.webp";
+
 import morePessoalServicesImg1 from "../assets/imgs/cardModal/imgCardModal1.png";
 import morePessoalServicesImg2 from "../assets/imgs/cardModal/imgCardModal2.png";
 import morePessoalServicesImg3 from "../assets/imgs/cardModal/imgCardModal3.png";
