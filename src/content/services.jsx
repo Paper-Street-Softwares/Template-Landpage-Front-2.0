@@ -42,12 +42,12 @@ import morePatrimonialServicesImg32 from "../assets/imgs/cardModal/imgCardModal3
 import morePatrimonialServicesImg33 from "../assets/imgs/cardModal/imgCardModal37.webp";
 import morePatrimonialServicesImg34 from "../assets/imgs/cardModal/imgCardModal38.webp";
 import morePatrimonialServicesImg35 from "../assets/imgs/cardModal/imgCardModal39.webp";
-import morePatrimonialServicesImg46 from "../assets/imgs/cardModal/imgCardModal40.webp";
-import morePatrimonialServicesImg47 from "../assets/imgs/cardModal/imgCardModal41.webp";
-import morePatrimonialServicesImg48 from "../assets/imgs/cardModal/imgCardModal2.webp";
-import morePatrimonialServicesImg49 from "../assets/imgs/cardModal/imgCardModal5.webp";
-import morePatrimonialServicesImg50 from "../assets/imgs/cardModal/imgCardModal10.webp";
-import morePatrimonialServicesImg51 from "../assets/imgs/cardModal/imgCardModal18.webp";
+import morePatrimonialServicesImg36 from "../assets/imgs/cardModal/imgCardModal40.webp";
+import morePatrimonialServicesImg37 from "../assets/imgs/cardModal/imgCardModal41.webp";
+import morePatrimonialServicesImg38 from "../assets/imgs/cardModal/imgCardModal2.webp";
+import morePatrimonialServicesImg39 from "../assets/imgs/cardModal/imgCardModal5.webp";
+import morePatrimonialServicesImg40 from "../assets/imgs/cardModal/imgCardModal10.webp";
+import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal18.webp";
 
 import links from "./links";
 
@@ -507,7 +507,7 @@ const services = {
       service15: {
         name: "Seguro Auto Premium",
         img: {
-          img: morePatrimonialServicesImg46,
+          img: morePatrimonialServicesImg36,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -517,7 +517,7 @@ const services = {
       service16: {
         name: "Seguro para Tablet",
         img: {
-          img: morePatrimonialServicesImg47,
+          img: morePatrimonialServicesImg37,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -527,7 +527,7 @@ const services = {
       service17: {
         name: "Seguro Auto",
         img: {
-          img: morePatrimonialServicesImg48,
+          img: morePatrimonialServicesImg38,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -537,7 +537,7 @@ const services = {
       service18: {
         name: "Seguro Auto Jovem",
         img: {
-          img: morePatrimonialServicesImg49,
+          img: morePatrimonialServicesImg39,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -547,7 +547,7 @@ const services = {
       service19: {
         name: "Seguro Auto Mulher",
         img: {
-          img: morePatrimonialServicesImg50,
+          img: morePatrimonialServicesImg40,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -557,7 +557,7 @@ const services = {
       service20: {
         name: "Seguro Auto Sênior",
         img: {
-          img: morePatrimonialServicesImg51,
+          img: morePatrimonialServicesImg41,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
