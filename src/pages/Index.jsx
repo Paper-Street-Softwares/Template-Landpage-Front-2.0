@@ -10,6 +10,7 @@ import About from "../components/sections/About";
 import NavbarSection from "../components/sections/NavbarSection";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import FeaturesButton from "../components/sections/FeaturesButton";
 
 export default function Index() {
   return (
@@ -20,6 +21,7 @@ export default function Index() {
       <Numbers />
       <About />
       <Features />
+      <FeaturesButton />
       <Services />
       <CtaWhatsapp />
       <Faq />
