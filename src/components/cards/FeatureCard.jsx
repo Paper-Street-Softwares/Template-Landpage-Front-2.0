@@ -15,6 +15,41 @@ export default function FeatureCard(props) {
       />
       <div className="tablet1:w-[50%] desktop1:w-[auto]">
         <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[28px] leading-[36px] mb-[16px]">
+          {title}
+        </h1>
+        <p className=" font-secondFont text-paragraph4 mb-[36px] text-quaternary">
+          {description}
+        </p>
+
+        <ButtonWithIcon
+          label={buttonLabel}
+          onClick={onButtonClick}
+          link={buttonLink}
+          icon={
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-move-right"
+            >
+              <path d="M18 8L22 12L18 16" />
+              <path d="M2 12H22" />
+            </svg>
+          }
+          className="text-white bg-black px-[2%] py-[0.8%]"
+        />
+      </div>
+
+      {/* Versão com todos os elementos do card entrando animadamente */}
+
+      {/* <div className="tablet1:w-[50%] desktop1:w-[auto]">
+        <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[28px] leading-[36px] mb-[16px]">
           <MotionDivDownToUp>{title}</MotionDivDownToUp>
         </h1>
         <p className=" font-secondFont text-paragraph4 mb-[36px] text-quaternary">
@@ -45,7 +80,7 @@ export default function FeatureCard(props) {
             className="text-white bg-black px-[2%] py-[0.8%]"
           />
         </MotionDivDownToUp>
-      </div>
+      </div> */}
     </MotionDivDownToUp>
   );
 }

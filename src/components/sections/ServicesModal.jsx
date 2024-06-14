@@ -54,7 +54,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service1.name}
                   </span>
                 </button>
@@ -81,7 +81,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service2.name}
                   </span>
                 </button>
@@ -108,7 +108,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service3.name}
                   </span>
                 </button>
@@ -135,7 +135,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service4.name}
                   </span>
                 </button>
@@ -162,7 +162,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service5.name}
                   </span>
                 </button>
@@ -216,7 +216,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service7.name}
                   </span>
                 </button>
@@ -243,7 +243,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service8.name}
                   </span>
                 </button>
@@ -270,7 +270,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service9.name}
                   </span>
                 </button>
@@ -297,7 +297,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service10.name}
                   </span>
                 </button>
@@ -324,7 +324,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service11.name}
                   </span>
                 </button>
@@ -351,7 +351,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service12.name}
                   </span>
                 </button>
@@ -378,7 +378,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service13.name}
                   </span>
                 </button>
@@ -405,7 +405,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service14.name}
                   </span>
                 </button>
@@ -432,7 +432,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service15.name}
                   </span>
                 </button>
@@ -459,7 +459,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service16.name}
                   </span>
                 </button>
@@ -486,7 +486,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service17.name}
                   </span>
                 </button>
@@ -513,7 +513,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service18.name}
                   </span>
                 </button>
@@ -540,7 +540,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service19.name}
                   </span>
                 </button>
@@ -583,7 +583,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.empresarial.service1.name}
                   </span>
                 </button>
@@ -610,7 +610,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.empresarial.service2.name}
                   </span>
                 </button>
@@ -637,7 +637,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.empresarial.service3.name}
                   </span>
                 </button>
@@ -664,7 +664,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.empresarial.service4.name}
                   </span>
                 </button>
@@ -691,7 +691,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.empresarial.service5.name}
                   </span>
                 </button>
@@ -718,7 +718,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.empresarial.service6.name}
                   </span>
                 </button>
@@ -761,7 +761,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service1.name}
                   </span>
                 </button>
@@ -788,7 +788,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service2.name}
                   </span>
                 </button>
@@ -815,7 +815,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service3.name}
                   </span>
                 </button>
@@ -842,7 +842,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service4.name}
                   </span>
                 </button>
@@ -869,7 +869,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service5.name}
                   </span>
                 </button>
@@ -896,7 +896,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service6.name}
                   </span>
                 </button>
@@ -923,7 +923,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service7.name}
                   </span>
                 </button>
@@ -950,7 +950,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service8.name}
                   </span>
                 </button>
@@ -977,7 +977,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service9.name}
                   </span>
                 </button>
@@ -1005,7 +1005,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service10.name}
                   </span>
                 </button>
@@ -1033,7 +1033,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service11.name}
                   </span>
                 </button>
@@ -1061,7 +1061,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service12.name}
                   </span>
                 </button>
@@ -1089,7 +1089,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service13.name}
                   </span>
                 </button>
@@ -1117,7 +1117,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service14.name}
                   </span>
                 </button>
@@ -1145,7 +1145,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service15.name}
                   </span>
                 </button>
@@ -1173,7 +1173,7 @@ const ServicesModal = () => {
               >
                 <button className="flex text-primary">
                   {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-paragraph3 text-primary">
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service16.name}
                   </span>
                 </button>
