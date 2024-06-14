@@ -13,17 +13,19 @@ export default function FeatureImgOnBgCard(props) {
   return (
     <MotionDivDownToUp className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]  tablet1:w-[47%] desktop1:w-[22%]">
       <div
-        className="w-full h-[464px] rounded-2xl p-[10px] flex flex-col justify-end bg-center bg-no-repeat bg-cover"
+        className="w-full h-[464px] rounded-2xl flex flex-col justify-end bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${bgImg})` }}
       >
-        <MotionDivDownToUp className="w-full h-auto bg-white rounded-2xl p-[20px] gap-[18px] flex flex-col">
-          <h3 className="font-mainFont font-medium text-[26px] desktop1:text-paragraph5 desktop2:text-[26px]">
-            {title}
-          </h3>
-          <p className="font-secondFont text-paragraph4 text-quaternary">
-            {description}
-          </p>
-        </MotionDivDownToUp>
+        <div className="flex items-end w-full h-full bg-black bg-opacity-10 rounded-2xl">
+          <MotionDivDownToUp className="w-full h-auto bg-white rounded-2xl mx-[10px] mb-[10px] p-[20px] gap-[18px] flex flex-col">
+            <h3 className="font-mainFont font-medium text-[26px] desktop1:text-paragraph5 desktop2:text-[26px]">
+              {title}
+            </h3>
+            <p className="font-secondFont text-paragraph4 text-quaternary">
+              {description}
+            </p>
+          </MotionDivDownToUp>
+        </div>
       </div>
     </MotionDivDownToUp>
   );
