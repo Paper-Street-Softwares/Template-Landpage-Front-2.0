@@ -10,7 +10,6 @@ import CtaWhatsapp from "../components/sections/CtaWhatsapp";
 import NavbarSection from "../components/sections/NavbarSection";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import CtaParalaxeLeft from "../components/sections/CtaParalaxeLeft";
 
 export default function Index() {
   return (
@@ -20,7 +19,6 @@ export default function Index() {
       <TrustedBy />
       <Numbers />
       <About />
-      <CtaParalaxeLeft />
       <Features />
       <Services />
       <CtaWhatsapp />
