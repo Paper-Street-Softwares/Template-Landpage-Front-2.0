@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 import { Link as ScrollLink } from "react-scroll";
-import HeadlessDemo from "../sectionElements/Sidebar";
+// import HeadlessDemo from "../sectionElements/Sidebar";
+import SidebarSocial from "../sectionElements/SidebarSocial";
 import { px } from "framer-motion";
 import ButtonCtaNavbar from "../interactives/ButtonCtaNavbar";
 import content from "../../content/content";
@@ -89,7 +90,7 @@ export default function NavbarSocial() {
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
-            ? "bg-white bg-opacity-100 shadow-lg transition-all duration-1000"
+            ? "bg-secondary bg-opacity-100 shadow-lg transition-all duration-1000"
             : "transition-colors duration-1000"
         }`}
       >
@@ -108,7 +109,7 @@ export default function NavbarSocial() {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000 invert"
+                  ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000 "
                   : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
@@ -116,7 +117,7 @@ export default function NavbarSocial() {
           <div className="flex items-center justify-between gap-[16px]">
             <div
               className={`hidden tablet1:flex desktop1:hidden ${
-                scrolling ? "invert" : ""
+                scrolling ? "" : ""
               }`}
             >
               <ButtonCtaNavbar
@@ -137,7 +138,7 @@ export default function NavbarSocial() {
               />
             </div>
             <div className="flex items-center desktop1:hidden">
-              <HeadlessDemo />
+              <SidebarSocial />
             </div>
           </div>
           {showListGroup ? <ListGroupSocial /> : null}

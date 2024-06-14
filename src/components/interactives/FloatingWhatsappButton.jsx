@@ -25,16 +25,16 @@ const FloatingWhatsappButton = () => {
     <button
       className={`${
         isVisible ? "block animate-fade-in" : "hidden"
-      } fixed bottom-2 right-3 p-4 text-white z-20 rounded-full focus:outline-none transition`}
+      } fixed bottom-2 right-3 p-4 text-secondary z-20 rounded-full focus:outline-none transition`}
       onClick={() => setOpenModal(!openModal)}
     >
       {openModal ? null : (
         <button>
           <img
-          className="w-16"
-          src={whatsappWebm}
-          alt="Floating WhatsApp Button"
-        />
+            className="w-16"
+            src={whatsappWebm}
+            alt="Floating WhatsApp Button"
+          />
         </button>
       )}
       <Modal isOpen={openModal} setCloseModal={setOpenModal} />

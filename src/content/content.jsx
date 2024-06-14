@@ -1,4 +1,5 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
+import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
@@ -29,7 +30,11 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logo URM Corretora de Seguros",
+        alt: "Logomarca",
+      },
+      solidLogo: {
+        img: solidLogo,
+        alt: "Logomarca",
       },
       menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
       ctaButtonText: "Contato",

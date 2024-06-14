@@ -91,7 +91,7 @@ export default function NavbarSection() {
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
-            ? "bg-white bg-opacity-100 shadow-lg transition-all duration-1000"
+            ? "bg-secondary bg-opacity-100 shadow-lg transition-all duration-1000"
             : "transition-colors duration-1000"
         }`}
       >

@@ -33,7 +33,7 @@ export default function ListGroupSocial() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling ? "" : "text-white transition-color duration-1000"
+        scrolling ? "" : "text-secondary transition-color duration-1000"
       }`}
     >
       <li className="transition group">
@@ -47,13 +47,15 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={scrolling ? "hover:text-primary" : "hover:text-white"}
+            className={
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
+            }
           >
             {content.texts.navbar.menuItems[0]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
@@ -70,13 +72,15 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={scrolling ? "hover:text-primary" : "hover:text-white"}
+            className={
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
+            }
           >
             {content.texts.navbar.menuItems[2]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
@@ -92,13 +96,15 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={scrolling ? "hover:text-primary" : "hover:text-white"}
+            className={
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
+            }
           >
             {content.texts.navbar.menuItems[1]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
@@ -114,19 +120,21 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={scrolling ? "hover:text-primary" : "hover:text-white"}
+            className={
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
+            }
           >
             {content.texts.navbar.menuItems[3]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-white"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
       </li>
       <div className="flex gap-[10px] items-center">
-        <div className={scrolling ? "invert" : ""}>
+        <div className={scrolling ? "" : ""}>
           <ButtonCtaNavbar
             link={whatsappContactLink}
             label={content.texts.navbar.ctaButtonText}
@@ -147,7 +155,7 @@ export default function ListGroupSocial() {
         <a
           href={links.socialMedia.instagram}
           target="_blank"
-          className={scrolling ? "invert" : ""}
+          className={scrolling ? "" : ""}
         >
           <IconButton
             icon={
@@ -173,7 +181,7 @@ export default function ListGroupSocial() {
         <a
           href={links.socialMedia.facebook}
           target="_blank"
-          className={scrolling ? "invert" : ""}
+          className={scrolling ? "" : ""}
         >
           <IconButton
             icon={
@@ -197,7 +205,7 @@ export default function ListGroupSocial() {
         <a
           href={links.socialMedia.linkedin}
           target="_blank"
-          className={scrolling ? "invert" : ""}
+          className={scrolling ? "" : ""}
         >
           <IconButton
             icon={

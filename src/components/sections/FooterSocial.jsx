@@ -10,7 +10,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
-    <footer className="bg-secondary full gap-y-[42px]  text-white font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+    <footer className="bg-darker full gap-y-[42px]  text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
@@ -26,7 +26,7 @@ function FooterSocial() {
                 size={24}
                 aria-label="Ícone de Telefone"
                 strokeWidth={1}
-                className="text-white"
+                className="text-secondary"
               />
               <a
                 href={whatsappContactLink}
@@ -41,7 +41,7 @@ function FooterSocial() {
                 size={24}
                 aria-label="Ícone de Carta"
                 strokeWidth={1}
-                className="text-white"
+                className="text-secondary"
               />
               <p>{infos.mail}</p>
             </div>
@@ -199,7 +199,7 @@ function FooterSocial() {
         </MotionDivDownToUp>
       </div>
 
-      <div className="hidden w-[88%] max-w-[1110px] h-px bg-white"></div>
+      <div className="hidden w-[88%] max-w-[1110px] h-px bg-secondary"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <p className="w-full opacity-75">
