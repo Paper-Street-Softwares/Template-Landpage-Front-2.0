@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 import { Link as ScrollLink } from "react-scroll";
-import HeadlessDemo from "../sectionElements/Sidebar";
+// import HeadlessDemo from "../sectionElements/Sidebar";
+import SidebarSocial from "../sectionElements/SidebarSocial";
 import { px } from "framer-motion";
 import ButtonCtaNavbar from "../interactives/ButtonCtaNavbar";
 import content from "../../content/content";
@@ -137,7 +138,7 @@ export default function NavbarSocial() {
               />
             </div>
             <div className="flex items-center desktop1:hidden">
-              <HeadlessDemo />
+              <SidebarSocial />
             </div>
           </div>
           {showListGroup ? <ListGroupSocial /> : null}
