@@ -86,7 +86,7 @@ const ServicesModal = () => {
                   </span>
                 </button>
               </ModalComponent>
-              {/* link3 */}
+              {/* link 3 */}
               <ModalComponent
                 header={services.moreServices.pessoal.service3.name}
                 content={
@@ -434,114 +434,6 @@ const ServicesModal = () => {
                   {services.moreServices.arrowIcon}
                   <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.pessoal.service15.name}
-                  </span>
-                </button>
-              </ModalComponent>
-              {/* link 16 */}
-              <ModalComponent
-                header={services.moreServices.pessoal.service16.name}
-                content={
-                  <ServiceDetailCard
-                    img={services.moreServices.pessoal.service16.img.img}
-                    subtitle={
-                      services.moreServices.pessoal.service16.cardSubtitle
-                    }
-                    description={
-                      services.moreServices.pessoal.service16.cardDescription
-                    }
-                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
-                    buttonIcon={services.moreServices.ctaButtons.icon}
-                    buttonLink={
-                      services.moreServices.pessoal.service16.buttonLink
-                    }
-                  />
-                }
-              >
-                <button className="flex text-primary">
-                  {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-left text-paragraph3 text-primary">
-                    {services.moreServices.pessoal.service16.name}
-                  </span>
-                </button>
-              </ModalComponent>
-              {/* link 17 */}
-              <ModalComponent
-                header={services.moreServices.pessoal.service17.name}
-                content={
-                  <ServiceDetailCard
-                    img={services.moreServices.pessoal.service17.img.img}
-                    subtitle={
-                      services.moreServices.pessoal.service17.cardSubtitle
-                    }
-                    description={
-                      services.moreServices.pessoal.service17.cardDescription
-                    }
-                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
-                    buttonIcon={services.moreServices.ctaButtons.icon}
-                    buttonLink={
-                      services.moreServices.pessoal.service17.buttonLink
-                    }
-                  />
-                }
-              >
-                <button className="flex text-primary">
-                  {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-left text-paragraph3 text-primary">
-                    {services.moreServices.pessoal.service17.name}
-                  </span>
-                </button>
-              </ModalComponent>
-              {/* link 18 */}
-              <ModalComponent
-                header={services.moreServices.pessoal.service18.name}
-                content={
-                  <ServiceDetailCard
-                    img={services.moreServices.pessoal.service18.img.img}
-                    subtitle={
-                      services.moreServices.pessoal.service18.cardSubtitle
-                    }
-                    description={
-                      services.moreServices.pessoal.service18.cardDescription
-                    }
-                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
-                    buttonIcon={services.moreServices.ctaButtons.icon}
-                    buttonLink={
-                      services.moreServices.pessoal.service18.buttonLink
-                    }
-                  />
-                }
-              >
-                <button className="flex text-primary">
-                  {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-left text-paragraph3 text-primary">
-                    {services.moreServices.pessoal.service18.name}
-                  </span>
-                </button>
-              </ModalComponent>
-              {/* link 19 */}
-              <ModalComponent
-                header={services.moreServices.pessoal.service19.name}
-                content={
-                  <ServiceDetailCard
-                    img={services.moreServices.pessoal.service19.img.img}
-                    subtitle={
-                      services.moreServices.pessoal.service19.cardSubtitle
-                    }
-                    description={
-                      services.moreServices.pessoal.service19.cardDescription
-                    }
-                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
-                    buttonIcon={services.moreServices.ctaButtons.icon}
-                    buttonLink={
-                      services.moreServices.pessoal.service19.buttonLink
-                    }
-                  />
-                }
-              >
-                <button className="flex text-primary">
-                  {services.moreServices.arrowIcon}
-                  <span className="ml-2 text-left text-paragraph3 text-primary">
-                    {services.moreServices.pessoal.service19.name}
                   </span>
                 </button>
               </ModalComponent>
@@ -1175,6 +1067,90 @@ const ServicesModal = () => {
                   {services.moreServices.arrowIcon}
                   <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service16.name}
+                  </span>
+                </button>
+              </ModalComponent>
+              {/* link 17 */}
+              <ModalComponent
+                header={services.moreServices.patrimonial.service17.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.patrimonial.service17.img.img}
+                    subtitle={
+                      services.moreServices.patrimonial.service17.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.patrimonial.service17
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.patrimonial.service17.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-primary">
+                  {services.moreServices.arrowIcon}
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
+                    {services.moreServices.patrimonial.service17.name}
+                  </span>
+                </button>
+              </ModalComponent>
+              {/* link 18 */}
+              <ModalComponent
+                header={services.moreServices.patrimonial.service18.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.patrimonial.service18.img.img}
+                    subtitle={
+                      services.moreServices.patrimonial.service18.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.patrimonial.service18
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.patrimonial.service18.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-primary">
+                  {services.moreServices.arrowIcon}
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
+                    {services.moreServices.patrimonial.service18.name}
+                  </span>
+                </button>
+              </ModalComponent>
+              {/* link 19 */}
+              <ModalComponent
+                header={services.moreServices.patrimonial.service20.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.patrimonial.service20.img.img}
+                    subtitle={
+                      services.moreServices.patrimonial.service20.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.patrimonial.service20
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.patrimonial.service20.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-primary">
+                  {services.moreServices.arrowIcon}
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
+                    {services.moreServices.patrimonial.service20.name}
                   </span>
                 </button>
               </ModalComponent>
