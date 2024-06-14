@@ -13,7 +13,7 @@ import {
 import { Link } from "react-scroll";
 import content from "../../content/content";
 
-export default function HeadlessDemo() {
+export default function SidebarClean() {
   const [visible, setVisible] = useState(false);
   const [submenuVisible, setSubmenuVisible] = useState(true);
   const [reportsSubmenuVisible, setReportsSubmenuVisible] = useState(false);

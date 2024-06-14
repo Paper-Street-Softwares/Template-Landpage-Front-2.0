@@ -3,7 +3,7 @@ import Navbar from "../sectionElements/Navbar";
 import Logo from "../../assets/imgs/logo/logo.png";
 import ListGroup from "../sectionElements/ListGroup";
 import { Link as ScrollLink } from "react-scroll";
-import HeadlessDemo from "../sectionElements/Sidebar2";
+import HeadlessDemo from "../sectionElements/Sidebar";
 import { px } from "framer-motion";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 import content from "../../content/content";

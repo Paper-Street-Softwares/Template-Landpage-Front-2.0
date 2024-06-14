@@ -10,13 +10,11 @@ import CtaWhatsapp from "../components/sections/CtaWhatsapp";
 import NavbarSection from "../components/sections/NavbarSection";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import NavbarSocial from "../components/sections/NavbarSocial";
 
 export default function Index() {
   return (
     <div>
-      {/* <NavbarSection /> */}
-      <NavbarSocial />
+      <NavbarSection />
       <HeroSlides />
       <TrustedBy />
       <Numbers />

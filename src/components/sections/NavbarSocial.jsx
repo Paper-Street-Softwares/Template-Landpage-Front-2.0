@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 import { Link as ScrollLink } from "react-scroll";
-import HeadlessDemo from "../sectionElements/Sidebar2";
+import HeadlessDemo from "../sectionElements/Sidebar";
 import { px } from "framer-motion";
 import ButtonCtaNavbar from "../interactives/ButtonCtaNavbar";
 import content from "../../content/content";
