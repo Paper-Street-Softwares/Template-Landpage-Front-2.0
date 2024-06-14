@@ -19,21 +19,21 @@ export default function TeamMember(props) {
         <a
           href={link1}
           target="_blank"
-          className="hover:border-solid border-[1px] border-quinary hover:border-[1px] hover:border-black p-[6px] rounded-full transition hover:text-white"
+          className="hover:border-solid border-[1px] border-quinary hover:border-[1px] hover:border-black p-[6px] rounded-full transition hover:text-secondary"
         >
           {icon1}
         </a>
         <a
           href={link2}
           target="_blank"
-          className="hover:border-solid border-[1px] border-quinary hover:border-[1px] hover:border-black p-[6px] rounded-full transition hover:text-white"
+          className="hover:border-solid border-[1px] border-quinary hover:border-[1px] hover:border-black p-[6px] rounded-full transition hover:text-secondary"
         >
           {icon2}
         </a>
         <a
           href={link3}
           target="_blank"
-          className="hover:border-solid border-[1px] border-quinary hover:border-[1px] hover:border-black p-[6px] rounded-full transition hover:text-white"
+          className="hover:border-solid border-[1px] border-quinary hover:border-[1px] hover:border-black p-[6px] rounded-full transition hover:text-secondary"
         >
           {icon3}
         </a>

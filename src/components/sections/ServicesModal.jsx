@@ -1208,7 +1208,7 @@ const ServicesModal = () => {
           </svg>
         }
         onClick={() => setVisible(true)}
-        className="text-white bg-black px-[2%] py-[0.8%]"
+        className="text-secondary bg-black px-[2%] py-[0.8%]"
       />
 
       <Dialog

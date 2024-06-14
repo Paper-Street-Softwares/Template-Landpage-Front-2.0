@@ -22,7 +22,7 @@ export default function CtaWhatsapp() {
           <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
             <div className="w-full max-w-[1110px] flex flex-row items-end justify-between">
               <div className=" flex flex-col w-full justify-evenly items-center gap-[32px]">
-                <h1 className="w-full text-center text-white text-title4 font-poppins desktop1:text-title5 desktop2:text-title6 [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                <h1 className="w-full text-center text-secondary text-title4 font-poppins desktop1:text-title5 desktop2:text-title6 [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                   <MotionDivUpToDown>
                     {content.texts.cta.title}
                   </MotionDivUpToDown>
