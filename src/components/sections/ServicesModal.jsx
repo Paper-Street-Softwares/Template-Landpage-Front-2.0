@@ -1128,6 +1128,34 @@ const ServicesModal = () => {
               </ModalComponent>
               {/* link 19 */}
               <ModalComponent
+                header={services.moreServices.patrimonial.service19.name}
+                content={
+                  <ServiceDetailCard
+                    img={services.moreServices.patrimonial.service19.img.img}
+                    subtitle={
+                      services.moreServices.patrimonial.service19.cardSubtitle
+                    }
+                    description={
+                      services.moreServices.patrimonial.service19
+                        .cardDescription
+                    }
+                    buttonLabel={services.moreServices.ctaButtons.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.patrimonial.service19.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-primary">
+                  {services.moreServices.arrowIcon}
+                  <span className="ml-2 text-left text-paragraph3 text-primary">
+                    {services.moreServices.patrimonial.service19.name}
+                  </span>
+                </button>
+              </ModalComponent>
+              {/* link 20 */}
+              <ModalComponent
                 header={services.moreServices.patrimonial.service20.name}
                 content={
                   <ServiceDetailCard
