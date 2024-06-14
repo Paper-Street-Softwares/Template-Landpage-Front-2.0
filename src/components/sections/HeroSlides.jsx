@@ -10,7 +10,7 @@ import links from "../../content/links";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
-export default function HeroSection() {
+export default function HeroSlides() {
   return (
     <div className="font-mainFont" id="home">
       <div className="w-full">
