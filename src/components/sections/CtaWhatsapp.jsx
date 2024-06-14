@@ -1,6 +1,5 @@
 import links from "../../content/links";
 import content from "../../content/content";
-import imgCta from "../../assets/imgs/cta/person.png";
 import ButtonWithIcon from "../interactives/ButtonWithIcon";
 import SectionContent from "../sectionElements/SectionContent";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
@@ -18,7 +17,7 @@ export default function CtaWhatsapp() {
       }}
       id="contact"
     >
-      <div className="flex justify-center w-full bg-transparent bg-secondary">
+      <div className="flex justify-center w-full">
         <SectionContent>
           <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
             <div className="w-full max-w-[1110px] flex flex-row items-end justify-between">
