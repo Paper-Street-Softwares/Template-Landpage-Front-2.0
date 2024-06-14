@@ -71,8 +71,8 @@ export default function SidebarClean() {
                 <div className="flex items-center justify-between flex-shrink-0 px-4 pt-4">
                   <span className="inline-flex items-center gap-2">
                     <img
-                      src={content.texts.navbar.logo.img}
-                      alt={content.texts.navbar.logo.alt}
+                      src={content.texts.navbar.solidLogo.img}
+                      alt={content.texts.navbar.solidLogo.alt}
                       className="w-[200px] h-auto py-[15px] pr-[15px]"
                     />
                   </span>

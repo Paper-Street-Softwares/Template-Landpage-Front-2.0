@@ -73,8 +73,8 @@ export default function SidebarSocial() {
                 <div className="flex items-center justify-between flex-shrink-0 px-4 pt-6">
                   <span className="inline-flex items-center gap-2">
                     <img
-                      src={content.texts.navbar.logo}
-                      alt={content.texts.navbar.alt}
+                      src={content.texts.navbar.solidLogo.img}
+                      alt={content.texts.navbar.solidLogo.alt}
                       className="w-[200px] h-auto p-[5px]"
                     />
                   </span>

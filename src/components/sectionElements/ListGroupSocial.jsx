@@ -134,7 +134,7 @@ export default function ListGroupSocial() {
         </Link>
       </li>
       <div className="flex gap-[10px] items-center">
-        <div className={scrolling ? "invert" : ""}>
+        <div className={scrolling ? "" : ""}>
           <ButtonCtaNavbar
             link={whatsappContactLink}
             label={content.texts.navbar.ctaButtonText}
@@ -155,7 +155,7 @@ export default function ListGroupSocial() {
         <a
           href={links.socialMedia.instagram}
           target="_blank"
-          className={scrolling ? "invert" : ""}
+          className={scrolling ? "" : ""}
         >
           <IconButton
             icon={
@@ -181,7 +181,7 @@ export default function ListGroupSocial() {
         <a
           href={links.socialMedia.facebook}
           target="_blank"
-          className={scrolling ? "invert" : ""}
+          className={scrolling ? "" : ""}
         >
           <IconButton
             icon={
@@ -205,7 +205,7 @@ export default function ListGroupSocial() {
         <a
           href={links.socialMedia.linkedin}
           target="_blank"
-          className={scrolling ? "invert" : ""}
+          className={scrolling ? "" : ""}
         >
           <IconButton
             icon={
