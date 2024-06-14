@@ -1,4 +1,5 @@
 import logo from "../assets/imgs/logo/logo.png";
+import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
@@ -417,28 +418,36 @@ const content = {
       },
     },
     features: {
+      title: "Nossas especialidades",
+      subtitle: "Serviços personalizados para sua tranquilidade",
       card1: {
         title: "Cotação de Seguros",
         subtitle: "Melhores cotações para suas necessidades",
         img: featuresImg1,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
         title: "Gestão de Apólices",
         subtitle: "Administração completa das suas apólices",
         img: featuresImg2,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
         title: "Apoio em Sinistros",
         subtitle: "Assistência eficiente na resolução de sinistros",
         img: featuresImg3,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
         title: "Análise de Risco",
         subtitle: "Avaliação detalhada dos riscos para proteção ideal",
         img: featuresImg4,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
-      title: "Nossas especialidades",
-      subtitle: "Serviços personalizados para sua tranquilidade",
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
