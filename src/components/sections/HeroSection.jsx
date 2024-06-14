@@ -1,4 +1,4 @@
-import HeroImg1 from "../../assets/imgs/hero/heroImg1.webp";
+import HeroImg1 from "../../assets/imgs/hero/heroImg1.webp"
 import HeroImg2 from "../../assets/imgs/hero/heroImg2.webp";
 import HeroImg3 from "../../assets/imgs/hero/heroImg3.webp";
 import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
@@ -10,7 +10,7 @@ import links from "../../content/links";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
-export default function HeroSlides() {
+export default function HeroSection() {
   return (
     <div className="font-mainFont" id="home">
       <div className="w-full">

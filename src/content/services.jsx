@@ -1,51 +1,53 @@
-import mainServicesImg1 from "../assets/imgs/services/servicesImg1.png";
-import mainServicesImg2 from "../assets/imgs/services/servicesImg2.png";
-import mainServicesImg3 from "../assets/imgs/services/servicesImg3.png";
-import mainServicesImg4 from "../assets/imgs/services/servicesImg4.png";
-import mainServicesImg5 from "../assets/imgs/services/servicesImg5.png";
-import morePessoalServicesImg1 from "../assets/imgs/cardModal/imgCardModal1.png";
-import morePessoalServicesImg2 from "../assets/imgs/cardModal/imgCardModal2.png";
-import morePessoalServicesImg3 from "../assets/imgs/cardModal/imgCardModal3.png";
-import morePessoalServicesImg4 from "../assets/imgs/cardModal/imgCardModal4.png";
-import morePessoalServicesImg5 from "../assets/imgs/cardModal/imgCardModal5.png";
-import morePessoalServicesImg6 from "../assets/imgs/cardModal/imgCardModal6.png";
-import morePessoalServicesImg7 from "../assets/imgs/cardModal/imgCardModal7.png";
-import morePessoalServicesImg8 from "../assets/imgs/cardModal/imgCardModal8.png";
-import morePessoalServicesImg9 from "../assets/imgs/cardModal/imgCardModal9.png";
-import morePessoalServicesImg10 from "../assets/imgs/cardModal/imgCardModal10.png";
-import morePessoalServicesImg11 from "../assets/imgs/cardModal/imgCardModal11.png";
-import morePessoalServicesImg12 from "../assets/imgs/cardModal/imgCardModal12.png";
-import morePessoalServicesImg13 from "../assets/imgs/cardModal/imgCardModal13.png";
-import morePessoalServicesImg14 from "../assets/imgs/cardModal/imgCardModal14.png";
-import morePessoalServicesImg15 from "../assets/imgs/cardModal/imgCardModal15.png";
-import morePessoalServicesImg16 from "../assets/imgs/cardModal/imgCardModal16.png";
-import morePessoalServicesImg17 from "../assets/imgs/cardModal/imgCardModal17.png";
-import morePessoalServicesImg18 from "../assets/imgs/cardModal/imgCardModal18.png";
-import morePessoalServicesImg19 from "../assets/imgs/cardModal/imgCardModal19.png";
+import mainServicesImg1 from "../assets/imgs/services/servicesImg1.webp";
+import mainServicesImg2 from "../assets/imgs/services/servicesImg2.webp";
+import mainServicesImg3 from "../assets/imgs/services/servicesImg3.webp";
+import mainServicesImg4 from "../assets/imgs/services/servicesImg4.webp";
+import mainServicesImg5 from "../assets/imgs/services/servicesImg5.webp";
+// import mainServicesImg6 from "../assets/imgs/services/servicesImg6.webp";
 
-import moreEmpresarialServicesImg20 from "../assets/imgs/cardModal/imgCardModal20.png";
-import moreEmpresarialServicesImg21 from "../assets/imgs/cardModal/imgCardModal21.png";
-import moreEmpresarialServicesImg22 from "../assets/imgs/cardModal/imgCardModal22.png";
-import moreEmpresarialServicesImg23 from "../assets/imgs/cardModal/imgCardModal23.png";
-import moreEmpresarialServicesImg24 from "../assets/imgs/cardModal/imgCardModal24.png";
-import moreEmpresarialServicesImg25 from "../assets/imgs/cardModal/imgCardModal25.png";
+import morePessoalServicesImg1 from "../assets/imgs/cardModal/imgCardModal1.webp";
+import morePessoalServicesImg2 from "../assets/imgs/cardModal/imgCardModal3.webp";
+import morePessoalServicesImg3 from "../assets/imgs/cardModal/imgCardModal4.webp";
+import morePessoalServicesImg4 from "../assets/imgs/cardModal/imgCardModal6.webp";
+import morePessoalServicesImg5 from "../assets/imgs/cardModal/imgCardModal7.webp";
+import morePessoalServicesImg6 from "../assets/imgs/cardModal/imgCardModal8.webp";
+import morePessoalServicesImg7 from "../assets/imgs/cardModal/imgCardModal9.webp";
+import morePessoalServicesImg8 from "../assets/imgs/cardModal/imgCardModal11.webp";
+import morePessoalServicesImg9 from "../assets/imgs/cardModal/imgCardModal12.webp";
+import morePessoalServicesImg10 from "../assets/imgs/cardModal/imgCardModal13.webp";
+import morePessoalServicesImg11 from "../assets/imgs/cardModal/imgCardModal14.webp";
+import morePessoalServicesImg12 from "../assets/imgs/cardModal/imgCardModal15.webp";
+import morePessoalServicesImg13 from "../assets/imgs/cardModal/imgCardModal16.webp";
+import morePessoalServicesImg14 from "../assets/imgs/cardModal/imgCardModal17.webp";
+import morePessoalServicesImg15 from "../assets/imgs/cardModal/imgCardModal19.webp";
 
-import morePatrimonialServicesImg26 from "../assets/imgs/cardModal/imgCardModal26.png";
-import morePatrimonialServicesImg27 from "../assets/imgs/cardModal/imgCardModal27.png";
-import morePatrimonialServicesImg28 from "../assets/imgs/cardModal/imgCardModal28.png";
-import morePatrimonialServicesImg29 from "../assets/imgs/cardModal/imgCardModal29.png";
-import morePatrimonialServicesImg30 from "../assets/imgs/cardModal/imgCardModal30.png";
-import morePatrimonialServicesImg31 from "../assets/imgs/cardModal/imgCardModal31.png";
-import morePatrimonialServicesImg32 from "../assets/imgs/cardModal/imgCardModal32.png";
-import morePatrimonialServicesImg33 from "../assets/imgs/cardModal/imgCardModal33.png";
-import morePatrimonialServicesImg34 from "../assets/imgs/cardModal/imgCardModal34.png";
-import morePatrimonialServicesImg35 from "../assets/imgs/cardModal/imgCardModal35.png";
-import morePatrimonialServicesImg36 from "../assets/imgs/cardModal/imgCardModal36.png";
-import morePatrimonialServicesImg37 from "../assets/imgs/cardModal/imgCardModal37.png";
-import morePatrimonialServicesImg38 from "../assets/imgs/cardModal/imgCardModal38.png";
-import morePatrimonialServicesImg39 from "../assets/imgs/cardModal/imgCardModal39.png";
-import morePatrimonialServicesImg40 from "../assets/imgs/cardModal/imgCardModal40.png";
-import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal41.png";
+import moreEmpresarialServicesImg16 from "../assets/imgs/cardModal/imgCardModal20.webp";
+import moreEmpresarialServicesImg17 from "../assets/imgs/cardModal/imgCardModal21.webp";
+import moreEmpresarialServicesImg18 from "../assets/imgs/cardModal/imgCardModal22.webp";
+import moreEmpresarialServicesImg19 from "../assets/imgs/cardModal/imgCardModal23.webp";
+import moreEmpresarialServicesImg20 from "../assets/imgs/cardModal/imgCardModal24.webp";
+import moreEmpresarialServicesImg21 from "../assets/imgs/cardModal/imgCardModal25.webp";
+
+import morePatrimonialServicesImg22 from "../assets/imgs/cardModal/imgCardModal26.webp";
+import morePatrimonialServicesImg23 from "../assets/imgs/cardModal/imgCardModal27.webp";
+import morePatrimonialServicesImg24 from "../assets/imgs/cardModal/imgCardModal28.webp";
+import morePatrimonialServicesImg25 from "../assets/imgs/cardModal/imgCardModal29.webp";
+import morePatrimonialServicesImg26 from "../assets/imgs/cardModal/imgCardModal30.webp";
+import morePatrimonialServicesImg27 from "../assets/imgs/cardModal/imgCardModal31.webp";
+import morePatrimonialServicesImg28 from "../assets/imgs/cardModal/imgCardModal32.webp";
+import morePatrimonialServicesImg29 from "../assets/imgs/cardModal/imgCardModal33.webp";
+import morePatrimonialServicesImg30 from "../assets/imgs/cardModal/imgCardModal34.webp";
+import morePatrimonialServicesImg31 from "../assets/imgs/cardModal/imgCardModal35.webp";
+import morePatrimonialServicesImg32 from "../assets/imgs/cardModal/imgCardModal36.webp";
+import morePatrimonialServicesImg33 from "../assets/imgs/cardModal/imgCardModal37.webp";
+import morePatrimonialServicesImg34 from "../assets/imgs/cardModal/imgCardModal38.webp";
+import morePatrimonialServicesImg35 from "../assets/imgs/cardModal/imgCardModal39.webp";
+import morePatrimonialServicesImg36 from "../assets/imgs/cardModal/imgCardModal40.webp";
+import morePatrimonialServicesImg37 from "../assets/imgs/cardModal/imgCardModal41.webp";
+import morePatrimonialServicesImg38 from "../assets/imgs/cardModal/imgCardModal2.webp";
+import morePatrimonialServicesImg39 from "../assets/imgs/cardModal/imgCardModal5.webp";
+import morePatrimonialServicesImg40 from "../assets/imgs/cardModal/imgCardModal10.webp";
+import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal18.webp";
 
 import links from "./links";
 
@@ -154,180 +156,144 @@ const services = {
           "Ideal para viajantes que querem transcender fronteiras com segurança, desfrutando de cada destino sem preocupações.",
         buttonLink: whatsappContactLink,
       },
+      
       service2: {
-        name: "Seguro Auto",
-        img: {
-          img: morePessoalServicesImg2,
-        },
-        cardSubtitle: "Pra quem é esse seguro?",
-        cardDescription:
-          "Recomendado para motoristas que desejam proteger seu veículo, embarcando em suas jornadas com segurança e confiança.",
-        buttonLink: whatsappContactLink,
-      },
-      service3: {
         name: "Seguro Vida On",
         img: {
-          img: morePessoalServicesImg3,
+          img: morePessoalServicesImg2,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para indivíduos que desejam garantir o futuro de seus entes queridos, tecendo um legado de cuidado e proteção.",
         buttonLink: whatsappContactLink,
       },
-      service4: {
+      service3: {
         name: "Seguro Fiança",
         img: {
-          img: morePessoalServicesImg4,
+          img: morePessoalServicesImg3,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Ideal para inquilinos e proprietários que buscam segurança nos contratos de locação, tecendo uma relação de confiança.",
         buttonLink: whatsappContactLink,
       },
-      service5: {
-        name: "Seguro Auto Jovem",
-        img: {
-          img: morePessoalServicesImg5,
-        },
-        cardSubtitle: "Pra quem é esse seguro?",
-        cardDescription:
-          "Destinado a jovens motoristas que buscam proteção e segurança ao iniciarem sua jornada no trânsito.",
-        buttonLink: whatsappContactLink,
-      },
-      service6: {
+      
+      service4: {
         name: "Seguro de Acidentes Pessoais Individual Prazo Curto",
         img: {
-          img: morePessoalServicesImg6,
+          img: morePessoalServicesImg4,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem busca proteção em situações específicas e temporárias, garantindo segurança em momentos cruciais.",
         buttonLink: whatsappContactLink,
       },
-      service7: {
+      service5: {
         name: "Seguro de Acidentes Pessoais Escolar",
         img: {
-          img: morePessoalServicesImg7,
+          img: morePessoalServicesImg5,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para escolas que desejam garantir a segurança de seus alunos, protegendo-os em suas atividades diárias.",
         buttonLink: whatsappContactLink,
       },
-      service8: {
+      service6: {
         name: "Previdência para Crianças",
         img: {
-          img: morePessoalServicesImg8,
+          img: morePessoalServicesImg6,
         },
         cardSubtitle: "Pra quem esta previdência é indicada?",
         cardDescription:
           "Para pais que querem assegurar o futuro financeiro de seus filhos, entrelaçando segurança e prosperidade.",
         buttonLink: whatsappContactLink,
       },
-      service9: {
+      service7: {
         name: "Seguro Vida",
         img: {
-          img: morePessoalServicesImg9,
+          img: morePessoalServicesImg7,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para indivíduos que querem garantir a segurança financeira de seus entes queridos, criando um legado de cuidado.",
         buttonLink: whatsappContactLink,
       },
-      service10: {
-        name: "Seguro Auto Mulher",
-        img: {
-          img: morePessoalServicesImg10,
-        },
-        cardSubtitle: "Pra quem é esse seguro?",
-        cardDescription:
-          "Destinado a mulheres motoristas que desejam proteção especial, navegando com segurança pelo trânsito diário.",
-        buttonLink: whatsappContactLink,
-      },
-      service11: {
+      
+      service8: {
         name: "Seguro de Vida em Grupo",
         img: {
-          img: morePessoalServicesImg11,
+          img: morePessoalServicesImg8,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para empresas que desejam proteger seus funcionários, orquestrando uma rede de segurança coletiva.",
         buttonLink: whatsappContactLink,
       },
-      service12: {
+      service9: {
         name: "Seguro Saúde",
         img: {
-          img: morePessoalServicesImg12,
+          img: morePessoalServicesImg9,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem busca proteção abrangente para sua saúde, promovendo bem-estar e tranquilidade.",
         buttonLink: whatsappContactLink,
       },
-      service13: {
+      service10: {
         name: "Consórcio",
         img: {
-          img: morePessoalServicesImg13,
+          img: morePessoalServicesImg10,
         },
         cardSubtitle: "Pra quem o consórcio é indicado?",
         cardDescription:
           "Para quem deseja adquirir bens de forma planejada, orquestrando um futuro seguro e próspero.",
         buttonLink: whatsappContactLink,
       },
-      service14: {
+      service11: {
         name: "Previdência",
         img: {
-          img: morePessoalServicesImg14,
+          img: morePessoalServicesImg11,
         },
         cardSubtitle: "Pra quem a previdência é indicada?",
         cardDescription:
           "Para quem planeja o futuro financeiro, garantindo tranquilidade e segurança nos anos vindouros.",
         buttonLink: whatsappContactLink,
       },
-      service15: {
+      service12: {
         name: "Seguro Odontológico",
         img: {
-          img: morePessoalServicesImg15,
+          img: morePessoalServicesImg12,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja cuidar da saúde bucal, garantindo sorrisos saudáveis e seguros.",
         buttonLink: whatsappContactLink,
       },
-      service16: {
+      service13: {
         name: "Seguro de Vida Mais Mulher",
         img: {
-          img: morePessoalServicesImg16,
+          img: morePessoalServicesImg13,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Destinado a mulheres que desejam uma proteção diferenciada, entrelaçando cuidado e segurança.",
         buttonLink: whatsappContactLink,
       },
-      service17: {
+      service14: {
         name: "Seguro de Vida Individual",
         img: {
-          img: morePessoalServicesImg17,
+          img: morePessoalServicesImg14,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem deseja proteção personalizada, garantindo segurança financeira aos entes queridos.",
         buttonLink: whatsappContactLink,
       },
-      service18: {
-        name: "Seguro Auto Sênior",
-        img: {
-          img: morePessoalServicesImg18,
-        },
-        cardSubtitle: "Pra quem é esse seguro?",
-        cardDescription:
-          "Para motoristas seniores que querem garantir segurança e tranquilidade ao dirigir, protegendo-se no trânsito.",
-        buttonLink: whatsappContactLink,
-      },
-      service19: {
+      
+      service15: {
         name: "Seguro de Acidentes Pessoais Plus",
         img: {
-          img: morePessoalServicesImg19,
+          img: morePessoalServicesImg15,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -339,7 +305,7 @@ const services = {
       service1: {
         name: "Seguro Auto Empresarial",
         img: {
-          img: moreEmpresarialServicesImg20,
+          img: moreEmpresarialServicesImg16,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -349,7 +315,7 @@ const services = {
       service2: {
         name: "Seguro de Vida Empresarial",
         img: {
-          img: moreEmpresarialServicesImg21,
+          img: moreEmpresarialServicesImg17,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -359,7 +325,7 @@ const services = {
       service3: {
         name: "Seguro Imobiliária",
         img: {
-          img: moreEmpresarialServicesImg22,
+          img: moreEmpresarialServicesImg18,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -369,7 +335,7 @@ const services = {
       service4: {
         name: "Seguro Saúde Ocupacional",
         img: {
-          img: moreEmpresarialServicesImg23,
+          img: moreEmpresarialServicesImg19,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -379,7 +345,7 @@ const services = {
       service5: {
         name: "Seguro para Convenções Coletivas",
         img: {
-          img: moreEmpresarialServicesImg24,
+          img: moreEmpresarialServicesImg20,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -389,7 +355,7 @@ const services = {
       service6: {
         name: "Seguro Condomínio",
         img: {
-          img: moreEmpresarialServicesImg25,
+          img: moreEmpresarialServicesImg21,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -401,7 +367,7 @@ const services = {
       service1: {
         name: "Seguro Residência",
         img: {
-          img: morePatrimonialServicesImg26,
+          img: morePatrimonialServicesImg22,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -411,7 +377,7 @@ const services = {
       service2: {
         name: "Seguro Moto",
         img: {
-          img: morePatrimonialServicesImg27,
+          img: morePatrimonialServicesImg23,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -421,7 +387,7 @@ const services = {
       service3: {
         name: "Seguro Equipamentos Portáteis",
         img: {
-          img: morePatrimonialServicesImg28,
+          img: morePatrimonialServicesImg24,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -431,7 +397,7 @@ const services = {
       service4: {
         name: "Seguro para notebooks",
         img: {
-          img: morePatrimonialServicesImg29,
+          img: morePatrimonialServicesImg25,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -441,7 +407,7 @@ const services = {
       service5: {
         name: "Seguro para Câmera Fotográfica",
         img: {
-          img: morePatrimonialServicesImg30,
+          img: morePatrimonialServicesImg26,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -451,7 +417,7 @@ const services = {
       service6: {
         name: "Seguro Residência Veraneio",
         img: {
-          img: morePatrimonialServicesImg31,
+          img: morePatrimonialServicesImg27,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -461,7 +427,7 @@ const services = {
       service7: {
         name: "Seguro Táxi",
         img: {
-          img: morePatrimonialServicesImg32,
+          img: morePatrimonialServicesImg28,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -471,7 +437,7 @@ const services = {
       service8: {
         name: "Seguro Caminhão",
         img: {
-          img: morePatrimonialServicesImg33,
+          img: morePatrimonialServicesImg29,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -481,7 +447,7 @@ const services = {
       service9: {
         name: "Seguro Residência Habitual",
         img: {
-          img: morePatrimonialServicesImg34,
+          img: morePatrimonialServicesImg30,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -491,7 +457,7 @@ const services = {
       service10: {
         name: "Seguro para Filmadora",
         img: {
-          img: morePatrimonialServicesImg35,
+          img: morePatrimonialServicesImg31,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -501,7 +467,7 @@ const services = {
       service11: {
         name: "Seguro Residência Apartamento",
         img: {
-          img: morePatrimonialServicesImg36,
+          img: morePatrimonialServicesImg32,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -511,7 +477,7 @@ const services = {
       service12: {
         name: "Seguro para Celular",
         img: {
-          img: morePatrimonialServicesImg37,
+          img: morePatrimonialServicesImg33,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -521,7 +487,7 @@ const services = {
       service13: {
         name: "Consórcio de Imóvel",
         img: {
-          img: morePatrimonialServicesImg38,
+          img: morePatrimonialServicesImg34,
         },
         cardSubtitle: "Pra quem o consórcio é indicado?",
         cardDescription:
@@ -531,7 +497,7 @@ const services = {
       service14: {
         name: "Seguro Residência Premium",
         img: {
-          img: morePatrimonialServicesImg39,
+          img: morePatrimonialServicesImg35,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -541,7 +507,7 @@ const services = {
       service15: {
         name: "Seguro Auto Premium",
         img: {
-          img: morePatrimonialServicesImg40,
+          img: morePatrimonialServicesImg36,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
@@ -551,11 +517,51 @@ const services = {
       service16: {
         name: "Seguro para Tablet",
         img: {
-          img: morePatrimonialServicesImg41,
+          img: morePatrimonialServicesImg37,
         },
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para quem depende de seu tablet no dia a dia, garantindo proteção e tranquilidade digital.",
+        buttonLink: whatsappContactLink,
+      },
+      service17: {
+        name: "Seguro Auto",
+        img: {
+          img: morePatrimonialServicesImg38,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Recomendado para motoristas que desejam proteger seu veículo, embarcando em suas jornadas com segurança e confiança.",
+        buttonLink: whatsappContactLink,
+      },
+      service18: {
+        name: "Seguro Auto Jovem",
+        img: {
+          img: morePatrimonialServicesImg39,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Destinado a jovens motoristas que buscam proteção e segurança ao iniciarem sua jornada no trânsito.",
+        buttonLink: whatsappContactLink,
+      },
+      service19: {
+        name: "Seguro Auto Mulher",
+        img: {
+          img: morePatrimonialServicesImg40,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Destinado a mulheres motoristas que desejam proteção especial, navegando com segurança pelo trânsito diário.",
+        buttonLink: whatsappContactLink,
+      },
+      service20: {
+        name: "Seguro Auto Sênior",
+        img: {
+          img: morePatrimonialServicesImg41,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Para motoristas seniores que querem garantir segurança e tranquilidade ao dirigir, protegendo-se no trânsito.",
         buttonLink: whatsappContactLink,
       },
     },
