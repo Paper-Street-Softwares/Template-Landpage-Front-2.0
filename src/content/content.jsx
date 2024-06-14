@@ -11,12 +11,12 @@ import trustedByImg8 from "../assets/imgs/trustedBy/item8.png";
 import trustedByImg9 from "../assets/imgs/trustedBy/item9.png";
 import trustedByImg10 from "../assets/imgs/trustedBy/item10.png";
 import trustedByImg11 from "../assets/imgs/trustedBy/item11.png";
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 const content = {
   texts: {
