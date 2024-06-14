@@ -5,7 +5,7 @@ import Features from "../components/sections/Features";
 import TrustedBy from "../components/sections/TrustedBy";
 import Services from "../components/sections/Services";
 import CtaWhatsapp from "../components/sections/CtaWhatsapp";
-import HeroSection from "../components/sections/HeroSection";
+import HeroSlides from "../components/sections/HeroSlides";
 import About from "../components/sections/About";
 import NavbarSection from "../components/sections/NavbarSection";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -15,7 +15,7 @@ export default function Index() {
   return (
     <div>
       <NavbarSection />
-      <HeroSection />
+      <HeroSlides />
       <TrustedBy />
       <Numbers />
       <About />
