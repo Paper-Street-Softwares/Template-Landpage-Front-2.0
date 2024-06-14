@@ -9,7 +9,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function Footer() {
   return (
-    <footer className="bg-darker full gap-y-[42px]  text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+    <footer className="bg-darker bg-black full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
