@@ -35,7 +35,6 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel1")}
       >
         <AccordionSummary
-          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
@@ -63,7 +62,6 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel2")}
       >
         <AccordionSummary
-          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
@@ -91,7 +89,6 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel3")}
       >
         <AccordionSummary
-          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
           id="panel3-header"
@@ -119,7 +116,6 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel4")}
       >
         <AccordionSummary
-          className=" h-[76px]"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel4-content"
           id="panel4-header"
