@@ -116,7 +116,11 @@ export default function NavbarSection() {
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
             <div className="hidden tablet1:flex desktop1:hidden">
-              <a href={whatsappContactLink} target="_blank">
+              <a
+                href={whatsappContactLink}
+                target="_blank"
+                className={`${scrolling ? "" : "invert"}`}
+              >
                 <ButtonWithIconNavbar
                   label={content.texts.navbar.ctaButtonTextResponsive}
                   icon={
