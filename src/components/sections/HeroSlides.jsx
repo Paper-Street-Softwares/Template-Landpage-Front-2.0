@@ -19,17 +19,15 @@ export default function HeroSlides() {
             <div className="h-[105px] phone2:h-[132px] tablet1:h-[145px] desktop3:h-[160px]" />
             <div className=" flex h-auto flex-col w-[90%] max-w-[1215px] items-center pt-[20px] gap-[30px] desktop3:gap-20 desktop1:flex-row-reverse mx-auto">
               <div className="w-full desktop1:w-[50%] flex flex-col items-center tablet1:items-center tablet1:w-[80%] tablet2:w-[60%]">
-                {/* <MotionDivDownToUp className="">
+                <MotionDivDownToUp className="">
                   <div className="">
                     <ImagesGallery3Slides
                       slide1={HeroImg1}
                       slide2={HeroImg2}
                       slide3={HeroImg3}
                     />
-
-                    {/* <img src={HeroImg1}></img> */}
-                {/* </div> */}
-                {/* </MotionDivDownToUp> } */}
+                  </div>
+                </MotionDivDownToUp>
               </div>
               <div className="w-full desktop1:w-[50%] flex flex-col">
                 <MotionDivLeftToRight>
