@@ -3,9 +3,9 @@ import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.png";
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.png";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.png";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.png";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.png";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
@@ -65,11 +65,11 @@ const content = {
     trustedBy: {
       title: "Nossas Marcas Parceiras",
       subtitle: "Trabalhamos com as melhores marcas do mercado",
-      // trustedMore: {
-      //   title: "Seguradoras",
-      //   subtitle:
-      //     "Confiança que apenas as maiores seguradoras do Brasil oferecem",
-      // },
+      trustedMore: {
+        title: "Seguradoras",
+        subtitle:
+          "Confiança que apenas as maiores seguradoras do Brasil oferecem",
+      },
       images: {
         img1: {
           img: { trustedByImg1 },
@@ -83,38 +83,6 @@ const content = {
           img: { trustedByImg3 },
           alt: "marca dental Cremer",
         },
-        // img4: {
-        //   img: { trustedByImg4 },
-        //   alt: "Seguradora Allianz",
-        // },
-        // img5: {
-        //   img: { trustedByImg5 },
-        //   alt: "Seguradora SulAmérica",
-        // },
-        // img6: {
-        //   img: { trustedByImg6 },
-        //   alt: "Seguradora Tokio Marine",
-        // },
-        // img7: {
-        //   img: { trustedByImg7 },
-        //   alt: "Seguradora Mapfre Seguros",
-        // },
-        // img8: {
-        //   img: { trustedByImg8 },
-        //   alt: "Seguradora Itaú Seguros",
-        // },
-        // img9: {
-        //   img: { trustedByImg9 },
-        //   alt: "Seguradora Azul Seguros",
-        // },
-        // img10: {
-        //   img: { trustedByImg10 },
-        //   alt: "Seguradora HDI Seguros",
-        // },
-        // img11: {
-        //   img: { trustedByImg11 },
-        //   alt: "Seguradora SUHAI Seguros",
-        // },
       },
     },
     numbers: {
