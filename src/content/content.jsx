@@ -2,17 +2,17 @@ import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
-import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
-import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
-import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
-import trustedByImg7 from "../assets/imgs/trustedBy/item7.webp";
-import trustedByImg8 from "../assets/imgs/trustedBy/item8.webp";
-import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
-import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
-import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.png";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.png";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.png";
+// import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
+// import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
+// import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
+// import trustedByImg7 from "../assets/imgs/trustedBy/item7.webp";
+// import trustedByImg8 from "../assets/imgs/trustedBy/item8.webp";
+// import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
+// import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
+// import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
@@ -71,25 +71,25 @@ const content = {
       },
     },
     trustedBy: {
-      title: "Parceria com as maiores seguradoras",
-      subtitle: "Confiabilidade e excelência em proteção",
-      trustedMore: {
-        title: "Seguradoras",
-        subtitle:
-          "Confiança que apenas as maiores seguradoras do Brasil oferecem",
-      },
+      title: "Nossas Marcas Parceiras",
+      subtitle: "Trabalhamos com as melhores marcas do mercado",
+      // trustedMore: {
+      //   title: "Seguradoras",
+      //   subtitle:
+      //     "Confiança que apenas as maiores seguradoras do Brasil oferecem",
+      // },
       images: {
         img1: {
           img: { trustedByImg1 },
-          alt: "Seguradora Porto Seguro",
+          alt: "marca Rennova",
         },
         img2: {
           img: { trustedByImg2 },
-          alt: "Seguradora Bradesco",
+          alt: "marca Colgate",
         },
         img3: {
           img: { trustedByImg3 },
-          alt: "Seguradora Liberty",
+          alt: "marca dental Cremer",
         },
         // img4: {
         //   img: { trustedByImg4 },
