@@ -29,8 +29,8 @@ export default function Services() {
     <SectionArea className="bg-quinary">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Nossos Seguros"
-        sectionHeaderSubtitle="Descubra nossas especialidades em proteção e assistência"
+        sectionHeaderTitle="Nossos Serviços"
+        sectionHeaderSubtitle="Explore a variedade de tratamentos e procedimentos que oferecemos"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
@@ -48,27 +48,27 @@ export default function Services() {
             buttonLabel={services.main.card2.buttonLabel}
             buttonLink={services.main.card2.buttonLink}
           />
-          <FeatureCard
+          {/* <FeatureCard
             img={services.main.card3.img.img}
             title={services.main.card3.title}
             description={services.main.card3.description}
             buttonLabel={services.main.card3.buttonLabel}
             buttonLink={services.main.card3.buttonLink}
-          />
-          <FeatureCard
+          /> */}
+          {/* <FeatureCard
             img={services.main.card4.img.img}
             title={services.main.card4.title}
             description={services.main.card4.description}
             buttonLabel={services.main.card4.buttonLabel}
             buttonLink={services.main.card4.buttonLink}
-          />
-          <FeatureCard
+          /> */}
+          {/* <FeatureCard
             img={services.main.card5.img.img}
             title={services.main.card5.title}
             description={services.main.card5.description}
             buttonLabel={services.main.card5.buttonLabel}
             buttonLink={services.main.card5.buttonLink}
-          />
+          /> */}
           <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
             <div className="">
               <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
