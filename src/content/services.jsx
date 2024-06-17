@@ -57,19 +57,19 @@ const services = {
   main: {
     card1: {
       img: { img: mainServicesImg1, alt: "" },
-      title: "Seguro Automóvel",
+      title: "Botox",
       description:
-        "Proteção completa para seu veículo, com assistência 24 horas e serviços personalizados.",
-      buttonLabel: "Simular",
+        "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
+      buttonLabel: "Agendar consulta",
       buttonLink:
         "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacao?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
     },
     card2: {
       img: { img: mainServicesImg2, alt: "" },
-      title: "Seguro Residencial",
+      title: "Lentes em Resina Composta",
       description:
-        "Coberturas abrangentes para sua casa ou apartamento, incluindo danos estruturais e responsabilidade civil.",
-      buttonLabel: "Simular",
+        "As lentes são finas camadas aplicadas sobre a superfície dos dentes para corrigir imperfeições estéticas, como manchas, desalinhamentos leves e pequenos espaços entre os dentes.",
+      buttonLabel: "Agendar consulta",
       buttonLink:
         "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoResidencial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
     },
@@ -101,9 +101,9 @@ const services = {
     //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoEmpresarial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
     // },
     card6: {
-      title: "Demais seguros",
-      description: "Confira nossa lista completa de seguros clicando abaixo.",
-      buttonLabel: "Simular",
+      title: "Demais procedimentos",
+      description: "Confira todos os procedimentos clicando abaixo.",
+      buttonLabel: "Ver todos",
       buttonLink: "",
     },
   },
@@ -156,7 +156,7 @@ const services = {
           "Ideal para viajantes que querem transcender fronteiras com segurança, desfrutando de cada destino sem preocupações.",
         buttonLink: whatsappContactLink,
       },
-      
+
       service2: {
         name: "Seguro Vida On",
         img: {
@@ -177,7 +177,7 @@ const services = {
           "Ideal para inquilinos e proprietários que buscam segurança nos contratos de locação, tecendo uma relação de confiança.",
         buttonLink: whatsappContactLink,
       },
-      
+
       service4: {
         name: "Seguro de Acidentes Pessoais Individual Prazo Curto",
         img: {
@@ -218,7 +218,7 @@ const services = {
           "Para indivíduos que querem garantir a segurança financeira de seus entes queridos, criando um legado de cuidado.",
         buttonLink: whatsappContactLink,
       },
-      
+
       service8: {
         name: "Seguro de Vida em Grupo",
         img: {
@@ -289,7 +289,7 @@ const services = {
           "Para quem deseja proteção personalizada, garantindo segurança financeira aos entes queridos.",
         buttonLink: whatsappContactLink,
       },
-      
+
       service15: {
         name: "Seguro de Acidentes Pessoais Plus",
         img: {

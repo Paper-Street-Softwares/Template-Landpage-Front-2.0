@@ -6,7 +6,7 @@ const TabButton = ({ label, isActive, onClick }) => {
       <button
         className={`flex w-full py-2 focus:outline-none border overflow-hidden text-[10px] h-[48px] ${
           isActive
-            ? " text-paragraph2 border-b-2 border-primary text-primary font-bold font-secondFont bg-primary bg-opacity-20"
+            ? " text-paragraph1 border-b-2 border-primary text-primary font-bold font-secondFont bg-primary bg-opacity-20"
             : "border-gray-300 text-paragraph2 text-gray-900 font-bold font-secondFont flex justify-center items-center hover:border-primary hover:border-opacity-50"
         } flex justify-center items-center`}
         onClick={onClick}

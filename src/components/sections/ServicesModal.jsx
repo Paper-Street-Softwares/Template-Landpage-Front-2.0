@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import ModalComponent from "../interactives/ModalComponent";
 import services from "../../content/services";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
+import content from "../../content/content";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -22,7 +23,7 @@ const ServicesModal = () => {
 
   const tabs = [
     {
-      label: "Pessoal",
+      label: "Harmonização Orofacial",
       content: (
         <div className="flex justify-center py-[5%]">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px]">
@@ -443,7 +444,7 @@ const ServicesModal = () => {
       ),
     },
     {
-      label: "Empresarial",
+      label: "Estética Dental",
       content: (
         <div className="flex justify-center py-[5%]">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px]">
@@ -621,7 +622,7 @@ const ServicesModal = () => {
       ),
     },
     {
-      label: "Patrimonial",
+      label: "Reabilitação do meio Bucal",
       content: (
         <div className="flex justify-center py-[5%]">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px]">
@@ -1186,6 +1187,14 @@ const ServicesModal = () => {
           </div>
         </div>
       ),
+    },
+    {
+      label: "Odontologia Pediátrica",
+      content:( 
+      <div>
+
+      </div>
+    ),
     },
   ];
 
