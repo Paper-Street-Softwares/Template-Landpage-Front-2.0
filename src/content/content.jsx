@@ -1,7 +1,8 @@
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -142,20 +143,38 @@ const content = {
       title: "Sobre nós 👋",
       paragraph: (
         <div>
-          Após 15 anos de dedicação em diversas corretoras e acumulando valiosas
-          experiências na solução dos problemas de seus clientes, o Sr.
-          Uellinton Rodrigues de Matos fundou a URM Seguros.
+          Bem-vindo à Harmonic, onde a arte da odontologia e a ciência da
+          harmonização facial se unem para criar sorrisos radiantes e realçar a
+          beleza natural de cada cliente.
           <br />
           <br />
-          Com mais de 30 anos de história, a URM Seguros se consolidou como
-          referência no mercado de seguros, compreendendo profundamente o que é
-          necessário para garantir a sua proteção.
+          Nosso diferencial está na paixão e na expertise da Dra. Monique
+          Adrielle, uma profissional dedicada que traz consigo anos de
+          experiência sólida em tratamentos de harmonização orofacial, lentes
+          dentais em resina composta e tratamento periodontal.
           <br />
           <br />
-          Nosso compromisso é oferecer segurança e tranquilidade para você, sua
-          família e seus bens mais preciosos.
+          Priorizando a saúde e valorizando a estética, nossa missão é garantir
+          segurança e confiança aos nossos pacientes em cada sorriso.
         </div>
       ),
+      aboutSocial: {
+        img: {
+          img: aboutSocialImg,
+          alt: "Foto Profissional",
+        },
+        title: "Me siga nas redes sociais",
+        paragraph: (
+          <p>
+            🦷 Quer saber mais sobre o odontologia? Siga Dra. Monique Adrielle
+            nas redes sociais!
+            <br />
+            <br />
+            Não perca a chance de ficar por dentro das novidades e dicas para
+            uma saúde bucal adequada.
+          </p>
+        ),
+      },
     },
     team: {
       title: "Nossa Equipe",
