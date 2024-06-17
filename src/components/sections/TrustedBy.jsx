@@ -25,18 +25,18 @@ const images = [
     src: content.texts.trustedBy.images.img3.img.trustedByImg3,
     alt: content.texts.trustedBy.images.img3.alt,
   },
-  {
-    src: content.texts.trustedBy.images.img4.img.trustedByImg4,
-    alt: content.texts.trustedBy.images.img4.alt,
-  },
-  {
-    src: content.texts.trustedBy.images.img5.img.trustedByImg5,
-    alt: content.texts.trustedBy.images.img5.alt,
-  },
-  {
-    src: content.texts.trustedBy.images.img6.img.trustedByImg6,
-    alt: content.texts.trustedBy.images.img6.alt,
-  },
+  // {
+  //   src: content.texts.trustedBy.images.img4.img.trustedByImg4,
+  //   alt: content.texts.trustedBy.images.img4.alt,
+  // },
+  // {
+  //   src: content.texts.trustedBy.images.img5.img.trustedByImg5,
+  //   alt: content.texts.trustedBy.images.img5.alt,
+  // },
+  // {
+  //   src: content.texts.trustedBy.images.img6.img.trustedByImg6,
+  //   alt: content.texts.trustedBy.images.img6.alt,
+  // },
 ];
 
 export default function TrustedBy() {
@@ -66,7 +66,7 @@ export default function TrustedBy() {
           <LogoDisplay images={images} />
         </MotionDivDownToUp>
         <MotionDivDownToUp className="">
-          <Paragraphs className="text-center">
+          {/* <Paragraphs className="text-center">
             Para ver todas seguradoras que trabalhamos,{" "}
             <span
               className="transition cursor-pointer text-tertiary hover:underline"
@@ -74,10 +74,10 @@ export default function TrustedBy() {
             >
               clique aqui
             </span>
-          </Paragraphs>
+          </Paragraphs> */}
         </MotionDivDownToUp>
       </SectionWrapper>
-      <Dialog
+      {/* <Dialog
         className="font-secondFont"
         header={modalTitle}
         visible={visible}
@@ -86,7 +86,7 @@ export default function TrustedBy() {
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
         <p className="m-0 ">{modalContent}</p>
-      </Dialog>
+      </Dialog> */}
     </SectionArea>
   );
 }

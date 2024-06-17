@@ -6,21 +6,12 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
-import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
-import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
-import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
-import trustedByImg7 from "../assets/imgs/trustedBy/item7.webp";
-import trustedByImg8 from "../assets/imgs/trustedBy/item8.webp";
-import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
-import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
-import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.png";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.png";
-
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
@@ -72,58 +63,58 @@ const content = {
       },
     },
     trustedBy: {
-      title: "Parceria com as maiores seguradoras",
-      subtitle: "Confiabilidade e excelência em proteção",
-      trustedMore: {
-        title: "Seguradoras",
-        subtitle:
-          "Confiança que apenas as maiores seguradoras do Brasil oferecem",
-      },
+      title: "Nossas Marcas Parceiras",
+      subtitle: "Trabalhamos com as melhores marcas do mercado",
+      // trustedMore: {
+      //   title: "Seguradoras",
+      //   subtitle:
+      //     "Confiança que apenas as maiores seguradoras do Brasil oferecem",
+      // },
       images: {
         img1: {
           img: { trustedByImg1 },
-          alt: "Seguradora Porto Seguro",
+          alt: "marca Rennova",
         },
         img2: {
           img: { trustedByImg2 },
-          alt: "Seguradora Bradesco",
+          alt: "marca Colgate",
         },
         img3: {
           img: { trustedByImg3 },
-          alt: "Seguradora Liberty",
+          alt: "marca dental Cremer",
         },
-        img4: {
-          img: { trustedByImg4 },
-          alt: "Seguradora Allianz",
-        },
-        img5: {
-          img: { trustedByImg5 },
-          alt: "Seguradora SulAmérica",
-        },
-        img6: {
-          img: { trustedByImg6 },
-          alt: "Seguradora Tokio Marine",
-        },
-        img7: {
-          img: { trustedByImg7 },
-          alt: "Seguradora Mapfre Seguros",
-        },
-        img8: {
-          img: { trustedByImg8 },
-          alt: "Seguradora Itaú Seguros",
-        },
-        img9: {
-          img: { trustedByImg9 },
-          alt: "Seguradora Azul Seguros",
-        },
-        img10: {
-          img: { trustedByImg10 },
-          alt: "Seguradora HDI Seguros",
-        },
-        img11: {
-          img: { trustedByImg11 },
-          alt: "Seguradora SUHAI Seguros",
-        },
+        // img4: {
+        //   img: { trustedByImg4 },
+        //   alt: "Seguradora Allianz",
+        // },
+        // img5: {
+        //   img: { trustedByImg5 },
+        //   alt: "Seguradora SulAmérica",
+        // },
+        // img6: {
+        //   img: { trustedByImg6 },
+        //   alt: "Seguradora Tokio Marine",
+        // },
+        // img7: {
+        //   img: { trustedByImg7 },
+        //   alt: "Seguradora Mapfre Seguros",
+        // },
+        // img8: {
+        //   img: { trustedByImg8 },
+        //   alt: "Seguradora Itaú Seguros",
+        // },
+        // img9: {
+        //   img: { trustedByImg9 },
+        //   alt: "Seguradora Azul Seguros",
+        // },
+        // img10: {
+        //   img: { trustedByImg10 },
+        //   alt: "Seguradora HDI Seguros",
+        // },
+        // img11: {
+        //   img: { trustedByImg11 },
+        //   alt: "Seguradora SUHAI Seguros",
+        // },
       },
     },
     numbers: {
