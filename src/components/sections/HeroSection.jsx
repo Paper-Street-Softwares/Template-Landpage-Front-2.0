@@ -1,4 +1,4 @@
-import HeroImg1 from "../../assets/imgs/hero/heroImg1.webp"
+import HeroImg1 from "../../assets/imgs/hero/heroImg1.webp";
 import HeroImg2 from "../../assets/imgs/hero/heroImg2.webp";
 import HeroImg3 from "../../assets/imgs/hero/heroImg3.webp";
 import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
