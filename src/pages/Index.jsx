@@ -12,6 +12,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import HeroBgLeft from "../components/sections/HeroBgLeft";
 import FooterSocial from "../components/sections/FooterSocial";
 import AboutMockUpSocial from "../components/sections/AboutMockUpSocial";
+import CtaParalaxeLeft from "../components/sections/CtaParalaxeLeft";
 
 export default function Index() {
   return (
@@ -23,7 +24,7 @@ export default function Index() {
       <Numbers />
       <About />
       <AboutMockUpSocial />
-      <CtaWhatsapp />
+      <CtaParalaxeLeft />
       <TrustedBy />
       <Faq />
       <FooterSocial />

@@ -477,8 +477,7 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       title: (
         <p className="">
-          Simule e contrate agora mesmo
-          <br />o seu <strong>seguro</strong>
+          Simule e contrate agora mesmo o seu <strong>seguro</strong>
         </p>
       ),
       subtitle: "#",
