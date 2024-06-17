@@ -10,20 +10,21 @@ import NavbarSection from "../components/sections/NavbarSection";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import HeroBgLeft from "../components/sections/HeroBgLeft";
+import FooterSocial from "../components/sections/FooterSocial";
 
 export default function Index() {
   return (
     <div>
       <NavbarSection />
       <HeroBgLeft />
-      <TrustedBy />
-      <Numbers />
-      <About />
       <Features />
       <Services />
+      <Numbers />
+      <About />
       <CtaWhatsapp />
+      <TrustedBy />
       <Faq />
-      <Footer />
+      <FooterSocial />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
