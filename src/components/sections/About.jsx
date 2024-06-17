@@ -62,7 +62,7 @@ export default function About() {
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="bg-center bg-no-repeat bg-cover h-[260px] desktop1:h-[550px] rounded-2xl"
+            className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[550px] rounded-2xl"
           />
         </MotionDivDownToUp>
 

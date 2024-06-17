@@ -1,25 +1,17 @@
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.png";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.png";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.png";
-// import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
-// import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
-// import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
-// import trustedByImg7 from "../assets/imgs/trustedBy/item7.webp";
-// import trustedByImg8 from "../assets/imgs/trustedBy/item8.webp";
-// import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
-// import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
-// import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
-
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.png";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.png";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.png";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
@@ -43,13 +35,13 @@ const content = {
     hero: {
       title: (
         <div>
-          Proteja o que <br />
-          <span className="text-primary">mais</span> importa
+          Harmonização e<br />
+          Odontologia
         </div>
       ),
       subtitle:
-        "Cuidamos do seu patrimônio, para que você tenha sempre uma vida tranquila e segura!",
-      ctaButtonText: "Fale com nossa equipe",
+        "Descubra a harmonia entre saúde e estética com a Dra. Monique Adrielle!",
+      ctaButtonText: "Agendar consulta gratuita",
       images: {
         background: {},
         static: {
@@ -127,12 +119,12 @@ const content = {
     },
     numbers: {
       backgroundImg: numbersImgBg,
-      number1: 30,
-      number1Description: "Anos no mercado",
-      number2: 40,
-      number2Description: "Tipos de seguros",
-      number3: 10,
-      number3Description: "Seguradoras parceiras",
+      number1: 3300,
+      number1Description: "seguidores nas redes sociais",
+      number2: 960,
+      number2Description: "pacientes atendidos anualmente",
+      number3: 5,
+      number3Description: "Anos de experiência",
     },
     about: {
       imagem: {
@@ -142,20 +134,38 @@ const content = {
       title: "Sobre nós 👋",
       paragraph: (
         <div>
-          Após 15 anos de dedicação em diversas corretoras e acumulando valiosas
-          experiências na solução dos problemas de seus clientes, o Sr.
-          Uellinton Rodrigues de Matos fundou a URM Seguros.
+          Bem-vindo à Harmonic, onde a arte da odontologia e a ciência da
+          harmonização facial se unem para criar sorrisos radiantes e realçar a
+          beleza natural de cada cliente.
           <br />
           <br />
-          Com mais de 30 anos de história, a URM Seguros se consolidou como
-          referência no mercado de seguros, compreendendo profundamente o que é
-          necessário para garantir a sua proteção.
+          Nosso diferencial está na paixão e na expertise da Dra. Monique
+          Adrielle, uma profissional dedicada que traz consigo anos de
+          experiência sólida em tratamentos de harmonização orofacial, lentes
+          dentais em resina composta e tratamento periodontal.
           <br />
           <br />
-          Nosso compromisso é oferecer segurança e tranquilidade para você, sua
-          família e seus bens mais preciosos.
+          Priorizando a saúde e valorizando a estética, nossa missão é garantir
+          segurança e confiança aos nossos pacientes em cada sorriso.
         </div>
       ),
+      aboutSocial: {
+        img: {
+          img: aboutSocialImg,
+          alt: "Foto Profissional",
+        },
+        title: "Me siga nas redes sociais",
+        paragraph: (
+          <p>
+            🦷 Quer saber mais sobre o odontologia? Siga Dra. Monique Adrielle
+            nas redes sociais!
+            <br />
+            <br />
+            Não perca a chance de ficar por dentro das novidades e dicas para
+            uma saúde bucal adequada.
+          </p>
+        ),
+      },
     },
     team: {
       title: "Nossa Equipe",
@@ -424,31 +434,31 @@ const content = {
     },
     features: {
       title: "Nossas especialidades",
-      subtitle: "Serviços personalizados para sua tranquilidade",
+      subtitle: "Conheça as áreas de atuação da Dra. Monique Adrielle",
       card1: {
-        title: "Cotação de Seguros",
-        subtitle: "Melhores cotações para suas necessidades",
+        title: "Harmonização Orofacial",
+        subtitle: "Realce sua beleza natural com HOF",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Gestão de Apólices",
-        subtitle: "Administração completa das suas apólices",
+        title: "Estética Dental",
+        subtitle: "Transformando sorrisos e renovando a autoestima",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Apoio em Sinistros",
-        subtitle: "Assistência eficiente na resolução de sinistros",
+        title: "Reabilitação do meio bucal",
+        subtitle: "Reabilitação do meio bucal",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Análise de Risco",
-        subtitle: "Avaliação detalhada dos riscos para proteção ideal",
+        title: "Odontologia Pediátrica",
+        subtitle: "Dos primeiros dentes até a adolescência",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
@@ -456,14 +466,9 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: (
-        <p className="">
-          Simule e contrate agora mesmo
-          <br />o seu <strong>seguro</strong>
-        </p>
-      ),
+      title: <p className="">Deixa a gente cuidar da sua saúde</p>,
       subtitle: "#",
-      ctaButtonText: "Fazer simulação",
+      ctaButtonText: "Agendar consulta gratuita",
     },
     faq: {
       title: "Perguntas Frequentes",
@@ -471,24 +476,51 @@ const content = {
         "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
       questions: {
         question1: {
-          question: "Qual é o tipo de seguro mais adequado para mim?",
-          answer:
-            "A resposta a essa pergunta depende muito das suas necessidades específicas. Nossa equipe de corretores está aqui para ajudá-lo a entender suas opções e recomendar o tipo de seguro que melhor se adapta à sua situação. Isso pode incluir seguro de vida, seguro de saúde, seguro de automóvel, seguro residencial, entre outros. Entre em contato conosco para uma consulta personalizada.",
+          question:
+            "É necessário preparo (desgaste) dos dentes para aplicação de lentes de resina?",
+          answer: (
+            <p>
+              Nem sempre é necessário realizar um preparo (desgaste) para
+              aplicar lentes de resina. Em alguns casos, pode ser necessário um
+              desgaste mínimo para garantir a melhor adaptação da lente.
+              <br />
+              <br />
+              Diferente das facetas de porcelana, que frequentemente requerem um
+              preparo mais extenso da superfície dental, as lentes de resina são
+              mais conservadoras e preservam mais a estrutura natural dos
+              dentes. Por isso, é essencial uma análise clínica individualizada
+              para determinar o melhor plano de tratamento.
+              <br />
+              <br />
+              Agende sua consulta gratuita para que possamos traçar o plano de
+              tratamento ideal para você.
+            </p>
+          ),
         },
         question2: {
-          question: "Como posso economizar dinheiro no meu seguro?",
-          answer:
-            "Existem várias maneiras de economizar dinheiro no seguro. Uma delas é agrupar várias apólices de seguro sob o mesmo provedor, o que geralmente resulta em descontos. Além disso, manter um bom histórico de condução, um histórico de saúde sólido ou instalar dispositivos de segurança em sua casa ou veículo pode diminuir os custos do seguro. Nossos corretores podem revisar suas opções e oferecer conselhos sobre como maximizar sua cobertura enquanto economiza dinheiro.",
+          question: "Lentes de resina podem causar mau hálito?",
+          answer: (
+            <p>
+              Lentes de resina, por si só, não causam mau hálito. No entanto, se
+              não forem adequadamente mantidas, podem contribuir para o acúmulo
+              de placa bacteriana e restos de alimentos, o que pode levar ao mau
+              hálito. <br />
+              <br />É essencial manter uma boa higiene bucal, incluindo
+              escovação regular, uso do fio dental e visitas periódicas ao
+              dentista, para garantir que as lentes de resina permaneçam limpas
+              e saudáveis, prevenindo assim o mau hálito.
+            </p>
+          ),
         },
         question3: {
-          question: "O que devo fazer em caso de sinistro?",
+          question: "Qual é a duração do efeito do botox?",
           answer:
-            "Em caso de sinistro, é importante nos contatar imediatamente para iniciar o processo de reivindicação. Nosso objetivo é tornar o processo o mais simples possível para você. Coletaremos todas as informações necessárias e orientaremos você em cada etapa do processo de reivindicação, garantindo que você receba a assistência de que precisa o mais rápido possível.",
+            "O efeito do botox geralmente dura entre 5 a 6 meses. Após esse período, o músculo volta a funcionar normalmente, e pode ser necessário fazer uma nova aplicação para manter os resultados.",
         },
         question4: {
-          question: "Como faço para entender minha apólice de seguro?",
+          question: "A plástica gengival é dolorosa?",
           answer:
-            "Compreender os termos e condições de sua apólice de seguro pode parecer complicado, mas estamos aqui para ajudar. Nossos corretores estão à disposição para explicar todos os detalhes da sua apólice, incluindo cobertura, exclusões, limites e quaisquer outros aspectos importantes. Não hesite em nos contatar se tiver alguma dúvida sobre sua cobertura ou qualquer aspecto do seu seguro.",
+            "Não, a plástica gengival não é dolorosa. Durante o procedimento, é utilizada anestesia local para garantir que você não sinta desconforto. Após a cirurgia, qualquer desconforto pode ser controlado com medicamentos prescritos, garantindo um pós-operatório tranquilo.",
         },
       },
     },

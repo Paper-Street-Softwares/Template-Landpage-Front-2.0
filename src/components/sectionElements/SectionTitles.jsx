@@ -9,7 +9,7 @@ export default function SectionTitles({ children, className }) {
   const childrenArray = Children.toArray(children);
   return (
     <h1
-      className={`text-black mb-[8px] text-title4 leading-[34px] tablet1:leading-[54px] tablet1:text-title5 desktop1:text-title6 font-mainFont font-bold ${className}`}
+      className={`text-black mb-[22px] text-title4 leading-[34px] tablet1:leading-[54px] tablet1:text-title5 desktop1:text-title6 font-mainFont font-bold ${className}`}
     >
       {childrenArray}
     </h1>

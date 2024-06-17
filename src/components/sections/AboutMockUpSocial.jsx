@@ -10,6 +10,9 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import content from "../../content/content";
+import links from "../../content/links";
+import ButtonWithIcon from "../interactives/ButtonWithIcon";
 
 export default function AboutMockUpSocial() {
   const [visible, setVisible] = useState(false);
@@ -18,35 +21,29 @@ export default function AboutMockUpSocial() {
     setVisible(true);
   };
 
+  const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
   return (
     <SectionArea className="bg-quinary">
-      <SectionWrapper className="flex flex-col-reverse desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-evenly">
+      <SectionWrapper className="flex flex-col-reverse desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
         <div className="desktop1:w-[450px] desktop2:w-[570px]">
           <MotionDivDownToUp>
             <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
-              Me siga nas redes sociais
+              {content.texts.about.aboutSocial.title}
             </SectionTitles>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="mb-[36px] phone3:mb-[60px] desktop1:mb-[68px]">
-              🏡 Quer saber mais sobre o mercado imobiliário? Siga Rita Almeida
-              Corretora nas redes sociais! <br />
-              <br />
-              Em nossas redes sociais, sempre é postado novidades e atualizações
-              sobre imóveis e empreendimentos! Não perca a chance de ficar por
-              dentro das novidades de investimentos. <br />
-              <br />
-              Aqui, cada post é uma oportunidade de descobrir o seu próximo lar.
+              {content.texts.about.aboutSocial.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
           <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
             <MotionDivDownToUp>
-              <a
-                href="https://www.instagram.com/ritaalmeida_corretora/"
-                target="_blank"
-              >
-                <ButtonWithIconLight
-                  label="Me siga no instagram"
+              <div className="w-full">
+                <ButtonWithIcon
+                  label="Me siga no Instagram"
+                  link={links.socialMedia.instagram}
+                  className="w-full"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +51,7 @@ export default function AboutMockUpSocial() {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#000000"
+                      stroke="currentColor"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -66,38 +63,14 @@ export default function AboutMockUpSocial() {
                     </svg>
                   }
                 />
-              </a>
+              </div>
             </MotionDivDownToUp>
             <MotionDivDownToUp>
-              <a href="https://twitter.com/rcsalmeida2" target="_blank">
-                <ButtonWithIconLight
-                  label="Me siga no Twitter"
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#000000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-twitter"
-                    >
-                      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-                    </svg>
-                  }
-                />
-              </a>
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <a
-                href="https://www.facebook.com/ritadecassiasobreiradealmeida.almeida/"
-                target="_blank"
-              >
-                <ButtonWithIconLight
+              <div className="w-full">
+                <ButtonWithIcon
+                  className="w-full"
                   label="Me siga no Facebook"
+                  link={links.socialMedia.facebook}
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +78,7 @@ export default function AboutMockUpSocial() {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#000000"
+                      stroke="currentColor"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -115,17 +88,17 @@ export default function AboutMockUpSocial() {
                     </svg>
                   }
                 />
-              </a>
+              </div>
             </MotionDivDownToUp>
           </div>
         </div>
 
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
+        <MotionDivDownToUp className="hidden desktop1:block desktop1:w-[360px] desktop2:w-[450px]">
           <img
-            onClick={handleClick}
-            src={imgAboutPhone}
-            alt="Foto de celular"
-            className="w-[100%] cursor-pointer"
+            // onClick={handleClick}
+            src={content.texts.about.aboutSocial.img.img}
+            alt={content.texts.about.aboutSocial.img.alt}
+            className="w-[100%]"
           />
         </MotionDivDownToUp>
       </SectionWrapper>

@@ -17,7 +17,7 @@ function Footer() {
               <img
                 src={content.texts.navbar.logo.img}
                 alt={content.texts.navbar.logo.alt}
-                className="w-[50%] tablet1:w-[50%] desktop1:w-[80%]"
+                className="w-[50%] tablet1:w-[50%] desktop1:w-[80%] invert"
               ></img>
             </div>
             <div className="flex full gap-x-[8px] items-center opacity-70">
@@ -49,7 +49,7 @@ function Footer() {
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              ATÉ MAIS!
+              ATÉ MAIS! 😉
             </h1>
             <p className="opacity-70">{infos.footerInfos.footerText}</p>
           </div>
