@@ -80,8 +80,7 @@ const services = {
       description:
         "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
       buttonLabel: "Agendar consulta",
-      buttonLink:
-        "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacao?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
+      buttonLink: whatsappContactLink,
     },
     card2: {
       img: { img: mainServicesImg2, alt: "" },
@@ -89,8 +88,7 @@ const services = {
       description:
         "As lentes são finas camadas aplicadas sobre a superfície dos dentes para corrigir imperfeições estéticas, como manchas, desalinhamentos leves e pequenos espaços entre os dentes.",
       buttonLabel: "Agendar consulta",
-      buttonLink:
-        "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoResidencial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
+      buttonLink: whatsappContactLink,
     },
     card6: {
       title: "Demais procedimentos",
