@@ -91,38 +91,38 @@ const content = {
           img: { trustedByImg3 },
           alt: "Seguradora Liberty",
         },
-        img4: {
-          img: { trustedByImg4 },
-          alt: "Seguradora Allianz",
-        },
-        img5: {
-          img: { trustedByImg5 },
-          alt: "Seguradora SulAmérica",
-        },
-        img6: {
-          img: { trustedByImg6 },
-          alt: "Seguradora Tokio Marine",
-        },
-        img7: {
-          img: { trustedByImg7 },
-          alt: "Seguradora Mapfre Seguros",
-        },
-        img8: {
-          img: { trustedByImg8 },
-          alt: "Seguradora Itaú Seguros",
-        },
-        img9: {
-          img: { trustedByImg9 },
-          alt: "Seguradora Azul Seguros",
-        },
-        img10: {
-          img: { trustedByImg10 },
-          alt: "Seguradora HDI Seguros",
-        },
-        img11: {
-          img: { trustedByImg11 },
-          alt: "Seguradora SUHAI Seguros",
-        },
+        // img4: {
+        //   img: { trustedByImg4 },
+        //   alt: "Seguradora Allianz",
+        // },
+        // img5: {
+        //   img: { trustedByImg5 },
+        //   alt: "Seguradora SulAmérica",
+        // },
+        // img6: {
+        //   img: { trustedByImg6 },
+        //   alt: "Seguradora Tokio Marine",
+        // },
+        // img7: {
+        //   img: { trustedByImg7 },
+        //   alt: "Seguradora Mapfre Seguros",
+        // },
+        // img8: {
+        //   img: { trustedByImg8 },
+        //   alt: "Seguradora Itaú Seguros",
+        // },
+        // img9: {
+        //   img: { trustedByImg9 },
+        //   alt: "Seguradora Azul Seguros",
+        // },
+        // img10: {
+        //   img: { trustedByImg10 },
+        //   alt: "Seguradora HDI Seguros",
+        // },
+        // img11: {
+        //   img: { trustedByImg11 },
+        //   alt: "Seguradora SUHAI Seguros",
+        // },
       },
     },
     numbers: {
