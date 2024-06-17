@@ -424,7 +424,7 @@ const content = {
     },
     features: {
       title: "Nossas especialidades",
-      subtitle: "Serviços personalizados para sua tranquilidade",
+      subtitle: "Conheça as áreas de atuação da Dra. Monique Adrielle",
       card1: {
         title: "Harmonização Orofacial",
         subtitle: "Realce sua beleza natural com HOF",
