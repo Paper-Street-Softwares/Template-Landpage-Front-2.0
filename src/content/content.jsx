@@ -19,7 +19,7 @@ import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.png";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
@@ -475,14 +475,9 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: (
-        <p className="">
-          Simule e contrate agora mesmo
-          <br />o seu <strong>seguro</strong>
-        </p>
-      ),
+      title: <p className="">Deixa a gente cuidar da sua saúde</p>,
       subtitle: "#",
-      ctaButtonText: "Fazer simulação",
+      ctaButtonText: "Agendar consulta gratuita",
     },
     faq: {
       title: "Perguntas Frequentes",
@@ -490,24 +485,51 @@ const content = {
         "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
       questions: {
         question1: {
-          question: "Qual é o tipo de seguro mais adequado para mim?",
-          answer:
-            "A resposta a essa pergunta depende muito das suas necessidades específicas. Nossa equipe de corretores está aqui para ajudá-lo a entender suas opções e recomendar o tipo de seguro que melhor se adapta à sua situação. Isso pode incluir seguro de vida, seguro de saúde, seguro de automóvel, seguro residencial, entre outros. Entre em contato conosco para uma consulta personalizada.",
+          question:
+            "É necessário preparo (desgaste) dos dentes para aplicação de lentes de resina?",
+          answer: (
+            <p>
+              Nem sempre é necessário realizar um preparo (desgaste) para
+              aplicar lentes de resina. Em alguns casos, pode ser necessário um
+              desgaste mínimo para garantir a melhor adaptação da lente.
+              <br />
+              <br />
+              Diferente das facetas de porcelana, que frequentemente requerem um
+              preparo mais extenso da superfície dental, as lentes de resina são
+              mais conservadoras e preservam mais a estrutura natural dos
+              dentes. Por isso, é essencial uma análise clínica individualizada
+              para determinar o melhor plano de tratamento.
+              <br />
+              <br />
+              Agende sua consulta gratuita para que possamos traçar o plano de
+              tratamento ideal para você.
+            </p>
+          ),
         },
         question2: {
-          question: "Como posso economizar dinheiro no meu seguro?",
-          answer:
-            "Existem várias maneiras de economizar dinheiro no seguro. Uma delas é agrupar várias apólices de seguro sob o mesmo provedor, o que geralmente resulta em descontos. Além disso, manter um bom histórico de condução, um histórico de saúde sólido ou instalar dispositivos de segurança em sua casa ou veículo pode diminuir os custos do seguro. Nossos corretores podem revisar suas opções e oferecer conselhos sobre como maximizar sua cobertura enquanto economiza dinheiro.",
+          question: "Lentes de resina podem causar mau hálito?",
+          answer: (
+            <p>
+              Lentes de resina, por si só, não causam mau hálito. No entanto, se
+              não forem adequadamente mantidas, podem contribuir para o acúmulo
+              de placa bacteriana e restos de alimentos, o que pode levar ao mau
+              hálito. <br />
+              <br />É essencial manter uma boa higiene bucal, incluindo
+              escovação regular, uso do fio dental e visitas periódicas ao
+              dentista, para garantir que as lentes de resina permaneçam limpas
+              e saudáveis, prevenindo assim o mau hálito.
+            </p>
+          ),
         },
         question3: {
-          question: "O que devo fazer em caso de sinistro?",
+          question: "Qual é a duração do efeito do botox?",
           answer:
-            "Em caso de sinistro, é importante nos contatar imediatamente para iniciar o processo de reivindicação. Nosso objetivo é tornar o processo o mais simples possível para você. Coletaremos todas as informações necessárias e orientaremos você em cada etapa do processo de reivindicação, garantindo que você receba a assistência de que precisa o mais rápido possível.",
+            "O efeito do botox geralmente dura entre 5 a 6 meses. Após esse período, o músculo volta a funcionar normalmente, e pode ser necessário fazer uma nova aplicação para manter os resultados.",
         },
         question4: {
-          question: "Como faço para entender minha apólice de seguro?",
+          question: "A plástica gengival é dolorosa?",
           answer:
-            "Compreender os termos e condições de sua apólice de seguro pode parecer complicado, mas estamos aqui para ajudar. Nossos corretores estão à disposição para explicar todos os detalhes da sua apólice, incluindo cobertura, exclusões, limites e quaisquer outros aspectos importantes. Não hesite em nos contatar se tiver alguma dúvida sobre sua cobertura ou qualquer aspecto do seu seguro.",
+            "Não, a plástica gengival não é dolorosa. Durante o procedimento, é utilizada anestesia local para garantir que você não sinta desconforto. Após a cirurgia, qualquer desconforto pode ser controlado com medicamentos prescritos, garantindo um pós-operatório tranquilo.",
         },
       },
     },
