@@ -8,6 +8,7 @@ import ModalComponent from "../interactives/ModalComponent";
 import services from "../../content/services";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
 import content from "../../content/content";
+import AcordionModalServices from "../interactives/AcordionModalServices";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -1190,11 +1191,7 @@ const ServicesModal = () => {
     },
     {
       label: "Odontologia Pediátrica",
-      content:( 
-      <div>
-
-      </div>
-    ),
+      content: <div></div>,
     },
   ];
 
@@ -1225,7 +1222,7 @@ const ServicesModal = () => {
       />
 
       <Dialog
-        header="Nossos Seguros"
+        header="Nossos Serviços"
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
@@ -1235,11 +1232,12 @@ const ServicesModal = () => {
         <div className="flex flex-col w-full gap-[12px]">
           <div>
             <p className="text-paragraph4 font-secondFont">
-              Selecione o tipo de seguro para conhecer as opções disponíveis:
+              Selecione o procedimento que deseja saber mais sobre:
             </p>
           </div>
           <div className="flex justify-center w-full">
-            <TabComponent tabs={tabs} />
+            {/* <TabComponent tabs={tabs} /> */}
+            <AcordionModalServices />
           </div>
         </div>
       </Dialog>

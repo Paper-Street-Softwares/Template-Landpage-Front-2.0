@@ -73,33 +73,6 @@ const services = {
       buttonLink:
         "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoResidencial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
     },
-    // card3: {
-    //   img: { img: mainServicesImg3, alt: "" },
-    //   title: "Seguro Condomínio",
-    //   description:
-    //     "Seguro Condomínio protege seu prédio contra danos e responsabilidades, garantindo tranquilidade para todos os moradores.",
-    //   buttonLabel: "Simular",
-    //   buttonLink:
-    //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoCondominio?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
-    // },
-    // card4: {
-    //   img: { img: mainServicesImg4, alt: "" },
-    //   title: "Seguro de Vida e Acidentes Pessoais",
-    //   description:
-    //     "Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades.",
-    //   buttonLabel: "Simular",
-    //   buttonLink:
-    //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoVida?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
-    // },
-    // card5: {
-    //   img: { img: mainServicesImg5, alt: "" },
-    //   title: "Seguro Empresarial",
-    //   description:
-    //     "O seguro empresarial protege seu negócio contra imprevistos, garantindo segurança e continuidade operacional.",
-    //   buttonLabel: "Simular",
-    //   buttonLink:
-    //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoEmpresarial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
-    // },
     card6: {
       title: "Demais procedimentos",
       description: "Confira todos os procedimentos clicando abaixo.",
@@ -562,6 +535,39 @@ const services = {
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para motoristas seniores que querem garantir segurança e tranquilidade ao dirigir, protegendo-se no trânsito.",
+        buttonLink: whatsappContactLink,
+      },
+    },
+    harmonizacao: {
+      label: "Harmonização Facial",
+      service1: {
+        name: "Seguro 1",
+        img: {
+          img: morePessoalServicesImg1,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Ideal para viajantes que querem transcender fronteiras com segurança, desfrutando de cada destino sem preocupações.",
+        buttonLink: whatsappContactLink,
+      },
+      service1: {
+        name: "Seguro 2",
+        img: {
+          img: morePessoalServicesImg1,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Ideal para viajantes que querem transcender fronteiras com segurança, desfrutando de cada destino sem preocupações.",
+        buttonLink: whatsappContactLink,
+      },
+      service1: {
+        name: "Seguro 3",
+        img: {
+          img: morePessoalServicesImg1,
+        },
+        cardSubtitle: "Pra quem é esse seguro?",
+        cardDescription:
+          "Ideal para viajantes que querem transcender fronteiras com segurança, desfrutando de cada destino sem preocupações.",
         buttonLink: whatsappContactLink,
       },
     },
