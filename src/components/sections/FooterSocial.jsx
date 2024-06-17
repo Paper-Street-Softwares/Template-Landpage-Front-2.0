@@ -18,7 +18,7 @@ function FooterSocial() {
               <img
                 src={content.texts.navbar.logo.img}
                 alt={content.texts.navbar.logo.alt}
-                className="w-[80%] tablet1:w-[50%] desktop1:w-[80%]"
+                className="w-[80%] tablet1:w-[50%] desktop1:w-[80%] invert"
               ></img>
             </div>
             <div className="flex full gap-x-[8px] items-center opacity-70">
@@ -45,6 +45,40 @@ function FooterSocial() {
               />
               <p>{infos.mail}</p>
             </div>
+            <div className="flex full gap-x-[8px] items-center opacity-70">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-calendar-days"
+              >
+                <path d="M8 2v4" />
+                <path d="M16 2v4" />
+                <rect width="18" height="18" x="3" y="4" rx="2" />
+                <path d="M3 10h18" />
+                <path d="M8 14h.01" />
+                <path d="M12 14h.01" />
+                <path d="M16 14h.01" />
+                <path d="M8 18h.01" />
+                <path d="M12 18h.01" />
+                <path d="M16 18h.01" />
+              </svg>
+              <p>{infos.footerInfos.expediente}</p>
+            </div>
+          </div>
+        </MotionDivDownToUp>
+        <MotionDivDownToUp>
+          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+              ATÉ MAIS! 😉
+            </h1>
+            <p className="opacity-70">{infos.footerInfos.footerText}</p>
             <p className="opacity-70">Siga a gente nas redes sociais:</p>
             <div className="opacity-70">
               {" "}
@@ -98,7 +132,7 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a href={links.socialMedia.linkedin} target="_blank">
+                {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
                       <svg
@@ -119,17 +153,9 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a>
+                </a> */}
               </div>
             </div>
-          </div>
-        </MotionDivDownToUp>
-        <MotionDivDownToUp>
-          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              ATÉ MAIS!
-            </h1>
-            <p className="opacity-70">{infos.footerInfos.footerText}</p>
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>

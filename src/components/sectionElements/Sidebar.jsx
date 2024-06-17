@@ -53,7 +53,7 @@ export default function SidebarClean() {
       <div className="flex justify-center card">
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-primary" : "text-primary"
+            scrolled ? "text-primary" : "text-secondary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />

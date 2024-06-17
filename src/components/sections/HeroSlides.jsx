@@ -26,8 +26,6 @@ export default function HeroSlides() {
                       slide2={HeroImg2}
                       slide3={HeroImg3}
                     />
-
-                    {/* <img src={HeroImg1}></img> */}
                   </div>
                 </MotionDivDownToUp>
               </div>

@@ -1,12 +1,19 @@
 const infos = {
-  name: "URM Corretora de Seguros",
-  slogan: "A sua corretora de seguros em São Gonçalo - RJ",
-  phone: "(21) 3026-2665",
-  mail: "adm@urmseguros.com.br",
+  name: "Harmonic Odontologia Estética",
+  slogan: "Ressignificando sorrisos",
+  phone: "(71) 98179-5510",
+  mail: "moniquea@harmonic.com",
   footerInfos: {
+    expediente: (
+      <p>
+        Segunda-feira à Sexta-feira
+        <br />
+        Das 8h às 12h - 14h às 18h
+      </p>
+    ),
     year: 2024,
     footerText:
-      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos as proteções que oferecemos. 🛡️👋",
+      "Agradecemos sua visita! Esperamos em breve poder recebê-lo como nosso paciente, proporcionando a reconstrução do seu sorriso e elevando sua autoestima!",
   },
 };
 
