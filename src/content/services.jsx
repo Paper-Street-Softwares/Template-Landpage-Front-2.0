@@ -49,6 +49,25 @@ import morePatrimonialServicesImg39 from "../assets/imgs/cardModal/imgCardModal5
 import morePatrimonialServicesImg40 from "../assets/imgs/cardModal/imgCardModal10.webp";
 import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal18.webp";
 
+import moreHarmoServicesImg1 from "../assets/imgs/services/moreHarmoServicesImg1.jpg";
+import moreHarmoServicesImg2 from "../assets/imgs/services/moreHarmoServicesImg2.jpg";
+import moreHarmoServicesImg3 from "../assets/imgs/services/moreHarmoServicesImg3.jpg";
+import moreHarmoServicesImg4 from "../assets/imgs/services/moreHarmoServicesImg4.jpg";
+
+import moreEsteticaServicesImg1 from "../assets/imgs/services/moreEsteticaServicesImg1.jpg";
+import moreEsteticaServicesImg2 from "../assets/imgs/services/moreEsteticaServicesImg2.jpg";
+import moreEsteticaServicesImg3 from "../assets/imgs/services/moreEsteticaServicesImg3.jpg";
+import moreEsteticaServicesImg4 from "../assets/imgs/services/moreEsteticaServicesImg4.jpg";
+
+import moreReabServicesImg1 from "../assets/imgs/services/moreReabServicesImg1.jpg";
+import moreReabServicesImg2 from "../assets/imgs/services/moreReabServicesImg2.jpg";
+import moreReabServicesImg3 from "../assets/imgs/services/moreReabServicesImg3.jpg";
+
+import morePedServicesImg1 from "../assets/imgs/services/morePedServicesImg1.jpg";
+import morePedServicesImg2 from "../assets/imgs/services/morePedServicesImg2.jpg";
+import morePedServicesImg3 from "../assets/imgs/services/morePedServicesImg3.jpg";
+import morePedServicesImg4 from "../assets/imgs/services/morePedServicesImg4.jpg";
+
 import links from "./links";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
@@ -61,8 +80,7 @@ const services = {
       description:
         "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
       buttonLabel: "Agendar consulta",
-      buttonLink:
-        "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacao?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
+      buttonLink: whatsappContactLink,
     },
     card2: {
       img: { img: mainServicesImg2, alt: "" },
@@ -70,36 +88,8 @@ const services = {
       description:
         "As lentes são finas camadas aplicadas sobre a superfície dos dentes para corrigir imperfeições estéticas, como manchas, desalinhamentos leves e pequenos espaços entre os dentes.",
       buttonLabel: "Agendar consulta",
-      buttonLink:
-        "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoResidencial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
+      buttonLink: whatsappContactLink,
     },
-    // card3: {
-    //   img: { img: mainServicesImg3, alt: "" },
-    //   title: "Seguro Condomínio",
-    //   description:
-    //     "Seguro Condomínio protege seu prédio contra danos e responsabilidades, garantindo tranquilidade para todos os moradores.",
-    //   buttonLabel: "Simular",
-    //   buttonLink:
-    //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoCondominio?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
-    // },
-    // card4: {
-    //   img: { img: mainServicesImg4, alt: "" },
-    //   title: "Seguro de Vida e Acidentes Pessoais",
-    //   description:
-    //     "Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades.",
-    //   buttonLabel: "Simular",
-    //   buttonLink:
-    //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoVida?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
-    // },
-    // card5: {
-    //   img: { img: mainServicesImg5, alt: "" },
-    //   title: "Seguro Empresarial",
-    //   description:
-    //     "O seguro empresarial protege seu negócio contra imprevistos, garantindo segurança e continuidade operacional.",
-    //   buttonLabel: "Simular",
-    //   buttonLink:
-    //     "https://villa.segfy.com:443/Publico/Segurados/Orcamentos/SolicitarCotacaoEmpresarial?e=V%2BfN%2BEC0GstumVAM%2B2hIUA%3D%3D",
-    // },
     card6: {
       title: "Demais procedimentos",
       description: "Confira todos os procedimentos clicando abaixo.",
@@ -126,7 +116,7 @@ const services = {
       </svg>
     ),
     ctaButtons: {
-      buttonLabel: "Contratar",
+      buttonLabel: "Agendar consulta gratuita",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -562,6 +552,168 @@ const services = {
         cardSubtitle: "Pra quem é esse seguro?",
         cardDescription:
           "Para motoristas seniores que querem garantir segurança e tranquilidade ao dirigir, protegendo-se no trânsito.",
+        buttonLink: whatsappContactLink,
+      },
+    },
+    harmonizacao: {
+      label: "Harmonização Facial",
+      service1: {
+        name: "Botox",
+        img: {
+          img: moreHarmoServicesImg1,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
+        buttonLink: whatsappContactLink,
+      },
+      service2: {
+        name: "Estimulador de colágeno",
+        img: {
+          img: moreHarmoServicesImg2,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "O estimulador de colágeno é um aliado poderoso na luta contra o envelhecimento, promovendo a renovação celular e a firmeza da pele.",
+        buttonLink: whatsappContactLink,
+      },
+      service3: {
+        name: "Preenchedores Faciais",
+        img: {
+          img: moreHarmoServicesImg3,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "Os preenchedores faciais são uma excelente opção para quem deseja repor volume, suavizar rugas e linhas de expressão, e realçar os contornos faciais, proporcionando uma aparência mais jovem e revitalizada.",
+        buttonLink: whatsappContactLink,
+      },
+      service4: {
+        name: "Lifting com Fios PDO",
+        img: {
+          img: moreHarmoServicesImg4,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "O lifting com fios PDO é uma técnica inovadora que promove o rejuvenescimento facial, estimulando a produção de colágeno e proporcionando um efeito lifting natural, sem a necessidade de cirurgia.",
+        buttonLink: whatsappContactLink,
+      },
+    },
+    estetica: {
+      label: "Estética Dental",
+      service1: {
+        name: "Restaurações Estéticas ",
+        img: {
+          img: moreEsteticaServicesImg1,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "Restaurações estéticas são procedimentos odontológicos que visam restaurar a aparência natural dos dentes danificados, utilizando materiais como resinas compostas ou porcelanas.",
+        buttonLink: whatsappContactLink,
+      },
+      service2: {
+        name: "Lentes em Resina Composta",
+        img: {
+          img: moreEsteticaServicesImg2,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "As lentes são finas camadas aplicadas sobre a superfície dos dentes para corrigir imperfeições estéticas, como manchas, desalinhamentos leves e pequenos espaços entre os dentes.",
+        buttonLink: whatsappContactLink,
+      },
+      service3: {
+        name: "Plástica Gengival",
+        img: {
+          img: moreEsteticaServicesImg3,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "A plástica gengival é um procedimento cirúrgico realizado para corrigir problemas estéticos ou funcionais na gengiva, como excesso de gengiva (sorriso gengival) ou retrações gengivais. O objetivo é harmonizar o sorriso e melhorar a saúde bucal, proporcionando um contorno gengival mais adequado aos dentes.",
+        buttonLink: whatsappContactLink,
+      },
+      service4: {
+        name: "Clareamento Dental",
+        img: {
+          img: moreEsteticaServicesImg4,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "O clareamento dental é um procedimento estético que visa clarear a cor dos dentes, removendo manchas e descolorações, proporcionando um sorriso mais branco e radiante.",
+        buttonLink: whatsappContactLink,
+      },
+    },
+    reabilitacao: {
+      label: "Reabilitação do Meio Bucal",
+      service1: {
+        name: "Prótese Total, Parcial, Fixa e Protocolo",
+        img: {
+          img: moreReabServicesImg1,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "A prótese total é um dispositivo protético removível que substitui todos os dentes de uma arcada dentária. É utilizada para restaurar a função mastigatória, a estética e a fala em pacientes que perderam todos os dentes.",
+        buttonLink: whatsappContactLink,
+      },
+      service2: {
+        name: "Implante Dental",
+        img: {
+          img: moreReabServicesImg2,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "O implante dental é um dispositivo de titânio que substitui a raiz de um dente perdido. Após a integração com o osso, o implante serve de suporte para a colocação de uma coroa dentária, restaurando a estética e a função mastigatória de forma muito semelhante aos dentes naturais.",
+        buttonLink: whatsappContactLink,
+      },
+      service3: {
+        name: "Coroa Dental",
+        img: {
+          img: moreReabServicesImg3,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "A coroa dental é uma capa proteica utilizada para cobrir um dente danificado, restaurando sua forma, tamanho, cor e função.",
+        buttonLink: whatsappContactLink,
+      },
+    },
+    pediatrica: {
+      label: "Odontologia Pediátrica",
+      service1: {
+        name: "Extração",
+        img: {
+          img: morePedServicesImg1,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "A extração dentária é um procedimento cirúrgico realizado para remover um dente que não pode ser restaurado ou que está causando problemas na saúde bucal. É indicada em casos de cáries extensas, dentes quebrados, infecções ou para facilitar tratamentos ortodônticos.",
+        buttonLink: whatsappContactLink,
+      },
+      service2: {
+        name: "Ulectomia",
+        img: {
+          img: morePedServicesImg2,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "Em casos específicos de úlceras ou lesões graves na gengiva infantil, o tratamento pode envolver a remoção cirúrgica da área afetada, mas é mais comum tratar essas condições com métodos não invasivos, como medicação tópica e cuidados bucais adequados.",
+        buttonLink: whatsappContactLink,
+      },
+      service3: {
+        name: "Restauração Dentária",
+        img: {
+          img: morePedServicesImg3,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "Restauração dentária em odontopediatria visa preservar os dentes de leite, garantindo o desenvolvimento saudável da criança.",
+        buttonLink: whatsappContactLink,
+      },
+      service4: {
+        name: "Profilaxia Dental",
+        img: {
+          img: morePedServicesImg4,
+        },
+        cardSubtitle: "Sobre o procedimento:",
+        cardDescription:
+          "A profilaxia dental infantil é um procedimento de limpeza suave dos dentes das crianças, geralmente realizado por um odontopediatra. O objetivo é remover a placa bacteriana e os resíduos alimentares, prevenindo assim a cárie e doenças gengivais. É importante que a criança tenha uma boa experiência durante o procedimento para desenvolver hábitos saudáveis de higiene bucal.",
         buttonLink: whatsappContactLink,
       },
     },
