@@ -1,7 +1,7 @@
 import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
-import bgHeroImg from "../../assets/imgs/hero/bgHero.webp";
+import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
 import ButtonCTAWithIcon from "../interactives/ButtonCTAWithIcon";
 import ScrollDownIndicator from "../sectionElements/ScrollDownIndicator";
 
@@ -10,7 +10,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function HeroBgLeft() {
   return (
     <div
-      className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
+      className="w-full bg-left bg-no-repeat bg-cover font-mainFont"
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
