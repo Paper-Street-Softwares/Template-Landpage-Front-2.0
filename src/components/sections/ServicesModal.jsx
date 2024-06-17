@@ -1232,7 +1232,7 @@ const ServicesModal = () => {
         <div className="flex flex-col w-full gap-[12px]">
           <div>
             <p className="text-paragraph4 font-secondFont">
-              Selecione o procedimento que deseja saber mais sobre:
+              Selecione a área que deseja saber mais sobre:
             </p>
           </div>
           <div className="flex justify-center w-full">

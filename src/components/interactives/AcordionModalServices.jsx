@@ -41,15 +41,13 @@ export default function AcordionModalServices() {
           id="panel1-header"
         >
           <Typography>
-            <h1 className="font-bold font-secondFont">
-              {services.moreServices.harmonizacao.label}
-            </h1>
+            <h1 className="font-bold font-secondFont">Harmonização Facial</h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question1.answer}
+              Conteúdo
             </p>
           </Typography>
         </AccordionDetails>
@@ -68,15 +66,13 @@ export default function AcordionModalServices() {
           id="panel2-header"
         >
           <Typography>
-            <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question2.question}
-            </h1>
+            <h1 className="font-bold font-secondFont">Estética Dental</h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question2.answer}
+              Conteúdo
             </p>
           </Typography>
         </AccordionDetails>
@@ -96,14 +92,14 @@ export default function AcordionModalServices() {
         >
           <Typography>
             <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question3.question}
+              Reabilitação do Meio Bucal
             </h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question3.answer}
+              Conteúdo
             </p>
           </Typography>
         </AccordionDetails>
@@ -122,15 +118,13 @@ export default function AcordionModalServices() {
           id="panel4-header"
         >
           <Typography>
-            <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question4.question}
-            </h1>
+            <h1 className="font-bold font-secondFont">Odontopediatria</h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question4.answer}
+              Conteúdo
             </p>
           </Typography>
         </AccordionDetails>
