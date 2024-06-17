@@ -35,7 +35,7 @@ export default function HeroBgLeft() {
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
-                  <div className="flex justify-left w-full desktop1:w-[50%] mb-[60px]">
+                  <div className="flex justify-left w-full desktop1:w-[50%] desktop1:mb-[60px]">
                     <ButtonCTAWithIcon
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
