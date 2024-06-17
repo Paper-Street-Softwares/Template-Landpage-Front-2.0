@@ -475,13 +475,9 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: (
-        <p className="">
-          Simule e contrate agora mesmo o seu <strong>seguro</strong>
-        </p>
-      ),
+      title: <p className="">Deixa a gente cuidar da sua saúde</p>,
       subtitle: "#",
-      ctaButtonText: "Fazer simulação",
+      ctaButtonText: "Agendar consulta gratuita",
     },
     faq: {
       title: "Perguntas Frequentes",
