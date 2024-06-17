@@ -14,7 +14,7 @@ import trustedByImg8 from "../assets/imgs/trustedBy/item8.webp";
 import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
 import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
 import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.png";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
@@ -128,12 +128,12 @@ const content = {
     },
     numbers: {
       backgroundImg: numbersImgBg,
-      number1: 30,
-      number1Description: "Anos no mercado",
-      number2: 40,
-      number2Description: "Tipos de seguros",
-      number3: 10,
-      number3Description: "Seguradoras parceiras",
+      number1: 3300,
+      number1Description: "seguidores nas redes sociais",
+      number2: 960,
+      number2Description: "pacientes atendidos anualmente",
+      number3: 5,
+      number3Description: "Anos de experiência",
     },
     about: {
       imagem: {
