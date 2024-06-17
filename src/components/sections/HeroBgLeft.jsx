@@ -20,14 +20,14 @@ export default function HeroBgLeft() {
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto mb-[38px] phone3:mb-[52px] w-[90%] max-w-[1215px] items-center gap-[20px] tablet2:gap-14 desktop3:gap-20">
             <div className="flex flex-col w-full pt-[20px] pb-[0px] tablet1:pt-[80px] tablet1:pb-[20px] desktop1:pt-[40px]">
               <MotionDivLeftToRight>
-                <div className="text-secondary flex justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[110px] text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-[72px]">
-                  <h1 className="pb-[16px]  desktop1:w-[50%] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                <div className="text-secondary flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[90px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-[72px]">
+                  <h1 className="pb-[16px] desktop1:w-[60%] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                     {content.texts.hero.title}
                   </h1>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="flex text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex text-center tablet1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-secondary pb-[54px] tablet1:w-[50%] [text-shadow:_1.8px_1.8px_2px_rgb(0_0_0_/_150%)]">
                     {content.texts.hero.subtitle}
                   </p>
@@ -35,7 +35,7 @@ export default function HeroBgLeft() {
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
-                  <div className="flex justify-left w-full desktop1:w-[50%] desktop1:mb-[60px]">
+                  <div className="flex justify-center tablet1:justify-start w-full desktop1:w-[50%] desktop1:mb-[60px]">
                     <ButtonCTAWithIcon
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
