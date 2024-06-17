@@ -15,10 +15,10 @@ import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
 import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
 import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
@@ -443,31 +443,31 @@ const content = {
     },
     features: {
       title: "Nossas especialidades",
-      subtitle: "Serviços personalizados para sua tranquilidade",
+      subtitle: "Conheça as áreas de atuação da Dra. Monique Adrielle",
       card1: {
-        title: "Cotação de Seguros",
-        subtitle: "Melhores cotações para suas necessidades",
+        title: "Harmonização Orofacial",
+        subtitle: "Realce sua beleza natural com HOF",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Gestão de Apólices",
-        subtitle: "Administração completa das suas apólices",
+        title: "Estética Dental",
+        subtitle: "Transformando sorrisos e renovando a autoestima",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Apoio em Sinistros",
-        subtitle: "Assistência eficiente na resolução de sinistros",
+        title: "Reabilitação do meio bucal",
+        subtitle: "Reabilitação do meio bucal",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Análise de Risco",
-        subtitle: "Avaliação detalhada dos riscos para proteção ideal",
+        title: "Odontologia Pediátrica",
+        subtitle: "Dos primeiros dentes até a adolescência",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
