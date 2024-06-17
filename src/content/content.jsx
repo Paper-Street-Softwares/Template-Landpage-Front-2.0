@@ -43,13 +43,13 @@ const content = {
     hero: {
       title: (
         <div>
-          Proteja o que <br />
-          <span className="text-primary">mais</span> importa
+          Harmonização e<br />
+          Odontologia
         </div>
       ),
       subtitle:
-        "Cuidamos do seu patrimônio, para que você tenha sempre uma vida tranquila e segura!",
-      ctaButtonText: "Fale com nossa equipe",
+        "Descubra a harmonia entre saúde e estética com a Dra. Monique Adrielle!",
+      ctaButtonText: "Agendar consulta gratuita",
       images: {
         background: {},
         static: {

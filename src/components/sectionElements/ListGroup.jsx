@@ -32,7 +32,7 @@ export default function ListGroup() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling ? "" : "text-black transition-color duration-1000"
+        scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
       <li className="transition group">
@@ -46,13 +46,15 @@ export default function ListGroup() {
           href="#"
         >
           <span
-            className={scrolling ? "hover:text-primary" : "hover:text-primary"}
+            className={
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
+            }
           >
             {content.texts.navbar.menuItems[0]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
@@ -69,14 +71,14 @@ export default function ListGroup() {
         >
           <span
             className={`whitespace-nowrap ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
             }`}
           >
             {content.texts.navbar.menuItems[1]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
@@ -92,13 +94,15 @@ export default function ListGroup() {
           href="#"
         >
           <span
-            className={scrolling ? "hover:text-primary" : "hover:text-primary"}
+            className={
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
+            }
           >
             {content.texts.navbar.menuItems[2]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
@@ -115,19 +119,23 @@ export default function ListGroup() {
         >
           <span
             className={`whitespace-nowrap ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
+              scrolling ? "hover:text-primary" : "hover:text-secondary"
             }`}
           >
             {content.texts.navbar.menuItems[3]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-secondary"
             }`}
           ></div>
         </Link>
       </li>
-      <a href={whatsappContactLink} target="_blank">
+      <a
+        href={whatsappContactLink}
+        target="_blank"
+        className={`${scrolling ? "" : "invert"}`}
+      >
         <ButtonWithIconNavbar
           label={content.texts.navbar.ctaButtonText}
           icon={

@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
-import Logo from "../../assets/imgs/logo/logo.webp";
 import ListGroup from "../sectionElements/ListGroup";
 import { Link as ScrollLink } from "react-scroll";
 import HeadlessDemo from "../sectionElements/Sidebar";
@@ -111,13 +110,17 @@ export default function NavbarSection() {
               className={`${
                 scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
-                  : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
+                  : "my-[20px] invert w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
             <div className="hidden tablet1:flex desktop1:hidden">
-              <a href={whatsappContactLink} target="_blank">
+              <a
+                href={whatsappContactLink}
+                target="_blank"
+                className={`${scrolling ? "" : "invert"}`}
+              >
                 <ButtonWithIconNavbar
                   label={content.texts.navbar.ctaButtonTextResponsive}
                   icon={
