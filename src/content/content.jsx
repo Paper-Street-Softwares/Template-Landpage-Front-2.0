@@ -1,7 +1,8 @@
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -14,10 +15,10 @@ import trustedByImg9 from "../assets/imgs/trustedBy/item9.webp";
 import trustedByImg10 from "../assets/imgs/trustedBy/item10.webp";
 import trustedByImg11 from "../assets/imgs/trustedBy/item11.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.png";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
@@ -43,13 +44,13 @@ const content = {
     hero: {
       title: (
         <div>
-          Proteja o que <br />
-          <span className="text-primary">mais</span> importa
+          Harmonização e<br />
+          Odontologia
         </div>
       ),
       subtitle:
-        "Cuidamos do seu patrimônio, para que você tenha sempre uma vida tranquila e segura!",
-      ctaButtonText: "Fale com nossa equipe",
+        "Descubra a harmonia entre saúde e estética com a Dra. Monique Adrielle!",
+      ctaButtonText: "Agendar consulta gratuita",
       images: {
         background: {},
         static: {
@@ -142,20 +143,38 @@ const content = {
       title: "Sobre nós 👋",
       paragraph: (
         <div>
-          Após 15 anos de dedicação em diversas corretoras e acumulando valiosas
-          experiências na solução dos problemas de seus clientes, o Sr.
-          Uellinton Rodrigues de Matos fundou a URM Seguros.
+          Bem-vindo à Harmonic, onde a arte da odontologia e a ciência da
+          harmonização facial se unem para criar sorrisos radiantes e realçar a
+          beleza natural de cada cliente.
           <br />
           <br />
-          Com mais de 30 anos de história, a URM Seguros se consolidou como
-          referência no mercado de seguros, compreendendo profundamente o que é
-          necessário para garantir a sua proteção.
+          Nosso diferencial está na paixão e na expertise da Dra. Monique
+          Adrielle, uma profissional dedicada que traz consigo anos de
+          experiência sólida em tratamentos de harmonização orofacial, lentes
+          dentais em resina composta e tratamento periodontal.
           <br />
           <br />
-          Nosso compromisso é oferecer segurança e tranquilidade para você, sua
-          família e seus bens mais preciosos.
+          Priorizando a saúde e valorizando a estética, nossa missão é garantir
+          segurança e confiança aos nossos pacientes em cada sorriso.
         </div>
       ),
+      aboutSocial: {
+        img: {
+          img: aboutSocialImg,
+          alt: "Foto Profissional",
+        },
+        title: "Me siga nas redes sociais",
+        paragraph: (
+          <p>
+            🦷 Quer saber mais sobre o odontologia? Siga Dra. Monique Adrielle
+            nas redes sociais!
+            <br />
+            <br />
+            Não perca a chance de ficar por dentro das novidades e dicas para
+            uma saúde bucal adequada.
+          </p>
+        ),
+      },
     },
     team: {
       title: "Nossa Equipe",
@@ -424,31 +443,31 @@ const content = {
     },
     features: {
       title: "Nossas especialidades",
-      subtitle: "Serviços personalizados para sua tranquilidade",
+      subtitle: "Conheça as áreas de atuação da Dra. Monique Adrielle",
       card1: {
-        title: "Cotação de Seguros",
-        subtitle: "Melhores cotações para suas necessidades",
+        title: "Harmonização Orofacial",
+        subtitle: "Realce sua beleza natural com HOF",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Gestão de Apólices",
-        subtitle: "Administração completa das suas apólices",
+        title: "Estética Dental",
+        subtitle: "Transformando sorrisos e renovando a autoestima",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Apoio em Sinistros",
-        subtitle: "Assistência eficiente na resolução de sinistros",
+        title: "Reabilitação do meio bucal",
+        subtitle: "Reabilitação do meio bucal",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Análise de Risco",
-        subtitle: "Avaliação detalhada dos riscos para proteção ideal",
+        title: "Odontologia Pediátrica",
+        subtitle: "Dos primeiros dentes até a adolescência",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
