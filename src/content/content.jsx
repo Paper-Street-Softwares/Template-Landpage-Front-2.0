@@ -412,14 +412,14 @@ const content = {
       },
       card2: {
         title: "Estética Dental",
-        subtitle: "Transformando sorrisos e renovando a autoestima",
+        subtitle: "Transformando sorrisos e renovando a sua autoestima",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
         title: "Reabilitação do meio bucal",
-        subtitle: "Reabilitação do meio bucal",
+        subtitle: "Próteses, implantes e coroas.",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
