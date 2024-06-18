@@ -2,7 +2,7 @@ const infos = {
   name: "Harmonic Odontologia Estética",
   slogan: "Ressignificando sorrisos",
   phone: "(71) 98179-5510",
-  mail: "moniquea@harmonic.com",
+  mail: "monique@harmonicodonto.com.br",
   footerInfos: {
     expediente: (
       <p>
