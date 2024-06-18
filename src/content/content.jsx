@@ -125,8 +125,8 @@ const content = {
         title: "Me siga nas redes sociais",
         paragraph: (
           <p>
-            🦷 Quer saber mais sobre o odontologia? Siga Dra. Monique Adrielle
-            nas redes sociais!
+            🦷 Quer saber mais sobre odontologia? Siga Dra. Monique Adrielle nas
+            redes sociais!
             <br />
             <br />
             Não perca a chance de ficar por dentro das novidades e dicas para
