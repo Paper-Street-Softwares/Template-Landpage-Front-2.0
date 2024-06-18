@@ -1,5 +1,5 @@
-import mainServicesImg1 from "../assets/imgs/services/servicesImg1.png";
-import mainServicesImg2 from "../assets/imgs/services/servicesImg2.png";
+import mainServicesImg1 from "../assets/imgs/services/servicesImg1.webp";
+import mainServicesImg2 from "../assets/imgs/services/servicesImg2.webp";
 // import mainServicesImg3 from "../assets/imgs/services/servicesImg3.webp";
 // import mainServicesImg4 from "../assets/imgs/services/servicesImg4.webp";
 // import mainServicesImg5 from "../assets/imgs/services/servicesImg5.webp";
@@ -49,24 +49,27 @@ import morePatrimonialServicesImg39 from "../assets/imgs/cardModal/imgCardModal5
 import morePatrimonialServicesImg40 from "../assets/imgs/cardModal/imgCardModal10.webp";
 import morePatrimonialServicesImg41 from "../assets/imgs/cardModal/imgCardModal18.webp";
 
-import moreHarmoServicesImg1 from "../assets/imgs/services/moreHarmoServicesImg1.jpg";
-import moreHarmoServicesImg2 from "../assets/imgs/services/moreHarmoServicesImg2.jpg";
-import moreHarmoServicesImg3 from "../assets/imgs/services/moreHarmoServicesImg3.jpg";
-import moreHarmoServicesImg4 from "../assets/imgs/services/moreHarmoServicesImg4.jpg";
+import harmonicServicesImg1 from "../assets/imgs/services/servicesHarmonicImg1.webp";
+import harmonicServicesImg2 from "../assets/imgs/services/servicesHarmonicImg2.webp";
 
-import moreEsteticaServicesImg1 from "../assets/imgs/services/moreEsteticaServicesImg1.jpg";
-import moreEsteticaServicesImg2 from "../assets/imgs/services/moreEsteticaServicesImg2.jpg";
-import moreEsteticaServicesImg3 from "../assets/imgs/services/moreEsteticaServicesImg3.jpg";
-import moreEsteticaServicesImg4 from "../assets/imgs/services/moreEsteticaServicesImg4.jpg";
+import moreHarmoServicesImg1 from "../assets/imgs/services/moreHarmoServicesImg1.webp";
+import moreHarmoServicesImg2 from "../assets/imgs/services/moreHarmoServicesImg2.webp";
+import moreHarmoServicesImg3 from "../assets/imgs/services/moreHarmoServicesImg3.webp";
+import moreHarmoServicesImg4 from "../assets/imgs/services/moreHarmoServicesImg4.webp";
 
-import moreReabServicesImg1 from "../assets/imgs/services/moreReabServicesImg1.jpg";
-import moreReabServicesImg2 from "../assets/imgs/services/moreReabServicesImg2.jpg";
-import moreReabServicesImg3 from "../assets/imgs/services/moreReabServicesImg3.jpg";
+import moreEsteticaServicesImg1 from "../assets/imgs/services/moreEsteticaServicesImg1.webp";
+import moreEsteticaServicesImg2 from "../assets/imgs/services/moreEsteticaServicesImg2.webp";
+import moreEsteticaServicesImg3 from "../assets/imgs/services/moreEsteticaServicesImg3.webp";
+import moreEsteticaServicesImg4 from "../assets/imgs/services/moreEsteticaServicesImg4.webp";
 
-import morePedServicesImg1 from "../assets/imgs/services/morePedServicesImg1.jpg";
-import morePedServicesImg2 from "../assets/imgs/services/morePedServicesImg2.jpg";
-import morePedServicesImg3 from "../assets/imgs/services/morePedServicesImg3.jpg";
-import morePedServicesImg4 from "../assets/imgs/services/morePedServicesImg4.jpg";
+import moreReabServicesImg1 from "../assets/imgs/services/moreReabServicesImg1.webp";
+import moreReabServicesImg2 from "../assets/imgs/services/moreReabServicesImg2.webp";
+import moreReabServicesImg3 from "../assets/imgs/services/moreReabServicesImg3.webp";
+
+import morePedServicesImg1 from "../assets/imgs/services/morePedServicesImg1.webp";
+import morePedServicesImg2 from "../assets/imgs/services/morePedServicesImg2.webp";
+import morePedServicesImg3 from "../assets/imgs/services/morePedServicesImg3.webp";
+import morePedServicesImg4 from "../assets/imgs/services/morePedServicesImg4.webp";
 
 import links from "./links";
 
@@ -75,7 +78,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 const services = {
   main: {
     card1: {
-      img: { img: mainServicesImg1, alt: "" },
+      img: { img: harmonicServicesImg1, alt: "" },
       title: "Botox",
       description:
         "A aplicação de Botox suaviza rugas e linhas de expressão, proporcionando uma aparência mais jovem e descansada.",
@@ -83,7 +86,7 @@ const services = {
       buttonLink: whatsappContactLink,
     },
     card2: {
-      img: { img: mainServicesImg2, alt: "" },
+      img: { img: harmonicServicesImg2, alt: "" },
       title: "Lentes em Resina Composta",
       description:
         "As lentes são finas camadas aplicadas sobre a superfície dos dentes para corrigir imperfeições estéticas, como manchas, desalinhamentos leves e pequenos espaços entre os dentes.",
