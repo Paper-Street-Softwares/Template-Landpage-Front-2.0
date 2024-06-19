@@ -1223,6 +1223,7 @@ const ServicesModal = () => {
 
       <Dialog
         header="Nossos Procedimentos"
+        headerStyle={{ paddingBottom: "3px" }}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
