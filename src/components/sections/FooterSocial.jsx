@@ -13,7 +13,7 @@ function FooterSocial() {
     <footer className="bg-darker full gap-y-[42px]  text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <MotionDivDownToUp>
-          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
             <div className="h-[115px] flex items-center">
               <img
                 src={content.texts.navbar.logo.img}
@@ -21,7 +21,7 @@ function FooterSocial() {
                 className="w-[80%] tablet1:w-[50%] desktop1:w-[80%] invert"
               ></img>
             </div>
-            <div className="flex full gap-x-[8px] items-center opacity-70">
+            <div className="flex full gap-x-[12px] items-center opacity-70">
               <Phone
                 size={24}
                 aria-label="Ícone de Telefone"
@@ -36,7 +36,7 @@ function FooterSocial() {
                 {infos.phone}
               </a>
             </div>
-            <div className="flex full gap-x-[8px] items-center opacity-70">
+            <div className="flex full gap-x-[12px] items-center opacity-70">
               <Mail
                 size={24}
                 aria-label="Ícone de Carta"
@@ -45,7 +45,7 @@ function FooterSocial() {
               />
               <p>{infos.mail}</p>
             </div>
-            <div className="flex full gap-x-[8px] items-center opacity-70">
+            <div className="flex full gap-x-[12px] items-center opacity-70">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -70,6 +70,24 @@ function FooterSocial() {
                 <path d="M16 18h.01" />
               </svg>
               <p>{infos.footerInfos.expediente}</p>
+            </div>
+            <div className="flex full gap-x-[12px] items-center opacity-70">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-map-pin"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <p>{infos.footerInfos.endereco}</p>
             </div>
           </div>
         </MotionDivDownToUp>
