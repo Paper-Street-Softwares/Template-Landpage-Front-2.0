@@ -4,6 +4,14 @@ const infos = {
   phone: "(71) 98179-5510",
   mail: "monique@harmonicodonto.com.br",
   footerInfos: {
+    endereco: (
+      <p>
+        Av. Antônio Carlos Magalhães nº 1034 <br />
+        Pituba Parque Center - Sala 308 Ala A <br />
+        Itaigara - Salvador - BA. <br />
+        CEP: 41825-906
+      </p>
+    ),
     expediente: (
       <p>
         Segunda-feira à Sexta-feira
