@@ -29,7 +29,7 @@ export default function AcordionModalServices() {
   };
 
   return (
-    <div>
+    <div className="w-full">
       {/* Accordion 1 */}
       <Accordion
         className="mb-[3%]"
