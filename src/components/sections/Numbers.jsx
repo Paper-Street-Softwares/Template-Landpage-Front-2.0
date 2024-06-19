@@ -39,7 +39,7 @@ export default function Numbers() {
                   <AnimatedCounter endValue={content.texts.numbers.number1} />+
                 </MotionDivDownToUp>
               </h1>
-              <p className=" font-secondFont text-title1 tablet1:text-title3 [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
+              <p className=" font-secondFont text-title1 tablet1:text-title3 desktop1:h-[75px] [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
                 <MotionDivDownToUp>
                   {content.texts.numbers.number1Description}
                 </MotionDivDownToUp>
@@ -51,7 +51,7 @@ export default function Numbers() {
                   <AnimatedCounter endValue={content.texts.numbers.number2} />+
                 </MotionDivDownToUp>
               </h1>
-              <p className="font-secondFont text-title1 tablet1:text-title3 [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
+              <p className="font-secondFont text-title1 tablet1:text-title3 desktop1:h-[75px] [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
                 <MotionDivDownToUp>
                   {content.texts.numbers.number2Description}
                 </MotionDivDownToUp>
@@ -63,7 +63,7 @@ export default function Numbers() {
                   <AnimatedCounter endValue={content.texts.numbers.number3} />+
                 </MotionDivDownToUp>
               </h1>
-              <p className="font-secondFont text-title1 tablet1:text-title3 [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
+              <p className="font-secondFont text-title1 tablet1:text-title3 desktop1:h-[75px] [text-shadow:_2px_1px_0px_rgb(0_0_0_/_50%)]">
                 <MotionDivDownToUp>
                   {content.texts.numbers.number3Description}
                 </MotionDivDownToUp>

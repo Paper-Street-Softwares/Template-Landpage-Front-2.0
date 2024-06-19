@@ -8,7 +8,8 @@ const infos = {
       <p>
         Av. Antônio Carlos Magalhães nº 1034 <br />
         Pituba Parque Center - Sala 308 Ala A <br />
-        Itaigara - Salvador - BA. <br />
+        Itaigara - Salvador - BA
+        <br />
         CEP: 41825-906
       </p>
     ),

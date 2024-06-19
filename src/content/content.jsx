@@ -418,7 +418,7 @@ const content = {
       },
       card3: {
         title: "Reabilitação do meio bucal",
-        subtitle: "Próteses, implantes e coroas.",
+        subtitle: "Próteses, implantes e coroas",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
