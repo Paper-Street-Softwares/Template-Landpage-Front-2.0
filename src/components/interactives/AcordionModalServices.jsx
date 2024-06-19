@@ -74,7 +74,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.harmonizacao.service1.name}
                   </span>
@@ -102,7 +102,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.harmonizacao.service2.name}
                   </span>
@@ -130,7 +130,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.harmonizacao.service3.name}
                   </span>
@@ -158,7 +158,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.harmonizacao.service4.name}
                   </span>
@@ -209,7 +209,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.estetica.service1.name}
                   </span>
@@ -236,7 +236,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.estetica.service2.name}
                   </span>
@@ -263,7 +263,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.estetica.service3.name}
                   </span>
@@ -290,7 +290,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.estetica.service4.name}
                   </span>
@@ -344,7 +344,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.reabilitacao.service1.name}
                   </span>
@@ -372,7 +372,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.reabilitacao.service2.name}
                   </span>
@@ -400,7 +400,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.reabilitacao.service3.name}
                   </span>
@@ -451,7 +451,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.pediatrica.service1.name}
                   </span>
@@ -478,7 +478,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.pediatrica.service2.name}
                   </span>
@@ -505,7 +505,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.pediatrica.service3.name}
                   </span>
@@ -532,7 +532,7 @@ export default function AcordionModalServices() {
                 }
               >
                 <button className="flex text-blue-600">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
                     {services.moreServices.pediatrica.service4.name}
                   </span>
