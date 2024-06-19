@@ -22,14 +22,17 @@ export default function AcordionModalServices() {
         expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
       border:
         expanded === panel
-          ? "1px solid transparent"
+          ? "1px solid rgba(0, 0, 0, 0.1)"
           : "1px solid rgba(0, 0, 0, 0.1)",
-      borderTop: expanded === panel ? "1px solid rgba(0, 0, 0, 0.1)" : "none",
+      borderTop:
+        expanded === panel
+          ? "1px solid rgba(0, 0, 0, 0.1)"
+          : "1px solid rgba(0, 0, 0, 0.1)",
     };
   };
 
   return (
-    <div>
+    <div className="w-full">
       {/* Accordion 1 */}
       <Accordion
         className="mb-[3%]"
