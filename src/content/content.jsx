@@ -35,8 +35,7 @@ const content = {
     hero: {
       title: (
         <div>
-          Harmonização e<br />
-          Odontologia
+          Odontologia <br />e Harmonização
         </div>
       ),
       subtitle:
