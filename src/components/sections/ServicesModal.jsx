@@ -654,7 +654,7 @@ const ServicesModal = () => {
                 }
               >
                 <button className="flex text-primary">
-                  {services.moreServices.arrowIcon}
+                  <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-paragraph3 text-primary">
                     {services.moreServices.patrimonial.service1.name}
                   </span>
