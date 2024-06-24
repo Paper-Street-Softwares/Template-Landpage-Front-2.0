@@ -35,7 +35,7 @@ export default function ListGroup() {
         scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="home"
           className="relative font-semibold cursor-pointer"
@@ -59,7 +59,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="about"
           className="relative font-semibold cursor-pointer"
@@ -72,7 +72,7 @@ export default function ListGroup() {
           <span
             className={`whitespace-nowrap ${
               scrolling ? "hover:text-primary" : "hover:text-secondary"
-            }`}
+            } `}
           >
             {content.texts.navbar.menuItems[1]}
           </span>
@@ -83,7 +83,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="service"
           className="relative font-semibold cursor-pointer"
@@ -107,7 +107,7 @@ export default function ListGroup() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="faq"
           className="relative font-semibold cursor-pointer"
