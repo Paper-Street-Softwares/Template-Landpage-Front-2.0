@@ -101,7 +101,7 @@ function FooterSocial() {
             <div className="opacity-70">
               {" "}
               <div className="flex gap-[10px] items-center">
-                <a href={links.socialMedia.instagram} target="_blank">
+                <a href={links.socialMedia.instagram} target="_blank" aria-label="Link para o Instagram">
                   <IconButton
                     icon={
                       <svg
@@ -130,7 +130,7 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a href={links.socialMedia.facebook} target="_blank">
+                <a href={links.socialMedia.facebook} target="_blank" aria-label="Link para o Facebook">
                   <IconButton
                     icon={
                       <svg
