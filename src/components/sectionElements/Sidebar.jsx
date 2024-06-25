@@ -107,7 +107,9 @@ export default function SidebarClean() {
                                   offset={-100}
                                   href="#"
                                 >
-                                  {content.texts.navbar.menuItems[0]}
+                                  <span className="h-[24px] inline-block">
+                                    {content.texts.navbar.menuItems[0]}
+                                  </span>{" "}
                                 </Link>
                               </span>
                               <Ripple />
@@ -126,7 +128,9 @@ export default function SidebarClean() {
                                   offset={-80}
                                   href="#"
                                 >
-                                  {content.texts.navbar.menuItems[1]}
+                                  <span className="h-[24px] inline-block">
+                                    {content.texts.navbar.menuItems[1]}
+                                  </span>{" "}
                                 </Link>
                               </span>
                               <Ripple />
@@ -146,7 +150,9 @@ export default function SidebarClean() {
                                     offset={-80}
                                     href="#"
                                   >
-                                    {content.texts.navbar.menuItems[2]}
+                                    <span className="h-[24px] inline-block">
+                                      {content.texts.navbar.menuItems[2]}
+                                    </span>
                                   </Link>
                                 </span>
                                 <Ripple />
@@ -166,7 +172,9 @@ export default function SidebarClean() {
                                     offset={-80}
                                     href="#"
                                   >
-                                    {content.texts.navbar.menuItems[3]}
+                                    <span className="h-[24px] inline-block">
+                                      {content.texts.navbar.menuItems[3]}
+                                    </span>{" "}
                                   </Link>
                                 </span>
                                 <Ripple />
