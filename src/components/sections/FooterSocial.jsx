@@ -101,8 +101,13 @@ function FooterSocial() {
             <div className="opacity-70">
               {" "}
               <div className="flex gap-[10px] items-center">
-                <a href={links.socialMedia.instagram} target="_blank" aria-label="Link para o Instagram">
+                <a
+                  href={links.socialMedia.instagram}
+                  target="_blank"
+                  aria-label="Link para o Instagram"
+                >
                   <IconButton
+                    ariaLabel="Botão para o Instagram"
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +120,6 @@ function FooterSocial() {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         class="lucide lucide-instagram"
-                        aria-label="Botão para o Instagram"
                       >
                         <rect
                           width="20"
@@ -131,8 +135,13 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a href={links.socialMedia.facebook} target="_blank" aria-label="Link para o Facebook">
+                <a
+                  href={links.socialMedia.facebook}
+                  target="_blank"
+                  aria-label="Link para o Facebook"
+                >
                   <IconButton
+                    ariaLabel="Botão para o Facebook"
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -145,10 +154,10 @@ function FooterSocial() {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         class="lucide lucide-facebook"
-                        aria-label="Botão para o Facebook"
                       >
                         <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                       </svg>
+                      
                     }
                   />
                 </a>
