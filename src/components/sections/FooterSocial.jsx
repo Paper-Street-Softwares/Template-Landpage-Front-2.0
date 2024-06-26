@@ -195,7 +195,7 @@ function FooterSocial() {
                     offset={-100}
                     href="#"
                   >
-                    <span className="inline-block">
+                    <span className="inline-block h-[24px]">
                       {content.texts.navbar.menuItems[0]}
                     </span>
                   </Link>
@@ -210,7 +210,7 @@ function FooterSocial() {
                     offset={-50}
                     href="#"
                   >
-                    <span className="inline-block">
+                    <span className="inline-block h-[24px]">
                       {content.texts.navbar.menuItems[2]}
                     </span>
                   </Link>
@@ -227,7 +227,7 @@ function FooterSocial() {
                     offset={-20}
                     href="#"
                   >
-                    <span className="inline-block">
+                    <span className="inline-block h-[24px]">
                       {content.texts.navbar.menuItems[1]}
                     </span>
                   </Link>
