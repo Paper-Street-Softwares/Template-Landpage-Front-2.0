@@ -97,8 +97,7 @@ const services = {
       title: "Demais procedimentos",
       description: "Confira todos os procedimentos clicando abaixo.",
       buttonLabel: "Ver todos",
-      buttonLink: "",
-      herf: "#",
+      
     },
   },
   moreServices: {
