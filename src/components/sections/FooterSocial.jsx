@@ -101,8 +101,13 @@ function FooterSocial() {
             <div className="opacity-70">
               {" "}
               <div className="flex gap-[10px] items-center">
-                <a href={links.socialMedia.instagram} target="_blank">
+                <a
+                  href={links.socialMedia.instagram}
+                  target="_blank"
+                  aria-label="Link para o Instagram"
+                >
                   <IconButton
+                    ariaLabel="Botão para o Instagram"
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +135,13 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a href={links.socialMedia.facebook} target="_blank">
+                <a
+                  href={links.socialMedia.facebook}
+                  target="_blank"
+                  aria-label="Link para o Facebook"
+                >
                   <IconButton
+                    ariaLabel="Botão para o Facebook"
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -147,6 +157,7 @@ function FooterSocial() {
                       >
                         <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                       </svg>
+                      
                     }
                   />
                 </a>
@@ -193,7 +204,9 @@ function FooterSocial() {
                     offset={-100}
                     href="#"
                   >
-                    {content.texts.navbar.menuItems[0]}
+                    <span className="inline-block h-[24px]">
+                      {content.texts.navbar.menuItems[0]}
+                    </span>
                   </Link>
                 </div>
                 <div className="h-[36px] hover:underline">
@@ -206,7 +219,9 @@ function FooterSocial() {
                     offset={-50}
                     href="#"
                   >
-                    {content.texts.navbar.menuItems[2]}
+                    <span className="inline-block h-[24px]">
+                      {content.texts.navbar.menuItems[2]}
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -221,7 +236,9 @@ function FooterSocial() {
                     offset={-20}
                     href="#"
                   >
-                    {content.texts.navbar.menuItems[1]}
+                    <span className="inline-block h-[24px]">
+                      {content.texts.navbar.menuItems[1]}
+                    </span>
                   </Link>
                 </div>
                 <div className="h-[36px] hover:underline">
@@ -234,7 +251,9 @@ function FooterSocial() {
                     offset={-50}
                     href="#"
                   >
-                    {content.texts.navbar.menuItems[3]}
+                    <span className="inline-block h-[48px]">
+                      {content.texts.navbar.menuItems[3]}
+                    </span>
                   </Link>
                 </div>
               </div>
