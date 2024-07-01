@@ -1198,7 +1198,8 @@ const ServicesModal = () => {
   return (
     <div>
       <ButtonWithIcon
-        label="Ver todos"
+        link="#"
+        label="Ver teste"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"

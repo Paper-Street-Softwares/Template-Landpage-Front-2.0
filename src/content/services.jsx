@@ -96,7 +96,7 @@ const services = {
     card6: {
       title: "Demais procedimentos",
       description: "Confira todos os procedimentos clicando abaixo.",
-      buttonLabel: "Ver todos",
+      buttonLabel: "Ver Todos",
     },
   },
   moreServices: {
