@@ -29,8 +29,8 @@ const content = {
         alt: "Logomarca",
       },
       menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
-      ctaButtonText: "Contato",
-      ctaButtonTextResponsive: "Contato",
+      ctaButtonText: "ContatoNormal",
+      ctaButtonTextResponsive: "ContatoResponsivo",
     },
     hero: {
       title: (
