@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ButtonWithIcon from "../interactives/ButtonWithIcon";
+import ButtonMoreServices from "../interactives/ButtonMoreServices";
 import { Dialog } from "primereact/dialog";
 import TabComponent from "../sectionElements/TabComponent";
 import PropTypes from "prop-types";
@@ -1197,9 +1197,8 @@ const ServicesModal = () => {
 
   return (
     <div>
-      <ButtonWithIcon
-        link="#"
-        label="Ver teste"
+      <ButtonMoreServices
+        label="Ver todos"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
