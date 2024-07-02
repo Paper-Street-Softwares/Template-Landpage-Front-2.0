@@ -132,12 +132,11 @@ export default function ListGroup() {
         </Link>
       </li>
       <li>
-        <a
-          href={whatsappContactLink}
-          target="_blank"
+        <div
           className={`${scrolling ? "" : "invert"}`}
         >
           <ButtonWithIconNavbar
+            link={whatsappContactLink}
             label={content.texts.navbar.ctaButtonText}
             icon={
               <svg
@@ -152,7 +151,7 @@ export default function ListGroup() {
               </svg>
             }
           />
-        </a>
+        </div>
       </li>
     </ul>
   );
