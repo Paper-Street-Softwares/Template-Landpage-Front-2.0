@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import whatsappWebm from "../../assets/importAssets/whatsappGif.gif";
+import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
 import Modal from "../util/Modal";
 import links from "../../content/links";
 
